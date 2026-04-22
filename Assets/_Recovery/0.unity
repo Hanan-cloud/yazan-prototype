@@ -11614,7 +11614,6 @@ GameObject:
   m_Component:
   - component: {fileID: 413434721}
   - component: {fileID: 413434722}
-  - component: {fileID: 413434723}
   m_Layer: 0
   m_Name: shadow Mountain
   m_TagString: Untagged
@@ -11696,22 +11695,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &413434723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413434720}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d94fbd295dfac4cb0e347b263ee13d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxL
-  chunkManager: {fileID: 1974184137}
-  parallaxFactor: 0.3
-  tileHorizontally: 1
-  textureWidth: 19
 --- !u!1 &419120743
 GameObject:
   m_ObjectHideFlags: 0
@@ -13178,7 +13161,6 @@ GameObject:
   m_Component:
   - component: {fileID: 474825293}
   - component: {fileID: 474825294}
-  - component: {fileID: 474825295}
   m_Layer: 0
   m_Name: shadow Mountain
   m_TagString: Untagged
@@ -13260,22 +13242,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &474825295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474825292}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d94fbd295dfac4cb0e347b263ee13d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxL
-  chunkManager: {fileID: 1974184137}
-  parallaxFactor: 0.3
-  tileHorizontally: 1
-  textureWidth: 19
 --- !u!1 &476720716
 GameObject:
   m_ObjectHideFlags: 0
@@ -20367,7 +20333,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 752411761}
-  - component: {fileID: 752411762}
   m_Layer: 0
   m_Name: bf Mountain
   m_TagString: Untagged
@@ -20390,22 +20355,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1708515811}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &752411762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752411760}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d94fbd295dfac4cb0e347b263ee13d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxL
-  chunkManager: {fileID: 1974184137}
-  parallaxFactor: 0.3
-  tileHorizontally: 1
-  textureWidth: 19
 --- !u!1 &754117214
 GameObject:
   m_ObjectHideFlags: 0
@@ -21266,7 +21215,6 @@ GameObject:
   m_Component:
   - component: {fileID: 784494918}
   - component: {fileID: 784494919}
-  - component: {fileID: 784494920}
   m_Layer: 0
   m_Name: shadow Mountain
   m_TagString: Untagged
@@ -21348,22 +21296,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &784494920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784494917}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d94fbd295dfac4cb0e347b263ee13d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxL
-  chunkManager: {fileID: 1974184137}
-  parallaxFactor: 0.3
-  tileHorizontally: 1
-  textureWidth: 19
 --- !u!1 &784885777
 GameObject:
   m_ObjectHideFlags: 0
@@ -25393,7 +25325,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 901334943}
-  - component: {fileID: 901334944}
   m_Layer: 0
   m_Name: bf Mountain
   m_TagString: Untagged
@@ -25416,22 +25347,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 347137722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &901334944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901334942}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d94fbd295dfac4cb0e347b263ee13d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxL
-  chunkManager: {fileID: 1974184137}
-  parallaxFactor: 0.3
-  tileHorizontally: 1
-  textureWidth: 19
 --- !u!1 &901462881
 GameObject:
   m_ObjectHideFlags: 0
@@ -26715,7 +26630,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 964638310}
-  - component: {fileID: 964638311}
   m_Layer: 0
   m_Name: bf Mountain
   m_TagString: Untagged
@@ -26740,22 +26654,6 @@ Transform:
   - {fileID: 2121955597}
   m_Father: {fileID: 239817187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &964638311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964638309}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d94fbd295dfac4cb0e347b263ee13d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxL
-  chunkManager: {fileID: 1974184137}
-  parallaxFactor: 0.3
-  tileHorizontally: 1
-  textureWidth: 19
 --- !u!1 &965275538
 GameObject:
   m_ObjectHideFlags: 0
@@ -35860,7 +35758,7 @@ Transform:
   m_GameObject: {fileID: 1246142454}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.2, y: 1.9, z: 0}
+  m_LocalPosition: {x: 13.2, y: 1.7, z: 0}
   m_LocalScale: {x: 0.041812066, y: 0.041812066, z: 0.041812066}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39457,7 +39355,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1362958571}
-  - component: {fileID: 1362958572}
   m_Layer: 0
   m_Name: bf Mountain
   m_TagString: Untagged
@@ -39480,22 +39377,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1357527788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1362958572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362958570}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d94fbd295dfac4cb0e347b263ee13d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxL
-  chunkManager: {fileID: 1974184137}
-  parallaxFactor: 0.3
-  tileHorizontally: 1
-  textureWidth: 19
 --- !u!1 &1366107371
 GameObject:
   m_ObjectHideFlags: 0
@@ -55646,10 +55527,10 @@ MonoBehaviour:
   - {fileID: 347137721}
   - {fileID: 1708515810}
   chunkWidth: 19
-  visibleChunksCount: 4
+  visibleChunksCount: 6
   player: {fileID: 1246142455}
-  playerLocalX: 0.157
-  moveSpeed: 5
+  playerLocalX: 0.5
+  moveSpeed: 9
   showDebugGizmos: 1
 --- !u!4 &1974184138
 Transform:
@@ -56404,7 +56285,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2006588863}
   - component: {fileID: 2006588864}
-  - component: {fileID: 2006588865}
   m_Layer: 0
   m_Name: shadow Mountain
   m_TagString: Untagged
@@ -56486,22 +56366,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2006588865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2006588862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d94fbd295dfac4cb0e347b263ee13d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxL
-  chunkManager: {fileID: 1974184137}
-  parallaxFactor: 0.3
-  tileHorizontally: 1
-  textureWidth: 19
 --- !u!1 &2008105926
 GameObject:
   m_ObjectHideFlags: 0
@@ -60122,12 +59986,12 @@ SceneRoots:
   m_Roots:
   - {fileID: 619394802}
   - {fileID: 239817187}
-  - {fileID: 1357527788}
-  - {fileID: 347137722}
-  - {fileID: 1708515811}
   - {fileID: 32787202}
+  - {fileID: 1357527788}
   - {fileID: 364956126}
+  - {fileID: 347137722}
   - {fileID: 1132049335}
+  - {fileID: 1708515811}
   - {fileID: 253099554}
   - {fileID: 269345904}
   - {fileID: 1843917530}
