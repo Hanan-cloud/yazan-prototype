@@ -27,7 +27,7 @@ public class EnviromentSounds : MonoBehaviour
     [Space(15)]
 
 
-    [SerializeField] private string cuttOffFreq = "CuttoffFreq";
+    private string cuttOffFreq = "CuttoffFreq";
 
 
     WaitForSeconds waitFor = new WaitForSeconds(5);
@@ -37,7 +37,7 @@ public class EnviromentSounds : MonoBehaviour
     int minWaiting;
     float chance;
 
-
+    bool inAera=false;
 
     public void SetFilterFrequency(float frequency)
     {
@@ -48,18 +48,27 @@ public class EnviromentSounds : MonoBehaviour
     }
 
 
-    
+    private void Start()
+    {
+        inAera = false;
+        StartCoroutine(AreaAmbient());
+    }
 
-    IEnumerator RoadAreaAmbient()
+    IEnumerator AreaAmbient()
     {
         while (true)
         {
 
-            yield return waitFor;
+            // yield return waitFor;
+            yield return new WaitForSeconds(Random.Range(10f, 20f));
 
 
-            if (Random.Range(0f, 101f) < chance)
+            print("in area: "+ inAera);
+
+            if (Random.Range(0f, 101f) < chance && inAera)
             {
+
+                print("Sound On");
                 currentAudioSource.PlayOneShot(currentClips[Random.Range(0, currentClips.Count)]);
 
             }
@@ -69,6 +78,7 @@ public class EnviromentSounds : MonoBehaviour
 
     public void TentAreaParameter()
     {
+        inAera = true;
         chance = 50;
         currentClips = tentAreaClips;
         currentAudioSource = tentAreaAudio;
@@ -77,6 +87,8 @@ public class EnviromentSounds : MonoBehaviour
 
     public void CamelAreaParameter()
     {
+        inAera = true;
+
         chance = 50;
         currentClips = camelAreaClips;
         currentAudioSource = camelAreaAudio;
@@ -84,10 +96,19 @@ public class EnviromentSounds : MonoBehaviour
     }
     public void RuinsAreaParameter()
     {
+        inAera = true;
+
         chance = 50;
         currentClips = ruinsAreaClips;
         currentAudioSource = ruinsAreaAudio;
 
+    }
+
+
+
+    public void InAreaOff()
+    {
+        inAera = false;
     }
 
 }
