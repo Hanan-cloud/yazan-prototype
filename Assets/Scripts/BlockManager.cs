@@ -60,7 +60,7 @@ public class BlockManager : MonoBehaviour
 
         float i = saveArea.transform.position.x - road.transform.position.x;
 
-        print("iiiiiiiiiiiiiiii : "+i);
+       // print("iiiiiiiiiiiiiiii : "+i);
 
 
     }

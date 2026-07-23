@@ -6,22 +6,22 @@
       "pageFiles": [
         {
           "key": "Start_Key",
-          "originalValue": "Start",
+          "originalValue": "\u0627\u0628\u062F\u0623",
           "variants": [
             {
-              "language": "ar",
-              "_value": "\u0627\u0628\u062F\u0623"
+              "language": "en",
+              "_value": "Start"
             }
           ],
           "aliases": []
         },
         {
           "key": "arabic",
-          "originalValue": "Arabic",
+          "originalValue": "\u0627\u0644\u0639\u0631\u0628\u064A\u0629",
           "variants": [
             {
-              "language": "ar",
-              "_value": "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+              "language": "en",
+              "_value": "Arabic"
             }
           ],
           "aliases": []
@@ -29,16 +29,154 @@
         {
           "key": "english",
           "originalValue": "English",
-          "variants": [],
+          "variants": [
+            {
+              "language": "new",
+              "_value": ""
+            }
+          ],
           "aliases": []
         },
         {
           "key": "exit",
-          "originalValue": "Exit",
+          "originalValue": "\u062E\u0631\u0648\u062C",
           "variants": [
             {
-              "language": "ar",
-              "_value": "\u062E\u0631\u0648\u062C"
+              "language": "en",
+              "_value": "Exit"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Next",
+          "originalValue": "\u0627\u0644\u062A\u0627\u0644\u064A",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Next"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Skip",
+          "originalValue": "\u062A\u062E\u0637\u064A",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Skip"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Settings",
+          "originalValue": "\u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Settings"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Language",
+          "originalValue": "\u0627\u0644\u0644\u063A\u0629",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Language"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Screen_mode",
+          "originalValue": "\u0646\u0645\u0637 \u0627\u0644\u0639\u0631\u0636",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Screen mode"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Music",
+          "originalValue": "\u0627\u0644\u0645\u0648\u0633\u064A\u0642\u0649",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Music"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "SFX",
+          "originalValue": "\u0627\u0644\u0645\u0624\u062B\u0631\u0627\u062A \u0627\u0644\u0635\u0648\u062A\u064A\u0629",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "SFX"
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "pageId": "Screen Mode",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "Fullscreen",
+          "originalValue": "\u0643\u0627\u0645\u0644 \u0627\u0644\u0634\u0627\u0634\u0629",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Full Screen"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Windowed",
+          "originalValue": "\u0646\u0627\u0641\u0630\u0629",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Window"
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "pageId": "LanguagesList",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "Arabic",
+          "originalValue": "\u0627\u0644\u0639\u0631\u0628\u064A\u0629",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Arabic"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "English",
+          "originalValue": "\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "English"
             }
           ],
           "aliases": []

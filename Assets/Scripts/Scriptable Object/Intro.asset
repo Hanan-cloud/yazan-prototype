@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7a1c54cb439d2489b5019499c15b04, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: Assembly-CSharp::PanelsCollection
+  panels:
+  - sprite: {fileID: 21300000, guid: 47746242ea25d9f44985b58b3e0cc334, type: 3}
+    transitionPoints: []

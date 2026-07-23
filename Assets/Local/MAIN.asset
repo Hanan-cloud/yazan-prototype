@@ -18,26 +18,100 @@ MonoBehaviour:
     aboutPage: New Page
     entries:
     - key: Start_Key
-      originalValue: Start
+      originalValue: "\u0627\u0628\u062F\u0623"
       variants:
-      - languageCode: ar
-        value: "\u0627\u0628\u062F\u0623"
+      - languageCode: en
+        value: Start
       aliases: []
     - key: arabic
-      originalValue: Arabic
+      originalValue: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
       variants:
-      - languageCode: ar
-        value: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+      - languageCode: en
+        value: Arabic
       aliases: []
     - key: english
       originalValue: English
-      variants: []
+      variants:
+      - languageCode: new
+        value: 
       aliases: []
     - key: exit
-      originalValue: Exit
+      originalValue: "\u062E\u0631\u0648\u062C"
       variants:
-      - languageCode: ar
-        value: "\u062E\u0631\u0648\u062C"
+      - languageCode: en
+        value: Exit
+      aliases: []
+    - key: Next
+      originalValue: "\u0627\u0644\u062A\u0627\u0644\u064A"
+      variants:
+      - languageCode: en
+        value: Next
+      aliases: []
+    - key: Skip
+      originalValue: "\u062A\u062E\u0637\u064A"
+      variants:
+      - languageCode: en
+        value: Skip
+      aliases: []
+    - key: Settings
+      originalValue: "\u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A"
+      variants:
+      - languageCode: en
+        value: Settings
+      aliases: []
+    - key: Language
+      originalValue: "\u0627\u0644\u0644\u063A\u0629"
+      variants:
+      - languageCode: en
+        value: Language
+      aliases: []
+    - key: Screen_mode
+      originalValue: "\u0646\u0645\u0637 \u0627\u0644\u0639\u0631\u0636"
+      variants:
+      - languageCode: en
+        value: Screen mode
+      aliases: []
+    - key: Music
+      originalValue: "\u0627\u0644\u0645\u0648\u0633\u064A\u0642\u0649"
+      variants:
+      - languageCode: en
+        value: Music
+      aliases: []
+    - key: SFX
+      originalValue: "\u0627\u0644\u0645\u0624\u062B\u0631\u0627\u062A \u0627\u0644\u0635\u0648\u062A\u064A\u0629"
+      variants:
+      - languageCode: en
+        value: SFX
+      aliases: []
+  - pageId: Screen Mode
+    aboutPage: New Page
+    entries:
+    - key: Fullscreen
+      originalValue: "\u0643\u0627\u0645\u0644 \u0627\u0644\u0634\u0627\u0634\u0629"
+      variants:
+      - languageCode: en
+        value: Full Screen
+      aliases: []
+    - key: Windowed
+      originalValue: "\u0646\u0627\u0641\u0630\u0629"
+      variants:
+      - languageCode: en
+        value: Window
+      aliases: []
+  - pageId: LanguagesList
+    aboutPage: New Page
+    entries:
+    - key: Arabic
+      originalValue: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+      variants:
+      - languageCode: en
+        value: Arabic
+      aliases: []
+    - key: English
+      originalValue: "\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629"
+      variants:
+      - languageCode: en
+        value: English
       aliases: []
   audioPages: []
   imagePages: []

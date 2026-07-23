@@ -1,12 +1,32 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System;
 
-public class InputManager : MonoBehaviour, GameInput.IPlayerActions
+
+public class InputManager : MonoBehaviour, GameInput.IPlayerActions, GameInput.IStoryPanelsActions
 {
     public static InputManager Instance;
 
 
     private GameInput _gameInput;
+
+    [SerializeField] Controllers currentController = Controllers.player;
+
+
+    Vector2 dir = Vector2.zero;
+
+    bool isRunning = false;
+
+    public bool IsRunning { get => isRunning; }
+    public Vector2 Dir { get => dir; }
+
+
+
+    public event Action NextEvent;
+    public event Action SkipEvent;
+    public event Action SkipEventCancel;
+    public event Action InteractionEvent;
+
 
 
     private void Awake()
@@ -15,18 +35,20 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions
         if (_gameInput == null)
             _gameInput = new GameInput();
 
-        _gameInput.Player.SetCallbacks(this);
-        _gameInput.Player.Enable();
+        SwitchControllerMap(currentController);
+
+
 
     }
 
 
-    Vector2 dir = Vector2.zero;
+    public void OnInteraction(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Performed)
+            InteractionEvent?.Invoke();
 
-    bool isRunning = false;
 
-    public bool IsRunning { get => isRunning; }
-    public Vector2 Dir { get => dir;  }
+    }
 
     public void OnMovement(InputAction.CallbackContext context)
     {
@@ -47,4 +69,62 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions
         _gameInput.Player.Disable();
 
     }
+
+
+    //================================================================
+    public void OnNext(InputAction.CallbackContext context)
+    {
+        NextEvent?.Invoke();
+    }
+
+    public void OnSkip(InputAction.CallbackContext context)
+    {
+
+        switch (context.phase)
+        { case InputActionPhase.Performed:
+                SkipEvent?.Invoke();
+                break;
+
+            case InputActionPhase.Canceled:
+                SkipEventCancel?.Invoke();
+                break;
+
+        }
+    }
+
+    public void SwitchControllerMap(Controllers c)
+    {
+        _gameInput.StoryPanels.Disable();
+        _gameInput.Player.Disable();
+       // _gameInput.UI.Disable();
+
+
+        switch (c)
+        {
+
+            case Controllers.story:
+                _gameInput.StoryPanels.SetCallbacks(this);
+                _gameInput.StoryPanels.Enable();
+                break;
+
+            //case Controllers.UI:
+
+            //    _gameInput.UI.Enable();
+            //    break;
+
+            default:
+                _gameInput.Player.SetCallbacks(this);
+                _gameInput.Player.Enable();
+                break;
+
+        }
+
+
+
+    }
+
+
+
+    public enum Controllers { player, story, UI }
+
 }

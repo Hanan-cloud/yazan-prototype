@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -16,11 +16,15 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private float currentSpeed;
     private float moveInput;
-    private bool isRunning;
+    private bool isRuning;
 
     [SerializeField] Animator animator;
+    [SerializeField] Animator yazanShadowAnimator;
+    string isRuningSt = "IsRuning";
+    string isWalkingSt = "IsWalking";
 
 
+    [SerializeField] List<Animator> animators;
 
     Directions playerCurrentDir ;
 
@@ -40,9 +44,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         moveInput = InputManager.Instance.Dir.x;
-        isRunning = InputManager.Instance.IsRunning;
+        isRuning = InputManager.Instance.IsRunning;
 
-        float maxSpeed = isRunning ? runSpeed : walkSpeed;
+        float maxSpeed = isRuning ? runSpeed : walkSpeed;
         float targetSpeed = moveInput * maxSpeed;
         float accelRate = Mathf.Abs(targetSpeed) > 0.01f ? acceleration : deceleration;
 
@@ -50,13 +54,42 @@ public class PlayerController : MonoBehaviour
 
         if (moveInput != 0)
         {
-            animator.SetBool("IsWalking", true);
             Vector3 scale = transform.localScale;
             scale.x = moveInput > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
             transform.localScale = scale;
-        }else
+
+            if (isRuning)
+            {
+                for (int i = 0; i<animators.Count; i++)
+                {
+                    animators[i].SetBool(isRuningSt, true);
+                    animators[i].SetBool(isWalkingSt, false);
+
+                }
+
+       
+            }
+            else
+            {
+
+                for (int i = 0; i < animators.Count; i++)
+                {
+                    animators[i].SetBool(isRuningSt, false);
+                    animators[i].SetBool(isWalkingSt, true);
+
+                }
+     
+            }
+        }
+        else
         {
-            animator.SetBool("IsWalking", false);
+
+            for (int i = 0; i < animators.Count; i++)
+            {
+                animators[i].SetBool(isRuningSt, false);
+                animators[i].SetBool(isWalkingSt, false);
+
+            }
 
         }
     }

@@ -21,8 +21,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 50e8fe7bfdf0d449faa9e70d0cab5811, type: 2}
     - {fileID: 11400000, guid: b145ab90c35ad1143807a0727bcb412b, type: 2}
     - {fileID: 0}
-    - {fileID: 11400000, guid: bd3352aeb646b44409a168290893eff7, type: 2}
+    - {fileID: 0}
     - {fileID: 11400000, guid: 01d9540167b41d146b6ac48b0a470ee3, type: 2}
+    - {fileID: 11400000, guid: ec016a3e578302344af1779c65c74b99, type: 2}
     TextStyleCache:
     - {fileID: 11400000, guid: 41c31645740e04f53a7bbec057a380ea, type: 2}
     - {fileID: 11400000, guid: 667aefe1712b8924e87e20ad7d416a23, type: 2}
