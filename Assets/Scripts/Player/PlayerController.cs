@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
     string isWalkingSt = "IsWalking";
 
 
+    bool isPaused = false;
+
     [SerializeField] List<Animator> animators;
 
     Directions playerCurrentDir ;
@@ -40,9 +42,22 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    private void Start()
+    {
+        PauseMenu.OnPauseChanged += OnPause;
+    }
+
+
+    void OnPause(bool b)
+    {
+
+        isPaused = b;
+    }
 
     void Update()
     {
+        if(isPaused == true ) return;
+
         moveInput = InputManager.Instance.Dir.x;
         isRuning = InputManager.Instance.IsRunning;
 
@@ -96,6 +111,8 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (isPaused == true) return;
+
         rb.linearVelocity = new Vector2(currentSpeed, rb.linearVelocity.y);
     
     

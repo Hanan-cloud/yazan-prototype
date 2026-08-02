@@ -47,6 +47,9 @@ TagManager:
   - name: player
     uniqueID: 4242858943
     locked: 0
+  - name: front-player
+    uniqueID: 2037441689
+    locked: 0
   m_RenderingLayers:
   - Default
   - Mirror

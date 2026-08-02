@@ -24,6 +24,7 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions, GameInput.I
 
     public event Action NextEvent;
     public event Action SkipEvent;
+    public event Action PauseEvent;
     public event Action SkipEventCancel;
     public event Action InteractionEvent;
 
@@ -96,7 +97,7 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions, GameInput.I
     {
         _gameInput.StoryPanels.Disable();
         _gameInput.Player.Disable();
-       // _gameInput.UI.Disable();
+        _gameInput.UI.Disable();
 
 
         switch (c)
@@ -105,6 +106,11 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions, GameInput.I
             case Controllers.story:
                 _gameInput.StoryPanels.SetCallbacks(this);
                 _gameInput.StoryPanels.Enable();
+                break;
+            
+            case Controllers.UI:
+                //_gameInput.UI.SetCallbacks(this);
+                _gameInput.UI.Enable();
                 break;
 
             //case Controllers.UI:
@@ -123,7 +129,10 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions, GameInput.I
 
     }
 
-
+    public void OnPause(InputAction.CallbackContext context)
+    {
+        PauseEvent?.Invoke();
+    }
 
     public enum Controllers { player, story, UI }
 

@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 2febdc00e327f354f8bc942247c6bdb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6025462135127769838
+    second: yazan anim sheet_0
+  - first:
+      213: -5480142074995358039
+    second: yazan anim sheet_1
+  - first:
+      213: 3568016232591735262
+    second: yazan anim sheet_2
+  - first:
+      213: -8062260839501842047
+    second: yazan anim sheet_3
+  - first:
+      213: 5539370274284692151
+    second: yazan anim sheet_4
+  - first:
+      213: 6528788700236151272
+    second: yazan anim sheet_5
+  - first:
+      213: 1812481199571176559
+    second: yazan anim sheet_6
+  - first:
+      213: 5298873798210891217
+    second: yazan anim sheet_7
+  - first:
+      213: -5720423023153514341
+    second: yazan anim sheet_8
+  - first:
+      213: -6578774684293111664
+    second: yazan anim sheet_9
+  - first:
+      213: -7629488301370015047
+    second: yazan anim sheet_10
+  - first:
+      213: 2277962783598256764
+    second: yazan anim sheet_11
+  - first:
+      213: -3175361123046799032
+    second: yazan anim sheet_12
+  - first:
+      213: 129347155390091941
+    second: yazan anim sheet_13
+  - first:
+      213: -2730070691709717287
+    second: yazan anim sheet_14
+  - first:
+      213: 2429769583868276771
+    second: yazan anim sheet_15
+  - first:
+      213: 7389243473466334725
+    second: yazan anim sheet_16
+  - first:
+      213: -1524404508079760651
+    second: yazan anim sheet_17
+  - first:
+      213: 4403251544191222208
+    second: yazan anim sheet_18
+  - first:
+      213: 5041959282693149411
+    second: yazan anim sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yazan anim sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d7424cc12416ca0800000000000000
+      internalID: -6025462135127769838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_1
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6ca3d51df92f3b0800000000000000
+      internalID: -5480142074995358039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed935700cd3248130800000000000000
+      internalID: 3568016232591735262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18933fe6b781d1090800000000000000
+      internalID: -8062260839501842047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2e8166aebcfdc40800000000000000
+      internalID: 5539370274284692151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9f82b5bbaea9a50800000000000000
+      internalID: 6528788700236151272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c838e4c0a372910800000000000000
+      internalID: 1812481199571176559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd2cf315a1698940800000000000000
+      internalID: 5298873798210891217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4944
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98f7fb8199fc90b0800000000000000
+      internalID: -5720423023153514341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5562
+        y: 951
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090606dc74f73b4a0800000000000000
+      internalID: -6578774684293111664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b287da00dc9e1690800000000000000
+      internalID: -7629488301370015047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_11
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c722fef1513fc9f10800000000000000
+      internalID: 2277962783598256764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849c533e1e9dee3d0800000000000000
+      internalID: -3175361123046799032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2dbb17d888bc100800000000000000
+      internalID: 129347155390091941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4ffe0ab27dc1ad0800000000000000
+      internalID: -2730070691709717287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3207484209648b120800000000000000
+      internalID: 2429769583868276771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e95da0acddb8660800000000000000
+      internalID: 7389243473466334725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_17
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fad6e13d2a38dae0800000000000000
+      internalID: -1524404508079760651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4944
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1453433fd7b1d30800000000000000
+      internalID: 4403251544191222208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yazan anim sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5562
+        y: 0
+        width: 618
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e298e01143a8f540800000000000000
+      internalID: 5041959282693149411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 721f7f5244432144f86063aba4555d57
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":2.0},"gridSpriteSize":{"x":618.0,"y":951.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      yazan anim sheet_0: -6025462135127769838
+      yazan anim sheet_1: -5480142074995358039
+      yazan anim sheet_10: -7629488301370015047
+      yazan anim sheet_11: 2277962783598256764
+      yazan anim sheet_12: -3175361123046799032
+      yazan anim sheet_13: 129347155390091941
+      yazan anim sheet_14: -2730070691709717287
+      yazan anim sheet_15: 2429769583868276771
+      yazan anim sheet_16: 7389243473466334725
+      yazan anim sheet_17: -1524404508079760651
+      yazan anim sheet_18: 4403251544191222208
+      yazan anim sheet_19: 5041959282693149411
+      yazan anim sheet_2: 3568016232591735262
+      yazan anim sheet_3: -8062260839501842047
+      yazan anim sheet_4: 5539370274284692151
+      yazan anim sheet_5: 6528788700236151272
+      yazan anim sheet_6: 1812481199571176559
+      yazan anim sheet_7: 5298873798210891217
+      yazan anim sheet_8: -5720423023153514341
+      yazan anim sheet_9: -6578774684293111664
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

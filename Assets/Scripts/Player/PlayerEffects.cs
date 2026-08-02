@@ -36,7 +36,7 @@ public class PlayerEffects : MonoBehaviour
     void StepSounds()
     {
         stepSoundClip = clipList[Random.Range(0, clipList.Count)];
-        audio.pitch = Random.Range(0.80f, 1f);
+        audio.pitch = Random.Range(1.0f, 1.5f);
 
         audio.PlayOneShot(stepSoundClip);
 

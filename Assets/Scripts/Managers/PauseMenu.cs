@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 
@@ -8,18 +9,21 @@ public class PauseMenu : MonoBehaviour
 
     private bool isPaused = false;
 
+    public static event Action<bool> OnPauseChanged;
     private void Start()
     {
+
+        InputManager.Instance.PauseEvent += TogglePause;
+        isPaused = false;
         Time.timeScale = 1f;
         pausePanel.SetActive(false);
     }
 
-    private void Update()
+
+    private void OnDisable()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            TogglePause();
-        }
+        InputManager.Instance.PauseEvent -= TogglePause;
+
     }
 
     public void TogglePause()
