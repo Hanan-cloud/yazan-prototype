@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Anomaly : MonoBehaviour
+public class Anomaly : MonoBehaviour, IAnomaly
 {
 
     [SerializeField] GameObject normal;

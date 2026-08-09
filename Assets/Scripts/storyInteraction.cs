@@ -71,7 +71,7 @@ public class storyInteraction : MonoBehaviour
 
         if (playerPos != null)
         {
-            Debug.Log(isInRange);
+           // Debug.Log(isInRange);
 
 
             float distanceMoved = Vector3.Distance(playerPos.position, lastPos);

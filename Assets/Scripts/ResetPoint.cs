@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class ResetPoint : MonoBehaviour
@@ -5,20 +6,28 @@ public class ResetPoint : MonoBehaviour
     [SerializeField] GameObject RunStarterLeft;
     [SerializeField] GameObject RunStarterRight;
 
+    public static Action OnNailsFalls;
+    public static Action OnNailsReset;
+
+    bool playerInTrigger = true;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            if(playerInTrigger== true)  return;
+            playerInTrigger = true;
            
             {
 
+                
                 // I Only care if the player dir = coorect dir
                   if(PlayerController.Instance.PlayerCurrentDir == RunManager.Instance.CorrectDirection)
                 {
 
-                    Debug.Log("n-1");
+                   // Debug.Log("n-1");
                     GameManager.Instance.Nails -= 1;
+                    OnNailsFalls?.Invoke();
                     // n-1 
                     //progress
 
@@ -26,8 +35,10 @@ public class ResetPoint : MonoBehaviour
                 {
                     // reset
                     //n=10
-                    Debug.Log("n=10");
+                   // Debug.Log("n=10");
                     GameManager.Instance.Nails =10;
+                    OnNailsReset?.Invoke();
+
 
 
                 }
@@ -42,7 +53,7 @@ public class ResetPoint : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-
+            playerInTrigger= false;
             // Set Anomaly proability
             AnomallyManager.Instance.SetAnomalyProbability();
             RunStarterLeft.SetActive(true);

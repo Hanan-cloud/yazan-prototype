@@ -1,15 +1,15 @@
 using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine.Events;
+
 
 public class AnomallyManager : MonoBehaviour
 {
     public static AnomallyManager Instance;
-    [SerializeField] List<Anomaly> anomalies = new();
+    [SerializeField] List<IAnomaly> anomalies = new();
     bool isAnomalyRun;
     public bool IsAnomalyRun { get => isAnomalyRun; }
 
-    Anomaly currentAnomaly;
+    IAnomaly currentAnomaly;
 
 
     private void Awake()
@@ -19,6 +19,21 @@ public class AnomallyManager : MonoBehaviour
     private void Start()
     {
         isAnomalyRun=false;
+
+        MonoBehaviour[] allObjects = FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None);
+
+
+        foreach (MonoBehaviour obj in allObjects)
+        {
+            if (obj is IAnomaly anomaly)
+            {
+                anomalies.Add(anomaly);
+            }
+        }
+
+
+        print("anomaly count: "+anomalies.Count);
+
     }
 
 
@@ -30,7 +45,7 @@ public class AnomallyManager : MonoBehaviour
             ResetAnomaly();
 
         }
-        if (Random.Range(1, 11) % 2 == 0)
+        if (true)
         {
             isAnomalyRun = true;
             print("anomaly");
@@ -79,10 +94,10 @@ public class AnomallyManager : MonoBehaviour
             "is Anomaly " + isAnomalyRun,
             style
         );
-        
-        
-        
-        
+
+
+
+
         GUI.Label(
             new Rect(20, 90, 300, 50),
             "Player direction " + PlayerController.Instance.PlayerCurrentDir,

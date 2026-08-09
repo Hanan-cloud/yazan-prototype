@@ -18,8 +18,7 @@ public class PlayerController : MonoBehaviour
     private float moveInput;
     private bool isRuning;
 
-    [SerializeField] Animator animator;
-    [SerializeField] Animator yazanShadowAnimator;
+
     string isRuningSt = "IsRuning";
     string isWalkingSt = "IsWalking";
 
@@ -77,6 +76,7 @@ public class PlayerController : MonoBehaviour
             {
                 for (int i = 0; i<animators.Count; i++)
                 {
+                    if(animators[i].gameObject.activeSelf== false ) return;
                     animators[i].SetBool(isRuningSt, true);
                     animators[i].SetBool(isWalkingSt, false);
 
@@ -89,6 +89,8 @@ public class PlayerController : MonoBehaviour
 
                 for (int i = 0; i < animators.Count; i++)
                 {
+                    if (animators[i].gameObject.activeSelf == false) return;
+
                     animators[i].SetBool(isRuningSt, false);
                     animators[i].SetBool(isWalkingSt, true);
 
@@ -101,6 +103,8 @@ public class PlayerController : MonoBehaviour
 
             for (int i = 0; i < animators.Count; i++)
             {
+                if (animators[i].gameObject.activeSelf == false) return;
+
                 animators[i].SetBool(isRuningSt, false);
                 animators[i].SetBool(isWalkingSt, false);
 

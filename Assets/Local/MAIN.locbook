@@ -32,7 +32,7 @@
           "variants": [
             {
               "language": "new",
-              "_value": ""
+              "_value": "\u0627\u0646\u062C\u0644\u0634"
             }
           ],
           "aliases": []
@@ -177,6 +177,111 @@
             {
               "language": "en",
               "_value": "English"
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "pageId": "StoryPanel",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "InGameStory_1",
+          "originalValue": "\u063A\u0627\u062F\u0631 \u0644\u0623\u0646\u0647 \u0644\u0645 \u064A\u0643\u0646 \u064A\u0645\u0644\u0643 \u0645\u0627 \u064A\u0642\u0648\u0644\u0647... \u0648\u0639\u0627\u062F \u064A\u062D\u0645\u0644 \u0627\u0644\u062D\u0643\u0627\u064A\u0629 \u0627\u0644\u0648\u062D\u064A\u062F\u0629 \u0627\u0644\u062A\u064A \u062A\u0633\u062A\u062D\u0642 \u0623\u0646 \u062A\u064F\u0631\u0648\u0649.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "He left because he had nothing to say. He came back with the only story worth telling."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_2",
+          "originalValue": "\u0639\u0634\u0631\u0629 \u0645\u0633\u0627\u0645\u064A\u0631. \u0639\u0634\u0631\u0629 \u0623\u062E\u062A\u0627\u0645. \u062D\u0645\u0644\u0647\u0627 \u0637\u0641\u0644\u064C \u0628\u064A\u0646 \u064A\u062F\u064A\u0647... \u0648\u0644\u0645 \u064A\u0633\u0623\u0644 \u0623\u062D\u062F\u064C \u064A\u0648\u0645\u064B\u0627 \u0639\u0645\u0651\u0627 \u0643\u0627\u0646\u062A \u062A\u062E\u0641\u064A\u0647.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Ten nails. Ten seals. A child carrying all of them and not one question asked."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_3",
+          "originalValue": "\u0644\u0645 \u064A\u0643\u0646 \u0627\u0644\u0648\u0627\u062F\u064A \u0637\u0631\u064A\u0642\u064B\u0627... \u0628\u0644 \u0628\u0627\u0628\u064B\u0627. \u0648\u0644\u0645 \u062A\u0643\u0646 \u0627\u0644\u0623\u0636\u0648\u0627\u0621 \u0625\u0644\u0627 \u062F\u0639\u0648\u0629. \u0639\u0628\u0631\u0647\u0627... \u0648\u0647\u0648 \u064A\u062C\u0647\u0644 \u0625\u0644\u0649 \u0623\u064A \u0639\u0627\u0644\u0645\u064D \u064A\u0645\u0636\u064A.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "The valley was a door. The lights were an invitation. He walked through both without reading what was written above them."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_4",
+          "originalValue": "\u0644\u0645 \u064A\u0645\u062A \u0627\u0644\u062E\u0641\u0627\u0621... \u0628\u0644 \u062D\u0628\u0633 \u0623\u0646\u0641\u0627\u0633\u0647. \u0641\u0627\u0644\u0639\u0627\u0644\u0645 \u0627\u0644\u0630\u064A \u064A\u0641\u0642\u062F \u0642\u0644\u0628\u0647 \u0628\u0625\u0631\u0627\u062F\u062A\u0647\u060C \u064A\u0639\u062C\u0632 \u0639\u0646 \u0627\u0644\u0627\u062D\u062A\u0641\u0627\u0638 \u0628\u0635\u0648\u0631\u062A\u0647. \u0641\u064A\u062A\u0628\u062F\u0651\u0644\u060C \u0648\u064A\u0643\u0631\u0631 \u0646\u0641\u0633\u0647\u060C \u0648\u064A\u0646\u0633\u0649 \u0627\u0644\u0647\u064A\u0626\u0629 \u0627\u0644\u062A\u064A \u062E\u064F\u0644\u0642 \u0639\u0644\u064A\u0647\u0627.\u00BB",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Al-Khafa did not die. It is holding its breath. A world without its willing heart cannot hold its own shape. It shifts. It repeats. It forgets what it looked like before."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_5",
+          "originalValue": "\u0641\u064A \u0642\u0644\u0628 \u0647\u0630\u0627 \u0627\u0644\u0639\u0627\u0644\u0645 \u0634\u062C\u0631\u0629\u064C \u0623\u0642\u062F\u0645 \u0645\u0646 \u0627\u0644\u062D\u0627\u0643\u0645 \u0646\u0641\u0633\u0647. \u0644\u0627 \u062A\u0623\u062E\u0630... \u0628\u0644 \u062A\u0633\u062A\u0642\u0628\u0644. \u0648\u0645\u0627 \u0644\u0627 \u064A\u064F\u0642\u062F\u0651\u064E\u0645 \u0625\u0644\u064A\u0647\u0627 \u0637\u0648\u0639\u064B\u0627\u060C \u062A\u0631\u0641\u0636\u0647... \u0648\u064A\u0631\u0641\u0636\u0647 \u0627\u0644\u0639\u0627\u0644\u0645 \u0645\u0639\u0647\u0627.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "There is a tree at the center of this world that is older than its ruler. It does not take. It receives. And what it receives must come freely or it will reject it, and everything with it."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_6",
+          "originalValue": "\u0623\u062D\u0628\u0651 \u0627\u0628\u0646\u062A\u0647 \u0643\u0645\u0627 \u064A\u064F\u062D\u0628 \u0627\u0644\u062D\u0627\u0643\u0645 \u062A\u0627\u062C\u0647. \u0644\u0645 \u064A\u0633\u0623\u0644\u0647\u0627 \u064A\u0648\u0645\u064B\u0627: \u0645\u0627\u0630\u0627 \u062A\u0631\u064A\u062F\u064A\u0646\u061F \u0623\u0642\u0646\u0639 \u0646\u0641\u0633\u0647 \u0623\u0646 \u0630\u0644\u0643 \u062D\u0628. \u0648\u0644\u0639\u0644\u0647 \u0643\u0627\u0646 \u0643\u0630\u0644\u0643... \u0644\u0643\u0646 \u0627\u0644\u062D\u0628 \u0627\u0644\u0630\u064A \u0644\u0627 \u064A\u064F\u0635\u063A\u064A\u060C \u0644\u064A\u0633 \u0625\u0644\u0627 \u0648\u062C\u0647\u064B\u0627 \u0622\u062E\u0631 \u0644\u062A\u0633\u0644\u0637.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "He loved his daughter the way a ruler loves his crown. He never once asked: what do you want? He told himself it was love. It may have been. But love that does not listen is just another word for force."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_7",
+          "originalValue": "\u0623\u062F\u0631\u0643 \u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629 \u0645\u0627 \u0639\u062C\u0632 \u0627\u0644\u062D\u0627\u0643\u0645 \u0639\u0646 \u0625\u062F\u0631\u0627\u0643\u0647. \u0641\u0645\u0627 \u064A\u064F\u0645\u0646\u062D \u0637\u0648\u0639\u0627 \u064A\u0634\u0641\u064A, \u0648\u0645\u0627 \u064A\u0646\u0632\u0639 \u0628\u0627\u0644\u0642\u0648\u0629 \u064A\u0647\u0644\u0643. \u0644\u0630\u0644\u0643 \u062E\u062A\u0645\u0647\u0627\u060C \u0648\u0647\u0648 \u064A\u0639\u0644\u0645 \u0623\u0646 \u0627\u0644\u0639\u0627\u0644\u0645 \u0633\u064A\u0648\u0627\u0635\u0644 \u0627\u0644\u0627\u0646\u0647\u064A\u0627\u0631\u060C \u0648\u0623\u0646 \u0627\u0644\u062D\u0627\u0643\u0645 \u0644\u0646 \u064A\u063A\u0641\u0631 \u0644\u0647 \u0623\u0628\u062F\u064B\u0627.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "The gatekeeper understood what the ruler could not. Power given freely heals. Power taken by force destroys. So he sealed her away knowing the world would keep deteriorating, knowing the ruler would never forgive him."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_8",
+          "originalValue": "\u0645\u0627 \u062D\u0645\u0644\u062A\u0647 \u0628\u064A\u0646 \u064A\u062F\u064A\u0643 \u0644\u0645 \u064A\u0643\u0646 \u0644\u0639\u0628\u0629\u064B \u0644\u0637\u0641\u0644. \u0643\u0627\u0646 \u0631\u0648\u062D\u064B\u0627 \u0646\u0633\u064A \u0627\u0644\u0639\u0627\u0644\u0645 \u0627\u0633\u0645\u0647\u0627\u060C \u0648\u0644\u0645 \u062A\u0646\u0633\u064E \u0647\u064A \u0637\u0631\u064A\u0642 \u0627\u0644\u0639\u0648\u062F\u0629.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "The doll in your hands is not a doll. A soul was sealed inside it. A soul that has felt every loop through your hands, every decision you made, every moment you carried it without knowing what it was. It did not choose to be sealed. But it chose to stay. And it has already decided what comes next."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_9",
+          "originalValue": "\u0643\u0644 \u062F\u0648\u0631\u0629 \u0643\u0627\u0646\u062A \u062A\u0642\u0648\u062F \u0625\u0644\u0649 \u0647\u0630\u0647 \u0627\u0644\u0644\u062D\u0638\u0629. \u0648\u0643\u0644 \u0645\u0633\u0645\u0627\u0631\u064D \u0627\u0642\u062A\u0644\u0639\u062A\u0647\u060C \u0643\u0627\u0646 \u064A\u0632\u064A\u0644 \u062E\u062A\u0645\u064B\u0627 \u0639\u0646 \u0627\u0644\u062D\u0642\u064A\u0642\u0629.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "One nail left. One truth left. Everything that happened, every loop, every wrong thing you found, every nail you freed was leading here. To a choice that was never yours to make. But yours to allow."
             }
           ],
           "aliases": []
