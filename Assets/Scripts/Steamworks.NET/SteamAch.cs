@@ -7,7 +7,24 @@ public class SteamAch : MonoBehaviour
 
     public static SteamAch instance;
 
+    protected Callback<GameOverlayActivated_t> m_GameOverlayActivated;
 
+    private void OnEnable()
+    {
+       
+    }
+
+    private void OnGameOverlayActivated(GameOverlayActivated_t pCallback)
+    {
+        if (pCallback.m_bActive != 0)
+        {
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
+    }
     private void Awake()
     {
         if (instance == null)
@@ -26,7 +43,25 @@ public class SteamAch : MonoBehaviour
         FastRun
     }
 
-    
+    private void Start()
+    {
+        if (SteamManager.Initialized)
+        {
+            m_GameOverlayActivated = Callback<GameOverlayActivated_t>.Create(OnGameOverlayActivated);
+
+            Debug.Log("SteamManager.Initialized");
+            string name = SteamFriends.GetPersonaName();
+            Debug.Log(name);
+        }
+        else
+        {
+            Debug.Log("SteamManager.Initialized nooooooooo");
+        }
+
+        //SteamAPI.RunCallbacks();
+
+    }
+ 
     private Dictionary<AchievKey, string> Achievements = new Dictionary<AchievKey, string>()
     {
             { AchievKey.FinishGame,   "FINISH_GAME" },
@@ -38,17 +73,7 @@ public class SteamAch : MonoBehaviour
     
 
 
-    void Start()
-    {
-        if (SteamManager.Initialized)
-        {
-            Debug.Log("SteamManager.Initialized");
-
-            string name = SteamFriends.GetPersonaName();
-            Debug.Log(name);
-        }
-    
-    }
+ 
 
 
     public void SetAchievment(AchievKey key)
@@ -56,17 +81,39 @@ public class SteamAch : MonoBehaviour
         if (!SteamManager.Initialized) return;
 
             Achievements.TryGetValue(key, out string achId);
-            Steamworks.SteamUserStats.GetAchievement(achId, out bool achievementCompleted);
+            SteamUserStats.GetAchievement(achId, out bool achievementCompleted);
+        Debug.Log(achId + ": " + achievementCompleted);
 
         if (!achievementCompleted)
+        {
 
-            SteamUserStats.SetAchievement(achId);
-            SteamUserStats.StoreStats();
+           bool b= SteamUserStats.SetAchievement(achId);
+            Debug.Log(achId +": "+ b);
+
+            bool a=  SteamUserStats.StoreStats();
+            Debug.Log(achId + ": " + a);
 
 
+
+
+        }
     }
 
 
+    public void Checkkkk(AchievKey key)
+    {
+        Achievements.TryGetValue(key, out string achId);
 
+        Debug.Log(achId +": " + SteamUserStats.GetAchievement(achId, out bool isUnlocked));
+
+    }
+
+    public void ClearAchievement(AchievKey key)
+    {
+        Achievements.TryGetValue(key, out string achId);
+        SteamUserStats.ClearAchievement(achId);
+        SteamUserStats.StoreStats();
+        Debug.Log($"[Steam] Reset achievement: {achId}");
+    }
 
 }

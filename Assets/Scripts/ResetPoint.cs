@@ -25,7 +25,8 @@ public class ResetPoint : MonoBehaviour
                   if(PlayerController.Instance.PlayerCurrentDir == RunManager.Instance.CorrectDirection)
                 {
 
-                   // Debug.Log("n-1");
+                    // Debug.Log("n-1");
+                    AnomallyManager.Instance.SaveFoundAnomaly();
                     GameManager.Instance.Nails -= 1;
                     OnNailsFalls?.Invoke();
                     // n-1 
