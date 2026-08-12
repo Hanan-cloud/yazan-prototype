@@ -2,26 +2,26 @@ using System;
 using UnityEngine;
 
 [RequireComponent(typeof(AnomalyNameSetter))]
-public class Anomaly : MonoBehaviour, IAnomaly
+public class Anomaly : AnomalyBase
 {
 
     [SerializeField] GameObject normal;
     [SerializeField] GameObject abnormal;
 
-    [SerializeField]
-    private AnomalyList anomalyName;
+    //[SerializeField]
+    //private AnomalyList anomalyName;
 
-    public AnomalyList AnomalyName
-    {
-        get => anomalyName;
+    //public AnomalyList AnomalyName
+    //{
+    //    get => anomalyName;
 
-    }
+    //}
 
     private void Start()
     {
         SetAnomalyName();
     }
-    public void SetAnomaly()
+    public override void SetAnomaly()
     {
 
         normal.SetActive(false);
@@ -30,7 +30,7 @@ public class Anomaly : MonoBehaviour, IAnomaly
     }
     
     
-    public void ResetAnomaly()
+    public override void ResetAnomaly()
     {
 
         normal.SetActive(true);
@@ -40,17 +40,6 @@ public class Anomaly : MonoBehaviour, IAnomaly
 
 
 
-    public void SetAnomalyName()
-    {
-        if (Enum.TryParse(GetComponent<AnomalyNameSetter>().AnomalyName, out AnomalyList name))
-        {
-
-            anomalyName = name;
-        }
-        else
-        {
-            Debug.LogWarning("Enum Doesn't exist");
-        }
-    }
+   
 
 }

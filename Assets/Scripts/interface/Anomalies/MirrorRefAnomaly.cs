@@ -1,43 +1,32 @@
 using System;
 using UnityEngine;
 [RequireComponent(typeof(AnomalyNameSetter))]
-public class MirrorRefAnomaly : MonoBehaviour, IAnomaly
+public class MirrorRefAnomaly : AnomalyBase
 {
-    [SerializeField]
-    private AnomalyList anomalyName;
+    //[SerializeField]
+    //private AnomalyList anomalyName;
 
-    public AnomalyList AnomalyName
-    {
-        get => anomalyName;
-    }
+    //public AnomalyList AnomalyName
+    //{
+    //    get => anomalyName;
+    //}
 
     private void Start()
     {
         SetAnomalyName();
     }
-    public void ResetAnomaly()
+    public  override void ResetAnomaly()
     {
         gameObject.SetActive(true);
 
     }
 
-    public void SetAnomaly()
+    public override void SetAnomaly()
     {
         gameObject.SetActive(false);
     }
 
 
-    public void SetAnomalyName()
-    {
-        if (Enum.TryParse(GetComponent<AnomalyNameSetter>().AnomalyName, out AnomalyList name))
-        {
-
-            anomalyName = name;
-        }
-        else
-        {
-            Debug.LogWarning("Enum Doesn't exist");
-        }
-    }
+   
 
 }

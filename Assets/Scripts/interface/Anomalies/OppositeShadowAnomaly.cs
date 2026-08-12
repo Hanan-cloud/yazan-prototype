@@ -2,25 +2,25 @@ using System;
 using UnityEngine;
 [RequireComponent(typeof(AnomalyNameSetter))]
 
-public class OppositeShadowAnomaly : MonoBehaviour, IAnomaly
+public class OppositeShadowAnomaly : AnomalyBase
 {
 
     [SerializeField] GameObject yazanClone;
 
 
-    [SerializeField]
-    private AnomalyList anomalyName;
+    //[SerializeField]
+    //private AnomalyList anomalyName;
 
-    public AnomalyList AnomalyName
-    {
-        get => anomalyName;
-    }
+    //public AnomalyList AnomalyName
+    //{
+    //    get => anomalyName;
+    //}
 
     private void Start()
     {
         SetAnomalyName();
     }
-    public void ResetAnomaly()
+    public override void ResetAnomaly()
     {
         yazanClone.SetActive(false);
 
@@ -28,21 +28,10 @@ public class OppositeShadowAnomaly : MonoBehaviour, IAnomaly
 
 
     [ContextMenu("startAnom")]
-    public void SetAnomaly()
+    public override void SetAnomaly()
     {
         yazanClone.SetActive(true);
     }
 
-    public void SetAnomalyName()
-    {
-        if (Enum.TryParse(GetComponent<AnomalyNameSetter>().AnomalyName, out AnomalyList name))
-        {
-
-            anomalyName = name;
-        }
-        else
-        {
-            Debug.LogWarning("Enum Doesn't exist");
-        }
-    }
+   
 }

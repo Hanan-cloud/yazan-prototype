@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-public class LanternFlameAnomaly : MonoBehaviour,IAnomaly
+public class LanternFlameAnomaly : AnomalyBase
 {
 
-    [SerializeField]
-    private AnomalyList anomalyName;
+    //[SerializeField]
+    //private AnomalyList anomalyName;
 
-    public AnomalyList AnomalyName
-    {
-        get => anomalyName;
-    }
+    //public AnomalyList AnomalyName
+    //{
+    //    get => anomalyName;
+    //}
 
 
     [SerializeField] Color originalColor;
@@ -26,19 +26,8 @@ public class LanternFlameAnomaly : MonoBehaviour,IAnomaly
     }
 
 
-    public void SetAnomalyName()
-    {
-        if (Enum.TryParse(GetComponent<AnomalyNameSetter>().AnomalyName, out AnomalyList name))
-        {
-
-            anomalyName = name;
-        }
-        else
-        {
-            Debug.LogWarning("Enum Doesn't exist");
-        }
-    }
-    public void ResetAnomaly()
+ 
+    public override void ResetAnomaly()
     {
         foreach (Light2D light in flames) { 
         
@@ -47,7 +36,7 @@ public class LanternFlameAnomaly : MonoBehaviour,IAnomaly
 
     }
 
-    public void SetAnomaly()
+    public override void SetAnomaly()
     {
         foreach (Light2D light in flames)
         {
