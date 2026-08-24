@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 873dee1ce4f88724fa0a048ab471b9f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5011880496094229184
+    second: palme3_se_less__0
+  - first:
+      213: -1743139190120846229
+    second: palme3_se_less__1
+  - first:
+      213: 1430619484693636417
+    second: palme3_se_less__2
+  - first:
+      213: 5606291998655236679
+    second: palme3_se_less__3
+  - first:
+      213: -705003325962123611
+    second: palme3_se_less__4
+  - first:
+      213: 9025085866562231839
+    second: palme3_se_less__5
+  - first:
+      213: 7339026649342954321
+    second: palme3_se_less__6
+  - first:
+      213: -6171548992915752507
+    second: palme3_se_less__7
+  - first:
+      213: 7324300595825554009
+    second: palme3_se_less__8
+  - first:
+      213: -6305559390105706232
+    second: palme3_se_less__9
+  - first:
+      213: -7536541696325709562
+    second: palme3_se_less__10
+  - first:
+      213: 4528227496561380465
+    second: palme3_se_less__11
+  - first:
+      213: -3248558175298241549
+    second: palme3_se_less__12
+  - first:
+      213: -5993271160993802086
+    second: palme3_se_less__13
+  - first:
+      213: -1796697729136242886
+    second: palme3_se_less__14
+  - first:
+      213: -4366722578303114450
+    second: palme3_se_less__15
+  - first:
+      213: 5564201381886850543
+    second: palme3_se_less__16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: palme3_se_less__0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1669
+        width: 1348
+        height: 1220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d489d2e39327ab0800000000000000
+      internalID: -5011880496094229184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__1
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2072
+        width: 92
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ce8c264202fc7e0800000000000000
+      internalID: -1743139190120846229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__2
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 1409
+        width: 1103
+        height: 1437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145aae177d49ad310800000000000000
+      internalID: 1430619484693636417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__3
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 2587
+        width: 163
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ac5fe8edc8dcd40800000000000000
+      internalID: 5606291998655236679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__4
+      rect:
+        serializedVersion: 2
+        x: 4138
+        y: 1616
+        width: 136
+        height: 1106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a60f86d5335736f0800000000000000
+      internalID: -705003325962123611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__5
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 2076
+        width: 371
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e17d757cb8f3d70800000000000000
+      internalID: 9025085866562231839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__6
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 1615
+        width: 187
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b463f8ad579d560800000000000000
+      internalID: 7339026649342954321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__7
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1816
+        width: 614
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c93653a3e04a5aa0800000000000000
+      internalID: -6171548992915752507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__8
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 1345
+        width: 127
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9523d5a069425a560800000000000000
+      internalID: 7324300595825554009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__9
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 91
+        width: 338
+        height: 1599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801ee9a94272e78a0800000000000000
+      internalID: -6305559390105706232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__10
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1521
+        width: 614
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601169be143d86790800000000000000
+      internalID: -7536541696325709562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__11
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1017
+        width: 326
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c82b2aaee77de30800000000000000
+      internalID: 4528227496561380465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__12
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 82
+        width: 673
+        height: 1138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb38291d8dcae2d0800000000000000
+      internalID: -3248558175298241549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__13
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1071
+        width: 333
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a981f5ef1af93dca0800000000000000
+      internalID: -5993271160993802086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__14
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 1039
+        width: 276
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f45164fe8d017e0800000000000000
+      internalID: -1796697729136242886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__15
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 21
+        width: 927
+        height: 1122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23a09f63f84663c0800000000000000
+      internalID: -4366722578303114450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palme3_se_less__16
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 311
+        width: 480
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe57a1a2da3083d40800000000000000
+      internalID: 5564201381886850543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      palme3_se_less__0: -5011880496094229184
+      palme3_se_less__1: -1743139190120846229
+      palme3_se_less__10: -7536541696325709562
+      palme3_se_less__11: 4528227496561380465
+      palme3_se_less__12: -3248558175298241549
+      palme3_se_less__13: -5993271160993802086
+      palme3_se_less__14: -1796697729136242886
+      palme3_se_less__15: -4366722578303114450
+      palme3_se_less__16: 5564201381886850543
+      palme3_se_less__2: 1430619484693636417
+      palme3_se_less__3: 5606291998655236679
+      palme3_se_less__4: -705003325962123611
+      palme3_se_less__5: 9025085866562231839
+      palme3_se_less__6: 7339026649342954321
+      palme3_se_less__7: -6171548992915752507
+      palme3_se_less__8: 7324300595825554009
+      palme3_se_less__9: -6305559390105706232
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -42,7 +42,7 @@ public enum AnomalyList
     CurvedTrees,
     HollowTree,
     BloodyDoll,
-    FastSteps,
+    StepSound,
     DreamKiller,
     Camouflaged,
     MismatchedCreature,

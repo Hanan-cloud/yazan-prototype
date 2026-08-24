@@ -144,27 +144,27 @@ public class AnomallyManager : MonoBehaviour
     }
 
 
-    GUIStyle style = new GUIStyle();
+    //GUIStyle style = new GUIStyle();
 
 
-    void OnGUI()
-    {
+    //void OnGUI()
+    //{
 
-        style.fontSize = 30;
-        style.normal.textColor = Color.black;
-        GUI.Label(
-            new Rect(20, 60, 300, 50),
-            "is Anomaly " + isAnomalyRun,
-            style
-        );
+    //    style.fontSize = 30;
+    //    style.normal.textColor = Color.black;
+    //    GUI.Label(
+    //        new Rect(20, 60, 300, 50),
+    //        "is Anomaly " + isAnomalyRun,
+    //        style
+    //    );
 
 
 
-        if (currentAnomaly == null ) return; 
-        GUI.Label(
-            new Rect(20, 90, 300, 50),
-            "anomaly name " + currentAnomaly.AnomalyName,
-            style
-        );
-    }
+    //    if (currentAnomaly == null ) return; 
+    //    GUI.Label(
+    //        new Rect(20, 90, 300, 50),
+    //        "anomaly name " + currentAnomaly.AnomalyName,
+    //        style
+    //    );
+    //}
 }

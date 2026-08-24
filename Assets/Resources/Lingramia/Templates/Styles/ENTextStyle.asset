@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: ENTextStyle
   m_EditorClassIdentifier: 
   languageCode: en
+  paragraphStyle: 
   font: {fileID: 11400000, guid: f1b47e6db6b2c65419bfcb6f48d302a4, type: 2}
-  formattingOption: 0
+  materialOverride: {fileID: 0}
+  formattingOptions: 0
+  enableRTL: 0
+  enableArabicFormatting: 0

@@ -88,8 +88,8 @@ public class FootprintsTrail : AnomalyBase
     void GetInitialPos()
     { 
         float temp = (rightEdge.position.x - leftEdge.position.x) / 2;
-        leftFoot.transform.position = new Vector3(temp, leftFoot.transform.position.y, leftFoot.transform.position.z);
-        rightFoot.transform.position = new Vector3(temp, rightFoot.transform.position.y, rightFoot.transform.position.z);
+        leftFoot.transform.localPosition = new Vector3(temp, leftFoot.transform.position.y, leftFoot.transform.position.z);
+        rightFoot.transform.localPosition = new Vector3(temp, rightFoot.transform.position.y, rightFoot.transform.position.z);
 
     }
 

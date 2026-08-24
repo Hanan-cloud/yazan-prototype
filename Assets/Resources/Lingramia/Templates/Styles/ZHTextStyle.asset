@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: ZHTextStyle
   m_EditorClassIdentifier: 
   languageCode: zh
+  paragraphStyle: 
   font: {fileID: 11400000, guid: 061cd2fea96a9724d9efa189a1704f6a, type: 2}
+  materialOverride: {fileID: 0}
   formattingOptions: 0
   enableRTL: 0
   enableArabicFormatting: 0

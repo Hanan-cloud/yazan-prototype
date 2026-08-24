@@ -9,10 +9,11 @@ public class InGameStoryPanel : MonoBehaviour
      string textKey = "InGameStory_";
     int index;
     [SerializeField] TextMeshProUGUI text;
-
+    SimpleLocalizedText simpleText;
 
     private void Start()
     {
+        simpleText = text.gameObject.GetComponent<SimpleLocalizedText>();
         index = 1;
         ResetPoint.OnNailsFalls += SetInGameStory;
         ResetPoint.OnNailsReset += ResetIndex;
@@ -20,6 +21,7 @@ public class InGameStoryPanel : MonoBehaviour
 
         SetInGameStory();
         Debug.Log("lower Start index: " + index);
+        
 
     }
 
@@ -32,7 +34,8 @@ public class InGameStoryPanel : MonoBehaviour
 
         Debug.Log($"<color=grey>current index: {index} /<color>" );
 
-        text.SetLocalizedText((textKey + index).ToString());
+        simpleText.SetKey(((textKey + index).ToString()));;
+        
         index++;
 
         Debug.Log("lower index: " + index);

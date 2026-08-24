@@ -83,6 +83,18 @@ MonoBehaviour:
       - languageCode: en
         value: SFX
       aliases: []
+    - key: Sounds
+      originalValue: "\u0627\u0644\u0623\u0635\u0648\u0627\u062A"
+      variants:
+      - languageCode: en
+        value: Master Volume
+      aliases: []
+    - key: Continue
+      originalValue: "\u0627\u0633\u062A\u0645\u0631\u0627\u0631"
+      variants:
+      - languageCode: en
+        value: Continue
+      aliases: []
   - pageId: Screen Mode
     aboutPage: New Page
     entries:

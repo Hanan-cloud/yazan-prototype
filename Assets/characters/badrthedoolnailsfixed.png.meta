@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 887e0c4eb90955e479fa25481908e04d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2883482463542538962
+    second: badrthedoolnailsfixed_0
+  - first:
+      213: 6294658331902649051
+    second: badrthedoolnailsfixed_1
+  - first:
+      213: 2105268414402325932
+    second: badrthedoolnailsfixed_2
+  - first:
+      213: 7723371160074735856
+    second: badrthedoolnailsfixed_3
+  - first:
+      213: 1148639083290222801
+    second: badrthedoolnailsfixed_4
+  - first:
+      213: 1066294472738057400
+    second: badrthedoolnailsfixed_5
+  - first:
+      213: 4895386993087958516
+    second: badrthedoolnailsfixed_6
+  - first:
+      213: 1128540617556739187
+    second: badrthedoolnailsfixed_7
+  - first:
+      213: 9114322562470582857
+    second: badrthedoolnailsfixed_8
+  - first:
+      213: -8002935712811194916
+    second: badrthedoolnailsfixed_9
+  - first:
+      213: 1754804395529270159
+    second: badrthedoolnailsfixed_10
+  - first:
+      213: 5898363974199176187
+    second: badrthedoolnailsfixed_11
+  - first:
+      213: 2340399894088093834
+    second: badrthedoolnailsfixed_12
+  - first:
+      213: -5238373385138044325
+    second: badrthedoolnailsfixed_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_0
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1072
+        width: 248
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d27583f500340820800000000000000
+      internalID: 2883482463542538962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_1
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1051
+        width: 343
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2a28ff66e1b5750800000000000000
+      internalID: 6294658331902649051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_2
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 797
+        width: 334
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadec4df77a673d10800000000000000
+      internalID: 2105268414402325932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_3
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 920
+        width: 325
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f050c0662dee2b60800000000000000
+      internalID: 7723371160074735856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_4
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 22
+        width: 1545
+        height: 1364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0e4a61929c0ff00800000000000000
+      internalID: 1148639083290222801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_5
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 22
+        width: 1559
+        height: 1443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bca3896c2d3cce00800000000000000
+      internalID: 1066294472738057400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 611
+        width: 318
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd43198888efe340800000000000000
+      internalID: 4895386993087958516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_8
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 679
+        width: 247
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a1360b4149c7e70800000000000000
+      internalID: 9114322562470582857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 103
+        width: 317
+        height: 536
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5e99dde5cdfe090800000000000000
+      internalID: -8002935712811194916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_10
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 324
+        width: 281
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83f0d5ec415a5810800000000000000
+      internalID: 1754804395529270159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_11
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 374
+        width: 348
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb6a1e98c23bd150800000000000000
+      internalID: 5898363974199176187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badrthedoolnailsfixed_13
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 44
+        width: 461
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b528cf9092f8d47b0800000000000000
+      internalID: -5238373385138044325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d607ec63b614b7e47a0c039c169fa9d8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      badrthedoolnailsfixed_0: 2883482463542538962
+      badrthedoolnailsfixed_1: 6294658331902649051
+      badrthedoolnailsfixed_10: 1754804395529270159
+      badrthedoolnailsfixed_11: 5898363974199176187
+      badrthedoolnailsfixed_12: 2340399894088093834
+      badrthedoolnailsfixed_13: -5238373385138044325
+      badrthedoolnailsfixed_2: 2105268414402325932
+      badrthedoolnailsfixed_3: 7723371160074735856
+      badrthedoolnailsfixed_4: 1148639083290222801
+      badrthedoolnailsfixed_5: 1066294472738057400
+      badrthedoolnailsfixed_6: 4895386993087958516
+      badrthedoolnailsfixed_7: 1128540617556739187
+      badrthedoolnailsfixed_8: 9114322562470582857
+      badrthedoolnailsfixed_9: -8002935712811194916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

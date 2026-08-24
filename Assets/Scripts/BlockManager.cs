@@ -8,24 +8,24 @@ public class BlockManager : MonoBehaviour
 
     int runCounter;
 
-    [SerializeField] float offset=94.7f;
-    [SerializeField] float saveAreaOffset=94.7f;
+    //[SerializeField] float offset=94.7f;
+    //[SerializeField] float saveAreaOffset=94.7f;
 
 
     private void Start()
     {
 
         
-        PositionBlock();
+        //PositionBlock();
     }
 
-    [ContextMenu("setPos")]
-    public void PositionBlock()
-    {
-       road.transform.position = new Vector3(saveArea.transform.position.x + offset, 0, transform.position.z);
+    //[ContextMenu("setPos")]
+    //public void PositionBlock()
+    //{
+    //   //road.transform.position = new Vector3(saveArea.transform.position.x + offset, 0, transform.position.z);
 
-        currentPathDir();
-    }
+    //    currentPathDir();
+    //}
 
 
 
@@ -66,19 +66,19 @@ public class BlockManager : MonoBehaviour
     }
 
 
-    GUIStyle style = new GUIStyle();
+    //GUIStyle style = new GUIStyle();
 
-    void OnGUI()
-    {
+    //void OnGUI()
+    //{
 
-        style.fontSize = 30;
-        style.normal.textColor = Color.white;
-        GUI.Label(
-            new Rect(20, 20, 300, 50),
-            "Nails: " + GameManager.Instance.Nails,
-            style
-        );
-    }
+    //    style.fontSize = 30;
+    //    style.normal.textColor = Color.white;
+    //    GUI.Label(
+    //        new Rect(20, 20, 300, 50),
+    //        "Nails: " + GameManager.Instance.Nails,
+    //        style
+    //    );
+    //}
 
 
 

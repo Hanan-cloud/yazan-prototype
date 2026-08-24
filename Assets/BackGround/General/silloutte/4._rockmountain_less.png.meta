@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: 6e824a48b00c93442922d7c60b10d16b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3638842184474592130
+    second: 4._rockmountain_less_0
+  - first:
+      213: 3506134766934707399
+    second: 4._rockmountain_less_1
+  - first:
+      213: 3238544653196653719
+    second: 4._rockmountain_less_2
+  - first:
+      213: -1697601882014575429
+    second: 4._rockmountain_less_3
+  - first:
+      213: -7218279130613471401
+    second: 4._rockmountain_less_4
+  - first:
+      213: 2977066446564118802
+    second: 4._rockmountain_less_5
+  - first:
+      213: -9192930291209025174
+    second: 4._rockmountain_less_6
+  - first:
+      213: 4749292863805348505
+    second: 4._rockmountain_less_7
+  - first:
+      213: -5436942431856248189
+    second: 4._rockmountain_less_8
+  - first:
+      213: -30734711457530299
+    second: 4._rockmountain_less_9
+  - first:
+      213: -560887910627424267
+    second: 4._rockmountain_less_10
+  - first:
+      213: -3206733931931711257
+    second: 4._rockmountain_less_11
+  - first:
+      213: 7778563746846203265
+    second: 4._rockmountain_less_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 4._rockmountain_less_0
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2097
+        width: 916
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2838057ffa3cf7230800000000000000
+      internalID: 3638842184474592130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4._rockmountain_less_2
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1903
+        width: 1153
+        height: 957
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794f60b143f91fc20800000000000000
+      internalID: 3238544653196653719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4._rockmountain_less_3
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 1906
+        width: 1175
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb49c742518e078e0800000000000000
+      internalID: -1697601882014575429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4._rockmountain_less_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1531
+        width: 900
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7572b22ff5583db90800000000000000
+      internalID: -7218279130613471401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4._rockmountain_less_5
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1115
+        width: 1042
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2115034f82aa05920800000000000000
+      internalID: 2977066446564118802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4._rockmountain_less_6
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 221
+        width: 724
+        height: 1484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69ce8b3b962c6080800000000000000
+      internalID: -9192930291209025174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4._rockmountain_less_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 827
+        width: 1053
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ab5f41aa91c84b0800000000000000
+      internalID: -5436942431856248189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4._rockmountain_less_9
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 126
+        width: 825
+        height: 912
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ebc4951fec29ff0800000000000000
+      internalID: -30734711457530299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4._rockmountain_less_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 102
+        width: 1624
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7cd30ca635738f0800000000000000
+      internalID: -560887910627424267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ffe9fe5685ba0f749bfa6cd8e8d23dab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      4._rockmountain_less_0: 3638842184474592130
+      4._rockmountain_less_1: 3506134766934707399
+      4._rockmountain_less_10: -560887910627424267
+      4._rockmountain_less_11: -3206733931931711257
+      4._rockmountain_less_12: 7778563746846203265
+      4._rockmountain_less_2: 3238544653196653719
+      4._rockmountain_less_3: -1697601882014575429
+      4._rockmountain_less_4: -7218279130613471401
+      4._rockmountain_less_5: 2977066446564118802
+      4._rockmountain_less_6: -9192930291209025174
+      4._rockmountain_less_7: 4749292863805348505
+      4._rockmountain_less_8: -5436942431856248189
+      4._rockmountain_less_9: -30734711457530299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

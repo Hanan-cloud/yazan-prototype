@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: dc89acb665f0e394fa62662c62e184aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2032707954676642785
+    second: palm_separate_2_0
+  - first:
+      213: -6454901972379077231
+    second: palm_separate_2_1
+  - first:
+      213: -3152334494008125309
+    second: palm_separate_2_2
+  - first:
+      213: 3473784138848503410
+    second: palm_separate_2_3
+  - first:
+      213: 5908766713390466244
+    second: palm_separate_2_4
+  - first:
+      213: -6950736979627931788
+    second: palm_separate_2_5
+  - first:
+      213: 2050965404624947408
+    second: palm_separate_2_6
+  - first:
+      213: -2242158571804034347
+    second: palm_separate_2_7
+  - first:
+      213: 2443052043685995662
+    second: palm_separate_2_8
+  - first:
+      213: -967139897095906921
+    second: palm_separate_2_9
+  - first:
+      213: -2758653880383707503
+    second: palm_separate_2_10
+  - first:
+      213: -3778214331742216367
+    second: palm_separate_2_11
+  - first:
+      213: -9064319909858998418
+    second: palm_separate_2_12
+  - first:
+      213: 27508258541548660
+    second: palm_separate_2_13
+  - first:
+      213: -4201914495733790144
+    second: palm_separate_2_14
+  - first:
+      213: -6283818177854821546
+    second: palm_separate_2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: palm_separate_2_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2026
+        width: 1094
+        height: 734
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3bc927d11a53c10800000000000000
+      internalID: 2032707954676642785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_1
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 2264
+        width: 372
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195706c0bd49b66a0800000000000000
+      internalID: -6454901972379077231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_2
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2045
+        width: 1250
+        height: 838
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3885f6fba78a044d0800000000000000
+      internalID: -3152334494008125309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1370
+        width: 956
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2768376f44c553030800000000000000
+      internalID: 3473784138848503410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_4
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1197
+        width: 152
+        height: 604
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c48a441508200250800000000000000
+      internalID: 5908766713390466244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_5
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1144
+        width: 150
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4770b1a2b850a8f90800000000000000
+      internalID: -6950736979627931788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_6
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1393
+        width: 148
+        height: 639
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d809454b2e767c10800000000000000
+      internalID: 2050965404624947408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_7
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 1420
+        width: 52
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5daf58d88a042e0e0800000000000000
+      internalID: -2242158571804034347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_8
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 1185
+        width: 79
+        height: 844
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8422bfc3e677e120800000000000000
+      internalID: 2443052043685995662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_9
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1427
+        width: 92
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7999d7143670492f0800000000000000
+      internalID: -967139897095906921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_10
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 1341
+        width: 136
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196e97969ea47b9d0800000000000000
+      internalID: -2758653880383707503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_11
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 1219
+        width: 249
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f17374516119bc0800000000000000
+      internalID: -3778214331742216367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_12
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1236
+        width: 45
+        height: 623
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e678a5a1111153280800000000000000
+      internalID: -9064319909858998418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_13
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 121
+        width: 460
+        height: 1155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47432ca8d9ab16000800000000000000
+      internalID: 27508258541548660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_14
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 291
+        width: 150
+        height: 718
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a0931670dcfa5c0800000000000000
+      internalID: -4201914495733790144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm_separate_2_15
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 54
+        width: 380
+        height: 1090
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b22db09a46bc8a0800000000000000
+      internalID: -6283818177854821546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 90dde3d4ec898e0469a31fb1818bcccd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      palm_separate_2_0: 2032707954676642785
+      palm_separate_2_1: -6454901972379077231
+      palm_separate_2_10: -2758653880383707503
+      palm_separate_2_11: -3778214331742216367
+      palm_separate_2_12: -9064319909858998418
+      palm_separate_2_13: 27508258541548660
+      palm_separate_2_14: -4201914495733790144
+      palm_separate_2_15: -6283818177854821546
+      palm_separate_2_2: -3152334494008125309
+      palm_separate_2_3: 3473784138848503410
+      palm_separate_2_4: 5908766713390466244
+      palm_separate_2_5: -6950736979627931788
+      palm_separate_2_6: 2050965404624947408
+      palm_separate_2_7: -2242158571804034347
+      palm_separate_2_8: 2443052043685995662
+      palm_separate_2_9: -967139897095906921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

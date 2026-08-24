@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 192a5e58c28bc3544a7baac419ee7d6f
+guid: e99ed2469307c6a44b2e1fca985c6b8a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Cairo
+  - Kufam
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

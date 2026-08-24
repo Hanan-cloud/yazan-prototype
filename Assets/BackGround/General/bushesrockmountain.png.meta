@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: 6bd5b388a37743f42b076f32af5fe7f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2656355398396372844
+    second: bushesrockmountain_0
+  - first:
+      213: 6366506888020848103
+    second: bushesrockmountain_1
+  - first:
+      213: 4291847362022486468
+    second: bushesrockmountain_2
+  - first:
+      213: 4857215183734605963
+    second: bushesrockmountain_3
+  - first:
+      213: -4010356464200697142
+    second: bushesrockmountain_4
+  - first:
+      213: 3216805807332515767
+    second: bushesrockmountain_5
+  - first:
+      213: -3448571224995262610
+    second: bushesrockmountain_6
+  - first:
+      213: 3691959552253885338
+    second: bushesrockmountain_7
+  - first:
+      213: -236945644412902728
+    second: bushesrockmountain_8
+  - first:
+      213: -1855824620186901913
+    second: bushesrockmountain_9
+  - first:
+      213: -990981213663934768
+    second: bushesrockmountain_10
+  - first:
+      213: -2751016816473860920
+    second: bushesrockmountain_11
+  - first:
+      213: -3695593542627571914
+    second: bushesrockmountain_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bushesrockmountain_0
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2097
+        width: 915
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4989461d6dab22bd0800000000000000
+      internalID: -2656355398396372844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushesrockmountain_2
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1903
+        width: 1153
+        height: 957
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c13c83cf64bf8b30800000000000000
+      internalID: 4291847362022486468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushesrockmountain_3
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 1906
+        width: 1175
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b888228997b486340800000000000000
+      internalID: 4857215183734605963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushesrockmountain_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1531
+        width: 900
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca30a82b0a5858c0800000000000000
+      internalID: -4010356464200697142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushesrockmountain_5
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1115
+        width: 1042
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfd771a6d364ac20800000000000000
+      internalID: 3216805807332515767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushesrockmountain_6
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 221
+        width: 724
+        height: 1484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f068ffdb63420d0800000000000000
+      internalID: -3448571224995262610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushesrockmountain_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 827
+        width: 1053
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b261b9113336bcf0800000000000000
+      internalID: -236945644412902728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushesrockmountain_9
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 133
+        width: 825
+        height: 905
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762e55c2759ce36e0800000000000000
+      internalID: -1855824620186901913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushesrockmountain_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 102
+        width: 1624
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6c97c26d35f32f0800000000000000
+      internalID: -990981213663934768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d9c4a1efdbf2b4141bdb3a435612bc4f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bushesrockmountain_0: -2656355398396372844
+      bushesrockmountain_1: 6366506888020848103
+      bushesrockmountain_10: -990981213663934768
+      bushesrockmountain_11: -2751016816473860920
+      bushesrockmountain_12: -3695593542627571914
+      bushesrockmountain_2: 4291847362022486468
+      bushesrockmountain_3: 4857215183734605963
+      bushesrockmountain_4: -4010356464200697142
+      bushesrockmountain_5: 3216805807332515767
+      bushesrockmountain_6: -3448571224995262610
+      bushesrockmountain_7: 3691959552253885338
+      bushesrockmountain_8: -236945644412902728
+      bushesrockmountain_9: -1855824620186901913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
