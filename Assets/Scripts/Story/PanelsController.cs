@@ -6,6 +6,7 @@ using System;
 using UnityEngine.UI;
 using TMPro;
 using AHAKuo.Signalia.LocalizationStandalone.Internal;
+using Unity.VisualScripting;
 
 
 public class PanelsController : MonoBehaviour
@@ -28,6 +29,7 @@ public class PanelsController : MonoBehaviour
 
     [SerializeField] Image textBg;
     [SerializeField] TextMeshProUGUI text;
+    SimpleLocalizedText simpleText;
     bool canNext;
 
 
@@ -37,7 +39,7 @@ public class PanelsController : MonoBehaviour
 
     [SerializeField] CinemachineCamera cam;
 
-
+    
     private void GetAllPoints()
     {
 
@@ -57,6 +59,8 @@ public class PanelsController : MonoBehaviour
     }
     private void Start()
     {
+        simpleText = text.gameObject.GetComponent<SimpleLocalizedText>();
+
         posesIndex = 0;
         index = 0;
         textIndex = 1;
@@ -109,7 +113,7 @@ public class PanelsController : MonoBehaviour
 
         if(index>= Poses.Count ) return;
 
-        text.SetLocalizedText((textKey+textIndex).ToString());
+        simpleText.SetKey(((textKey + textIndex).ToString())); ;
 
 
         textBg.gameObject.transform.position = Poses[posesIndex].position;

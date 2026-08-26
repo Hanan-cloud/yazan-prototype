@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: f4b24165adbb3a94f9786be28dc142b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4984341884859457208
+    second: gatekeeper_0
+  - first:
+      213: -948742939922368742
+    second: gatekeeper_1
+  - first:
+      213: 5291318829871765473
+    second: gatekeeper_2
+  - first:
+      213: -4800800151546070265
+    second: gatekeeper_3
+  - first:
+      213: -8061555897216524335
+    second: gatekeeper_4
+  - first:
+      213: -981672988508238893
+    second: gatekeeper_5
+  - first:
+      213: 6975200617954188983
+    second: gatekeeper_6
+  - first:
+      213: -2093606368257684249
+    second: gatekeeper_7
+  - first:
+      213: 2810093221533268925
+    second: gatekeeper_8
+  - first:
+      213: -3555550188834932977
+    second: gatekeeper_9
+  - first:
+      213: 613409601206718780
+    second: gatekeeper_10
+  - first:
+      213: -2550600678531166216
+    second: gatekeeper_11
+  - first:
+      213: 488413429927003951
+    second: gatekeeper_12
+  - first:
+      213: 967146416314028011
+    second: gatekeeper_13
+  - first:
+      213: 3819308291206025129
+    second: gatekeeper_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatekeeper_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 128
+        width: 1257
+        height: 2340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be162e3980fb2540800000000000000
+      internalID: 4984341884859457208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_1
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 141
+        width: 900
+        height: 2075
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1774c2a25365d2f0800000000000000
+      internalID: -948742939922368742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_2
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 128
+        width: 516
+        height: 2340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e797dfe07a8e6940800000000000000
+      internalID: 5291318829871765473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_3
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 1855
+        width: 312
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9777666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b7479a2b1206db0800000000000000
+      internalID: -4800800151546070265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_4
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 1374
+        width: 275
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df14799f999f1090800000000000000
+      internalID: -8061555897216524335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_5
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1575
+        width: 126
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbce5a3e956062f0800000000000000
+      internalID: -981672988508238893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_7
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 935
+        width: 111
+        height: 329
+      alignment: 9
+      pivot: {x: 0.6838929, y: 0.9697499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec4188b91402f2e0800000000000000
+      internalID: -2093606368257684249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_8
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 1102
+        width: 111
+        height: 329
+      alignment: 9
+      pivot: {x: 0.30735546, y: 0.9697499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb393f75e47ff620800000000000000
+      internalID: 2810093221533268925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_11
+      rect:
+        serializedVersion: 2
+        x: 3253
+        y: 667
+        width: 234
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff874052327a9cd0800000000000000
+      internalID: -2550600678531166216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatekeeper_12
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 385
+        width: 242
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2744524d6137c600800000000000000
+      internalID: 488413429927003951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 99070a610babc974d9a91a919aff97d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gatekeeper_0: 4984341884859457208
+      gatekeeper_1: -948742939922368742
+      gatekeeper_10: 613409601206718780
+      gatekeeper_11: -2550600678531166216
+      gatekeeper_12: 488413429927003951
+      gatekeeper_13: 967146416314028011
+      gatekeeper_14: 3819308291206025129
+      gatekeeper_2: 5291318829871765473
+      gatekeeper_3: -4800800151546070265
+      gatekeeper_4: -8061555897216524335
+      gatekeeper_5: -981672988508238893
+      gatekeeper_6: 6975200617954188983
+      gatekeeper_7: -2093606368257684249
+      gatekeeper_8: 2810093221533268925
+      gatekeeper_9: -3555550188834932977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

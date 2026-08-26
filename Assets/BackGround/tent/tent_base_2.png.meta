@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e23a9790a0d6b3042a39af526c2de50d
+guid: f653cefaa8a0b944986113bd015c2d4a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -419009921961694421
-    second: gatekeeperattlas_draft_0
+      213: 1894253732718853053
+    second: tent_base_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,89 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gatekeeperattlas_draft_0
+      name: tent_base_2_0
       rect:
         serializedVersion: 2
-        x: 266
-        y: 11
-        width: 737
-        height: 1432
+        x: 546
+        y: 835
+        width: 5309
+        height: 1699
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2beb1c22b06f2af0800000000000000
-      internalID: -419009921961694421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gatekeeperattlas_draft_1
-      rect:
-        serializedVersion: 2
-        x: 1057
-        y: 1071
-        width: 192
-        height: 304
-      alignment: 9
-      pivot: {x: 0.5109342, y: 0.9523123}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfc720aa4fb79244e93fd4d48abf1731
-      internalID: 724409141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gatekeeperattlas_draft_2
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 1199
-        width: 139
-        height: 126
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5b76567e36665945933eb576f49b0e0
-      internalID: 1107222446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gatekeeperattlas_draft_3
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 507
-        width: 83
-        height: 210
-      alignment: 9
-      pivot: {x: 0.5878578, y: 0.9340594}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e621f68cdf637cb438b07fb9e505f38e
-      internalID: -1218299102
+      spriteID: dbb3a25dbbdb94a10800000000000000
+      internalID: 1894253732718853053
       vertices: []
       indices: 
       edges: []
@@ -217,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 26f94fc617dc64e4c918f9c054c559dc
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -227,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gatekeeperattlas_draft_0: -419009921961694421
-      gatekeeperattlas_draft_1: 724409141
-      gatekeeperattlas_draft_2: 1107222446
-      gatekeeperattlas_draft_3: -1218299102
+      tent_base_2_0: 1894253732718853053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

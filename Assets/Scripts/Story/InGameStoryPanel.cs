@@ -8,12 +8,12 @@ public class InGameStoryPanel : MonoBehaviour
 
      string textKey = "InGameStory_";
     int index;
-    [SerializeField] TextMeshProUGUI text;
+    [SerializeField] GameObject text;
     SimpleLocalizedText simpleText;
 
     private void Start()
     {
-        simpleText = text.gameObject.GetComponent<SimpleLocalizedText>();
+        simpleText = text.GetComponent<SimpleLocalizedText>();
         index = 1;
         ResetPoint.OnNailsFalls += SetInGameStory;
         ResetPoint.OnNailsReset += ResetIndex;

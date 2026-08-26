@@ -27,7 +27,7 @@ public class ResetPoint : MonoBehaviour
 
                     // Debug.Log("n-1");
                     AnomallyManager.Instance.SaveFoundAnomaly();
-                    GameManager.Instance.Nails -= 1;
+                    GameManager.Instance.NailFalls();
                     OnNailsFalls?.Invoke();
                     // n-1 
                     //progress
@@ -37,7 +37,7 @@ public class ResetPoint : MonoBehaviour
                     // reset
                     //n=10
                    // Debug.Log("n=10");
-                    GameManager.Instance.Nails =10;
+                    GameManager.Instance.NailsReset();
                     OnNailsReset?.Invoke();
 
 
