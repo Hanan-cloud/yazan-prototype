@@ -12717,7 +12717,6 @@ Transform:
   - {fileID: 1753851669}
   - {fileID: 255130294}
   - {fileID: 781002302}
-  - {fileID: 2020281525}
   - {fileID: 1587530024}
   - {fileID: 2116867295}
   - {fileID: 1947887517}
@@ -15006,6 +15005,7 @@ Transform:
   - {fileID: 460949185}
   - {fileID: 161777596}
   - {fileID: 322874697}
+  - {fileID: 2020281525}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &545108344
@@ -17156,7 +17156,7 @@ GameObject:
   - component: {fileID: 703008835}
   - component: {fileID: 703008836}
   m_Layer: 0
-  m_Name: 20260823_2_34
+  m_Name: frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25984,7 +25984,7 @@ GameObject:
   - component: {fileID: 1205022531}
   - component: {fileID: 1205022532}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: reflection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25999,8 +25999,8 @@ Transform:
   m_GameObject: {fileID: 1205022530}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.022, y: -0.023, z: 0}
+  m_LocalScale: {x: 0.707435, y: 0.798729, z: 0.6999617}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 22934662}
@@ -26053,7 +26053,7 @@ SpriteMask:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 127279d577f25ac4ea17dae3782e5074, type: 3}
+  m_Sprite: {fileID: -3207971797873883651, guid: 69f15dd422eb9624cb1f385531ed6dcb, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -46386,11 +46386,11 @@ Transform:
   m_GameObject: {fileID: 2020281524}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 84.154175, y: 0.9986573, z: 0}
-  m_LocalScale: {x: 0.12120239, y: 0.12120239, z: 0.17111246}
+  m_LocalPosition: {x: -0.67, y: 0.32, z: 0}
+  m_LocalScale: {x: 0.17111246, y: 0.17111246, z: 0.17111246}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 445182264}
+  m_Father: {fileID: 545108343}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2020281526
 Animator:
@@ -46459,8 +46459,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -52108353
+  m_SortingLayer: 1
   m_SortingOrder: 11
   m_MaskInteraction: 1
   m_Sprite: {fileID: -1052774357281383158, guid: aed384de32123a3448b9ff668d4971a1, type: 3}
