@@ -1,70 +1,28 @@
 fileFormatVersion: 2
-guid: c6e5c0dabefeeee40a6df419dc2392c6
+guid: e26cee2347cf9e24cb92f49a4a1ee736
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1382468047650418767
-    second: palm_se_less_2_0
+      213: -8406749718357128939
+    second: badrthedoolnailsblood_0
   - first:
-      213: 1753041993538521603
-    second: palm_se_less_2_1
+      213: 1557777651865435953
+    second: badrthedoolnailsblood_1
   - first:
-      213: -3654569468313266284
-    second: palm_se_less_2_2
+      213: 6494798943099275893
+    second: badrthedoolnailsblood_2
   - first:
-      213: 9060082327860146051
-    second: palm_se_less_2_3
+      213: -921006376040339444
+    second: badrthedoolnailsblood_3
   - first:
-      213: -7473047192556021593
-    second: palm_se_less_2_4
+      213: 6175247003056081497
+    second: badrthedoolnailsblood_4
   - first:
-      213: 8748545589212615457
-    second: palm_se_less_2_5
+      213: 893893630424093129
+    second: badrthedoolnailsblood_5
   - first:
-      213: 448540380367298403
-    second: palm_se_less_2_6
-  - first:
-      213: -5137654002502543745
-    second: palm_se_less_2_7
-  - first:
-      213: -1328356098132451444
-    second: palm_se_less_2_8
-  - first:
-      213: 4688575418570245127
-    second: palm_se_less_2_9
-  - first:
-      213: 1332225896167165072
-    second: palm_se_less_2_10
-  - first:
-      213: -711753285762842422
-    second: palm_se_less_2_11
-  - first:
-      213: -8122046010703324734
-    second: palm_se_less_2_12
-  - first:
-      213: -3635852811640318833
-    second: palm_se_less_2_13
-  - first:
-      213: 5507149841020484606
-    second: palm_se_less_2_14
-  - first:
-      213: 8261679067012864217
-    second: palm_se_less_2_15
-  - first:
-      213: 5981932829173285577
-    second: palm_se_less_2_16
-  - first:
-      213: -5384648865614425259
-    second: palm_se_less_2_17
-  - first:
-      213: 81027928482682203
-    second: palm_se_less_2_18
-  - first:
-      213: 8883529968396686793
-    second: palm_se_less_2_19
-  - first:
-      213: -3200302019062208915
-    second: palm_se_less_2_20
+      213: -3534611874863876318
+    second: badrthedoolnailsblood_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -186,177 +144,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: palm_se_less_2_0
+      name: badrthedoolnailsblood_0
       rect:
         serializedVersion: 2
-        x: 276
-        y: 2150
-        width: 1757
-        height: 616
+        x: 15
+        y: 77
+        width: 1030
+        height: 910
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f40f78d5d538f2310800000000000000
-      internalID: 1382468047650418767
+      spriteID: 51945b90ca9355b80800000000000000
+      internalID: -8406749718357128939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_se_less_2_9
+      name: badrthedoolnailsblood_1
       rect:
         serializedVersion: 2
-        x: 2332
-        y: 1970
-        width: 1766
-        height: 801
+        x: 1059
+        y: 77
+        width: 1030
+        height: 910
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7040286808a211140800000000000000
-      internalID: 4688575418570245127
+      spriteID: 13f3b7a55865e9510800000000000000
+      internalID: 1557777651865435953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_se_less_2_11
+      name: badrthedoolnailsblood_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 1703
-        width: 1946
-        height: 399
+        x: 2103
+        y: 77
+        width: 1030
+        height: 910
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac0836a58285f16f0800000000000000
-      internalID: -711753285762842422
+      spriteID: 57ac3035a39222a50800000000000000
+      internalID: 6494798943099275893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_se_less_2_15
+      name: badrthedoolnailsblood_3
       rect:
         serializedVersion: 2
-        x: 680
-        y: 1207
-        width: 1057
-        height: 359
+        x: 3147
+        y: 77
+        width: 1030
+        height: 910
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d81595d65167a270800000000000000
-      internalID: 8261679067012864217
+      spriteID: c08ee38a49de733f0800000000000000
+      internalID: -921006376040339444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_se_less_2_16
+      name: badrthedoolnailsblood_4
       rect:
         serializedVersion: 2
-        x: 2332
-        y: 1070
-        width: 1763
-        height: 800
+        x: 4191
+        y: 77
+        width: 1030
+        height: 910
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c20f19e638140350800000000000000
-      internalID: 5981932829173285577
+      spriteID: 95a04717e62e2b550800000000000000
+      internalID: 6175247003056081497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_se_less_2_17
+      name: badrthedoolnailsblood_5
       rect:
         serializedVersion: 2
-        x: 686
-        y: 1198
-        width: 9
-        height: 6
+        x: 5235
+        y: 77
+        width: 1030
+        height: 910
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55397d4c262e545b0800000000000000
-      internalID: -5384648865614425259
+      spriteID: 9c19964558fb76c00800000000000000
+      internalID: 893893630424093129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_se_less_2_19
+      name: badrthedoolnailsblood_6
       rect:
         serializedVersion: 2
-        x: 639
-        y: 83
-        width: 934
-        height: 1023
+        x: 6279
+        y: 77
+        width: 1030
+        height: 910
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c552d57073a84b70800000000000000
-      internalID: 8883529968396686793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palm_se_less_2_20
-      rect:
-        serializedVersion: 2
-        x: 2811
-        y: 131
-        width: 1000
-        height: 857
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d66e4d3054e3693d0800000000000000
-      internalID: -3200302019062208915
+      spriteID: 2277cdb1a3982fec0800000000000000
+      internalID: -3534611874863876318
       vertices: []
       indices: 
       edges: []
@@ -365,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: afbb240c4a4755b4fa7dba1d1bffb1a1
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -375,27 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      palm_se_less_2_0: 1382468047650418767
-      palm_se_less_2_1: 1753041993538521603
-      palm_se_less_2_10: 1332225896167165072
-      palm_se_less_2_11: -711753285762842422
-      palm_se_less_2_12: -8122046010703324734
-      palm_se_less_2_13: -3635852811640318833
-      palm_se_less_2_14: 5507149841020484606
-      palm_se_less_2_15: 8261679067012864217
-      palm_se_less_2_16: 5981932829173285577
-      palm_se_less_2_17: -5384648865614425259
-      palm_se_less_2_18: 81027928482682203
-      palm_se_less_2_19: 8883529968396686793
-      palm_se_less_2_2: -3654569468313266284
-      palm_se_less_2_20: -3200302019062208915
-      palm_se_less_2_3: 9060082327860146051
-      palm_se_less_2_4: -7473047192556021593
-      palm_se_less_2_5: 8748545589212615457
-      palm_se_less_2_6: 448540380367298403
-      palm_se_less_2_7: -5137654002502543745
-      palm_se_less_2_8: -1328356098132451444
-      palm_se_less_2_9: 4688575418570245127
+      badrthedoolnailsblood_0: -8406749718357128939
+      badrthedoolnailsblood_1: 1557777651865435953
+      badrthedoolnailsblood_2: 6494798943099275893
+      badrthedoolnailsblood_3: -921006376040339444
+      badrthedoolnailsblood_4: 6175247003056081497
+      badrthedoolnailsblood_5: 893893630424093129
+      badrthedoolnailsblood_6: -3534611874863876318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -39,7 +39,7 @@ public enum AnomalyList
     OppositeShadow,
     TwinPlants,
     SkyPlanet,
-    CurvedTrees,
+    CarvedTrees,
     HollowTree,
     BloodyDoll,
     StepSound,

@@ -1,58 +1,46 @@
 fileFormatVersion: 2
-guid: f820ab88d6775eb4a93796e28ea933f9
+guid: ae11bd9efdbdc7848a7d6f9f6914bb5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5786653944698945028
-    second: palm_sparate_1_0
+      213: -5066420776303553414
+    second: trees_hallows_more_colors__0
   - first:
-      213: 8621073314089198496
-    second: palm_sparate_1_1
+      213: -7486185910917194015
+    second: trees_hallows_more_colors__1
   - first:
-      213: 3348171758080208305
-    second: palm_sparate_1_2
+      213: 8510166871186312102
+    second: trees_hallows_more_colors__2
   - first:
-      213: 6451016559395351003
-    second: palm_sparate_1_3
+      213: -6891844471830799164
+    second: trees_hallows_more_colors__3
   - first:
-      213: -4351873638069939642
-    second: palm_sparate_1_4
+      213: 9060977821085426039
+    second: trees_hallows_more_colors__4
   - first:
-      213: 7843717376622857458
-    second: palm_sparate_1_5
+      213: 7176533463256658085
+    second: trees_hallows_more_colors__5
   - first:
-      213: 5842389662601380243
-    second: palm_sparate_1_6
+      213: 5374627252482117476
+    second: trees_hallows_more_colors__6
   - first:
-      213: -2941572955008207391
-    second: palm_sparate_1_7
+      213: -2092476561336669838
+    second: trees_hallows_more_colors__7
   - first:
-      213: 8928142626335234094
-    second: palm_sparate_1_8
+      213: 6038660459961802608
+    second: trees_hallows_more_colors__8
   - first:
-      213: 395172716888718055
-    second: palm_sparate_1_9
+      213: 7061962567370869480
+    second: trees_hallows_more_colors__9
   - first:
-      213: 3247840938411654320
-    second: palm_sparate_1_10
+      213: -8421065183260462516
+    second: trees_hallows_more_colors__10
   - first:
-      213: -5833103364627758698
-    second: palm_sparate_1_11
+      213: -7160657592440818383
+    second: trees_hallows_more_colors__11
   - first:
-      213: 2304741567871512610
-    second: palm_sparate_1_12
-  - first:
-      213: -530035191390049918
-    second: palm_sparate_1_13
-  - first:
-      213: 5119330458217448196
-    second: palm_sparate_1_14
-  - first:
-      213: -1828928982763228147
-    second: palm_sparate_1_15
-  - first:
-      213: -6752854125881730140
-    second: palm_sparate_1_16
+      213: -3902378107928830122
+    second: trees_hallows_more_colors__12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -174,13 +162,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: palm_sparate_1_0
+      name: trees_hallows_more_colors__0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 1669
-        width: 1348
-        height: 1220
+        x: 12
+        y: 3103
+        width: 933
+        height: 1023
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40eb4eb8a135e4050800000000000000
-      internalID: 5786653944698945028
+      spriteID: a7494c1a52570b9b0800000000000000
+      internalID: -5066420776303553414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_1
+      name: trees_hallows_more_colors__1
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 2072
-        width: 92
-        height: 558
+        x: 13
+        y: 4131
+        width: 934
+        height: 1023
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a3e2e4b08434a770800000000000000
-      internalID: 8621073314089198496
+      spriteID: 1ee1f39d399bb1890800000000000000
+      internalID: -7486185910917194015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_2
+      name: trees_hallows_more_colors__2
       rect:
         serializedVersion: 2
-        x: 2283
-        y: 1295
-        width: 1103
-        height: 900
+        x: 992
+        y: 4107
+        width: 1000
+        height: 1038
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bdad5f7978177e20800000000000000
-      internalID: 3348171758080208305
+      spriteID: 6ab8b583eaf2a1670800000000000000
+      internalID: 8510166871186312102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_3
+      name: trees_hallows_more_colors__4
       rect:
         serializedVersion: 2
-        x: 3874
-        y: 2587
-        width: 163
-        height: 92
+        x: 991
+        y: 3072
+        width: 1000
+        height: 936
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd92ceeb16d968950800000000000000
-      internalID: 6451016559395351003
+      spriteID: 7716d77325f0fbd70800000000000000
+      internalID: 9060977821085426039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_4
+      name: trees_hallows_more_colors__5
       rect:
         serializedVersion: 2
-        x: 4138
-        y: 1616
-        width: 136
-        height: 1106
+        x: 12
+        y: 2068
+        width: 928
+        height: 1023
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 642547fbbf90b93c0800000000000000
-      internalID: -4351873638069939642
+      spriteID: 5a0fd14792b289360800000000000000
+      internalID: 7176533463256658085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_5
+      name: trees_hallows_more_colors__7
       rect:
         serializedVersion: 2
-        x: 1719
-        y: 2076
-        width: 371
-        height: 464
+        x: 991
+        y: 2042
+        width: 1000
+        height: 931
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2fc0a20756b7adc60800000000000000
-      internalID: 7843717376622857458
+      spriteID: 27962b467a706f2e0800000000000000
+      internalID: -2092476561336669838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_6
+      name: trees_hallows_more_colors__8
       rect:
         serializedVersion: 2
-        x: 3523
-        y: 1615
-        width: 187
-        height: 902
+        x: 12
+        y: 1031
+        width: 926
+        height: 1023
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39105ce9176541150800000000000000
-      internalID: 5842389662601380243
+      spriteID: 07f5833b1b1adc350800000000000000
+      internalID: 6038660459961802608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_7
+      name: trees_hallows_more_colors__9
       rect:
         serializedVersion: 2
-        x: 1466
-        y: 1816
-        width: 614
-        height: 183
+        x: 941
+        y: 1827
+        width: 6
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e5f6d78bfe6d27d0800000000000000
-      internalID: -2941572955008207391
+      spriteID: 8ea0f350a81210260800000000000000
+      internalID: 7061962567370869480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_8
+      name: trees_hallows_more_colors__10
       rect:
         serializedVersion: 2
-        x: 3880
-        y: 1345
-        width: 127
-        height: 580
+        x: 991
+        y: 1079
+        width: 1000
+        height: 857
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +353,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e281cb25a6227eb70800000000000000
-      internalID: 8928142626335234094
+      spriteID: c42b95125dd522b80800000000000000
+      internalID: -8421065183260462516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_9
+      name: trees_hallows_more_colors__11
       rect:
         serializedVersion: 2
-        x: 537
-        y: 91
-        width: 338
-        height: 1599
+        x: 13
+        y: 6
+        width: 934
+        height: 1023
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,20 +375,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7eaf3170e7feb7500800000000000000
-      internalID: 395172716888718055
+      spriteID: 1357c54cbdb30ac90800000000000000
+      internalID: -7160657592440818383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palm_sparate_1_10
+      name: trees_hallows_more_colors__12
       rect:
         serializedVersion: 2
-        x: 1498
-        y: 1521
-        width: 614
-        height: 182
+        x: 991
+        y: 54
+        width: 1000
+        height: 857
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,118 +397,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bc7ffc2026a21d20800000000000000
-      internalID: 3247840938411654320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palm_sparate_1_11
-      rect:
-        serializedVersion: 2
-        x: 1590
-        y: 1017
-        width: 326
-        height: 421
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6910a3d1567ac0fa0800000000000000
-      internalID: -5833103364627758698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palm_sparate_1_12
-      rect:
-        serializedVersion: 2
-        x: 2405
-        y: 82
-        width: 997
-        height: 1213
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 220fe04be361cff10800000000000000
-      internalID: 2304741567871512610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palm_sparate_1_15
-      rect:
-        serializedVersion: 2
-        x: 3396
-        y: 21
-        width: 927
-        height: 1122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d043bfeb7c65e96e0800000000000000
-      internalID: -1828928982763228147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palm_sparate_1_16
-      rect:
-        serializedVersion: 2
-        x: 1481
-        y: 311
-        width: 480
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4abd9ce53fa0942a0800000000000000
-      internalID: -6752854125881730140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palm_sparate_1_13
-      rect:
-        serializedVersion: 2
-        x: 2364
-        y: 2197
-        width: 982
-        height: 661
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d303a15aed8be964ca9a52830f526106
-      internalID: -530035191390049918
+      spriteID: 65f14a959c7f7d9c0800000000000000
+      internalID: -3902378107928830122
       vertices: []
       indices: 
       edges: []
@@ -529,7 +407,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 48a76cb4fb1b27a4c931a8bbaa375996
+    spriteID: dd3b509383230764eb8f5e14a0b71755
     internalID: 0
     vertices: []
     indices: 
@@ -539,23 +417,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      palm_sparate_1_0: 5786653944698945028
-      palm_sparate_1_1: 8621073314089198496
-      palm_sparate_1_10: 3247840938411654320
-      palm_sparate_1_11: -5833103364627758698
-      palm_sparate_1_12: 2304741567871512610
-      palm_sparate_1_13: -530035191390049918
-      palm_sparate_1_14: 5119330458217448196
-      palm_sparate_1_15: -1828928982763228147
-      palm_sparate_1_16: -6752854125881730140
-      palm_sparate_1_2: 3348171758080208305
-      palm_sparate_1_3: 6451016559395351003
-      palm_sparate_1_4: -4351873638069939642
-      palm_sparate_1_5: 7843717376622857458
-      palm_sparate_1_6: 5842389662601380243
-      palm_sparate_1_7: -2941572955008207391
-      palm_sparate_1_8: 8928142626335234094
-      palm_sparate_1_9: 395172716888718055
+      trees_hallows_more_colors__0: -5066420776303553414
+      trees_hallows_more_colors__1: -7486185910917194015
+      trees_hallows_more_colors__10: -8421065183260462516
+      trees_hallows_more_colors__11: -7160657592440818383
+      trees_hallows_more_colors__12: -3902378107928830122
+      trees_hallows_more_colors__2: 8510166871186312102
+      trees_hallows_more_colors__3: -6891844471830799164
+      trees_hallows_more_colors__4: 9060977821085426039
+      trees_hallows_more_colors__5: 7176533463256658085
+      trees_hallows_more_colors__6: 5374627252482117476
+      trees_hallows_more_colors__7: -2092476561336669838
+      trees_hallows_more_colors__8: 6038660459961802608
+      trees_hallows_more_colors__9: 7061962567370869480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

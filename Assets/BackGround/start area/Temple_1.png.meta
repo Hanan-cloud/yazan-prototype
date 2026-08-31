@@ -1,121 +1,100 @@
 fileFormatVersion: 2
-guid: 69f15dd422eb9624cb1f385531ed6dcb
+guid: 48e5e9a7c390f9f429088b57c067bed5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7219375226689989719
-    second: 20260823_2_0
+      213: 4698067721224585395
+    second: Temple_1_0
   - first:
-      213: 7691723361836413745
-    second: 20260823_2_1
+      213: -5771715228097221856
+    second: Temple_1_1
   - first:
-      213: -7834108210479289935
-    second: 20260823_2_2
+      213: 114692043010165413
+    second: Temple_1_2
   - first:
-      213: -625246630828182465
-    second: 20260823_2_3
+      213: -1496231122033234512
+    second: Temple_1_3
   - first:
-      213: -373131874456674489
-    second: 20260823_2_4
+      213: 7365121719603144432
+    second: Temple_1_4
   - first:
-      213: 2134644016364076254
-    second: 20260823_2_5
+      213: -2616277058049877180
+    second: Temple_1_5
   - first:
-      213: 8986453415475355028
-    second: 20260823_2_6
+      213: 6612757174662914816
+    second: Temple_1_6
   - first:
-      213: -8013870862928108511
-    second: 20260823_2_7
+      213: 4418696426410314220
+    second: Temple_1_7
   - first:
-      213: -6511082349144839502
-    second: 20260823_2_8
+      213: -5398739194251283323
+    second: Temple_1_8
   - first:
-      213: 5565775859824812120
-    second: 20260823_2_9
+      213: 5975050056488811059
+    second: Temple_1_9
   - first:
-      213: -2885076658290266850
-    second: 20260823_2_10
+      213: -3248121006733291374
+    second: Temple_1_10
   - first:
-      213: -2646635863711798397
-    second: 20260823_2_11
+      213: -9183156909517517978
+    second: Temple_1_11
   - first:
-      213: 3138480074605799312
-    second: 20260823_2_12
+      213: -8150191973688853189
+    second: Temple_1_12
   - first:
-      213: 3189531053547626420
-    second: 20260823_2_13
+      213: 5277242601761774051
+    second: Temple_1_13
   - first:
-      213: -3865807653244075574
-    second: 20260823_2_14
+      213: -8319628809021207210
+    second: Temple_1_14
   - first:
-      213: -8194938487253074528
-    second: 20260823_2_15
+      213: 4733987815895725261
+    second: Temple_1_15
   - first:
-      213: -8647807377015811560
-    second: 20260823_2_16
+      213: 1990966719164412963
+    second: Temple_1_16
   - first:
-      213: 1222478645399914775
-    second: 20260823_2_17
+      213: 2576342939782235262
+    second: Temple_1_17
   - first:
-      213: -8666525711517809508
-    second: 20260823_2_18
+      213: 2527915883894833585
+    second: Temple_1_18
   - first:
-      213: 8797992829432077321
-    second: 20260823_2_19
+      213: 2345018368999022267
+    second: Temple_1_19
   - first:
-      213: 3957904594531850688
-    second: 20260823_2_20
+      213: -2212565757751330330
+    second: Temple_1_20
   - first:
-      213: -5023897441536822154
-    second: 20260823_2_21
+      213: -4730377085248195603
+    second: Temple_1_21
   - first:
-      213: 6854137347536736501
-    second: 20260823_2_22
+      213: 6762377744566686547
+    second: Temple_1_22
   - first:
-      213: 4475632034225081741
-    second: 20260823_2_23
+      213: -5689481253795072277
+    second: Temple_1_23
   - first:
-      213: -6469262891134219249
-    second: 20260823_2_24
+      213: 7886583968207830305
+    second: Temple_1_24
   - first:
-      213: -3830797863526408985
-    second: 20260823_2_25
+      213: -4854330053720411715
+    second: Temple_1_25
   - first:
-      213: 4980173793561920615
-    second: 20260823_2_26
+      213: 624315588786676849
+    second: Temple_1_26
   - first:
-      213: 6230960123304263452
-    second: 20260823_2_27
+      213: -5152554400900523378
+    second: Temple_1_27
   - first:
-      213: -4592006373369919864
-    second: 20260823_2_28
+      213: -7752916000816719506
+    second: Temple_1_28
   - first:
-      213: -4246633997731396951
-    second: 20260823_2_29
+      213: -1893182093504826188
+    second: Temple_1_29
   - first:
-      213: -3207971797873883651
-    second: 20260823_2_30
-  - first:
-      213: -917365135248337768
-    second: 20260823_2_31
-  - first:
-      213: -8265959290124070861
-    second: 20260823_2_32
-  - first:
-      213: -9029107405519184437
-    second: 20260823_2_33
-  - first:
-      213: 2249925186665343696
-    second: 20260823_2_34
-  - first:
-      213: -4603216879394033179
-    second: 20260823_2_35
-  - first:
-      213: -8400795648991330854
-    second: 20260823_2_36
-  - first:
-      213: -3363692889621958956
-    second: 20260823_2_37
+      213: 9001210150916322633
+    second: Temple_1_30
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -237,13 +216,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20260823_2_0
+      name: Temple_1_0
       rect:
         serializedVersion: 2
-        x: 188
-        y: 2023
-        width: 188
-        height: 350
+        x: 925
+        y: 3322
+        width: 278
+        height: 633
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a353e03b70afcb90800000000000000
-      internalID: -7219375226689989719
+      spriteID: 3b0025673b3e23140800000000000000
+      internalID: 4698067721224585395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_1
+      name: Temple_1_1
       rect:
         serializedVersion: 2
-        x: 697
-        y: 2252
-        width: 177
-        height: 56
+        x: 1553
+        y: 3202
+        width: 1480
+        height: 753
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13335d425ad7eba60800000000000000
-      internalID: 7691723361836413745
+      spriteID: 02b6d84749fb6efa0800000000000000
+      internalID: -5771715228097221856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_2
+      name: Temple_1_2
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 333
-        width: 191
-        height: 1987
+        x: 3166
+        y: 3472
+        width: 294
+        height: 482
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b92966e618a74390800000000000000
-      internalID: -7834108210479289935
+      spriteID: 5aa4f223ec7779100800000000000000
+      internalID: 114692043010165413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_3
+      name: Temple_1_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 2115
-        width: 208
-        height: 102
+        x: 3213
+        y: 3322
+        width: 158
+        height: 202
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f34f970808da257f0800000000000000
-      internalID: -625246630828182465
+      spriteID: 0bd235dc8b15c3be0800000000000000
+      internalID: -1496231122033234512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_4
+      name: Temple_1_4
       rect:
         serializedVersion: 2
-        x: 1476
-        y: 1898
-        width: 450
-        height: 275
+        x: 3396
+        y: 3482
+        width: 15
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74f52a0898e52daf0800000000000000
-      internalID: -373131874456674489
+      spriteID: 0f6a5709e2b263660800000000000000
+      internalID: 7365121719603144432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_5
+      name: Temple_1_5
       rect:
         serializedVersion: 2
-        x: 257
-        y: 1782
-        width: 224
-        height: 155
+        x: 3350
+        y: 3408
+        width: 20
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edc3b4d4c67cf9d10800000000000000
-      internalID: 2134644016364076254
+      spriteID: 44bdee890ed11bbd0800000000000000
+      internalID: -2616277058049877180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_6
+      name: Temple_1_6
       rect:
         serializedVersion: 2
-        x: 2248
-        y: 1896
-        width: 162
-        height: 183
+        x: 3366
+        y: 3400
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49d1104e4cb46bc70800000000000000
-      internalID: 8986453415475355028
+      spriteID: 003e2bd4d9b35cb50800000000000000
+      internalID: 6612757174662914816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_7
+      name: Temple_1_7
       rect:
         serializedVersion: 2
-        x: 2438
-        y: 1896
-        width: 162
-        height: 183
+        x: 845
+        y: 3236
+        width: 210
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,20 +385,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1242153d8e209c090800000000000000
-      internalID: -8013870862928108511
+      spriteID: ce989721dfc525d30800000000000000
+      internalID: 4418696426410314220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_8
+      name: Temple_1_8
       rect:
         serializedVersion: 2
-        x: 2652
-        y: 1917
-        width: 91
-        height: 168
+        x: 1058
+        y: 3249
+        width: 15
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bae7e3c91df3a5a0800000000000000
-      internalID: -6511082349144839502
+      spriteID: 5847cab7e43d315b0800000000000000
+      internalID: -5398739194251283323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_9
+      name: Temple_1_9
       rect:
         serializedVersion: 2
-        x: 90
-        y: 1790
-        width: 134
-        height: 89
+        x: 3303
+        y: 3253
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,20 +429,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8506d40e7ab9d3d40800000000000000
-      internalID: 5565775859824812120
+      spriteID: 33a71348e54abe250800000000000000
+      internalID: 5975050056488811059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_10
+      name: Temple_1_10
       rect:
         serializedVersion: 2
-        x: 745
-        y: 1754
-        width: 80
-        height: 97
+        x: 3318
+        y: 3222
+        width: 21
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,129 +451,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1d66d8a01626f7d0800000000000000
-      internalID: -2885076658290266850
+      spriteID: 2909d26572b5ce2d0800000000000000
+      internalID: -3248121006733291374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_11
+      name: Temple_1_11
       rect:
         serializedVersion: 2
-        x: 1452
-        y: 1600
-        width: 530
-        height: 227
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38b26a554b2454bd0800000000000000
-      internalID: -2646635863711798397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_12
-      rect:
-        serializedVersion: 2
-        x: 2177
-        y: 1683
-        width: 162
-        height: 182
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 097258ddffe1e8b20800000000000000
-      internalID: 3138480074605799312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_13
-      rect:
-        serializedVersion: 2
-        x: 2379
-        y: 1688
-        width: 90
-        height: 168
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bf98c6289d734c20800000000000000
-      internalID: 3189531053547626420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_14
-      rect:
-        serializedVersion: 2
-        x: 2481
-        y: 1683
-        width: 161
-        height: 182
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac1866adb64e95ac0800000000000000
-      internalID: -3865807653244075574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_15
-      rect:
-        serializedVersion: 2
-        x: 2656
-        y: 1683
-        width: 162
-        height: 182
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ad7a1f4ddab54e80800000000000000
-      internalID: -8194938487253074528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_16
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 1731
-        width: 33
+        x: 3332
+        y: 3197
+        width: 16
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -604,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81258f63201dcf780800000000000000
-      internalID: -8647807377015811560
+      spriteID: 66bc88bf17fde8080800000000000000
+      internalID: -9183156909517517978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_17
+      name: Temple_1_12
       rect:
         serializedVersion: 2
-        x: 825
-        y: 1731
-        width: 17
-        height: 24
+        x: 820
+        y: 3150
+        width: 255
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,20 +495,240 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 719009cd9dd17f010800000000000000
-      internalID: 1222478645399914775
+      spriteID: b3d390dd493b4ee80800000000000000
+      internalID: -8150191973688853189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_18
+      name: Temple_1_13
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1531
+        x: 3355
+        y: 3165
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9919faf288c3940800000000000000
+      internalID: 5277242601761774051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_14
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 3156
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d4f2f6dadba8c80800000000000000
+      internalID: -8319628809021207210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_15
+      rect:
+        serializedVersion: 2
+        x: 3378
+        y: 3152
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4fd7936d082b140800000000000000
+      internalID: 4733987815895725261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_16
+      rect:
+        serializedVersion: 2
+        x: 3391
+        y: 3145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3247b67bea551ab10800000000000000
+      internalID: 1990966719164412963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_17
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 3136
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e744e41f04201c320800000000000000
+      internalID: 2576342939782235262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_18
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 3135
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b18e995a16f41320800000000000000
+      internalID: 2527915883894833585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_19
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 3032
+        width: 182
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbed3fb38cd2b8020800000000000000
+      internalID: 2345018368999022267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_20
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 2978
+        width: 87
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9f90f7a236b41e0800000000000000
+      internalID: -2212565757751330330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_21
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2910
+        width: 245
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de332248a135a5eb0800000000000000
+      internalID: -4730377085248195603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_22
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 2695
+        width: 258
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35397e5eabac8dd50800000000000000
+      internalID: 6762377744566686547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_23
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2606
         width: 243
-        height: 93
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,20 +737,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c94013858c05ab780800000000000000
-      internalID: -8666525711517809508
+      spriteID: be6fc4f91f6ea01b0800000000000000
+      internalID: -5689481253795072277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_19
+      name: Temple_1_24
       rect:
         serializedVersion: 2
-        x: 717
-        y: 1465
-        width: 137
-        height: 252
+        x: 596
+        y: 2609
+        width: 21
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,20 +759,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90c9bb65ddfb81a70800000000000000
-      internalID: 8797992829432077321
+      spriteID: 12d715c8556c27d60800000000000000
+      internalID: 7886583968207830305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_20
+      name: Temple_1_25
       rect:
         serializedVersion: 2
-        x: 1431
-        y: 1314
-        width: 530
-        height: 227
+        x: 304
+        y: 2529
+        width: 71
+        height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,20 +781,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c915f3424d4de630800000000000000
-      internalID: 3957904594531850688
+      spriteID: db1fd751984f1acb0800000000000000
+      internalID: -4854330053720411715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_21
+      name: Temple_1_26
       rect:
         serializedVersion: 2
-        x: 2159
-        y: 1480
-        width: 185
-        height: 110
+        x: 243
+        y: 2467
+        width: 56
+        height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,20 +803,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 674343905e7874ab0800000000000000
-      internalID: -5023897441536822154
+      spriteID: 1746e5168b30aa800800000000000000
+      internalID: 624315588786676849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_22
+      name: Temple_1_27
       rect:
         serializedVersion: 2
-        x: 2368
-        y: 1465
-        width: 149
-        height: 158
+        x: 189
+        y: 2424
+        width: 67
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,19 +825,63 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f05aa15a99ce1f50800000000000000
-      internalID: 6854137347536736501
+      spriteID: e8ad27062137e78b0800000000000000
+      internalID: -5152554400900523378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_23
+      name: Temple_1_28
       rect:
         serializedVersion: 2
-        x: 2534
-        y: 1475
-        width: 302
+        x: 189
+        y: 2417
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6990e559fb186490800000000000000
+      internalID: -7752916000816719506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 559
+        width: 3727
+        height: 1698
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4b38d9ae01ab5e0800000000000000
+      internalID: -1893182093504826188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_1_30
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 231
+        width: 2781
         height: 159
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -758,328 +891,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8d48594f93ac1e30800000000000000
-      internalID: 4475632034225081741
+      spriteID: 945f10a11f8baec70800000000000000
+      internalID: 9001210150916322633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20260823_2_24
+      name: Temple_1_31
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1387
-        width: 240
-        height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0c04571daf8836a0800000000000000
-      internalID: -6469262891134219249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_25
-      rect:
-        serializedVersion: 2
-        x: 751
-        y: 1274
-        width: 65
-        height: 149
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ecde2ab3a546dac0800000000000000
-      internalID: -3830797863526408985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_26
-      rect:
-        serializedVersion: 2
-        x: 2325
-        y: 1248
-        width: 104
-        height: 158
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 764c7fcdda12d1540800000000000000
-      internalID: 4980173793561920615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_27
-      rect:
-        serializedVersion: 2
-        x: 2449
-        y: 1239
-        width: 107
-        height: 164
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1fbc271831d87650800000000000000
-      internalID: 6230960123304263452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_28
-      rect:
-        serializedVersion: 2
-        x: 2552
-        y: 1236
-        width: 103
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 886c4fc688ae540c0800000000000000
-      internalID: -4592006373369919864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_29
-      rect:
-        serializedVersion: 2
-        x: 2680
-        y: 1237
-        width: 150
-        height: 157
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a28f12f0ece015c0800000000000000
-      internalID: -4246633997731396951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_30
-      rect:
-        serializedVersion: 2
-        x: 179
-        y: 854
-        width: 272
-        height: 392
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df5814a75aefa73d0800000000000000
-      internalID: -3207971797873883651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_31
-      rect:
-        serializedVersion: 2
-        x: 1476
-        y: 994
-        width: 364
-        height: 249
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 894d138154dd443f0800000000000000
-      internalID: -917365135248337768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_32
-      rect:
-        serializedVersion: 2
-        x: 2258
-        y: 732
-        width: 205
-        height: 311
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 330905012d9694d80800000000000000
-      internalID: -8265959290124070861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_33
-      rect:
-        serializedVersion: 2
-        x: 2514
-        y: 748
-        width: 194
-        height: 261
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bcd1e2727aa22b280800000000000000
-      internalID: -9029107405519184437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_34
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 392
-        width: 272
-        height: 392
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0da64626907593f10800000000000000
-      internalID: 2249925186665343696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_35
-      rect:
-        serializedVersion: 2
-        x: 1478
-        y: 736
-        width: 321
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e1f2a713a61e10c0800000000000000
-      internalID: -4603216879394033179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_36
-      rect:
-        serializedVersion: 2
-        x: 1433
-        y: 366
-        width: 445
-        height: 245
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: add7937ddd06a6b80800000000000000
-      internalID: -8400795648991330854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_37
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 174
-        width: 371
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4de63947323c151d0800000000000000
-      internalID: -3363692889621958956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_38
-      rect:
-        serializedVersion: 2
-        x: 2234
-        y: 1888
-        width: 524
-        height: 227
+        x: 172
+        y: 2378
+        width: 3292
+        height: 1604
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1088,30 +913,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc261f7a4e4438b459d73619d70a51d9
-      internalID: -318160469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20260823_2_39
-      rect:
-        serializedVersion: 2
-        x: 2173
-        y: 1671
-        width: 652
-        height: 195
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f636558ae35d604a9efe279365ba6ed
-      internalID: 1942186338
+      spriteID: 3b565c4368fd6b34ea44b14e03208c83
+      internalID: -1345346073
       vertices: []
       indices: 
       edges: []
@@ -1120,7 +923,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5bf64d0fb12c9a84cb79de1d935f84ad
+    spriteID: b27cbefe6d6090947be4319ad2412289
     internalID: 0
     vertices: []
     indices: 
@@ -1130,46 +933,38 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      20260823_2_0: -7219375226689989719
-      20260823_2_1: 7691723361836413745
-      20260823_2_10: -2885076658290266850
-      20260823_2_11: -2646635863711798397
-      20260823_2_12: 3138480074605799312
-      20260823_2_13: 3189531053547626420
-      20260823_2_14: -3865807653244075574
-      20260823_2_15: -8194938487253074528
-      20260823_2_16: -8647807377015811560
-      20260823_2_17: 1222478645399914775
-      20260823_2_18: -8666525711517809508
-      20260823_2_19: 8797992829432077321
-      20260823_2_2: -7834108210479289935
-      20260823_2_20: 3957904594531850688
-      20260823_2_21: -5023897441536822154
-      20260823_2_22: 6854137347536736501
-      20260823_2_23: 4475632034225081741
-      20260823_2_24: -6469262891134219249
-      20260823_2_25: -3830797863526408985
-      20260823_2_26: 4980173793561920615
-      20260823_2_27: 6230960123304263452
-      20260823_2_28: -4592006373369919864
-      20260823_2_29: -4246633997731396951
-      20260823_2_3: -625246630828182465
-      20260823_2_30: -3207971797873883651
-      20260823_2_31: -917365135248337768
-      20260823_2_32: -8265959290124070861
-      20260823_2_33: -9029107405519184437
-      20260823_2_34: 2249925186665343696
-      20260823_2_35: -4603216879394033179
-      20260823_2_36: -8400795648991330854
-      20260823_2_37: -3363692889621958956
-      20260823_2_38: -318160469
-      20260823_2_39: 1942186338
-      20260823_2_4: -373131874456674489
-      20260823_2_5: 2134644016364076254
-      20260823_2_6: 8986453415475355028
-      20260823_2_7: -8013870862928108511
-      20260823_2_8: -6511082349144839502
-      20260823_2_9: 5565775859824812120
+      Temple_1_0: 4698067721224585395
+      Temple_1_1: -5771715228097221856
+      Temple_1_10: -3248121006733291374
+      Temple_1_11: -9183156909517517978
+      Temple_1_12: -8150191973688853189
+      Temple_1_13: 5277242601761774051
+      Temple_1_14: -8319628809021207210
+      Temple_1_15: 4733987815895725261
+      Temple_1_16: 1990966719164412963
+      Temple_1_17: 2576342939782235262
+      Temple_1_18: 2527915883894833585
+      Temple_1_19: 2345018368999022267
+      Temple_1_2: 114692043010165413
+      Temple_1_20: -2212565757751330330
+      Temple_1_21: -4730377085248195603
+      Temple_1_22: 6762377744566686547
+      Temple_1_23: -5689481253795072277
+      Temple_1_24: 7886583968207830305
+      Temple_1_25: -4854330053720411715
+      Temple_1_26: 624315588786676849
+      Temple_1_27: -5152554400900523378
+      Temple_1_28: -7752916000816719506
+      Temple_1_29: -1893182093504826188
+      Temple_1_3: -1496231122033234512
+      Temple_1_30: 9001210150916322633
+      Temple_1_31: -1345346073
+      Temple_1_4: 7365121719603144432
+      Temple_1_5: -2616277058049877180
+      Temple_1_6: 6612757174662914816
+      Temple_1_7: 4418696426410314220
+      Temple_1_8: -5398739194251283323
+      Temple_1_9: 5975050056488811059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
