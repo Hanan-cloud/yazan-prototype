@@ -36,6 +36,17 @@ public class PlayerController : MonoBehaviour
 
     private bool isPaused = false;
 
+
+    bool isEffectivelyMoving;
+    float effectiveDirSign;
+
+    float maxSpeed;
+    float targetSpeed;
+
+    float accelRate;
+    bool isActuallyRunning;
+
+
     private Directions playerCurrentDir;
     public Directions PlayerCurrentDir { get => playerCurrentDir; set => playerCurrentDir = value; }
 
@@ -84,21 +95,21 @@ public class PlayerController : MonoBehaviour
             inputGraceTimer -= Time.deltaTime;
         }
 
-        bool isEffectivelyMoving = moveInput != 0f || inputGraceTimer > 0f;
-        float effectiveDirSign = moveInput != 0f ? moveInput : lastNonZeroMoveInput;
+        isEffectivelyMoving = moveInput != 0f || inputGraceTimer > 0f;
+        effectiveDirSign = moveInput != 0f ? moveInput : lastNonZeroMoveInput;
 
-        float maxSpeed = isRuning ? runSpeed : walkSpeed;
-        float targetSpeed = moveInput * maxSpeed;
+        maxSpeed = isRuning ? runSpeed : walkSpeed;
+        targetSpeed = moveInput * maxSpeed;
 
         if (moveInput != 0f && currentSpeed != 0f && Mathf.Sign(moveInput) != Mathf.Sign(currentSpeed))
         {
             currentSpeed = 0f;
         }
 
-        float accelRate = Mathf.Abs(targetSpeed) > 0.01f ? acceleration : deceleration;
+        accelRate = Mathf.Abs(targetSpeed) > 0.01f ? acceleration : deceleration;
         currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, accelRate * Time.deltaTime);
 
-        bool isActuallyRunning = isRuning && isEffectivelyMoving;
+        isActuallyRunning = isRuning && isEffectivelyMoving;
         if (isActuallyRunning != wasActuallyRunning)
         {
             wasActuallyRunning = isActuallyRunning;
@@ -111,6 +122,7 @@ public class PlayerController : MonoBehaviour
 
         if (isEffectivelyMoving)
         {
+
             Vector3 scale = transform.localScale;
             scale.x = effectiveDirSign > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
             transform.localScale = scale;
@@ -145,6 +157,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        //Debug.Log(isPaused);
         if (isPaused) return;
 
         rb.linearVelocity = new Vector2(currentSpeed, rb.linearVelocity.y);

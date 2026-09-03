@@ -6,26 +6,26 @@ using System;
 using UnityEngine.UI;
 using TMPro;
 using AHAKuo.Signalia.LocalizationStandalone.Internal;
-using Unity.VisualScripting;
 
 
 public class PanelsController : MonoBehaviour
 {
 
     [SerializeField] List<PanelsData> panels;
-    [SerializeField] List<RectTransform> Poses;
+    //[SerializeField] List<RectTransform> Poses;
     [SerializeField] String textKey = "Panel_";
+
     [SerializeField] Transform target;
-    Vector3 currentFocusPoint = Vector3.zero;
+    Vector3 currentCameraPos = Vector3.zero;
     Vector3 originalFocusPoint = Vector3.zero;
+
     float currentCameraZoom = 3f;
     float originalCameraZoom = 4.13f;
     float zoomTransitionTime = 1;
 
-    int index = 0;
-    int posesIndex = 0;
+    int Panel_index = 0;
+    int Shot_Index = 0;
     int textIndex = 0;
-    int focusPointsIndex = 0;
 
     [SerializeField] Image textBg;
     [SerializeField] TextMeshProUGUI text;
@@ -40,52 +40,74 @@ public class PanelsController : MonoBehaviour
     [SerializeField] CinemachineCamera cam;
 
     
-    private void GetAllPoints()
-    {
 
-
-
-        StartPanel();
-
-    }
 
 
     void StartPanel()
     {
-        if (index == panels.Count) return;
 
-        Debug.LogWarning("Index: "+ index);
-        panels[index].sprite.gameObject.GetComponent<SpriteRenderer>().DOFade(1, 1).OnComplete(() => MoveToPoint());
+        //  == step1: go to position while preparing the simple text ==
+        if (Panel_index == panels.Count) return;
+
+        Debug.Log("Panel Index: "+ Panel_index);
+        Shot_Index = 0;
+
+        if (panels[Panel_index].shots[Shot_Index].textBg != null)
+        {
+            simpleText = panels[Panel_index].shots[Shot_Index].text.gameObject.GetComponent<SimpleLocalizedText>();
+            text = panels[Panel_index].shots[Shot_Index].text;
+            textBg = panels[Panel_index].shots[Shot_Index].textBg;
+        }
+
+        panels[Panel_index].sprite.gameObject.GetComponent<SpriteRenderer>().DOFade(1, 1).OnComplete(() => SetShotCamera());
+
+
+
+
+
     }
     private void Start()
     {
-        simpleText = text.gameObject.GetComponent<SimpleLocalizedText>();
+       // simpleText = text.gameObject.GetComponent<SimpleLocalizedText>();
 
-        posesIndex = 0;
-        index = 0;
+       // posesIndex = 0;
+        Panel_index = 0;
         textIndex = 1;
         canNext = false;
-        GetAllPoints();
-        textBg.DOFade(0,0);
-        text.DOFade(0,0);   
-        Debug.Log(panels[index].shots.Count);
+
+
+        StartPanel();
+
+
+
+
+
+        //Debug.Log(panels[Panel_index].shots.Count);
     }
 
 
     public void ShowNextPanel()
     {
 
-        index++;
+        Panel_index++;
 
     }
 
-    private void MoveToPoint()
+    private void SetShotCamera()
     {
+        //  == step2: Go throu shots ==
         SetTextOff();
-        currentFocusPoint = panels[index].shots[focusPointsIndex].transitionPoint.position;
-        target.DOMove(currentFocusPoint, 1);
-       
+        
+        // get focus position 
+        currentCameraPos = panels[Panel_index].shots[Shot_Index].transitionPoint.position;
 
+
+        // move camera to current shot pos
+        target.DOMove(currentCameraPos, 1);
+        currentCameraZoom = panels[Panel_index].shots[Shot_Index].zoom;
+
+
+        // Do orthognal  and give player permition to next or skip
         DOTween.To(
             () => cam.Lens.OrthographicSize,
             x => cam.Lens.OrthographicSize = x,
@@ -93,7 +115,7 @@ public class PanelsController : MonoBehaviour
             zoomTransitionTime
         ).SetEase(Ease.Linear).OnComplete(() => { canNext = true;
             OnNextAvailabilityChanged?.Invoke(canNext);
-            SetTextOn();
+            SetShotText();
         });
     }
 
@@ -107,43 +129,58 @@ public class PanelsController : MonoBehaviour
 
     }
 
-    private void SetTextOn()
+    private void SetShotText()
     {
+        //  == Step3: Set Text ==
+
+        // if(Panel_index>= Poses.Count ) return;
+
+        if (panels[Panel_index].shots[Shot_Index].textBg != null)
+        {
+
+            simpleText.SetKey(((textKey + textIndex).ToString())); ;
 
 
-        if(index>= Poses.Count ) return;
+            textBg.gameObject.transform.position = panels[Panel_index].shots[Shot_Index].textPos.position;
+            text.DOFade(1, 0.5f);
+            textBg.DOFade(1f, 0.5f);
+        }
 
-        simpleText.SetKey(((textKey + textIndex).ToString())); ;
 
 
-        textBg.gameObject.transform.position = Poses[posesIndex].position;
-        text.DOFade(1, 0.5f);
-        textBg.DOFade(0.4f, 0.5f);
-        posesIndex++;
+
+       
         textIndex++;
 
+
+        // Loop Stops untill player press next
     }
     public void Next()
     {
 
+        //  == step4: player press next == 
+
+        // player can't control
         canNext = false;
         OnNextAvailabilityChanged?.Invoke(canNext);
         StorySceneInput.instance.SetNextPanel(false);
-        if (index >= panels.Count) {
+
+
+        if (Panel_index >= panels.Count) {
             Debug.LogWarning("RETURN");
 
             return;
         }
         Debug.LogWarning("after RETURN");
 
-        focusPointsIndex++;
 
 
+        // check if there is other shots
+        Shot_Index++;
 
-
-        if(focusPointsIndex >= panels[index].shots.Count)
+        if (Shot_Index >= panels[Panel_index].shots.Count)
         {
-
+            // if no Shot
            SetTextOff();
 
             target.DOMove(originalFocusPoint, 1);
@@ -156,21 +193,20 @@ public class PanelsController : MonoBehaviour
             1
             ).SetEase(Ease.Linear);
 
-            panels[index].sprite.gameObject.GetComponent<SpriteRenderer>().DOFade(0, 1).OnComplete(() => StartPanel());
+            panels[Panel_index].sprite.gameObject.GetComponent<SpriteRenderer>().DOFade(0, 1).OnComplete(() => StartPanel());
 
 
 
-            focusPointsIndex = 0;
-            index++;
+            Shot_Index = 0;
+            Panel_index++;
 
 
         }
         else
         {
-            //Debug.LogWarning("calling move to point function");
 
-
-            MoveToPoint();
+            // next shot
+            SetShotCamera();
         }
 
     }

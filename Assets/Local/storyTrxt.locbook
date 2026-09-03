@@ -6,7 +6,7 @@
       "pageFiles": [
         {
           "key": "Panel_1",
-          "originalValue": "\u0647\u0630\u0627 \u0627\u0644\u0646\u0635 \u0627\u0644\u0623\u0648\u0644 \u0645\u0646 \u0627\u0644\u0642\u0635\u0629",
+          "originalValue": "\u064A\u0632\u0646 \u0627\u062D\u0643 \u0644\u0646\u0627 \u0642\u0635\u0629",
           "variants": [
             {
               "language": "en",
@@ -17,7 +17,7 @@
         },
         {
           "key": "Panel_2",
-          "originalValue": "\u0647\u0630\u0627 \u0627\u0644\u0646\u0635 \u0627\u0644\u062B\u0627\u0646\u064A \u0645\u0646 \u0627\u0644\u0642\u0635\u0629",
+          "originalValue": "\u2026\u2026..",
           "variants": [
             {
               "language": "en",
@@ -28,7 +28,7 @@
         },
         {
           "key": "Panel_3",
-          "originalValue": "\u0647\u0630\u0627 \u0627\u0644\u0646\u0635 \u0627\u0644\u062B\u0627\u0644\u062B \u0645\u0646 \u0627\u0644\u0642\u0635\u0629",
+          "originalValue": "\u0647\u0644 \u062A\u0631\u064A\u062F \u0623\u0646 \u062A\u062A\u062C\u0648\u0644 \u0642\u0644\u064A\u0644\u0627 \u0642\u0628\u0644 \u0623\u0646 \u062A\u0638\u0644\u0645\u061F",
           "variants": [
             {
               "language": "en",
@@ -39,11 +39,66 @@
         },
         {
           "key": "Panel_4",
-          "originalValue": "\u0647\u0630\u0627 \u0627\u0644\u0646\u0635 \u0627\u0644\u0631\u0627\u0628\u0639  \u0645\u0646 \u0627\u0644\u0642\u0635\u0629",
+          "originalValue": "\u062D\u0633\u0646\u0627",
           "variants": [
             {
               "language": "en",
               "_value": "this is the 4th text "
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_5",
+          "originalValue": "\u064A\u0632\u0646... \u0644\u0627 \u062A\u0628\u062A\u0639\u062F \u0643\u062B\u064A\u0631\u064B\u0627. \u0644\u0647\u0630\u0627 \u0627\u0644\u0645\u0643\u0627\u0646 \u062D\u0643\u0627\u064A\u0627\u062A \u0645\u062E\u064A\u0641\u0629",
+          "variants": [
+            {
+              "language": "en",
+              "_value": ""
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_6",
+          "originalValue": "\u062F\u0645\u064A\u062A\u064A \u0645\u0639\u064A... \u0644\u0646 \u0623\u0636\u0644 \u0627\u0644\u0637\u0631\u064A\u0642.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": ""
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_7",
+          "originalValue": "",
+          "variants": [
+            {
+              "language": "en",
+              "_value": ""
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_8",
+          "originalValue": "\u0638\u0646 \u064A\u0632\u0646 \u0623\u0646\u0647 \u064A\u0639\u0631\u0641 \u0637\u0631\u064A\u0642 \u0627\u0644\u0639\u0648\u062F\u0629. \u0644\u0643\u0646 \u0627\u0644\u0648\u0627\u062F\u064A \u0643\u0627\u0646 \u064A\u0628\u062F\u0651\u0644 \u0645\u0644\u0627\u0645\u062D\u0647 \u0645\u0639 \u0643\u0644 \u062E\u0637\u0648\u0629. \u0643\u0644 \u0635\u062E\u0631\u0629 \u062A\u0634\u0628\u0647 \u0627\u0644\u0623\u062E\u0631\u0649\u060C \u0648\u0643\u0644 \u0645\u0645\u0631 \u064A\u0642\u0648\u062F \u0625\u0644\u0649 \u0645\u062B\u0644\u0647\u060C \u062D\u062A\u0649 \u062A\u0644\u0627\u0634\u062A \u0648\u062C\u0647\u062A\u0647 \u0645\u0646 \u0630\u0627\u0643\u0631\u062A\u0647. \u0648\u062D\u064A\u0646 \u0623\u062F\u0631\u0643 \u0623\u0646\u0647 \u062A\u0627\u0626\u0647\u060C \u0644\u0627\u062D \u0644\u0647 \u0641\u064A \u0627\u0644\u0638\u0644\u0627\u0645 \u0636\u0648\u0621 \u062E\u0627\u0641\u062A... \r\n",
+          "variants": [
+            {
+              "language": "en",
+              "_value": ""
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "key",
+          "originalValue": "New Field",
+          "variants": [
+            {
+              "language": "en",
+              "_value": ""
             }
           ],
           "aliases": []

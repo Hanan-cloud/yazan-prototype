@@ -48,6 +48,7 @@ public class InGameStoryPanel : MonoBehaviour
     {
 
         index = 1;
+        SetInGameStory();
         Debug.Log($"<color=red> index: {index} /<color>");
 
     }

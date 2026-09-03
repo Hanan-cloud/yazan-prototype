@@ -16,7 +16,7 @@ public class StorySceneInput : MonoBehaviour
     [SerializeField] GameObject SkipPanel;
     [SerializeField] GameObject controllerObj;
     [SerializeField]  PanelsController controller;
-
+    [SerializeField] SceneController sceneController;
     private void Awake()
     {
         if(instance == null)
@@ -72,7 +72,7 @@ public class StorySceneInput : MonoBehaviour
             load.fillAmount = holdTimer / holdDuration;
             if (holdTimer > holdDuration)
             {
-                // GameManager.instanance.FadeInToLevel1();
+                sceneController.SetScene("game");
             }
         }
         else
@@ -82,7 +82,7 @@ public class StorySceneInput : MonoBehaviour
 
         }
 
-        Debug.Log(isSkip);
+       // Debug.Log(isSkip);
 
     }
 

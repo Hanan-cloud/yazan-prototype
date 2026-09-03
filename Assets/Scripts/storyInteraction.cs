@@ -17,8 +17,7 @@ public class storyInteraction : MonoBehaviour
 
     bool isInRange;
     bool isTextOpen=false;
-    private string textKey="Story_";
-    private int textIndex;
+
 
     private void Start()
     {

@@ -6,10 +6,12 @@ using System;
 public class AnomallyManager : MonoBehaviour
 {
     public static AnomallyManager Instance;
-    [SerializeField] List<IAnomaly> anomalies = new();
+    List<IAnomaly> anomalies = new();
 
     bool isAnomalyRun;
     public bool IsAnomalyRun { get => isAnomalyRun; }
+
+
 
     IAnomaly currentAnomaly;
 
@@ -23,7 +25,8 @@ public class AnomallyManager : MonoBehaviour
     }
     private void Start()
     {
-        
+
+           
         SetAnomalyDic();
         isAnomalyRun=false;
 
@@ -55,7 +58,7 @@ public class AnomallyManager : MonoBehaviour
         if (true) // 11/2 % 0 
         {
             isAnomalyRun = true;
-            print("anomaly");
+            //print("anomaly");
             SetAnomaly();
 
         }
@@ -77,22 +80,26 @@ public class AnomallyManager : MonoBehaviour
         //Debug.Log("##anomaly name: "+currentAnomaly.AnomalyName);
         foundAnomaliesDic[currentAnomaly.AnomalyName] = true;
         ES3.Save(FoundAnomalies, foundAnomaliesDic);
-        Debug.Log("File saved");
+       // Debug.Log("File saved");
         if (checkAllTrue(foundAnomaliesDic) == true)
         {
-            Debug.Log("steam ach"); 
+           // Debug.Log("steam ach"); 
             SteamAchWatcher.instance.AllAnomaliesDiscovered();
         }
 
     }
     public void SetAnomaly()
     {
+        //==========================================================
+
+
 
         currentAnomaly = anomalies[UnityEngine.Random.Range(0, anomalies.Count)];
+
         Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
 
         currentAnomaly.SetAnomaly();
-
+        
 
     }
 

@@ -24,6 +24,7 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions, GameInput.I
 
     public event Action NextEvent;
     public event Action SkipEvent;
+    public event Action DollEvent;
     public event Action PauseEvent;
     public event Action SkipEventCancel;
     public event Action InteractionEvent;
@@ -132,6 +133,11 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions, GameInput.I
     public void OnPause(InputAction.CallbackContext context)
     {
         PauseEvent?.Invoke();
+    }
+
+    public void OnDoll(InputAction.CallbackContext context)
+    {
+        DollEvent?.Invoke();
     }
 
     public enum Controllers { player, story, UI }
