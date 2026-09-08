@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -20,6 +21,8 @@ public class SceneController : MonoBehaviour
 
     public void SetScene(string sceneName)
     {
+        Time.timeScale = 1;
+
         DOTween.KillAll();
 
         blackCanvas.SetActive(true);
@@ -39,6 +42,13 @@ public class SceneController : MonoBehaviour
       
 
 
+    }
+
+
+    public void CloseGame()
+    {
+
+        Application.Quit();
     }
 
 

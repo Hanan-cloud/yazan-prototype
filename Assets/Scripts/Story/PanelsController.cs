@@ -31,6 +31,7 @@ public class PanelsController : MonoBehaviour
     [SerializeField] TextMeshProUGUI text;
     SimpleLocalizedText simpleText;
     bool canNext;
+    [SerializeField] SceneController sceneController;
 
 
     public event Action<bool> OnNextAvailabilityChanged;
@@ -39,9 +40,10 @@ public class PanelsController : MonoBehaviour
 
     [SerializeField] CinemachineCamera cam;
 
-    
 
 
+    Tween bg;
+    Tween txt;
 
     void StartPanel()
     {
@@ -103,7 +105,7 @@ public class PanelsController : MonoBehaviour
 
 
         // move camera to current shot pos
-        target.DOMove(currentCameraPos, 1);
+        target.DOMove(currentCameraPos, panels[Panel_index].shots[Shot_Index].transitionTime);
         currentCameraZoom = panels[Panel_index].shots[Shot_Index].zoom;
 
 
@@ -112,7 +114,7 @@ public class PanelsController : MonoBehaviour
             () => cam.Lens.OrthographicSize,
             x => cam.Lens.OrthographicSize = x,
             currentCameraZoom,
-            zoomTransitionTime
+           panels[Panel_index].shots[Shot_Index].transitionTime
         ).SetEase(Ease.Linear).OnComplete(() => { canNext = true;
             OnNextAvailabilityChanged?.Invoke(canNext);
             SetShotText();
@@ -121,7 +123,8 @@ public class PanelsController : MonoBehaviour
 
     private void SetTextOff()
     {
-
+        bg.Kill();
+        txt.Kill();
         text.DOFade(0, 0);
         textBg.DOFade(0, 0);
 
@@ -134,6 +137,7 @@ public class PanelsController : MonoBehaviour
         //  == Step3: Set Text ==
 
         // if(Panel_index>= Poses.Count ) return;
+        Debug.Log("Panel Index: " + Panel_index + " ## " + "text index: "+textIndex);
 
         if (panels[Panel_index].shots[Shot_Index].textBg != null)
         {
@@ -142,8 +146,8 @@ public class PanelsController : MonoBehaviour
 
 
             textBg.gameObject.transform.position = panels[Panel_index].shots[Shot_Index].textPos.position;
-            text.DOFade(1, 0.5f);
-            textBg.DOFade(1f, 0.5f);
+            bg = text.DOFade(1, 0.5f);
+            txt = textBg.DOFade(1f, 0.5f);
         }
 
 
@@ -166,12 +170,15 @@ public class PanelsController : MonoBehaviour
         StorySceneInput.instance.SetNextPanel(false);
 
 
+
+        SetTextOff();
+
         if (Panel_index >= panels.Count) {
             Debug.LogWarning("RETURN");
 
             return;
         }
-        Debug.LogWarning("after RETURN");
+      
 
 
 
@@ -181,7 +188,7 @@ public class PanelsController : MonoBehaviour
         if (Shot_Index >= panels[Panel_index].shots.Count)
         {
             // if no Shot
-           SetTextOff();
+         
 
             target.DOMove(originalFocusPoint, 1);
 
@@ -200,7 +207,12 @@ public class PanelsController : MonoBehaviour
             Shot_Index = 0;
             Panel_index++;
 
+            if (Panel_index >= panels.Count)
+            {
+                sceneController.SetScene("game");
 
+
+            }
         }
         else
         {

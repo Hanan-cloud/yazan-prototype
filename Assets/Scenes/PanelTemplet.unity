@@ -1244,25 +1244,25 @@ MonoBehaviour:
       text: {fileID: 1166400448}
     - transitionPoint: {fileID: 1757179398}
       zoom: 2.2
-      transitionTime: 2
+      transitionTime: 1
       textPos: {fileID: 740367898}
       textBg: {fileID: 1774224576}
       text: {fileID: 1166400448}
     - transitionPoint: {fileID: 456660447}
       zoom: 2.2
-      transitionTime: 2
+      transitionTime: 1
       textPos: {fileID: 1883555118}
       textBg: {fileID: 1774224576}
       text: {fileID: 1166400448}
     - transitionPoint: {fileID: 1757179398}
       zoom: 2.2
-      transitionTime: 2
+      transitionTime: 1
       textPos: {fileID: 740367898}
       textBg: {fileID: 1774224576}
       text: {fileID: 1166400448}
     - transitionPoint: {fileID: 456660447}
       zoom: 2.2
-      transitionTime: 2
+      transitionTime: 1
       textPos: {fileID: 1883555118}
       textBg: {fileID: 1774224576}
       text: {fileID: 1166400448}
@@ -1270,7 +1270,7 @@ MonoBehaviour:
     shots:
     - transitionPoint: {fileID: 2115146371}
       zoom: 4.13
-      transitionTime: 5
+      transitionTime: 1
       textPos: {fileID: 0}
       textBg: {fileID: 0}
       text: {fileID: 0}
@@ -1278,7 +1278,7 @@ MonoBehaviour:
     shots:
     - transitionPoint: {fileID: 2115146371}
       zoom: 4.13
-      transitionTime: 5
+      transitionTime: 2
       textPos: {fileID: 690865256}
       textBg: {fileID: 690865257}
       text: {fileID: 103473281}
@@ -1286,7 +1286,13 @@ MonoBehaviour:
     shots:
     - transitionPoint: {fileID: 2115146371}
       zoom: 4.13
-      transitionTime: 5
+      transitionTime: 1
+      textPos: {fileID: 690865256}
+      textBg: {fileID: 690865257}
+      text: {fileID: 103473281}
+    - transitionPoint: {fileID: 2115146371}
+      zoom: 4.13
+      transitionTime: 1
       textPos: {fileID: 690865256}
       textBg: {fileID: 690865257}
       text: {fileID: 103473281}
@@ -1294,6 +1300,7 @@ MonoBehaviour:
   target: {fileID: 586227470}
   textBg: {fileID: 1774224576}
   text: {fileID: 1166400448}
+  sceneController: {fileID: 1027255158}
   cam: {fileID: 2145476912}
 --- !u!1 &194641039
 GameObject:

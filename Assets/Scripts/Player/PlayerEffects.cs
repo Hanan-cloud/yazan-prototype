@@ -8,26 +8,22 @@ public class PlayerEffects : MonoBehaviour
     AudioSource audio;
     [SerializeField] List<AudioClip> clipList;
     AudioClip stepSoundClip;
-    ParticleSystem leftLeg;
-    [SerializeField]  ParticleSystem rightLeg;
+    [SerializeField]  ParticleSystem stepEffect;
 
     private void Awake()
     {
         audio = GetComponent<AudioSource>();
     }
 
-    public void WalkLeftLeg()
+
+
+
+    public void Walk()
     {
-        StepSounds();
-        leftLeg.Play();
-
-    }
-
-
-    public void WalkRightLeg()
-    {
-        StepSounds();
-        rightLeg.Play();
+        if (InputManager.Instance.Dir.x == 0) return;
+            
+            StepSounds();
+            stepEffect.Play();
 
 
     }
@@ -35,8 +31,10 @@ public class PlayerEffects : MonoBehaviour
 
     void StepSounds()
     {
+        if(audio.isPlaying) return;
+
         stepSoundClip = clipList[Random.Range(0, clipList.Count)];
-        audio.pitch = Random.Range(1.0f, 1.5f);
+        audio.pitch = Random.Range(0.8f, 1.2f);
 
         audio.PlayOneShot(stepSoundClip);
 

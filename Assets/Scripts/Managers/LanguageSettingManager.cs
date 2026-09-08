@@ -53,7 +53,6 @@ public class LanguageSettingManager : MonoBehaviour
             Debug.Log("lang: " + languages[i]);
 
         }
-
         SetLanguageIndex();
     }
 
@@ -64,6 +63,7 @@ public class LanguageSettingManager : MonoBehaviour
         string currentL = LocalizationRuntime.CurrentLanguageCode;
 
         indexLang = languages.FindIndex(l => l == currentL);
+        languageTxt.SetKey(languageList[indexLang]);
 
 
 
@@ -87,6 +87,8 @@ public class LanguageSettingManager : MonoBehaviour
         SetLanguage();
 
     }
+
+
 
     public void SetLanguage()
     {

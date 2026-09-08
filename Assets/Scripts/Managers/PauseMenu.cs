@@ -5,21 +5,45 @@ using UnityEngine.Events;
 
 public class PauseMenu : MonoBehaviour
 {
+
+    public static PauseMenu instance;
+
     [Header("Pause UI")]
     [SerializeField] private GameObject pausePanel;
+    [SerializeField] private GameObject pauseButtonsPanel;
     [SerializeField] private GameObject dollPanel;
+    [SerializeField] private GameObject SettingsPanel;
 
     private bool isPaused = false;
+    private bool isDolled = false;
 
-    public static event Action<bool> OnPauseChanged;
 
-    [SerializeField] UnityEvent OnPause;
-    private void Start()
+
+    [SerializeField] UnityEvent OnSetContinueButton;
+    [SerializeField] UnityEvent OnSetMasterSlider;
+
+    public bool IsStopped { get => isPaused || isDolled; }
+
+
+    private void Awake()
     {
+        if (instance == null)
+            instance = this;
+        else
+        {
+            Destroy(instance);
+        }
+    }
+
+    private void Start()
+
+
+    {
+        isPaused = false;
+        isDolled = false;
 
         InputManager.Instance.PauseEvent += TogglePause;
         InputManager.Instance.DollEvent += ToggleDoll;
-        isPaused = false;
         Time.timeScale = 1f;
         pausePanel.SetActive(false);
     }
@@ -37,24 +61,86 @@ public class PauseMenu : MonoBehaviour
     {
         Paused();
 
-        OnPause?.Invoke();
-        pausePanel.SetActive(isPaused);
+        
     }
 
    public void ToggleDoll()
     {
-        Paused();
-        dollPanel.SetActive(isPaused);
+        if (isPaused) return;
+
+        if (isDolled == false)
+        {
+
+
+            isDolled = true;
+   
+
+            Time.timeScale = 0f;
+
+        }
+        else
+        {
+            isDolled = false;
+
+
+            Time.timeScale = 1f;
+
+
+
+        }
+        dollPanel.SetActive(isDolled);
+
+
     }
 
 
     private void Paused()
     {
-        isPaused = !isPaused;
-        OnPauseChanged?.Invoke(isPaused);
+        if (isPaused == false)
+        {
 
-        Time.timeScale = isPaused ? 0f : 1f;
+
+            isPaused = true;
+            Time.timeScale = 0f;
+            OpenPauseButton();
+
+        }
+        else 
+        {
+
+            Resume();
+
+
+        }
+       
+
+
     }
+
+
+    public void OpenSetting()
+    {
+
+        SettingsPanel.SetActive(true);
+        pausePanel.SetActive(true);
+        pauseButtonsPanel.SetActive(false);
+        OnSetMasterSlider?.Invoke();
+
+
+    }
+    public void OpenPauseButton()
+    {
+
+        SettingsPanel.SetActive(false);
+        pausePanel.SetActive(true);
+        pauseButtonsPanel.SetActive(true);
+        OnSetContinueButton?.Invoke();
+
+
+
+    }
+
+
 
     public void Resume()
     {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Rendering;
 using DG.Tweening;
 using UnityEngine.UI;
+using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
 
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] AudioClip nailsFall;
     [SerializeField] AudioClip nailsReset;
     AudioSource nailsSfx;
+    [SerializeField] UnityEvent onNailFinish;
 
     Image doll;
 
@@ -39,7 +41,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         doll = dollButton.GetComponent<Image>();
-        nails = 10;
+        nails = 9;
 
 
     }
@@ -48,7 +50,6 @@ public class GameManager : MonoBehaviour
     public void NailFalls()
     {
         nails--;
-        Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAA====================");
         nailImages[nails].SetActive(false);
 
         nailsSfx.pitch = UnityEngine.Random.Range(0.8f, 1.3f);
@@ -59,8 +60,18 @@ public class GameManager : MonoBehaviour
         // play sound 
         // effects images
 
+        if (nails == 0) { 
+        
+        onNailFinish?.Invoke();
+        }
+
      
 
+
+    }
+
+    void CheckWin()
+    {
 
     }
 
@@ -69,8 +80,8 @@ public class GameManager : MonoBehaviour
     public void NailsReset()
     {
 
-        nails = 10;
-        if (nails > 10 || nails < 0) return;
+        nails = 9;
+        if (nails >9 || nails < 0) return;
 
         nailsSfx.pitch = 1f;
         nailsSfx.PlayOneShot(nailsReset);

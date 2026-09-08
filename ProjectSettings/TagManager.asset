@@ -38,8 +38,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: 'bg '
+  - name: Sky + Clouds
+    uniqueID: 3994629383
+    locked: 0
+  - name: Far Mountain
     uniqueID: 3510205217
+    locked: 0
+  - name: mid Mountain
+    uniqueID: 4282157661
     locked: 0
   - name: ground
     uniqueID: 3085990513

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System;
-
+using System.Linq;
 
 public class AnomallyManager : MonoBehaviour
 {
@@ -10,7 +10,11 @@ public class AnomallyManager : MonoBehaviour
 
     bool isAnomalyRun;
     public bool IsAnomalyRun { get => isAnomalyRun; }
+    public IAnomaly CurrentAnomaly { get => currentAnomaly; }
 
+    private List<IAnomaly> allItems;
+    private Queue<IAnomaly> recentlyUsed = new Queue<IAnomaly>();
+    private const int cooldownRounds = 3;
 
 
     IAnomaly currentAnomaly;
@@ -48,6 +52,9 @@ public class AnomallyManager : MonoBehaviour
 
 
 
+
+
+
     public void SetAnomalyProbability()
     {
         if (currentAnomaly != null)
@@ -55,7 +62,7 @@ public class AnomallyManager : MonoBehaviour
             ResetAnomaly();
 
         }
-        if (true) // 11/2 % 0 
+        if (UnityEngine.Random.value > 0.3f) // 11/2 % 0 
         {
             isAnomalyRun = true;
             //print("anomaly");
@@ -74,18 +81,18 @@ public class AnomallyManager : MonoBehaviour
 
     public void SaveFoundAnomaly()
     {
-        if (foundAnomaliesDic[currentAnomaly.AnomalyName] == true) { return; }
+       // if (foundAnomaliesDic[currentAnomaly.AnomalyName] == true) { return; }
 
 
-        //Debug.Log("##anomaly name: "+currentAnomaly.AnomalyName);
-        foundAnomaliesDic[currentAnomaly.AnomalyName] = true;
-        ES3.Save(FoundAnomalies, foundAnomaliesDic);
-       // Debug.Log("File saved");
-        if (checkAllTrue(foundAnomaliesDic) == true)
-        {
-           // Debug.Log("steam ach"); 
-            SteamAchWatcher.instance.AllAnomaliesDiscovered();
-        }
+       // //Debug.Log("##anomaly name: "+currentAnomaly.AnomalyName);
+       // foundAnomaliesDic[currentAnomaly.AnomalyName] = true;
+       // ES3.Save(FoundAnomalies, foundAnomaliesDic);
+       //// Debug.Log("File saved");
+       // if (checkAllTrue(foundAnomaliesDic) == true)
+       // {
+       //    // Debug.Log("steam ach"); 
+       //     SteamAchWatcher.instance.AllAnomaliesDiscovered();
+       // }
 
     }
     public void SetAnomaly()
@@ -94,7 +101,9 @@ public class AnomallyManager : MonoBehaviour
 
 
 
-        currentAnomaly = anomalies[UnityEngine.Random.Range(0, anomalies.Count)];
+
+
+        currentAnomaly = GetRandomItem();
 
         Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
 
@@ -103,9 +112,25 @@ public class AnomallyManager : MonoBehaviour
 
     }
 
+  
 
+    public IAnomaly GetRandomItem()
+    {
+        List<IAnomaly> available = anomalies
+            .Where(item => !recentlyUsed.Contains(item))
+            .ToList();
 
+        if (available.Count == 0)
+            available = anomalies;
 
+        IAnomaly chosen = available[UnityEngine.Random.Range(0, available.Count)];
+
+        recentlyUsed.Enqueue(chosen);
+        if (recentlyUsed.Count > cooldownRounds)
+            recentlyUsed.Dequeue();
+
+        return chosen;
+    }
     public void ResetAnomaly()
     {
         if(currentAnomaly != null)
@@ -116,24 +141,24 @@ public class AnomallyManager : MonoBehaviour
     void SetAnomalyDic()
     {
 
-        if (ES3.KeyExists(FoundAnomalies))
-        {
-            foundAnomaliesDic = ES3.Load<Dictionary<AnomalyList, bool>>(FoundAnomalies);
-        }
-        else
-        {
-            // Optional fallback: loads a blank dictionary or populates default values
-            foundAnomaliesDic = ES3.Load<Dictionary<AnomalyList, bool>>(FoundAnomalies, new Dictionary<AnomalyList, bool>());
+        //if (ES3.KeyExists(FoundAnomalies))
+        //{
+        //    foundAnomaliesDic = ES3.Load<Dictionary<AnomalyList, bool>>(FoundAnomalies);
+        //}
+        //else
+        //{
+        //    // Optional fallback: loads a blank dictionary or populates default values
+        //    foundAnomaliesDic = ES3.Load<Dictionary<AnomalyList, bool>>(FoundAnomalies, new Dictionary<AnomalyList, bool>());
            
-            foreach (AnomalyList type in Enum.GetValues(typeof(AnomalyList)))
-            {
-                // Adds each enum value as a key, and sets the value to false
-                foundAnomaliesDic.Add(type, false);
+        //    foreach (AnomalyList type in Enum.GetValues(typeof(AnomalyList)))
+        //    {
+        //        // Adds each enum value as a key, and sets the value to false
+        //        foundAnomaliesDic.Add(type, false);
 
-            }
-            ES3.Save(FoundAnomalies, foundAnomaliesDic);
+        //    }
+        //    ES3.Save(FoundAnomalies, foundAnomaliesDic);
 
-        }
+        //}
 
 
     }

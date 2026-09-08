@@ -16,7 +16,19 @@ public class SetNewRun : MonoBehaviour
             RunManager.Instance.SetRunDir(runDir);
 
             if (AnomallyManager.Instance.IsAnomalyRun)
+            {
                 RunManager.Instance.SetCorrectDir(CalculateDir());
+
+
+                // here how to call set anomaly position?
+                IAnomaly a = ResetPoint.GetComponent<AnomallyManager>().CurrentAnomaly;
+
+                if (a is ISetPos posSetter)
+                {
+                    posSetter.SetAnomalyPositions();
+                }
+
+            }
             else
             {
                 RunManager.Instance.SetCorrectDir(runDir);

@@ -15,6 +15,7 @@ public class DollAnomaly : AnomalyBase
 
     }
 
+    [ContextMenu("Doll")]
     public override void SetAnomaly()
     {
         animator.enabled = true;

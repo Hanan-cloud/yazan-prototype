@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 3dc0db504d7d52c44afa06355dc0a5fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1105197667477014908
+    second: mid bigger size manual_0
+  - first:
+      213: 3215174055865663500
+    second: mid bigger size manual_1
+  - first:
+      213: -5170189677410356498
+    second: mid bigger size manual_2
+  - first:
+      213: -154327931617397511
+    second: mid bigger size manual_3
+  - first:
+      213: 6676187899797959127
+    second: mid bigger size manual_4
+  - first:
+      213: -8948718150729930282
+    second: mid bigger size manual_5
+  - first:
+      213: 8092084667580008455
+    second: mid bigger size manual_6
+  - first:
+      213: 5941258560543929175
+    second: mid bigger size manual_7
+  - first:
+      213: -3488878466479634968
+    second: mid bigger size manual_8
+  - first:
+      213: -8926004932222208592
+    second: mid bigger size manual_9
+  - first:
+      213: 5764874185080817135
+    second: mid bigger size manual_10
+  - first:
+      213: -4417971773933965762
+    second: mid bigger size manual_11
+  - first:
+      213: 3533048757317688293
+    second: mid bigger size manual_12
+  - first:
+      213: -8784856264317303387
+    second: mid bigger size manual_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mid bigger size manual_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1012
+        width: 1227
+        height: 1092
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79ce884c63765f00800000000000000
+      internalID: 1105197667477014908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_1
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1048
+        width: 1541
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00cce2e4c79e9c20800000000000000
+      internalID: 3215174055865663500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_2
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 607
+        width: 242
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2709891ebcf38b0800000000000000
+      internalID: -5170189677410356498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_3
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 41
+        width: 738
+        height: 1862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f436095097bbddf0800000000000000
+      internalID: -154327931617397511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_4
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 741
+        width: 963
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1f73dd58596ac50800000000000000
+      internalID: 6676187899797959127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_5
+      rect:
+        serializedVersion: 2
+        x: 5221
+        y: 1142
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9e6a61144cfc380800000000000000
+      internalID: -8948718150729930282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_6
+      rect:
+        serializedVersion: 2
+        x: 5319
+        y: 590
+        width: 206
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708cd77a12cdc4070800000000000000
+      internalID: 8092084667580008455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_7
+      rect:
+        serializedVersion: 2
+        x: 5575
+        y: 831
+        width: 1389
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75338f3ce27937250800000000000000
+      internalID: 5941258560543929175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_8
+      rect:
+        serializedVersion: 2
+        x: 7045
+        y: 696
+        width: 664
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5c8f40583059fc0800000000000000
+      internalID: -3488878466479634968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_9
+      rect:
+        serializedVersion: 2
+        x: 7760
+        y: 431
+        width: 445
+        height: 1274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5b28f5ec5702480800000000000000
+      internalID: -8926004932222208592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_10
+      rect:
+        serializedVersion: 2
+        x: 8300
+        y: 946
+        width: 930
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5cf881782f00050800000000000000
+      internalID: 5764874185080817135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_11
+      rect:
+        serializedVersion: 2
+        x: 9887
+        y: 651
+        width: 105
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ea6fa341630b2c0800000000000000
+      internalID: -4417971773933965762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_12
+      rect:
+        serializedVersion: 2
+        x: 10082
+        y: 610
+        width: 169
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb5e0a3029e70130800000000000000
+      internalID: 3533048757317688293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mid bigger size manual_13
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 235
+        width: 677
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5808295cbe51680800000000000000
+      internalID: -8784856264317303387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mid bigger size manual_0: 1105197667477014908
+      mid bigger size manual_1: 3215174055865663500
+      mid bigger size manual_10: 5764874185080817135
+      mid bigger size manual_11: -4417971773933965762
+      mid bigger size manual_12: 3533048757317688293
+      mid bigger size manual_13: -8784856264317303387
+      mid bigger size manual_2: -5170189677410356498
+      mid bigger size manual_3: -154327931617397511
+      mid bigger size manual_4: 6676187899797959127
+      mid bigger size manual_5: -8948718150729930282
+      mid bigger size manual_6: 8092084667580008455
+      mid bigger size manual_7: 5941258560543929175
+      mid bigger size manual_8: -3488878466479634968
+      mid bigger size manual_9: -8926004932222208592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

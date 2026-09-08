@@ -10,7 +10,6 @@ public class storyInteraction : MonoBehaviour
     [SerializeField] GameObject interactionButton;
     [SerializeField] GameObject storyCanvas;
 
-    [SerializeField] TextMeshProUGUI text;
 
     Transform playerPos;
     Vector3 lastPos;
@@ -22,7 +21,6 @@ public class storyInteraction : MonoBehaviour
     private void Start()
     {
         isInRange = false;
-
         InputManager.Instance.InteractionEvent += ShowStory;
     }
 
@@ -34,6 +32,8 @@ public class storyInteraction : MonoBehaviour
 
     void ShowStory()
     {
+        if(PauseMenu.instance.IsStopped) return;
+
         if (isInRange) {
 
             if (isTextOpen==false)
@@ -117,4 +117,6 @@ public class storyInteraction : MonoBehaviour
 
         }
     }
+
+
 }

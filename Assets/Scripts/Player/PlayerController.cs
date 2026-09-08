@@ -34,7 +34,6 @@ public class PlayerController : MonoBehaviour
     private static readonly int IsRuningHash = Animator.StringToHash("IsRuning");
     private static readonly int IsWalkingHash = Animator.StringToHash("IsWalking");
 
-    private bool isPaused = false;
 
 
     bool isEffectivelyMoving;
@@ -58,7 +57,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        PauseMenu.OnPauseChanged += OnPause;
 
         if (breathing != null)
         {
@@ -68,19 +66,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
-    {
-        PauseMenu.OnPauseChanged -= OnPause;
-    }
 
-    void OnPause(bool b)
-    {
-        isPaused = b;
-    }
+
 
     void Update()
     {
-        if (isPaused) return;
+        if (PauseMenu.instance.IsStopped) return;
 
         moveInput = InputManager.Instance.Dir.x;
         isRuning = InputManager.Instance.IsRunning;
@@ -158,7 +149,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         //Debug.Log(isPaused);
-        if (isPaused) return;
+        if (PauseMenu.instance.IsStopped) return;
 
         rb.linearVelocity = new Vector2(currentSpeed, rb.linearVelocity.y);
 

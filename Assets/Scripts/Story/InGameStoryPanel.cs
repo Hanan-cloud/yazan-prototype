@@ -17,10 +17,8 @@ public class InGameStoryPanel : MonoBehaviour
         index = 1;
         ResetPoint.OnNailsFalls += SetInGameStory;
         ResetPoint.OnNailsReset += ResetIndex;
-        Debug.Log("upper Start index: " + index);
 
         SetInGameStory();
-        Debug.Log("lower Start index: " + index);
         
 
     }
@@ -30,15 +28,12 @@ public class InGameStoryPanel : MonoBehaviour
 
         if (index > 9) return;
 
-        Debug.Log(textKey + index);
-
-        Debug.Log($"<color=grey>current index: {index} /<color>" );
+    
 
         simpleText.SetKey(((textKey + index).ToString()));;
         
         index++;
 
-        Debug.Log("lower index: " + index);
 
     }
 
@@ -49,7 +44,6 @@ public class InGameStoryPanel : MonoBehaviour
 
         index = 1;
         SetInGameStory();
-        Debug.Log($"<color=red> index: {index} /<color>");
 
     }
 

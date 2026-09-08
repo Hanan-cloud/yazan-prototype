@@ -21,7 +21,6 @@ public class oppositePlayer : MonoBehaviour
     string isWalkingSt = "IsWalking";
 
 
-    bool isPaused = false;
 
     [SerializeField] Animator animator;
     [SerializeField] SpriteRenderer sprite;
@@ -56,10 +55,7 @@ public class oppositePlayer : MonoBehaviour
 
     }
 
-    private void Start()
-    {
-        PauseMenu.OnPauseChanged += OnPause;
-    }
+  
     IEnumerator Delay()
     {
 
@@ -86,15 +82,10 @@ public class oppositePlayer : MonoBehaviour
 
 
 
-    void OnPause(bool b)
-    {
-
-        isPaused = b;
-    }
 
     void Update()
     {
-        if (isPaused == true) return;
+        if (PauseMenu.instance.IsStopped) return;
 
         moveInput = InputManager.Instance.Dir.x;
         isRuning = InputManager.Instance.IsRunning;
@@ -148,7 +139,7 @@ public class oppositePlayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isPaused == true) return;
+        if (PauseMenu.instance.IsStopped) return;
 
         rb.linearVelocity = new Vector2(-currentSpeed, rb.linearVelocity.y);
 

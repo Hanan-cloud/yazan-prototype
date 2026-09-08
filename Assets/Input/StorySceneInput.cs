@@ -93,6 +93,7 @@ public class StorySceneInput : MonoBehaviour
     {
 
         NextPanel.SetActive(b);
+        SkipPanel.SetActive(b);
 
     }
 

@@ -10,7 +10,7 @@
           "variants": [
             {
               "language": "en",
-              "_value": "The family gathers around the fire as the sun goes down. Yazan sits among them, the cloth doll beside him on the ground. His father turns to him and asks for a story. He looks down. He has nothing.\r\n"
+              "_value": "His father turns to him and asks for a story"
             }
           ],
           "aliases": []
@@ -21,7 +21,7 @@
           "variants": [
             {
               "language": "en",
-              "_value": "this is the Second text "
+              "_value": "............"
             }
           ],
           "aliases": []
@@ -43,7 +43,7 @@
           "variants": [
             {
               "language": "en",
-              "_value": "this is the 4th text "
+              "_value": "yes!"
             }
           ],
           "aliases": []
@@ -54,7 +54,7 @@
           "variants": [
             {
               "language": "en",
-              "_value": ""
+              "_value": "Yazan. Don\u0027t go that far. There are old stories about this place. Stay close."
             }
           ],
           "aliases": []
@@ -65,18 +65,7 @@
           "variants": [
             {
               "language": "en",
-              "_value": ""
-            }
-          ],
-          "aliases": []
-        },
-        {
-          "key": "Panel_7",
-          "originalValue": "",
-          "variants": [
-            {
-              "language": "en",
-              "_value": ""
+              "_value": "The doll is with me. I won\u0027t get lost."
             }
           ],
           "aliases": []
@@ -87,18 +76,40 @@
           "variants": [
             {
               "language": "en",
-              "_value": ""
+              "_value": "The valley takes him in and does not let go. Same rocks. Same walls. The same narrow path repeating itself like the valley cannot remember where it is going. Then ahead, small soft orbs of light drift in the darkness. \r\n"
             }
           ],
           "aliases": []
         },
         {
-          "key": "key",
-          "originalValue": "New Field",
+          "key": "Panel_9",
+          "originalValue": "\u0647\u0630\u0627 \u0647\u0648 \u0627\u0644\u062E\u0641\u0627\u0621... \u0639\u0627\u0644\u0645\u064C \u064A\u062C\u0627\u0648\u0631 \u0639\u0627\u0644\u0645\u0643\u0645. \u0623\u0642\u062F\u0645 \u0645\u0646 \u0643\u0644 \u0645\u0627 \u0639\u0631\u0641\u062A\u0647\u060C \u0648\u0645\u062D\u062C\u0648\u0628 \u0639\u0646 \u0623\u0639\u064A\u0646 \u0627\u0644\u0628\u0634\u0631. \u0643\u0627\u0646 \u064A\u0648\u0645\u064B\u0627 \u0646\u0627\u0628\u0636\u064B\u0627 \u0628\u0627\u0644\u062D\u064A\u0627\u0629... \u0623\u0645\u0627 \u0627\u0644\u0622\u0646 \u0641\u0642\u062F \u0627\u0639\u062A\u0631\u0627\u0647 \u0627\u0644\u0645\u0631\u0636. \u0646\u0633\u064A \u0647\u064A\u0626\u062A\u0647\u060C \u0641\u0623\u0635\u0628\u062D \u064A\u0639\u064A\u062F \u0646\u0641\u0633\u0647 \u0645\u0631\u0627\u0631\u064B\u0627\u060C \u0628\u0627\u062D\u062B\u064B\u0627 \u0639\u0645\u0651\u0627 \u0627\u0646\u062A\u064F\u0632\u0639 \u0645\u0646\u0647.",
           "variants": [
             {
               "language": "en",
-              "_value": ""
+              "_value": "\u0022This is Al-Khafa. A world that exists beside your own. Older than anything you have seen, hidden from every human eye. It was alive once. It is sick now. It has forgotten its own shape, and so it repeats itself, searching for what was taken from it."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_10",
+          "originalValue": "\u0641\u064A \u0643\u0644 \u062F\u0648\u0631\u0629\u060C \u064A\u0648\u062C\u062F \u0634\u064A\u0621 \u0644\u0627 \u064A\u0646\u062A\u0645\u064A \u0625\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0645\u0643\u0627\u0646. \u0639\u0644\u064A\u0643 \u0623\u0646 \u062A\u0639\u062B\u0631 \u0639\u0644\u064A\u0647. \u0633\u0631\u0652 \u064A\u0633\u0627\u0631\u064B\u0627 \u0623\u0648 \u064A\u0645\u064A\u0646\u064B\u0627\u060C \u0644\u0627 \u0641\u0631\u0642. \u0625\u0646 \u0631\u0623\u064A\u062A \u0634\u064A\u0626\u064B\u0627 \u0644\u064A\u0633 \u0641\u064A \u0645\u0648\u0636\u0639\u0647\u060C \u0641\u0627\u0631\u062C\u0639 \u0639\u062F \u0645\u0646 \u062D\u064A\u062B \u0623\u062A\u064A\u062A. \u0648\u0625\u0646 \u0644\u0645 \u062A\u0631\u064E \u0634\u064A\u0626\u064B\u0627\u060C \u0641\u0648\u0627\u0635\u0644 \u0627\u0644\u0633\u064A\u0631 \u0628\u0646\u0641\u0633 \u0627\u0644\u0625\u062A\u062C\u0627\u0647.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "In every loop something does not belong. You must find it. Walk left or right, it does not matter which. If you see something wrong, return. If not, keep going."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_7",
+          "originalValue": "\u062A\u062C\u0627\u0648\u0632",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "to skip"
             }
           ],
           "aliases": []

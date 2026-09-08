@@ -9,6 +9,7 @@ public class ResetPoint : MonoBehaviour
     public static Action OnNailsFalls;
     public static Action OnNailsReset;
 
+
     bool playerInTrigger = true;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -29,6 +30,8 @@ public class ResetPoint : MonoBehaviour
                     AnomallyManager.Instance.SaveFoundAnomaly();
                     GameManager.Instance.NailFalls();
                     OnNailsFalls?.Invoke();
+
+           
                     // n-1 
                     //progress
 
