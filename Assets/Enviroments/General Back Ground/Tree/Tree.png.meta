@@ -1,43 +1,55 @@
 fileFormatVersion: 2
-guid: 34d8a2b29976f224b9ec8773130aedb3
+guid: c429f9ed7e975ed4ba905348b217c083
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6850026311332759708
-    second: Mid Atlas_0
+      213: 6853316077166303748
+    second: Tree_0
   - first:
-      213: 6558082751349696336
-    second: Mid Atlas_1
+      213: 4134985361545656292
+    second: Tree_1
   - first:
-      213: -408140793438053702
-    second: Mid Atlas_2
+      213: -1566730818833404899
+    second: Tree_2
   - first:
-      213: -1968222925767465328
-    second: Mid Atlas_3
+      213: -7301469273254094464
+    second: Tree_3
   - first:
-      213: -9091751824041288368
-    second: Mid Atlas_4
+      213: 4246777929600769233
+    second: Tree_4
   - first:
-      213: 3040385399207116938
-    second: Mid Atlas_5
+      213: -1089773682390131457
+    second: Tree_5
   - first:
-      213: -9063986131481925040
-    second: Mid Atlas_6
+      213: 3690649294209121615
+    second: Tree_6
   - first:
-      213: -2079148459802305141
-    second: Mid Atlas_7
+      213: -4890764911649256556
+    second: Tree_7
   - first:
-      213: -2985206736028340008
-    second: Mid Atlas_8
+      213: -8127015393120116528
+    second: Tree_8
   - first:
-      213: 2536277644468716792
-    second: Mid Atlas_9
+      213: 122658613021007611
+    second: Tree_9
   - first:
-      213: 1937243056436059071
-    second: Mid Atlas_10
+      213: 4341258077969132138
+    second: Tree_10
   - first:
-      213: -1458422721583431231
-    second: Mid Atlas_11
+      213: 6303027525152896281
+    second: Tree_11
+  - first:
+      213: 8041207151843567810
+    second: Tree_12
+  - first:
+      213: -1921113608159746711
+    second: Tree_13
+  - first:
+      213: -5295274489873633319
+    second: Tree_14
+  - first:
+      213: -7777939480886888245
+    second: Tree_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -159,265 +171,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mid Atlas_0
+      name: Tree_0
       rect:
         serializedVersion: 2
-        x: 189
-        y: 198
-        width: 1717
-        height: 1542
+        x: 78
+        y: 1582
+        width: 1448
+        height: 606
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c98811d13ae201f50800000000000000
-      internalID: 6850026311332759708
+      spriteID: 40a98f869aedb1f50800000000000000
+      internalID: 6853316077166303748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mid Atlas_1
+      name: Tree_2
       rect:
         serializedVersion: 2
-        x: 2130
-        y: 21
-        width: 373
-        height: 1745
+        x: 1679
+        y: 1673
+        width: 1377
+        height: 491
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 057a0d1248df20b50800000000000000
-      internalID: 6558082751349696336
+      spriteID: d1c27c40f9ad14ae0800000000000000
+      internalID: -1566730818833404899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mid Atlas_2
+      name: Tree_9
       rect:
         serializedVersion: 2
-        x: 2806
-        y: 1443
-        width: 986
-        height: 351
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aba57cc5c1ef55af0800000000000000
-      internalID: -408140793438053702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mid Atlas_3
-      rect:
-        serializedVersion: 2
-        x: 4227
-        y: 20
-        width: 901
-        height: 1520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 096a9d65da77fa4e0800000000000000
-      internalID: -1968222925767465328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mid Atlas_4
-      rect:
-        serializedVersion: 2
-        x: 5102
+        x: 1570
         y: 1332
-        width: 450
-        height: 306
+        width: 1524
+        height: 313
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05d520ed2eb93d180800000000000000
-      internalID: -9091751824041288368
+      spriteID: bfe52c1db55c3b100800000000000000
+      internalID: 122658613021007611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mid Atlas_5
+      name: Tree_11
       rect:
         serializedVersion: 2
-        x: 5181
-        y: 1291
-        width: 375
-        height: 211
+        x: 88
+        y: 841
+        width: 1424
+        height: 682
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a804604796e913a20800000000000000
-      internalID: 3040385399207116938
+      spriteID: 9157f36a32ad87750800000000000000
+      internalID: 6303027525152896281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mid Atlas_6
+      name: Tree_12
       rect:
         serializedVersion: 2
-        x: 2728
-        y: 1074
-        width: 576
-        height: 274
+        x: 2008
+        y: 912
+        width: 816
+        height: 289
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05ae3ffe2a0463280800000000000000
-      internalID: -9063986131481925040
+      spriteID: 2c867faec4b189f60800000000000000
+      internalID: 8041207151843567810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mid Atlas_7
+      name: Tree_13
       rect:
         serializedVersion: 2
-        x: 3353
-        y: 1078
-        width: 252
-        height: 148
+        x: 467
+        y: 101
+        width: 786
+        height: 671
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8dde2add716523e0800000000000000
-      internalID: -2079148459802305141
+      spriteID: 96528741a55d655e0800000000000000
+      internalID: -1921113608159746711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mid Atlas_8
+      name: Tree_14
       rect:
         serializedVersion: 2
-        x: 3900
-        y: 1036
-        width: 382
-        height: 314
+        x: 1964
+        y: 70
+        width: 724
+        height: 795
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d07de53a4a6296d0800000000000000
-      internalID: -2985206736028340008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mid Atlas_9
-      rect:
-        serializedVersion: 2
-        x: 5539
-        y: 1125
-        width: 28
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f48252741ba23320800000000000000
-      internalID: 2536277644468716792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mid Atlas_10
-      rect:
-        serializedVersion: 2
-        x: 2616
-        y: 8
-        width: 1362
-        height: 794
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbb967ebb4872ea10800000000000000
-      internalID: 1937243056436059071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mid Atlas_11
-      rect:
-        serializedVersion: 2
-        x: 4028
-        y: 9
-        width: 124
-        height: 928
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c149a30344a2cbe0800000000000000
-      internalID: -1458422721583431231
+      spriteID: 9dfe4e238e76386b0800000000000000
+      internalID: -5295274489873633319
       vertices: []
       indices: 
       edges: []
@@ -426,7 +328,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6746668b2d1b3f24e86c27135c8f194a
     internalID: 0
     vertices: []
     indices: 
@@ -436,18 +338,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mid Atlas_0: 6850026311332759708
-      Mid Atlas_1: 6558082751349696336
-      Mid Atlas_10: 1937243056436059071
-      Mid Atlas_11: -1458422721583431231
-      Mid Atlas_2: -408140793438053702
-      Mid Atlas_3: -1968222925767465328
-      Mid Atlas_4: -9091751824041288368
-      Mid Atlas_5: 3040385399207116938
-      Mid Atlas_6: -9063986131481925040
-      Mid Atlas_7: -2079148459802305141
-      Mid Atlas_8: -2985206736028340008
-      Mid Atlas_9: 2536277644468716792
+      Tree_0: 6853316077166303748
+      Tree_1: 4134985361545656292
+      Tree_10: 4341258077969132138
+      Tree_11: 6303027525152896281
+      Tree_12: 8041207151843567810
+      Tree_13: -1921113608159746711
+      Tree_14: -5295274489873633319
+      Tree_15: -7777939480886888245
+      Tree_2: -1566730818833404899
+      Tree_3: -7301469273254094464
+      Tree_4: 4246777929600769233
+      Tree_5: -1089773682390131457
+      Tree_6: 3690649294209121615
+      Tree_7: -4890764911649256556
+      Tree_8: -8127015393120116528
+      Tree_9: 122658613021007611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

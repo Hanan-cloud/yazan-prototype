@@ -1,49 +1,49 @@
 fileFormatVersion: 2
-guid: 33787a06b4fee734c8daba4de85af6b5
+guid: 850250159cc96f6468501c4a147e91d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7577407013729961818
-    second: mid atlas x2_0
+      213: 3907652670431983147
+    second: Group47_0
   - first:
-      213: -3161572812004876882
-    second: mid atlas x2_1
+      213: 6547787076119773768
+    second: Group47_1
   - first:
-      213: -618789642626747933
-    second: mid atlas x2_2
+      213: 1094420351185635418
+    second: Group47_2
   - first:
-      213: -6166886694824853112
-    second: mid atlas x2_3
+      213: -2055087201689362798
+    second: Group47_3
   - first:
-      213: 2365255529032234696
-    second: mid atlas x2_4
+      213: -4606996372986554459
+    second: Group47_4
   - first:
-      213: -2900022358986196395
-    second: mid atlas x2_5
+      213: -4825249788496142653
+    second: Group47_5
   - first:
-      213: 5355300098916554468
-    second: mid atlas x2_6
+      213: 8752438924849548132
+    second: Group47_6
   - first:
-      213: -8799425342701810876
-    second: mid atlas x2_7
+      213: 5556536311988326822
+    second: Group47_7
   - first:
-      213: -338497500714848241
-    second: mid atlas x2_8
+      213: -1888267991194109124
+    second: Group47_8
   - first:
-      213: 7662674122287769940
-    second: mid atlas x2_9
+      213: -6364404008205905071
+    second: Group47_9
   - first:
-      213: -7546309876282278251
-    second: mid atlas x2_10
+      213: 6023089178351114503
+    second: Group47_10
   - first:
-      213: 3273505857014000124
-    second: mid atlas x2_11
+      213: 1823556509104447890
+    second: Group47_11
   - first:
-      213: -3072582262915821630
-    second: mid atlas x2_12
+      213: -8580738369124672914
+    second: Group47_12
   - first:
-      213: -5458683944608480959
-    second: mid atlas x2_13
+      213: 784057097327113483
+    second: Group47_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,10 +111,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mid atlas x2_0
+      name: Group47_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 1227
-        width: 1521
-        height: 1353
+        x: 42
+        y: 711
+        width: 762
+        height: 678
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a87214c774a7d690800000000000000
-      internalID: -7577407013729961818
+      spriteID: b2674be6665ca3630800000000000000
+      internalID: 3907652670431983147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_1
+      name: Group47_1
       rect:
         serializedVersion: 2
-        x: 1654
-        y: 1271
-        width: 1911
-        height: 1108
+        x: 858
+        y: 733
+        width: 957
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ead9ae83746df14d0800000000000000
-      internalID: -3161572812004876882
+      spriteID: 842430177a96eda50800000000000000
+      internalID: 6547787076119773768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_2
+      name: Group47_2
       rect:
         serializedVersion: 2
-        x: 3673
-        y: 725
-        width: 299
-        height: 1336
+        x: 1867
+        y: 460
+        width: 151
+        height: 669
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e1ba88391e9967f0800000000000000
-      internalID: -618789642626747933
+      spriteID: a58c06bc289203f00800000000000000
+      internalID: 1094420351185635418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_3
+      name: Group47_3
       rect:
         serializedVersion: 2
-        x: 4097
-        y: 23
-        width: 914
-        height: 2308
+        x: 2079
+        y: 109
+        width: 459
+        height: 1155
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 881c1e08931da6aa0800000000000000
-      internalID: -6166886694824853112
+      spriteID: 29e9ad0141dda73e0800000000000000
+      internalID: -2055087201689362798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_4
+      name: Group47_4
       rect:
         serializedVersion: 2
-        x: 5335
+        x: 2546
         y: 890
-        width: 1193
-        height: 1078
+        width: 863
+        height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c6befa3f5313d020800000000000000
-      internalID: 2365255529032234696
+      spriteID: 5a79f9a2539a010c0800000000000000
+      internalID: -4606996372986554459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_5
+      name: Group47_5
       rect:
         serializedVersion: 2
-        x: 6512
-        y: 1388
-        width: 24
-        height: 31
+        x: 3460
+        y: 806
+        width: 408
+        height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55affeb870d01c7d0800000000000000
-      internalID: -2900022358986196395
+      spriteID: 3ce9824f1e4490db0800000000000000
+      internalID: -4825249788496142653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_6
+      name: Group47_6
       rect:
         serializedVersion: 2
-        x: 6633
-        y: 704
-        width: 254
-        height: 1181
+        x: 100
+        y: 153
+        width: 598
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,20 +312,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e6198df019d15a40800000000000000
-      internalID: 5355300098916554468
+      spriteID: 46b85f964d8e67970800000000000000
+      internalID: 8752438924849548132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_7
+      name: Group47_7
       rect:
         serializedVersion: 2
-        x: 6989
-        y: 1003
-        width: 1721
-        height: 624
+        x: 688
+        y: 402
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44b40bca54922e580800000000000000
-      internalID: -8799425342701810876
+      spriteID: 6a19f910658cc1d40800000000000000
+      internalID: 5556536311988326822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_8
+      name: Group47_8
       rect:
         serializedVersion: 2
-        x: 8811
-        y: 835
-        width: 822
-        height: 905
+        x: 749
+        y: 60
+        width: 128
+        height: 592
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,20 +356,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f00b888015a6d4bf0800000000000000
-      internalID: -338497500714848241
+      spriteID: c3b722834468bc5e0800000000000000
+      internalID: -1888267991194109124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_9
+      name: Group47_9
       rect:
         serializedVersion: 2
-        x: 9735
-        y: 506
-        width: 552
-        height: 1579
+        x: 1082
+        y: 229
+        width: 421
+        height: 503
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,20 +378,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4596a800489475a60800000000000000
-      internalID: 7662674122287769940
+      spriteID: 15390db46481da7a0800000000000000
+      internalID: -6364404008205905071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_10
+      name: Group47_10
       rect:
         serializedVersion: 2
-        x: 10410
-        y: 669
-        width: 1857
-        height: 1250
+        x: 1549
+        y: 69
+        width: 65
+        height: 517
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,20 +400,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59e3c2b462f164790800000000000000
-      internalID: -7546309876282278251
+      spriteID: 7091e1e22bf469350800000000000000
+      internalID: 6023089178351114503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_11
+      name: Group47_11
       rect:
         serializedVersion: 2
-        x: 12373
-        y: 779
-        width: 129
-        height: 1032
+        x: 1669
+        y: 43
+        width: 106
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,20 +422,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf9ea71bb34dd6d20800000000000000
-      internalID: 3273505857014000124
+      spriteID: 291a501cbf29e4910800000000000000
+      internalID: 1823556509104447890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_12
+      name: Group47_12
       rect:
         serializedVersion: 2
-        x: 12614
-        y: 728
-        width: 208
-        height: 1107
+        x: 2549
+        y: 15
+        width: 277
+        height: 791
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,20 +444,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cf8cbb06befb55d0800000000000000
-      internalID: -3072582262915821630
+      spriteID: e6a52cd7ae71be880800000000000000
+      internalID: -8580738369124672914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mid atlas x2_13
+      name: Group47_13
       rect:
         serializedVersion: 2
-        x: 2102
-        y: 263
-        width: 839
-        height: 1003
+        x: 2886
+        y: 97
+        width: 930
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,8 +466,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 141cb7cafdbde34b0800000000000000
-      internalID: -5458683944608480959
+      spriteID: b057ec1a6c781ea00800000000000000
+      internalID: 784057097327113483
       vertices: []
       indices: 
       edges: []
@@ -486,20 +486,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mid atlas x2_0: -7577407013729961818
-      mid atlas x2_1: -3161572812004876882
-      mid atlas x2_10: -7546309876282278251
-      mid atlas x2_11: 3273505857014000124
-      mid atlas x2_12: -3072582262915821630
-      mid atlas x2_13: -5458683944608480959
-      mid atlas x2_2: -618789642626747933
-      mid atlas x2_3: -6166886694824853112
-      mid atlas x2_4: 2365255529032234696
-      mid atlas x2_5: -2900022358986196395
-      mid atlas x2_6: 5355300098916554468
-      mid atlas x2_7: -8799425342701810876
-      mid atlas x2_8: -338497500714848241
-      mid atlas x2_9: 7662674122287769940
+      Group47_0: 3907652670431983147
+      Group47_1: 6547787076119773768
+      Group47_10: 6023089178351114503
+      Group47_11: 1823556509104447890
+      Group47_12: -8580738369124672914
+      Group47_13: 784057097327113483
+      Group47_2: 1094420351185635418
+      Group47_3: -2055087201689362798
+      Group47_4: -4606996372986554459
+      Group47_5: -4825249788496142653
+      Group47_6: 8752438924849548132
+      Group47_7: 5556536311988326822
+      Group47_8: -1888267991194109124
+      Group47_9: -6364404008205905071
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

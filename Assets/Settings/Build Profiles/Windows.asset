@@ -72,7 +72,7 @@ MonoBehaviour:
     - line: '|   defaultScreenHeightWeb: 600'
     - line: '|   m_StereoRenderingPath: 0'
     - line: '|   m_ActiveColorSpace: 1'
-    - line: '|   unsupportedMSAAFallback: 0'
+    - line: '|   unsupportedMSAAFallback: 1'
     - line: '|   m_SpriteBatchMaxVertexCount: 65535'
     - line: '|   m_SpriteBatchVertexThreshold: 300'
     - line: '|   m_MTRendering: 1'
