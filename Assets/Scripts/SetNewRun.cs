@@ -23,9 +23,9 @@ public class SetNewRun : MonoBehaviour
                 // here how to call set anomaly position?
                 IAnomaly a = ResetPoint.GetComponent<AnomallyManager>().CurrentAnomaly;
 
-                if (a is ISetPos posSetter)
+                if (a is ILateSet posSetter)
                 {
-                    posSetter.SetAnomalyPositions();
+                    posSetter.LateSetAnomaly();
                 }
 
             }

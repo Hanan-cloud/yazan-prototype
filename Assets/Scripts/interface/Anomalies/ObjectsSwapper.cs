@@ -3,14 +3,30 @@ using UnityEngine;
 
 public class ObjectsSwapper : AnomalyBase
 {
-    [System.Serializable]
-    public class SwapPair
-    {
-        public GameObject original;
-        public GameObject replacement;
-    }
+    
 
     [SerializeField] private List<SwapPair> swaps = new List<SwapPair>();
+
+    [SerializeField] bool isCarved;
+
+
+    private void Start()
+    {
+        GetTrees();    
+    }
+
+    void GetTrees()
+    {
+        MonoBehaviour[] allScripts = Object.FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None);
+
+        foreach (MonoBehaviour script in allScripts)
+        {
+            if (script is ITree tree)
+            {
+                swaps.Add(tree.Swapper(isCarved));
+            }
+        }
+    }
 
     public void Swap()
     {

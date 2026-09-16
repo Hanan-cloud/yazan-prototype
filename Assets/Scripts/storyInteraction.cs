@@ -1,7 +1,6 @@
 using System;
 using TMPro;
 using UnityEngine;
-using AHAKuo.Signalia.LocalizationStandalone.Internal;
 
 public class storyInteraction : MonoBehaviour
 {
@@ -22,6 +21,7 @@ public class storyInteraction : MonoBehaviour
     {
         isInRange = false;
         InputManager.Instance.InteractionEvent += ShowStory;
+        interactionButton.SetActive(false);
     }
 
     private void OnDisable()
@@ -43,7 +43,6 @@ public class storyInteraction : MonoBehaviour
                 interactionButton.SetActive(false);
                 lastPos = playerPos.position;
 
-                //text.SetLocalizedText((textKey + textIndex).ToString());
             }
             else
             {

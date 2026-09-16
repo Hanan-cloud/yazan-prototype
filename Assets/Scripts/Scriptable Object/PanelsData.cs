@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 
 [Serializable]
@@ -17,14 +18,17 @@ public class PanelsData
     public List<ShotInfo> shots;
 
 
+    [Header("Other between Panels ?")]
+    public UnityEvent otherAction;
 
- 
 }
 
 [Serializable]
 public class ShotInfo
 {
-    [Header("camera")]
+    [Header("==========")]
+
+    [Header("Camera")]
 
     public Transform transitionPoint;
 
@@ -38,5 +42,8 @@ public class ShotInfo
     public Image textBg;
     public TextMeshProUGUI text;
 
+    [Space(5)]
+    [Header("Other between Lines?")]
+    public UnityEvent otherAction;
 
 }

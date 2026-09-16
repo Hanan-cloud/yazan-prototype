@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 [RequireComponent(typeof(AnomalyNameSetter))]
 
-public class OppositeShadowAnomaly : AnomalyBase, ISetPos
+public class OppositeShadowAnomaly : AnomalyBase, ILateSet
 {
 
     [SerializeField] GameObject yazanClone;
@@ -33,7 +33,7 @@ public class OppositeShadowAnomaly : AnomalyBase, ISetPos
         yazanClone.SetActive(true);
     }
 
-    public void SetAnomalyPositions()
+    public void LateSetAnomaly()
     {
         yazanClone.SetActive(false);
         yazanClone.SetActive(true);

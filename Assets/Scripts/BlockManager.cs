@@ -2,84 +2,84 @@ using UnityEngine;
 using System.Collections.Generic;
 public class BlockManager : MonoBehaviour
 {
-    // [SerializeField] List<GameObject> Blocks = new List<GameObject>();
-    [SerializeField] GameObject road;
-    [SerializeField] GameObject saveArea;
-
-    int runCounter;
-
-    //[SerializeField] float offset=94.7f;
-    //[SerializeField] float saveAreaOffset=94.7f;
-
-
-    private void Start()
-    {
-
-        
-        //PositionBlock();
-    }
-
-    //[ContextMenu("setPos")]
-    //public void PositionBlock()
-    //{
-    //   //road.transform.position = new Vector3(saveArea.transform.position.x + offset, 0, transform.position.z);
-
-    //    currentPathDir();
-    //}
-
-
-
-
-    public void SetSaveAreaPos(Transform pos)
-    {
-
-
-        saveArea.transform.position = pos.position;
-        currentPathDir();
-
-    } 
     
-    //public void SetSaveAreaPosLeft()
-    //{
 
-
-    //    saveArea.transform.position = new Vector3(road.transform.position.x - saveAreaOffset, 0, transform.position.z);
-
-
-    //}
-
-    public void SetBlockPos(Transform pos)
+    [System.Serializable]
+    public class Block
     {
+        public Transform parent;
+        public List<SpriteRenderer> sprites;
 
-        road.transform.position = pos.position;
-
+        [HideInInspector] public float minX;
+        [HideInInspector] public float maxX;
     }
 
-  public void currentPathDir()
+    [SerializeField] private Block blockA;
+    [SerializeField] private Block blockB;
+
+    private void Awake()
     {
-
-        float i = saveArea.transform.position.x - road.transform.position.x;
-
-       // print("iiiiiiiiiiiiiiii : "+i);
-
-
+        CalculateBounds(blockA);
+        CalculateBounds(blockB);
     }
 
+    private void CalculateBounds(Block block)
+    {
+        if (block.sprites == null || block.sprites.Count == 0)
+        {
+            Debug.LogError($"No sprites assigned to {block.parent.name}");
+            return;
+        }
 
-    //GUIStyle style = new GUIStyle();
+        float parentX = block.parent.position.x;
 
-    //void OnGUI()
-    //{
+        block.minX = float.MaxValue;
+        block.maxX = float.MinValue;
 
-    //    style.fontSize = 30;
-    //    style.normal.textColor = Color.white;
-    //    GUI.Label(
-    //        new Rect(20, 20, 300, 50),
-    //        "Nails: " + GameManager.Instance.Nails,
-    //        style
-    //    );
-    //}
+        foreach (SpriteRenderer sprite in block.sprites)
+        {
+            if (sprite == null)
+                continue;
 
+            float min = sprite.bounds.min.x - parentX;
+            float max = sprite.bounds.max.x - parentX;
+
+            block.minX = Mathf.Min(block.minX, min);
+            block.maxX = Mathf.Max(block.maxX, max);
+        }
+    }
+
+    public void MoveAToRightOfB()
+    {
+        float targetX = blockB.parent.position.x + blockB.maxX;
+        float currentX = blockA.parent.position.x + blockA.minX;
+
+        blockA.parent.position += Vector3.right * (targetX - currentX);
+    }
+
+    public void MoveAToLeftOfB()
+    {
+        float targetX = blockB.parent.position.x + blockB.minX;
+        float currentX = blockA.parent.position.x + blockA.maxX;
+
+        blockA.parent.position += Vector3.right * (targetX - currentX);
+    }
+
+    public void MoveBToRightOfA()
+    {
+        float targetX = blockA.parent.position.x + blockA.maxX;
+        float currentX = blockB.parent.position.x + blockB.minX;
+
+        blockB.parent.position += Vector3.right * (targetX - currentX);
+    }
+
+    public void MoveBToLeftOfA()
+    {
+        float targetX = blockA.parent.position.x + blockA.minX;
+        float currentX = blockB.parent.position.x + blockB.maxX;
+
+        blockB.parent.position += Vector3.right * (targetX - currentX);
+    }
 
 
 }

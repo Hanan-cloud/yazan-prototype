@@ -31,11 +31,6 @@ public class PlayerController : MonoBehaviour
 
     private bool wasActuallyRunning;
 
-    private static readonly int IsRuningHash = Animator.StringToHash("IsRuning");
-    private static readonly int IsWalkingHash = Animator.StringToHash("IsWalking");
-
-
-
     bool isEffectivelyMoving;
     float effectiveDirSign;
 
@@ -45,9 +40,16 @@ public class PlayerController : MonoBehaviour
     float accelRate;
     bool isActuallyRunning;
 
+    const string Walk = "walk";
+    const string Run = "run";
+    const string Idle = "idle";
+
+    private string currentAnimState = "";
 
     private Directions playerCurrentDir;
     public Directions PlayerCurrentDir { get => playerCurrentDir; set => playerCurrentDir = value; }
+    bool isPaused;
+    private bool wasPaused;
 
     void Awake()
     {
@@ -57,7 +59,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-
         if (breathing != null)
         {
             breathing.volume = 0f;
@@ -66,12 +67,29 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
-
-
     void Update()
     {
-        if (PauseMenu.instance.IsStopped) return;
+        bool isPaused = PauseMenu.instance.IsStopped;
+
+        if (isPaused != wasPaused)
+        {
+            wasPaused = isPaused;
+            if (breathing != null)
+            {
+                if (isPaused)
+                {
+                    breathing.DOKill();
+                    breathing.Pause();
+                }
+                else
+                {
+                    breathing.UnPause();
+                    breathing.DOFade(isActuallyRunning ? breathMaxVolume : 0f, breathFadeDuration);
+                }
+            }
+        }
+
+        if (isPaused) return;
 
         moveInput = InputManager.Instance.Dir.x;
         isRuning = InputManager.Instance.IsRunning;
@@ -113,42 +131,34 @@ public class PlayerController : MonoBehaviour
 
         if (isEffectivelyMoving)
         {
-
             Vector3 scale = transform.localScale;
             scale.x = effectiveDirSign > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
             transform.localScale = scale;
 
-            SetAnimatorsState(isRuning);
+            SetAnimatorsState(isRuning ? Run : Walk);
         }
         else
         {
-            SetAnimatorsState(null);
+            SetAnimatorsState(Idle);
         }
     }
 
-    private void SetAnimatorsState(bool? isRunningState)
+    private void SetAnimatorsState(string animName)
     {
+        if (animName == currentAnimState) return;
+        currentAnimState = animName;
+
         for (int i = 0; i < animators.Count; i++)
         {
             Animator anim = animators[i];
             if (anim == null || !anim.gameObject.activeSelf) continue;
 
-            if (isRunningState == null)
-            {
-                anim.SetBool(IsRuningHash, false);
-                anim.SetBool(IsWalkingHash, false);
-            }
-            else
-            {
-                anim.SetBool(IsRuningHash, isRunningState.Value);
-                anim.SetBool(IsWalkingHash, !isRunningState.Value);
-            }
+            anim.Play(animName);
         }
     }
 
     void FixedUpdate()
     {
-        //Debug.Log(isPaused);
         if (PauseMenu.instance.IsStopped) return;
 
         rb.linearVelocity = new Vector2(currentSpeed, rb.linearVelocity.y);

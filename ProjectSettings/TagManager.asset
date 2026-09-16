@@ -47,8 +47,20 @@ TagManager:
   - name: mid Mountain
     uniqueID: 4282157661
     locked: 0
+  - name: Far
+    uniqueID: 3957251157
+    locked: 0
+  - name: MidFar
+    uniqueID: 3165688757
+    locked: 0
   - name: ground
     uniqueID: 3085990513
+    locked: 0
+  - name: Mid
+    uniqueID: 3147666503
+    locked: 0
+  - name: Background
+    uniqueID: 1351688181
     locked: 0
   - name: Default
     uniqueID: 0

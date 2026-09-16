@@ -209,7 +209,7 @@ public class PanelsController : MonoBehaviour
 
             if (Panel_index >= panels.Count)
             {
-                sceneController.SetScene("game");
+                sceneController.SetScene("game new Assets");
 
 
             }

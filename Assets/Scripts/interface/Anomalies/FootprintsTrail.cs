@@ -48,19 +48,15 @@ public class FootprintsTrail : AnomalyBase
 
     }
 
-    private void OnEnable()
-    {
- 
-
-        StepsCreater = StartCoroutine(Steps());
-    }
+  
 
     IEnumerator Steps()
     {
         GetInitialPos();
         SetDir();
 
-     
+        leftFoot.transform.localPosition = new Vector3(0, leftFoot.transform.localPosition.y, leftFoot.transform.localPosition.z);
+        rightFoot.transform.localPosition = new Vector3(0, rightFoot.transform.localPosition.y, rightFoot.transform.localPosition.z);
 
         while (true)
 
@@ -88,8 +84,9 @@ public class FootprintsTrail : AnomalyBase
     void GetInitialPos()
     { 
         float temp = (rightEdge.position.x - leftEdge.position.x) / 2;
-        leftFoot.transform.localPosition = new Vector3(temp, leftFoot.transform.position.y, leftFoot.transform.position.z);
-        rightFoot.transform.localPosition = new Vector3(temp, rightFoot.transform.position.y, rightFoot.transform.position.z);
+        anomalyObject.transform.localPosition = new Vector3(temp, anomalyObject.transform.position.y, anomalyObject.transform.position.z);
+
+    
 
     }
 
@@ -119,7 +116,7 @@ public class FootprintsTrail : AnomalyBase
     void RightFootStep()
     {
         
-        rightFoot.transform.position = new Vector3(leftFoot.transform.position.x + (step * direction), rightFoot.transform.position.y);
+        rightFoot.transform.position = new Vector3(leftFoot.transform.position.x + (step * direction), rightFoot.transform.position.y, rightFoot.transform.position.z);
         rightFoot.SetActive(true);
 
 
@@ -129,7 +126,7 @@ public class FootprintsTrail : AnomalyBase
     void LeftFootStep()
     {
 
-        leftFoot.transform.position = new Vector3(rightFoot.transform.position.x + (step * direction), leftFoot.transform.position.y);
+        leftFoot.transform.position = new Vector3(rightFoot.transform.position.x + (step * direction), leftFoot.transform.position.y, leftFoot.transform.position.z);
         leftFoot.SetActive(true);
 
 
@@ -162,6 +159,7 @@ public class FootprintsTrail : AnomalyBase
     public override void SetAnomaly()
     {
         anomalyObject.gameObject.SetActive(true);
+        StepsCreater = StartCoroutine(Steps());
 
     }
 
@@ -169,6 +167,7 @@ public class FootprintsTrail : AnomalyBase
     public override void ResetAnomaly()
     {
         anomalyObject.gameObject.SetActive(false);
+        StopCoroutine(StepsCreater);
 
 
     }
@@ -186,11 +185,7 @@ public class FootprintsTrail : AnomalyBase
         }
     }
 
-    private void OnDisable()
-    {
-        StopCoroutine(StepsCreater);
-    }
-
+ 
 
 
 

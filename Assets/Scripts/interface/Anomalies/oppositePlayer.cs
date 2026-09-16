@@ -1,13 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
-using DG.Tweening;
+
 using UnityEngine;
 
 public class oppositePlayer : MonoBehaviour
 {
     [Header("Movement")]
     public float walkSpeed = 5f;
-    public float runSpeed = 10f;
+    public float runSpeed = 8f;
     public float acceleration = 15f;
     public float deceleration = 20f;
 
@@ -17,10 +16,11 @@ public class oppositePlayer : MonoBehaviour
     private bool isRuning;
 
 
-    string isRuningSt = "IsRuning";
-    string isWalkingSt = "IsWalking";
+    string walkState = "walk";
+    string runState = "run";
+    string idleState = "idle";
 
-
+    private string currentAnimState = "";
 
     [SerializeField] Animator animator;
     [SerializeField] SpriteRenderer sprite;
@@ -102,39 +102,19 @@ public class oppositePlayer : MonoBehaviour
             scale.x = moveInput > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
             transform.localScale = scale;
 
-            if (isRuning)
-            {
-              
-     
-                    animator.SetBool(isRuningSt, true);
-                    animator.SetBool(isWalkingSt, false);
-
-                
-
-
-            }
-            else
-            {
-
-       
-
-                    animator.SetBool(isRuningSt, false);
-                    animator.SetBool(isWalkingSt, true);
-
-                
-
-            }
+         SetAnimState(isRuning ? runState : walkState);
         }
         else
         {
-
-
-                animator.SetBool(isRuningSt, false);
-                animator.SetBool(isWalkingSt, false);
-
-            
-
+            SetAnimState(idleState);
         }
+    }
+
+    private void SetAnimState(string state)
+    {
+        if (state == currentAnimState) return;
+        currentAnimState = state;
+        animator.Play(state);
     }
 
     void FixedUpdate()

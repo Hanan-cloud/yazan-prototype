@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PanelTemplet.unity
     guid: 409f9b94abc7cf541a083efec9b446d4
+  - enabled: 1
+    path: Assets/Scenes/game new Assets.unity
+    guid: 2010d469fc5c25546a184f297ed3e123
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 64324db708edacc4f989e04358a10910, type: 3}
   m_UseUCBPForAssetBundles: 0

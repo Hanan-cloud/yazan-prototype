@@ -72,7 +72,7 @@ public class StorySceneInput : MonoBehaviour
             load.fillAmount = holdTimer / holdDuration;
             if (holdTimer > holdDuration)
             {
-                sceneController.SetScene("game");
+                sceneController.SetScene("game new Assets");
             }
         }
         else

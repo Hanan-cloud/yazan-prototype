@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using System;
 using System.Linq;
 
 public class AnomallyManager : MonoBehaviour
@@ -16,7 +15,7 @@ public class AnomallyManager : MonoBehaviour
     private Queue<IAnomaly> recentlyUsed = new Queue<IAnomaly>();
     private const int cooldownRounds = 3;
 
-
+    bool isFirstRun = true;
     IAnomaly currentAnomaly;
 
     private Dictionary<AnomalyList, bool> foundAnomaliesDic = new Dictionary<AnomalyList, bool>();
@@ -30,7 +29,7 @@ public class AnomallyManager : MonoBehaviour
     private void Start()
     {
 
-           
+        isFirstRun = true;
         SetAnomalyDic();
         isAnomalyRun=false;
 
@@ -62,7 +61,7 @@ public class AnomallyManager : MonoBehaviour
             ResetAnomaly();
 
         }
-        if (UnityEngine.Random.value > 0.3f) // 11/2 % 0 
+        if (UnityEngine.Random.value > 0.3f && isFirstRun == false) // 11/2 % 0 
         {
             isAnomalyRun = true;
             //print("anomaly");
@@ -71,6 +70,7 @@ public class AnomallyManager : MonoBehaviour
         }
         else
         {
+            isFirstRun= false;
             isAnomalyRun = false;
             print("No anomaly");
 
@@ -133,7 +133,8 @@ public class AnomallyManager : MonoBehaviour
     }
     public void ResetAnomaly()
     {
-        if(currentAnomaly != null)
+        if (currentAnomaly != null)
+
         currentAnomaly.ResetAnomaly();
     }
 

@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine.Rendering;
 using DG.Tweening;
 using UnityEngine.UI;
 using UnityEngine.Events;
@@ -27,6 +26,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] UnityEvent onNailFinish;
 
     Image doll;
+    const int nailsCount=6;
+    int nails;
 
     private void Awake()
     {
@@ -34,14 +35,13 @@ public class GameManager : MonoBehaviour
         nailsSfx = GetComponent<AudioSource>();
     }
 
-    int nails;
 
     public int Nails { get => nails; set => nails = value; }
 
     private void Start()
     {
         doll = dollButton.GetComponent<Image>();
-        nails = 9;
+        nails = 6;
 
 
     }
@@ -70,18 +70,15 @@ public class GameManager : MonoBehaviour
 
     }
 
-    void CheckWin()
-    {
-
-    }
+  
 
     [ContextMenu("doll button reset ")]
 
     public void NailsReset()
     {
 
-        nails = 9;
-        if (nails >9 || nails < 0) return;
+        nails = nailsCount;
+        if (nails >nailsCount || nails < 0) return;
 
         nailsSfx.pitch = 1f;
         nailsSfx.PlayOneShot(nailsReset);

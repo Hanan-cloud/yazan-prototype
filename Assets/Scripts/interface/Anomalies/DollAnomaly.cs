@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DollAnomaly : AnomalyBase
+public class DollAnomaly : AnomalyBase, ILateSet
 {
 
     [SerializeField] GameObject doll;
@@ -18,8 +18,13 @@ public class DollAnomaly : AnomalyBase
     [ContextMenu("Doll")]
     public override void SetAnomaly()
     {
-        animator.enabled = true;
 
+
+    }
+
+    public void LateSetAnomaly()
+    {
+        animator.enabled = true;
     }
 
     void Start()

@@ -18,6 +18,7 @@ public class FootStepSound : AnomalyBase
     Vector3 jumpEndValue =  new Vector3(0,1,0);
     [SerializeField] float shakeStrength;
     [SerializeField] float shakeDuration;
+    Coroutine  coroutine;
 
     Tween tween;
 
@@ -42,7 +43,7 @@ public class FootStepSound : AnomalyBase
 
         tween.Kill();
 
-
+        StopCoroutine(coroutine);
 
 
     }
@@ -58,7 +59,7 @@ public class FootStepSound : AnomalyBase
 
 
 
-        StartCoroutine(rockShake());
+        coroutine =  StartCoroutine(rockShake());
     }
 
 
