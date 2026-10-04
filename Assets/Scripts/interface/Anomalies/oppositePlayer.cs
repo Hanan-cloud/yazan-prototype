@@ -45,9 +45,15 @@ public class oppositePlayer : MonoBehaviour
     private void OnEnable()
     {
         sprite.enabled = false;
-        StartCoroutine(Delay());
+        // StartCoroutine(Delay());
+        currentAnimState = "";
+        SetPos();
 
+        float dir = InputManager.Instance.Dir.x;
+        bool running = InputManager.Instance.IsRunning;
+        SetAnimState(dir != 0 ? (running ? runState : walkState) : idleState);
     }
+
 
     private void OnDisable()
     {
@@ -56,10 +62,9 @@ public class oppositePlayer : MonoBehaviour
     }
 
   
-    IEnumerator Delay()
+   void SetPos()
     {
 
-        yield return wait1s;
         Vector3 temp = transform.position;
         // if player moves to the right the shadow clone appears from the left
         if (PlayerController.Instance.PlayerCurrentDir == Directions.Right)

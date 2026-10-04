@@ -33,11 +33,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 8864208200252a647a699814d8e73636, type: 2}
     - {fileID: 11400000, guid: e61888a6bd0239d458518fb375ee66b8, type: 2}
     - {fileID: 11400000, guid: da93a32f3bf9b46469260e1e80beab11, type: 2}
-    - {fileID: 11400000, guid: 3b4a111b5a51c35449638d9b22ea8b7f, type: 2}
+    - {fileID: 0}
     - {fileID: 11400000, guid: f0fcc5195ab5144499f59163a1363c0a, type: 2}
     - {fileID: 11400000, guid: 1f875eed6bf93d8419eb0ebcda83acb7, type: 2}
     - {fileID: 11400000, guid: 6d906990fc150614b9d3b49d5be67112, type: 2}
-    DefaultStartingLanguageCode: ar
+    DefaultStartingLanguageCode: en
     LanguageOptionSaveKey: language
     AutoUpdateLocbooks: 1
     AutoRefreshCacheInRuntime: 1

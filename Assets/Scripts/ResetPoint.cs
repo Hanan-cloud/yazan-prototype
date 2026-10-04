@@ -21,9 +21,9 @@ public class ResetPoint : MonoBehaviour
            
             {
 
-                
+
                 // I Only care if the player dir = coorect dir
-                  if(PlayerController.Instance.PlayerCurrentDir == RunManager.Instance.CorrectDirection)
+                if (PlayerController.Instance.PlayerCurrentDir == RunManager.Instance.CorrectDirection)
                 {
 
                     // Debug.Log("n-1");
@@ -31,11 +31,12 @@ public class ResetPoint : MonoBehaviour
                     GameManager.Instance.NailFalls();
                     OnNailsFalls?.Invoke();
 
-           
+                    AnomallyManager.Instance.ResetAnomaly();
                     // n-1 
                     //progress
 
-                }else
+                }
+                else
                 {
                     // reset
                     //n=10
@@ -43,6 +44,7 @@ public class ResetPoint : MonoBehaviour
                     GameManager.Instance.NailsReset();
                     OnNailsReset?.Invoke();
 
+                    AnomallyManager.Instance.ResetAnomaly();
 
 
                 }

@@ -1,0 +1,1231 @@
+fileFormatVersion: 2
+guid: 4e642f5a082533240a05b74a1960c9f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5216084657348472210
+    second: Y_tent_asset_fix_0
+  - first:
+      213: 7869229917825422103
+    second: Y_tent_asset_fix_1
+  - first:
+      213: -4696891549041461597
+    second: Y_tent_asset_fix_2
+  - first:
+      213: 8496053795043435891
+    second: Y_tent_asset_fix_3
+  - first:
+      213: 1003428423575376843
+    second: Y_tent_asset_fix_4
+  - first:
+      213: -782393331981009485
+    second: Y_tent_asset_fix_5
+  - first:
+      213: 7751708333999898131
+    second: Y_tent_asset_fix_6
+  - first:
+      213: 5240152291405981689
+    second: Y_tent_asset_fix_7
+  - first:
+      213: 5077605158035038732
+    second: Y_tent_asset_fix_8
+  - first:
+      213: -5724852105472015255
+    second: Y_tent_asset_fix_9
+  - first:
+      213: 7966081413715860680
+    second: Y_tent_asset_fix_10
+  - first:
+      213: -5114460735548768608
+    second: Y_tent_asset_fix_11
+  - first:
+      213: -8998729620116150975
+    second: Y_tent_asset_fix_12
+  - first:
+      213: -6242749876624720405
+    second: Y_tent_asset_fix_13
+  - first:
+      213: -353980855000277517
+    second: Y_tent_asset_fix_14
+  - first:
+      213: 6015091317707966163
+    second: Y_tent_asset_fix_15
+  - first:
+      213: -7046696051748403092
+    second: Y_tent_asset_fix_16
+  - first:
+      213: 4033133605877081988
+    second: Y_tent_asset_fix_17
+  - first:
+      213: 2560159115230642871
+    second: Y_tent_asset_fix_18
+  - first:
+      213: 6685186131395568241
+    second: Y_tent_asset_fix_19
+  - first:
+      213: 3590660591122788
+    second: Y_tent_asset_fix_20
+  - first:
+      213: 5390356213331715781
+    second: Y_tent_asset_fix_21
+  - first:
+      213: -4382655957234884173
+    second: Y_tent_asset_fix_22
+  - first:
+      213: 1234250799096150676
+    second: Y_tent_asset_fix_23
+  - first:
+      213: -7046137641472948010
+    second: Y_tent_asset_fix_24
+  - first:
+      213: -3411421210872486200
+    second: Y_tent_asset_fix_25
+  - first:
+      213: -182093851915893212
+    second: Y_tent_asset_fix_26
+  - first:
+      213: -1519107038525597471
+    second: Y_tent_asset_fix_27
+  - first:
+      213: 7846030470274798809
+    second: Y_tent_asset_fix_28
+  - first:
+      213: 5212184008317638711
+    second: Y_tent_asset_fix_29
+  - first:
+      213: -2415985556963954059
+    second: Y_tent_asset_fix_30
+  - first:
+      213: -6183420003477892370
+    second: Y_tent_asset_fix_31
+  - first:
+      213: -5375636359304592869
+    second: Y_tent_asset_fix_32
+  - first:
+      213: 5858128565989188502
+    second: Y_tent_asset_fix_33
+  - first:
+      213: 8068146267340925763
+    second: Y_tent_asset_fix_34
+  - first:
+      213: -6798751220921968810
+    second: Y_tent_asset_fix_35
+  - first:
+      213: 7266576695319312621
+    second: Y_tent_asset_fix_36
+  - first:
+      213: 7897705566692833325
+    second: Y_tent_asset_fix_37
+  - first:
+      213: 930850957728942705
+    second: Y_tent_asset_fix_38
+  - first:
+      213: -860888489011745779
+    second: Y_tent_asset_fix_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 2023
+        width: 188
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e621160e3aebc97b0800000000000000
+      internalID: -5216084657348472210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_1
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 2252
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7135cd3daee153d60800000000000000
+      internalID: 7869229917825422103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 2248
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a679d6750a41deb0800000000000000
+      internalID: -4696891549041461597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_3
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2261
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3756c2e99eb08e570800000000000000
+      internalID: 8496053795043435891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_4
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 333
+        width: 191
+        height: 1987
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc39db8b5d4eced00800000000000000
+      internalID: 1003428423575376843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1970
+        width: 336
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd33ace8616425f0800000000000000
+      internalID: -782393331981009485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_6
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1898
+        width: 450
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ebf72d8a9939b60800000000000000
+      internalID: 7751708333999898131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_7
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 1896
+        width: 162
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7e33adeb2c8b840800000000000000
+      internalID: 5240152291405981689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_8
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1896
+        width: 162
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02ae5a2df6477640800000000000000
+      internalID: 5077605158035038732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_9
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 1917
+        width: 91
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96481b5775d3d80b0800000000000000
+      internalID: -5724852105472015255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1790
+        width: 134
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc1064f6d43d8e60800000000000000
+      internalID: 7966081413715860680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1782
+        width: 224
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aebeeffe09c509b0800000000000000
+      internalID: -5114460735548768608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_12
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1723
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145e03b76171e1380800000000000000
+      internalID: -8998729620116150975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_13
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1600
+        width: 530
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed7b2e001c4d59a0800000000000000
+      internalID: -6242749876624720405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_14
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1683
+        width: 162
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd5b60b948661bf0800000000000000
+      internalID: -353980855000277517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_15
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 1688
+        width: 90
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d605832fa5e97350800000000000000
+      internalID: 6015091317707966163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_16
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1683
+        width: 161
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c688363a64b153e90800000000000000
+      internalID: -7046696051748403092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_17
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 1683
+        width: 162
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4876ef565a198f730800000000000000
+      internalID: 4033133605877081988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1531
+        width: 243
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469fa01dfa1cc0000800000000000000
+      internalID: 3590660591122788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_21
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1465
+        width: 137
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6e47caa646eca40800000000000000
+      internalID: 5390356213331715781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_22
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1314
+        width: 530
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1e34090adad23c0800000000000000
+      internalID: -4382655957234884173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_23
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1480
+        width: 185
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a3edbff80f02110800000000000000
+      internalID: 1234250799096150676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_24
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1465
+        width: 149
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d80f79a527173e90800000000000000
+      internalID: -7046137641472948010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_25
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 1475
+        width: 302
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c666b2bb7238a0d0800000000000000
+      internalID: -3411421210872486200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1387
+        width: 240
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42645c04b92197df0800000000000000
+      internalID: -182093851915893212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_27
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1274
+        width: 65
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8d2e0723c0beae0800000000000000
+      internalID: -1519107038525597471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_28
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 1248
+        width: 104
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4de958423b2ec60800000000000000
+      internalID: 7846030470274798809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_29
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1239
+        width: 107
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7389ebf7db5655840800000000000000
+      internalID: 5212184008317638711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_30
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1236
+        width: 103
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57270b6bfe1b87ed0800000000000000
+      internalID: -2415985556963954059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_31
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 1237
+        width: 150
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2d7ab9444103aa0800000000000000
+      internalID: -6183420003477892370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 854
+        width: 272
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12c9f96637e565b0800000000000000
+      internalID: -5375636359304592869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_33
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 994
+        width: 364
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693aa50a4e04c4150800000000000000
+      internalID: 5858128565989188502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_34
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 732
+        width: 205
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34befb48840d7ff60800000000000000
+      internalID: 8068146267340925763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_35
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 748
+        width: 194
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65751b039cbf5a1a0800000000000000
+      internalID: -6798751220921968810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_36
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 392
+        width: 272
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8b3a1210118d460800000000000000
+      internalID: 7266576695319312621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_37
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 736
+        width: 321
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28f95b7e594a9d60800000000000000
+      internalID: 7897705566692833325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_38
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 366
+        width: 445
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a0442a30c0bec00800000000000000
+      internalID: 930850957728942705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 174
+        width: 371
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c6b3dfa728d04f0800000000000000
+      internalID: -860888489011745779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_40
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1896
+        width: 503
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1ed0842c28b0f4384073c2453c8493
+      internalID: -1418213638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_41
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1679
+        width: 653
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1973a762a1a9ec4f9dbc6f6cc9008bd
+      internalID: 972596406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_42
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1465
+        width: 687
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621f13dfbbdc3a04ebe5d5e8c9e11b28
+      internalID: 265569727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_tent_asset_fix_43
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 1238
+        width: 521
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ce6ddffee350f4ca1bb3261b625118
+      internalID: 1094849700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f97a332aa648b1f49bc014a5085d48fc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Y_tent_asset_fix_0: -5216084657348472210
+      Y_tent_asset_fix_1: 7869229917825422103
+      Y_tent_asset_fix_10: 7966081413715860680
+      Y_tent_asset_fix_11: -5114460735548768608
+      Y_tent_asset_fix_12: -8998729620116150975
+      Y_tent_asset_fix_13: -6242749876624720405
+      Y_tent_asset_fix_14: -353980855000277517
+      Y_tent_asset_fix_15: 6015091317707966163
+      Y_tent_asset_fix_16: -7046696051748403092
+      Y_tent_asset_fix_17: 4033133605877081988
+      Y_tent_asset_fix_18: 2560159115230642871
+      Y_tent_asset_fix_19: 6685186131395568241
+      Y_tent_asset_fix_2: -4696891549041461597
+      Y_tent_asset_fix_20: 3590660591122788
+      Y_tent_asset_fix_21: 5390356213331715781
+      Y_tent_asset_fix_22: -4382655957234884173
+      Y_tent_asset_fix_23: 1234250799096150676
+      Y_tent_asset_fix_24: -7046137641472948010
+      Y_tent_asset_fix_25: -3411421210872486200
+      Y_tent_asset_fix_26: -182093851915893212
+      Y_tent_asset_fix_27: -1519107038525597471
+      Y_tent_asset_fix_28: 7846030470274798809
+      Y_tent_asset_fix_29: 5212184008317638711
+      Y_tent_asset_fix_3: 8496053795043435891
+      Y_tent_asset_fix_30: -2415985556963954059
+      Y_tent_asset_fix_31: -6183420003477892370
+      Y_tent_asset_fix_32: -5375636359304592869
+      Y_tent_asset_fix_33: 5858128565989188502
+      Y_tent_asset_fix_34: 8068146267340925763
+      Y_tent_asset_fix_35: -6798751220921968810
+      Y_tent_asset_fix_36: 7266576695319312621
+      Y_tent_asset_fix_37: 7897705566692833325
+      Y_tent_asset_fix_38: 930850957728942705
+      Y_tent_asset_fix_39: -860888489011745779
+      Y_tent_asset_fix_4: 1003428423575376843
+      Y_tent_asset_fix_40: -1418213638
+      Y_tent_asset_fix_41: 972596406
+      Y_tent_asset_fix_42: 265569727
+      Y_tent_asset_fix_43: 1094849700
+      Y_tent_asset_fix_5: -782393331981009485
+      Y_tent_asset_fix_6: 7751708333999898131
+      Y_tent_asset_fix_7: 5240152291405981689
+      Y_tent_asset_fix_8: 5077605158035038732
+      Y_tent_asset_fix_9: -5724852105472015255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

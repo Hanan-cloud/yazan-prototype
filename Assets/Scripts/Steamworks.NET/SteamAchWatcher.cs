@@ -26,7 +26,7 @@ public class SteamAchWatcher : MonoBehaviour
 
         
 
-        StartCoroutine(Timer());
+        //StartCoroutine(Timer());
     }
 
 
@@ -44,20 +44,20 @@ public class SteamAchWatcher : MonoBehaviour
     {
 
 
-        if (doesPlayerMistake)
-        {
+        //if (doesPlayerMistake)
+        //{
 
-            SteamAch.instance.SetAchievment(SteamAch.AchievKey.NoMistake);
+        //    SteamAch.instance.SetAchievment(SteamAch.AchievKey.NoMistake);
 
 
-        }
+        //}
 
-        if (timer >= timeToComplete)
-        {
+        //if (timer >= timeToComplete)
+        //{
 
-            SteamAch.instance.SetAchievment(SteamAch.AchievKey.FastRun);
+        //    SteamAch.instance.SetAchievment(SteamAch.AchievKey.FastRun);
 
-        }
+        //}
 
 
 
@@ -74,7 +74,7 @@ public class SteamAchWatcher : MonoBehaviour
     public void AllAnomaliesDiscovered()
     {
 
-        SteamAch.instance.SetAchievment(SteamAch.AchievKey.AllAnomalies);
+        //SteamAch.instance.SetAchievment(SteamAch.AchievKey.AllAnomalies);
 
 
     }
@@ -83,7 +83,7 @@ public class SteamAchWatcher : MonoBehaviour
     public void check()
     {
 
-        SteamAch.instance.Checkkkk(SteamAch.AchievKey.AllAnomalies);
+        //SteamAch.instance.Checkkkk(SteamAch.AchievKey.AllAnomalies);
 
     }
 
@@ -91,7 +91,7 @@ public class SteamAchWatcher : MonoBehaviour
     public void ClearAllAnomaliesDiscovered()
     {
 
-        SteamAch.instance.ClearAchievement(SteamAch.AchievKey.AllAnomalies);
+        //SteamAch.instance.ClearAchievement(SteamAch.AchievKey.AllAnomalies);
 
 
     }

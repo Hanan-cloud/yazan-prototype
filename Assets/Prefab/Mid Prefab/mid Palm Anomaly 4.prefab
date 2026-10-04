@@ -315,6 +315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7447999499364411583}
+  - component: {fileID: 7266946483547481783}
   m_Layer: 0
   m_Name: mid Palm Anomaly 4
   m_TagString: Untagged
@@ -339,3 +340,17 @@ Transform:
   - {fileID: 728758010896643943}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7266946483547481783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6417920579167409318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8ad168d46b4b044b0be1bc7002c6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Palm
+  OriginalPalm: {fileID: 1108277691878098334}
+  AnomalyPalm: {fileID: 4267837095686363517}

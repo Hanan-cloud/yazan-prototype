@@ -8,6 +8,7 @@ public class FootStepSound : AnomalyBase
 {
 
     [SerializeField] GameObject soundObject;
+    [SerializeField] GameObject soundstartPos;
     AudioSource soundSource;
 
     [SerializeField] List<AudioClip> footstep;
@@ -15,7 +16,6 @@ public class FootStepSound : AnomalyBase
     [SerializeField] List<Transform> rocks;
 
     float currentX;
-    Vector3 jumpEndValue =  new Vector3(0,1,0);
     [SerializeField] float shakeStrength;
     [SerializeField] float shakeDuration;
     Coroutine  coroutine;
@@ -26,20 +26,22 @@ public class FootStepSound : AnomalyBase
     private void Start()
     {
         soundSource = soundObject.GetComponent<AudioSource>();
+        currentX = soundObject.transform.localScale.x;
 
     }
 
     private void OnEnable()
     {
-        currentX = soundObject.transform.localScale.x;
+
     }
+
 
     public override void ResetAnomaly()
     {
         soundObject.SetActive(false);
 
 
-        soundObject.transform.DOMoveX(currentX, 0);
+        //soundObject.transform.position = soundstartPos.transform.position;
 
         tween.Kill();
 
@@ -53,7 +55,8 @@ public class FootStepSound : AnomalyBase
     public override void SetAnomaly()
     {
         soundObject.SetActive(true);
-       // soundSource.Play();
+        // soundSource.Play();
+        soundObject.transform.position = soundstartPos.transform.position;
 
         tween = soundObject.transform.DOLocalMoveX(currentX - 1.5f, 15).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
 
@@ -75,7 +78,7 @@ public class FootStepSound : AnomalyBase
                 soundSource.PlayOneShot(footstep[i]);
                 yield return new WaitForSeconds(0.2f);
 
-                OnMonsterStep?.Invoke(transform.localPosition.x);
+               // OnMonsterStep?.Invoke(transform.localPosition.x);
                 //for (int j = 0;j < rocks.Count; j++)
                 //{
     

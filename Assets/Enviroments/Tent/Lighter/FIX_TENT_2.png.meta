@@ -1,0 +1,453 @@
+fileFormatVersion: 2
+guid: 198f32e99ce99ca4d908814990a791a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5991642803436737313
+    second: FIX_TENT_2_0
+  - first:
+      213: -8641680192984166370
+    second: FIX_TENT_2_1
+  - first:
+      213: 8592523453076626557
+    second: FIX_TENT_2_2
+  - first:
+      213: -4457927378644232182
+    second: FIX_TENT_2_3
+  - first:
+      213: -102323683174521620
+    second: FIX_TENT_2_4
+  - first:
+      213: 1536574121881842863
+    second: FIX_TENT_2_5
+  - first:
+      213: -4580361703620455819
+    second: FIX_TENT_2_6
+  - first:
+      213: -2115501859201358128
+    second: FIX_TENT_2_7
+  - first:
+      213: -7356583876802194877
+    second: FIX_TENT_2_8
+  - first:
+      213: -6466644865317127685
+    second: FIX_TENT_2_9
+  - first:
+      213: -1434938323660203094
+    second: FIX_TENT_2_10
+  - first:
+      213: -4377743612460330948
+    second: FIX_TENT_2_11
+  - first:
+      213: -324939890061169072
+    second: FIX_TENT_2_12
+  - first:
+      213: 4555350670578985373
+    second: FIX_TENT_2_13
+  - first:
+      213: 1029163936055022103
+    second: FIX_TENT_2_14
+  - first:
+      213: -4983332276534171651
+    second: FIX_TENT_2_15
+  - first:
+      213: -7964444326184283090
+    second: FIX_TENT_2_16
+  - first:
+      213: -8177499928164280674
+    second: FIX_TENT_2_17
+  - first:
+      213: 1838034348070059464
+    second: FIX_TENT_2_18
+  - first:
+      213: -8370060648937284410
+    second: FIX_TENT_2_19
+  - first:
+      213: 1317051161520320071
+    second: FIX_TENT_2_20
+  - first:
+      213: -181364916149471423
+    second: FIX_TENT_2_21
+  - first:
+      213: 9029940020085460499
+    second: FIX_TENT_2_22
+  - first:
+      213: 84525742856475955
+    second: FIX_TENT_2_23
+  - first:
+      213: 1817162992599666125
+    second: FIX_TENT_2_24
+  - first:
+      213: 2160303989493897324
+    second: FIX_TENT_2_25
+  - first:
+      213: 7634639289141099787
+    second: FIX_TENT_2_26
+  - first:
+      213: -3211647533127836011
+    second: FIX_TENT_2_27
+  - first:
+      213: 5684601538493916827
+    second: FIX_TENT_2_28
+  - first:
+      213: -628609076183121149
+    second: FIX_TENT_2_29
+  - first:
+      213: 1019182800404046369
+    second: FIX_TENT_2_30
+  - first:
+      213: 8665462941500004321
+    second: FIX_TENT_2_31
+  - first:
+      213: -2399427167434706839
+    second: FIX_TENT_2_32
+  - first:
+      213: -5197653109192992738
+    second: FIX_TENT_2_33
+  - first:
+      213: 5418673728888793508
+    second: FIX_TENT_2_34
+  - first:
+      213: -3716233154987114279
+    second: FIX_TENT_2_35
+  - first:
+      213: 8198131529636364013
+    second: FIX_TENT_2_36
+  - first:
+      213: 8240535693097916605
+    second: FIX_TENT_2_37
+  - first:
+      213: 3463630298161341265
+    second: FIX_TENT_2_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FIX_TENT_2_0
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 522
+        width: 101
+        height: 1758
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdca0288d9869dca0800000000000000
+      internalID: -5991642803436737313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIX_TENT_2_1
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 537
+        width: 834
+        height: 1692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1056aa66a5921880800000000000000
+      internalID: -8641680192984166370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIX_TENT_2_3
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 603
+        width: 428
+        height: 1564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a081c611ba24222c0800000000000000
+      internalID: -4457927378644232182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIX_TENT_2_4
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 530
+        width: 293
+        height: 1740
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4e54cf629749ef0800000000000000
+      internalID: -102323683174521620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIX_TENT_2_5
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 833
+        width: 479
+        height: 1082
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa433d1d502035510800000000000000
+      internalID: 1536574121881842863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIX_TENT_2_37
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 520
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8570a7d834c5270800000000000000
+      internalID: 8240535693097916605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIX_TENT_2_38
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 522
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153ef23b769411030800000000000000
+      internalID: 3463630298161341265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5f72d9b1159129241adb7f51e5eae8f0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FIX_TENT_2_0: -5991642803436737313
+      FIX_TENT_2_1: -8641680192984166370
+      FIX_TENT_2_10: -1434938323660203094
+      FIX_TENT_2_11: -4377743612460330948
+      FIX_TENT_2_12: -324939890061169072
+      FIX_TENT_2_13: 4555350670578985373
+      FIX_TENT_2_14: 1029163936055022103
+      FIX_TENT_2_15: -4983332276534171651
+      FIX_TENT_2_16: -7964444326184283090
+      FIX_TENT_2_17: -8177499928164280674
+      FIX_TENT_2_18: 1838034348070059464
+      FIX_TENT_2_19: -8370060648937284410
+      FIX_TENT_2_2: 8592523453076626557
+      FIX_TENT_2_20: 1317051161520320071
+      FIX_TENT_2_21: -181364916149471423
+      FIX_TENT_2_22: 9029940020085460499
+      FIX_TENT_2_23: 84525742856475955
+      FIX_TENT_2_24: 1817162992599666125
+      FIX_TENT_2_25: 2160303989493897324
+      FIX_TENT_2_26: 7634639289141099787
+      FIX_TENT_2_27: -3211647533127836011
+      FIX_TENT_2_28: 5684601538493916827
+      FIX_TENT_2_29: -628609076183121149
+      FIX_TENT_2_3: -4457927378644232182
+      FIX_TENT_2_30: 1019182800404046369
+      FIX_TENT_2_31: 8665462941500004321
+      FIX_TENT_2_32: -2399427167434706839
+      FIX_TENT_2_33: -5197653109192992738
+      FIX_TENT_2_34: 5418673728888793508
+      FIX_TENT_2_35: -3716233154987114279
+      FIX_TENT_2_36: 8198131529636364013
+      FIX_TENT_2_37: 8240535693097916605
+      FIX_TENT_2_38: 3463630298161341265
+      FIX_TENT_2_4: -102323683174521620
+      FIX_TENT_2_5: 1536574121881842863
+      FIX_TENT_2_6: -4580361703620455819
+      FIX_TENT_2_7: -2115501859201358128
+      FIX_TENT_2_8: -7356583876802194877
+      FIX_TENT_2_9: -6466644865317127685
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

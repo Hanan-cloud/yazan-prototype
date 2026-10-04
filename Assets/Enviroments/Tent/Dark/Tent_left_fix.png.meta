@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: 5d4dd42c64eddf7409b053ba1a997357
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6887089033383397537
+    second: Tent_left_fix_0
+  - first:
+      213: -644430230561456196
+    second: Tent_left_fix_1
+  - first:
+      213: -5598500706718841823
+    second: Tent_left_fix_2
+  - first:
+      213: -529409425212578691
+    second: Tent_left_fix_3
+  - first:
+      213: 4277692301212258804
+    second: Tent_left_fix_4
+  - first:
+      213: 2907009883133278927
+    second: Tent_left_fix_5
+  - first:
+      213: -2980753649102676886
+    second: Tent_left_fix_6
+  - first:
+      213: 5358841095694716539
+    second: Tent_left_fix_7
+  - first:
+      213: -6100596643043997192
+    second: Tent_left_fix_8
+  - first:
+      213: -253300944084955915
+    second: Tent_left_fix_9
+  - first:
+      213: -6915090066057205772
+    second: Tent_left_fix_10
+  - first:
+      213: 5666016876194812214
+    second: Tent_left_fix_11
+  - first:
+      213: -697918559631075617
+    second: Tent_left_fix_12
+  - first:
+      213: 408127889922079815
+    second: Tent_left_fix_13
+  - first:
+      213: -3772010355712804972
+    second: Tent_left_fix_14
+  - first:
+      213: -6960275075941952176
+    second: Tent_left_fix_15
+  - first:
+      213: -4063988851770948298
+    second: Tent_left_fix_16
+  - first:
+      213: -7190934092112573424
+    second: Tent_left_fix_17
+  - first:
+      213: -1259392548283510076
+    second: Tent_left_fix_18
+  - first:
+      213: -9150224457487856170
+    second: Tent_left_fix_19
+  - first:
+      213: 3118688457724062814
+    second: Tent_left_fix_20
+  - first:
+      213: -3673961167465058150
+    second: Tent_left_fix_21
+  - first:
+      213: 5339596761740722522
+    second: Tent_left_fix_22
+  - first:
+      213: 6855518051520971638
+    second: Tent_left_fix_23
+  - first:
+      213: -9036967074766956924
+    second: Tent_left_fix_24
+  - first:
+      213: -3560016908104994630
+    second: Tent_left_fix_25
+  - first:
+      213: -3113266570886594898
+    second: Tent_left_fix_26
+  - first:
+      213: -405799875413677141
+    second: Tent_left_fix_27
+  - first:
+      213: 5862144795090505870
+    second: Tent_left_fix_28
+  - first:
+      213: 7343264943441291711
+    second: Tent_left_fix_29
+  - first:
+      213: 1398882691502037984
+    second: Tent_left_fix_30
+  - first:
+      213: 2963765419465674496
+    second: Tent_left_fix_31
+  - first:
+      213: 5001138814825506727
+    second: Tent_left_fix_32
+  - first:
+      213: -7280240444788400025
+    second: Tent_left_fix_33
+  - first:
+      213: 2449446249179041471
+    second: Tent_left_fix_34
+  - first:
+      213: -1989304437560903569
+    second: Tent_left_fix_35
+  - first:
+      213: -1025229970014283142
+    second: Tent_left_fix_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tent_left_fix_0
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 265
+        width: 293
+        height: 1644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57b1b473052c60a0800000000000000
+      internalID: -6887089033383397537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_left_fix_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1994
+        width: 1089
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf7cd0ae168e07f0800000000000000
+      internalID: -644430230561456196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_left_fix_3
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 272
+        width: 809
+        height: 1612
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74e575cee827a8f0800000000000000
+      internalID: -529409425212578691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_left_fix_4
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 231
+        width: 111
+        height: 1722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f11e28db7a6d5b30800000000000000
+      internalID: 4277692301212258804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_left_fix_10
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 564
+        width: 468
+        height: 1022
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7e3def83aa800a0800000000000000
+      internalID: -6915090066057205772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_left_fix_33
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 326
+        width: 438
+        height: 1465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760a4f843e367fa90800000000000000
+      internalID: -7280240444788400025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fe48b7988571c07459cb1858d0627b4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tent_left_fix_0: -6887089033383397537
+      Tent_left_fix_1: -644430230561456196
+      Tent_left_fix_10: -6915090066057205772
+      Tent_left_fix_11: 5666016876194812214
+      Tent_left_fix_12: -697918559631075617
+      Tent_left_fix_13: 408127889922079815
+      Tent_left_fix_14: -3772010355712804972
+      Tent_left_fix_15: -6960275075941952176
+      Tent_left_fix_16: -4063988851770948298
+      Tent_left_fix_17: -7190934092112573424
+      Tent_left_fix_18: -1259392548283510076
+      Tent_left_fix_19: -9150224457487856170
+      Tent_left_fix_2: -5598500706718841823
+      Tent_left_fix_20: 3118688457724062814
+      Tent_left_fix_21: -3673961167465058150
+      Tent_left_fix_22: 5339596761740722522
+      Tent_left_fix_23: 6855518051520971638
+      Tent_left_fix_24: -9036967074766956924
+      Tent_left_fix_25: -3560016908104994630
+      Tent_left_fix_26: -3113266570886594898
+      Tent_left_fix_27: -405799875413677141
+      Tent_left_fix_28: 5862144795090505870
+      Tent_left_fix_29: 7343264943441291711
+      Tent_left_fix_3: -529409425212578691
+      Tent_left_fix_30: 1398882691502037984
+      Tent_left_fix_31: 2963765419465674496
+      Tent_left_fix_32: 5001138814825506727
+      Tent_left_fix_33: -7280240444788400025
+      Tent_left_fix_34: 2449446249179041471
+      Tent_left_fix_35: -1989304437560903569
+      Tent_left_fix_36: -1025229970014283142
+      Tent_left_fix_4: 4277692301212258804
+      Tent_left_fix_5: 2907009883133278927
+      Tent_left_fix_6: -2980753649102676886
+      Tent_left_fix_7: 5358841095694716539
+      Tent_left_fix_8: -6100596643043997192
+      Tent_left_fix_9: -253300944084955915
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

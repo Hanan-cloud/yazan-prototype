@@ -39,6 +39,7 @@ public class PauseMenu : MonoBehaviour
 
 
     {
+        Cursor.visible = false;
         isPaused = false;
         isDolled = false;
 
@@ -99,6 +100,7 @@ public class PauseMenu : MonoBehaviour
         if (isPaused == false)
         {
 
+            Cursor.visible = true;
 
             isPaused = true;
             Time.timeScale = 0f;
@@ -109,7 +111,7 @@ public class PauseMenu : MonoBehaviour
         {
 
             Resume();
-
+            Cursor.visible = false;
 
         }
        

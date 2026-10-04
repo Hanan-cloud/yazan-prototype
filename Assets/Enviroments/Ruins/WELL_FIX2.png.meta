@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: 3246d381e6c91e049937a0fbf8960069
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2557324699215095896
+    second: WELL_FIX2_0
+  - first:
+      213: 5102064312960362754
+    second: WELL_FIX2_1
+  - first:
+      213: -6115773434500940546
+    second: WELL_FIX2_2
+  - first:
+      213: 6502521442940531668
+    second: WELL_FIX2_3
+  - first:
+      213: -3372822084801457786
+    second: WELL_FIX2_4
+  - first:
+      213: -8319533716210546817
+    second: WELL_FIX2_5
+  - first:
+      213: -403867284588674509
+    second: WELL_FIX2_6
+  - first:
+      213: -9121698723194669196
+    second: WELL_FIX2_7
+  - first:
+      213: 3285815128025344049
+    second: WELL_FIX2_8
+  - first:
+      213: -2087501372564993838
+    second: WELL_FIX2_9
+  - first:
+      213: 2178851263378825771
+    second: WELL_FIX2_10
+  - first:
+      213: -4806036596462131699
+    second: WELL_FIX2_11
+  - first:
+      213: 5310391316463917947
+    second: WELL_FIX2_12
+  - first:
+      213: -5720493914599629565
+    second: WELL_FIX2_13
+  - first:
+      213: -5491381016670408725
+    second: WELL_FIX2_14
+  - first:
+      213: -2325898770393206533
+    second: WELL_FIX2_15
+  - first:
+      213: -3906621944667227933
+    second: WELL_FIX2_16
+  - first:
+      213: 3232302942941055370
+    second: WELL_FIX2_17
+  - first:
+      213: -3094025739194458188
+    second: WELL_FIX2_18
+  - first:
+      213: 3234150330416964482
+    second: WELL_FIX2_19
+  - first:
+      213: -788507118683208031
+    second: WELL_FIX2_20
+  - first:
+      213: -6152291727909578855
+    second: WELL_FIX2_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WELL_FIX2_0
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2946
+        width: 1170
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8586c00c3417d7320800000000000000
+      internalID: 2557324699215095896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_1
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 2677
+        width: 2003
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2092333f57c2ec640800000000000000
+      internalID: 5102064312960362754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2592
+        width: 1263
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcfccdc678602ba0800000000000000
+      internalID: -6115773434500940546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_12
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 2395
+        width: 2093
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b962444cc42b940800000000000000
+      internalID: 5310391316463917947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_13
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1361
+        width: 2399
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d5188d719bc90b0800000000000000
+      internalID: -5720493914599629565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_14
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1100
+        width: 2498
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef69075f02bac3b0800000000000000
+      internalID: -5491381016670408725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 300
+        width: 3087
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf1669abffcf05d0800000000000000
+      internalID: -3094025739194458188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_19
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 943
+        width: 89
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28327ba179202ec20800000000000000
+      internalID: 3234150330416964482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_20
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 943
+        width: 74
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6450804f8ae05f0800000000000000
+      internalID: -788507118683208031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WELL_FIX2_21
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 64
+        width: 3144
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997106b054bae9aa0800000000000000
+      internalID: -6152291727909578855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 879a59f232bfc964caaa15cbc943710a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WELL_FIX2_0: 2557324699215095896
+      WELL_FIX2_1: 5102064312960362754
+      WELL_FIX2_10: 2178851263378825771
+      WELL_FIX2_11: -4806036596462131699
+      WELL_FIX2_12: 5310391316463917947
+      WELL_FIX2_13: -5720493914599629565
+      WELL_FIX2_14: -5491381016670408725
+      WELL_FIX2_15: -2325898770393206533
+      WELL_FIX2_16: -3906621944667227933
+      WELL_FIX2_17: 3232302942941055370
+      WELL_FIX2_18: -3094025739194458188
+      WELL_FIX2_19: 3234150330416964482
+      WELL_FIX2_2: -6115773434500940546
+      WELL_FIX2_20: -788507118683208031
+      WELL_FIX2_21: -6152291727909578855
+      WELL_FIX2_3: 6502521442940531668
+      WELL_FIX2_4: -3372822084801457786
+      WELL_FIX2_5: -8319533716210546817
+      WELL_FIX2_6: -403867284588674509
+      WELL_FIX2_7: -9121698723194669196
+      WELL_FIX2_8: 3285815128025344049
+      WELL_FIX2_9: -2087501372564993838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

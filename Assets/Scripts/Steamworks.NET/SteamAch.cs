@@ -9,10 +9,7 @@ public class SteamAch : MonoBehaviour
 
     protected Callback<GameOverlayActivated_t> m_GameOverlayActivated;
 
-    private void OnEnable()
-    {
-       
-    }
+ 
 
     private void OnGameOverlayActivated(GameOverlayActivated_t pCallback)
     {
@@ -28,9 +25,14 @@ public class SteamAch : MonoBehaviour
     private void Awake()
     {
         if (instance == null)
+        {
             instance = this;
-        else
-            Destroy(instance);
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
 
     }
 
@@ -78,42 +80,42 @@ public class SteamAch : MonoBehaviour
 
     public void SetAchievment(AchievKey key)
     {
-        if (!SteamManager.Initialized) return;
+        //if (!SteamManager.Initialized) return;
 
-            Achievements.TryGetValue(key, out string achId);
-            SteamUserStats.GetAchievement(achId, out bool achievementCompleted);
-        Debug.Log(achId + ": " + achievementCompleted);
+        //    Achievements.TryGetValue(key, out string achId);
+        //    SteamUserStats.GetAchievement(achId, out bool achievementCompleted);
+        //Debug.Log(achId + ": " + achievementCompleted);
 
-        if (!achievementCompleted)
-        {
+        //if (!achievementCompleted)
+        //{
 
-           bool b= SteamUserStats.SetAchievement(achId);
-            Debug.Log(achId +": "+ b);
+        //   bool b= SteamUserStats.SetAchievement(achId);
+        //    Debug.Log(achId +": "+ b);
 
-            bool a=  SteamUserStats.StoreStats();
-            Debug.Log(achId + ": " + a);
-
-
+        //    bool a=  SteamUserStats.StoreStats();
+        //    Debug.Log(achId + ": " + a);
 
 
-        }
+
+
+        //}
     }
 
 
-    public void Checkkkk(AchievKey key)
-    {
-        Achievements.TryGetValue(key, out string achId);
+    //public void Checkkkk(AchievKey key)
+    //{
+    //    Achievements.TryGetValue(key, out string achId);
 
-        Debug.Log(achId +": " + SteamUserStats.GetAchievement(achId, out bool isUnlocked));
+    //    Debug.Log(achId +": " + SteamUserStats.GetAchievement(achId, out bool isUnlocked));
 
-    }
+    //}
 
-    public void ClearAchievement(AchievKey key)
-    {
-        Achievements.TryGetValue(key, out string achId);
-        SteamUserStats.ClearAchievement(achId);
-        SteamUserStats.StoreStats();
-        Debug.Log($"[Steam] Reset achievement: {achId}");
-    }
+    //public void ClearAchievement(AchievKey key)
+    //{
+    //    Achievements.TryGetValue(key, out string achId);
+    //    SteamUserStats.ClearAchievement(achId);
+    //    SteamUserStats.StoreStats();
+    //    Debug.Log($"[Steam] Reset achievement: {achId}");
+    //}
 
 }

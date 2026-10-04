@@ -1,0 +1,1347 @@
+fileFormatVersion: 2
+guid: 6bfda39be6a8e4e44ac5ca6c83078d5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4838818078514313720
+    second: ruen_0
+  - first:
+      213: 5232139597874016901
+    second: ruen_1
+  - first:
+      213: 72212729492032595
+    second: ruen_2
+  - first:
+      213: -9081939879384922614
+    second: ruen_3
+  - first:
+      213: -5182508550785360081
+    second: ruen_4
+  - first:
+      213: 6112822492290933736
+    second: ruen_5
+  - first:
+      213: 6478109830891119719
+    second: ruen_6
+  - first:
+      213: -9085938805383526273
+    second: ruen_7
+  - first:
+      213: -4272644181897327906
+    second: ruen_8
+  - first:
+      213: -5539956376942306159
+    second: ruen_9
+  - first:
+      213: -8200337782941827557
+    second: ruen_10
+  - first:
+      213: -82606599899470061
+    second: ruen_11
+  - first:
+      213: 3351867525902565047
+    second: ruen_12
+  - first:
+      213: -4921940787491163556
+    second: ruen_13
+  - first:
+      213: 6235696338086301428
+    second: ruen_14
+  - first:
+      213: -7282939150916509193
+    second: ruen_15
+  - first:
+      213: -874134529267152419
+    second: ruen_16
+  - first:
+      213: -1743338057245298788
+    second: ruen_17
+  - first:
+      213: -5107266618369787243
+    second: ruen_18
+  - first:
+      213: -863759721776998120
+    second: ruen_19
+  - first:
+      213: -2677369500134818679
+    second: ruen_20
+  - first:
+      213: -1470377247649208340
+    second: ruen_21
+  - first:
+      213: 8919755109241848022
+    second: ruen_22
+  - first:
+      213: 6709751392272191757
+    second: ruen_23
+  - first:
+      213: 1675527870344408114
+    second: ruen_24
+  - first:
+      213: -2883005054304556997
+    second: ruen_25
+  - first:
+      213: -2907789852508004102
+    second: ruen_26
+  - first:
+      213: 8932067802987726387
+    second: ruen_27
+  - first:
+      213: -6355864314521268682
+    second: ruen_28
+  - first:
+      213: 6483233435880851326
+    second: ruen_29
+  - first:
+      213: 8549350783174908225
+    second: ruen_30
+  - first:
+      213: 1932633484599554897
+    second: ruen_31
+  - first:
+      213: -6211701354807907393
+    second: ruen_32
+  - first:
+      213: -602625290057044801
+    second: ruen_33
+  - first:
+      213: -591217889567195295
+    second: ruen_34
+  - first:
+      213: -3875050881367942294
+    second: ruen_35
+  - first:
+      213: -947364566195194956
+    second: ruen_36
+  - first:
+      213: -91675847223924946
+    second: ruen_37
+  - first:
+      213: 7565446591729744911
+    second: ruen_38
+  - first:
+      213: 4260700685357230271
+    second: ruen_39
+  - first:
+      213: -6144314232240491059
+    second: ruen_40
+  - first:
+      213: -7710145181688908240
+    second: ruen_41
+  - first:
+      213: -925781332255134254
+    second: ruen_42
+  - first:
+      213: 3840737682952014956
+    second: ruen_43
+  - first:
+      213: 3963457476326815176
+    second: ruen_44
+  - first:
+      213: 842953191632079106
+    second: ruen_45
+  - first:
+      213: 3491921316168088024
+    second: ruen_46
+  - first:
+      213: -6989098097968497673
+    second: ruen_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ruen_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 116
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9759eb76fe62340800000000000000
+      internalID: 4838818078514313720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 119
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58239824e3b4c9840800000000000000
+      internalID: 5232139597874016901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 119
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c42a9481d800100800000000000000
+      internalID: 72212729492032595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 120
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06cec14cc776f180800000000000000
+      internalID: -9081939879384922614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 122
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f93016ee70418b0800000000000000
+      internalID: -5182508550785360081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 121
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3e40c6bab15d450800000000000000
+      internalID: 6112822492290933736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 121
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7642b36919ed6e950800000000000000
+      internalID: 6478109830891119719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 119
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f788d2ebbc248e180800000000000000
+      internalID: -9085938805383526273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_8
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 121
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edace5601c484b4c0800000000000000
+      internalID: -4272644181897327906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 121
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c9131f60f1e13b0800000000000000
+      internalID: -5539956376942306159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_10
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 118
+        width: 6
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eb981db3c823e80800000000000000
+      internalID: -8200337782941827557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 126
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317a3ec2cb58adef0800000000000000
+      internalID: -82606599899470061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_13
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 122
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52351c6ee0c1bbb0800000000000000
+      internalID: -4921940787491163556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_14
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 120
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe86d608c4a98650800000000000000
+      internalID: 6235696338086301428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 122
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f126dccd6dcdea90800000000000000
+      internalID: -7282939150916509193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_16
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 122
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9c029e6437ed3f0800000000000000
+      internalID: -874134529267152419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_17
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 123
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f6976064b6ec7e0800000000000000
+      internalID: -1743338057245298788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_18
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 124
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59abbdee1185f19b0800000000000000
+      internalID: -5107266618369787243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_19
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 123
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81911340c1f4304f0800000000000000
+      internalID: -863759721776998120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_20
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 121
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cbffbff9218dad0800000000000000
+      internalID: -2677369500134818679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_21
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 125
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce76d040fab289be0800000000000000
+      internalID: -1470377247649208340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_22
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 128
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d006d1530659cb70800000000000000
+      internalID: 8919755109241848022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_23
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 123
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01119b6753dd1d50800000000000000
+      internalID: 6709751392272191757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 15
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c252388bba04710800000000000000
+      internalID: 1675527870344408114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 18
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38658c8d228df7d0800000000000000
+      internalID: -2883005054304556997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_26
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 18
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af066c7098475a7d0800000000000000
+      internalID: -2907789852508004102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 19
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33689cab75415fb70800000000000000
+      internalID: 8932067802987726387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 21
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ec06ca41f6bc7a0800000000000000
+      internalID: -6355864314521268682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_29
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 20
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e770d95d57219f950800000000000000
+      internalID: 6483233435880851326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_30
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 20
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149195bad3565a670800000000000000
+      internalID: 8549350783174908225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_31
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 18
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153f49a2ae712da10800000000000000
+      internalID: 1932633484599554897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_32
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 20
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbacdf578a9bc9a0800000000000000
+      internalID: -6211701354807907393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_33
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 20
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcab75dd7b03a7f0800000000000000
+      internalID: -602625290057044801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_34
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 17
+        width: 6
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fbd7b36729bc7f0800000000000000
+      internalID: -591217889567195295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_35
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 25
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bdf7911cd093ac0800000000000000
+      internalID: -3875050881367942294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_37
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 21
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e272cbb7d4d4abef0800000000000000
+      internalID: -91675847223924946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_38
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 19
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cbd3b779dddf860800000000000000
+      internalID: 7565446591729744911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_39
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 21
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb82bfcf2bc012b30800000000000000
+      internalID: 4260700685357230271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_40
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 21
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5bdee72c20bbaa0800000000000000
+      internalID: -6144314232240491059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_41
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 22
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0363ebeaecf000590800000000000000
+      internalID: -7710145181688908240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_42
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 23
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddae3788c6f623f0800000000000000
+      internalID: -925781332255134254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_43
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 22
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ccfc3d29a0d4530800000000000000
+      internalID: 3840737682952014956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_44
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 20
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c573de4397010730800000000000000
+      internalID: 3963457476326815176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_45
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 24
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209038d2675c2bb00800000000000000
+      internalID: 842953191632079106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_46
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 27
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d930d1afebc57030800000000000000
+      internalID: 3491921316168088024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruen_47
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 22
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbba3a4f4cb10f90800000000000000
+      internalID: -6989098097968497673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 477d2ee5182f95d47832732bda74e711
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ruen_0: 4838818078514313720
+      ruen_1: 5232139597874016901
+      ruen_10: -8200337782941827557
+      ruen_11: -82606599899470061
+      ruen_12: 3351867525902565047
+      ruen_13: -4921940787491163556
+      ruen_14: 6235696338086301428
+      ruen_15: -7282939150916509193
+      ruen_16: -874134529267152419
+      ruen_17: -1743338057245298788
+      ruen_18: -5107266618369787243
+      ruen_19: -863759721776998120
+      ruen_2: 72212729492032595
+      ruen_20: -2677369500134818679
+      ruen_21: -1470377247649208340
+      ruen_22: 8919755109241848022
+      ruen_23: 6709751392272191757
+      ruen_24: 1675527870344408114
+      ruen_25: -2883005054304556997
+      ruen_26: -2907789852508004102
+      ruen_27: 8932067802987726387
+      ruen_28: -6355864314521268682
+      ruen_29: 6483233435880851326
+      ruen_3: -9081939879384922614
+      ruen_30: 8549350783174908225
+      ruen_31: 1932633484599554897
+      ruen_32: -6211701354807907393
+      ruen_33: -602625290057044801
+      ruen_34: -591217889567195295
+      ruen_35: -3875050881367942294
+      ruen_36: -947364566195194956
+      ruen_37: -91675847223924946
+      ruen_38: 7565446591729744911
+      ruen_39: 4260700685357230271
+      ruen_4: -5182508550785360081
+      ruen_40: -6144314232240491059
+      ruen_41: -7710145181688908240
+      ruen_42: -925781332255134254
+      ruen_43: 3840737682952014956
+      ruen_44: 3963457476326815176
+      ruen_45: 842953191632079106
+      ruen_46: 3491921316168088024
+      ruen_47: -6989098097968497673
+      ruen_5: 6112822492290933736
+      ruen_6: 6478109830891119719
+      ruen_7: -9085938805383526273
+      ruen_8: -4272644181897327906
+      ruen_9: -5539956376942306159
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

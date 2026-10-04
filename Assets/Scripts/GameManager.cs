@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         doll = dollButton.GetComponent<Image>();
-        nails = 6;
+        nails = nailsCount;
 
 
     }

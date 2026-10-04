@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: 2c6620cfd6e645047867426ba1cb511d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3810922263645040120
+    second: Y_FIX_TENT_1_0
+  - first:
+      213: -5317289908209902824
+    second: Y_FIX_TENT_1_1
+  - first:
+      213: 6304207147396037837
+    second: Y_FIX_TENT_1_2
+  - first:
+      213: -3499409119558676187
+    second: Y_FIX_TENT_1_3
+  - first:
+      213: 4445113428510194734
+    second: Y_FIX_TENT_1_4
+  - first:
+      213: 469010791185494306
+    second: Y_FIX_TENT_1_5
+  - first:
+      213: -3141781044014816224
+    second: Y_FIX_TENT_1_6
+  - first:
+      213: 7800232279042817385
+    second: Y_FIX_TENT_1_7
+  - first:
+      213: -142283898545927861
+    second: Y_FIX_TENT_1_8
+  - first:
+      213: 2065196559219687699
+    second: Y_FIX_TENT_1_9
+  - first:
+      213: -2214450601890450616
+    second: Y_FIX_TENT_1_10
+  - first:
+      213: 5670799842289444640
+    second: Y_FIX_TENT_1_11
+  - first:
+      213: -3639489205228393387
+    second: Y_FIX_TENT_1_12
+  - first:
+      213: 6604185101081445591
+    second: Y_FIX_TENT_1_13
+  - first:
+      213: -5085495538908782469
+    second: Y_FIX_TENT_1_14
+  - first:
+      213: -996147299778043596
+    second: Y_FIX_TENT_1_15
+  - first:
+      213: 2090243213400250214
+    second: Y_FIX_TENT_1_16
+  - first:
+      213: -676809755317879753
+    second: Y_FIX_TENT_1_17
+  - first:
+      213: 8512899541165597095
+    second: Y_FIX_TENT_1_18
+  - first:
+      213: 4916684497592911769
+    second: Y_FIX_TENT_1_19
+  - first:
+      213: 8589549897814731305
+    second: Y_FIX_TENT_1_20
+  - first:
+      213: -8975263102765202726
+    second: Y_FIX_TENT_1_21
+  - first:
+      213: 5563232647272571207
+    second: Y_FIX_TENT_1_22
+  - first:
+      213: -3040427580959319206
+    second: Y_FIX_TENT_1_23
+  - first:
+      213: 1788410159938287546
+    second: Y_FIX_TENT_1_24
+  - first:
+      213: -5283068550915427835
+    second: Y_FIX_TENT_1_25
+  - first:
+      213: 6467825782764530640
+    second: Y_FIX_TENT_1_26
+  - first:
+      213: 8912631670483224807
+    second: Y_FIX_TENT_1_27
+  - first:
+      213: -3829184146288937531
+    second: Y_FIX_TENT_1_28
+  - first:
+      213: -5897604302859292193
+    second: Y_FIX_TENT_1_29
+  - first:
+      213: -1048038984700967454
+    second: Y_FIX_TENT_1_30
+  - first:
+      213: -5710291432043729428
+    second: Y_FIX_TENT_1_31
+  - first:
+      213: -6754023814151433879
+    second: Y_FIX_TENT_1_32
+  - first:
+      213: -2464868235757622307
+    second: Y_FIX_TENT_1_33
+  - first:
+      213: -4458568144614814362
+    second: Y_FIX_TENT_1_34
+  - first:
+      213: -5637278240488538630
+    second: Y_FIX_TENT_1_35
+  - first:
+      213: -175280237036654947
+    second: Y_FIX_TENT_1_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Y_FIX_TENT_1_0
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 509
+        width: 293
+        height: 1644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fda03f8b9d13e430800000000000000
+      internalID: 3810922263645040120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_FIX_TENT_1_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2045
+        width: 1089
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b116d20013536b0800000000000000
+      internalID: -5317289908209902824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_FIX_TENT_1_2
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 566
+        width: 434
+        height: 1492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccf40bdffa0d7750800000000000000
+      internalID: 6304207147396037837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_FIX_TENT_1_3
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 516
+        width: 809
+        height: 1612
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52151f842f99f6fc0800000000000000
+      internalID: -3499409119558676187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_FIX_TENT_1_4
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 475
+        width: 111
+        height: 1722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c3bacac1730bd30800000000000000
+      internalID: 4445113428510194734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y_FIX_TENT_1_10
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 808
+        width: 468
+        height: 1022
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8437ba509e0b441e0800000000000000
+      internalID: -2214450601890450616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2309cab27b66b6341a7c6684b4543446
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Y_FIX_TENT_1_0: 3810922263645040120
+      Y_FIX_TENT_1_1: -5317289908209902824
+      Y_FIX_TENT_1_10: -2214450601890450616
+      Y_FIX_TENT_1_11: 5670799842289444640
+      Y_FIX_TENT_1_12: -3639489205228393387
+      Y_FIX_TENT_1_13: 6604185101081445591
+      Y_FIX_TENT_1_14: -5085495538908782469
+      Y_FIX_TENT_1_15: -996147299778043596
+      Y_FIX_TENT_1_16: 2090243213400250214
+      Y_FIX_TENT_1_17: -676809755317879753
+      Y_FIX_TENT_1_18: 8512899541165597095
+      Y_FIX_TENT_1_19: 4916684497592911769
+      Y_FIX_TENT_1_2: 6304207147396037837
+      Y_FIX_TENT_1_20: 8589549897814731305
+      Y_FIX_TENT_1_21: -8975263102765202726
+      Y_FIX_TENT_1_22: 5563232647272571207
+      Y_FIX_TENT_1_23: -3040427580959319206
+      Y_FIX_TENT_1_24: 1788410159938287546
+      Y_FIX_TENT_1_25: -5283068550915427835
+      Y_FIX_TENT_1_26: 6467825782764530640
+      Y_FIX_TENT_1_27: 8912631670483224807
+      Y_FIX_TENT_1_28: -3829184146288937531
+      Y_FIX_TENT_1_29: -5897604302859292193
+      Y_FIX_TENT_1_3: -3499409119558676187
+      Y_FIX_TENT_1_30: -1048038984700967454
+      Y_FIX_TENT_1_31: -5710291432043729428
+      Y_FIX_TENT_1_32: -6754023814151433879
+      Y_FIX_TENT_1_33: -2464868235757622307
+      Y_FIX_TENT_1_34: -4458568144614814362
+      Y_FIX_TENT_1_35: -5637278240488538630
+      Y_FIX_TENT_1_36: -175280237036654947
+      Y_FIX_TENT_1_4: 4445113428510194734
+      Y_FIX_TENT_1_5: 469010791185494306
+      Y_FIX_TENT_1_6: -3141781044014816224
+      Y_FIX_TENT_1_7: 7800232279042817385
+      Y_FIX_TENT_1_8: -142283898545927861
+      Y_FIX_TENT_1_9: 2065196559219687699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

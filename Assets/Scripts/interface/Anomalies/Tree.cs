@@ -4,6 +4,7 @@ public class Tree : MonoBehaviour, ITree
 {
 
     SwapPair pair = new();
+    SwapPair pairHollowd = new();
 
     [SerializeField] GameObject Log;
     [SerializeField] GameObject CarvedLog;
@@ -11,19 +12,27 @@ public class Tree : MonoBehaviour, ITree
 
     public SwapPair Swapper(bool isCarved)
     {
-        pair.original = Log;
+
+
+        pair.original = pairHollowd.original= Log;
+        pair.replacement = CarvedLog;
+
+        pairHollowd.replacement = HollowedLog;
 
         if (isCarved)
-            pair.replacement = CarvedLog;
-        else
-            pair.replacement = HollowedLog;
+        {
+            return pair;
 
 
-        return pair;
+        }
+        else return pairHollowd;
+
+
+
     }
 
 
 
 
- 
+
 }

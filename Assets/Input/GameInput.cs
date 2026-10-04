@@ -136,6 +136,15 @@ public partial class @GameInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Instructions"",
+                    ""type"": ""Button"",
+                    ""id"": ""e5ffcfab-8ad3-4840-87ed-cd8105e7fac8"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -301,6 +310,28 @@ public partial class @GameInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Doll"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""67c2e500-0326-4615-90f5-3120b611dd4f"",
+                    ""path"": ""<Keyboard>/i"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Instructions"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8e97d4a2-eee5-4e7e-b51f-a768359dcd82"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Instructions"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -884,6 +915,7 @@ public partial class @GameInput: IInputActionCollection2, IDisposable
         m_Player_Interaction = m_Player.FindAction("Interaction", throwIfNotFound: true);
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
         m_Player_Doll = m_Player.FindAction("Doll", throwIfNotFound: true);
+        m_Player_Instructions = m_Player.FindAction("Instructions", throwIfNotFound: true);
         // StoryPanels
         m_StoryPanels = asset.FindActionMap("StoryPanels", throwIfNotFound: true);
         m_StoryPanels_Next = m_StoryPanels.FindAction("Next", throwIfNotFound: true);
@@ -985,6 +1017,7 @@ public partial class @GameInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Interaction;
     private readonly InputAction m_Player_Pause;
     private readonly InputAction m_Player_Doll;
+    private readonly InputAction m_Player_Instructions;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -1016,6 +1049,10 @@ public partial class @GameInput: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Doll".
         /// </summary>
         public InputAction @Doll => m_Wrapper.m_Player_Doll;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Instructions".
+        /// </summary>
+        public InputAction @Instructions => m_Wrapper.m_Player_Instructions;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1057,6 +1094,9 @@ public partial class @GameInput: IInputActionCollection2, IDisposable
             @Doll.started += instance.OnDoll;
             @Doll.performed += instance.OnDoll;
             @Doll.canceled += instance.OnDoll;
+            @Instructions.started += instance.OnInstructions;
+            @Instructions.performed += instance.OnInstructions;
+            @Instructions.canceled += instance.OnInstructions;
         }
 
         /// <summary>
@@ -1083,6 +1123,9 @@ public partial class @GameInput: IInputActionCollection2, IDisposable
             @Doll.started -= instance.OnDoll;
             @Doll.performed -= instance.OnDoll;
             @Doll.canceled -= instance.OnDoll;
+            @Instructions.started -= instance.OnInstructions;
+            @Instructions.performed -= instance.OnInstructions;
+            @Instructions.canceled -= instance.OnInstructions;
         }
 
         /// <summary>
@@ -1438,6 +1481,13 @@ public partial class @GameInput: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnDoll(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Instructions" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnInstructions(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "StoryPanels" which allows adding and removing callbacks.

@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: ba459cdc1b95b472eb41eb990d9c7468
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170880
+  packageName: Piano Solo
+  packageVersion: 1.0
+  assetPath: Assets/Piano Solo Lite/Graveyard blues/Graveyard Blues .wav
+  uploadId: 373320

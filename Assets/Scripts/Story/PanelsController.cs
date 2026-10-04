@@ -152,8 +152,9 @@ public class PanelsController : MonoBehaviour
 
 
 
+        panels[Panel_index].shots[Shot_Index].otherAction?.Invoke();
 
-       
+
         textIndex++;
 
 
@@ -202,9 +203,9 @@ public class PanelsController : MonoBehaviour
 
             panels[Panel_index].sprite.gameObject.GetComponent<SpriteRenderer>().DOFade(0, 1).OnComplete(() => StartPanel());
 
+            panels[Panel_index].otherAction?.Invoke();
 
-
-            Shot_Index = 0;
+           Shot_Index = 0;
             Panel_index++;
 
             if (Panel_index >= panels.Count)

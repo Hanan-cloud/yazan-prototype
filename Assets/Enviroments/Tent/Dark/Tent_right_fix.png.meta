@@ -1,0 +1,453 @@
+fileFormatVersion: 2
+guid: 063e8f7a61837c549976f22d7d0a65d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2005009434835847747
+    second: Tent_right_fix_0
+  - first:
+      213: -4196009492465837429
+    second: Tent_right_fix_1
+  - first:
+      213: -7291578760766651846
+    second: Tent_right_fix_2
+  - first:
+      213: -7492288816859506511
+    second: Tent_right_fix_3
+  - first:
+      213: -881641215536363958
+    second: Tent_right_fix_4
+  - first:
+      213: 5035723298272114175
+    second: Tent_right_fix_5
+  - first:
+      213: -2549482718928653268
+    second: Tent_right_fix_6
+  - first:
+      213: 7605682124582842789
+    second: Tent_right_fix_7
+  - first:
+      213: -1924510633741490329
+    second: Tent_right_fix_8
+  - first:
+      213: 3282472319128771994
+    second: Tent_right_fix_9
+  - first:
+      213: -5888058109988491975
+    second: Tent_right_fix_10
+  - first:
+      213: 5382186839869184852
+    second: Tent_right_fix_11
+  - first:
+      213: -8364704503003969894
+    second: Tent_right_fix_12
+  - first:
+      213: 2970400955225884206
+    second: Tent_right_fix_13
+  - first:
+      213: 958073783252381888
+    second: Tent_right_fix_14
+  - first:
+      213: -2213893955655344106
+    second: Tent_right_fix_15
+  - first:
+      213: -4531016224142751126
+    second: Tent_right_fix_16
+  - first:
+      213: 8847333731042258055
+    second: Tent_right_fix_17
+  - first:
+      213: -6404058199435852724
+    second: Tent_right_fix_18
+  - first:
+      213: -199016359683791962
+    second: Tent_right_fix_19
+  - first:
+      213: -6398735833029359128
+    second: Tent_right_fix_20
+  - first:
+      213: -440619036920676675
+    second: Tent_right_fix_21
+  - first:
+      213: 1372057110063076387
+    second: Tent_right_fix_22
+  - first:
+      213: 3549297196808132987
+    second: Tent_right_fix_23
+  - first:
+      213: -3919821798087043169
+    second: Tent_right_fix_24
+  - first:
+      213: 5039089241443255060
+    second: Tent_right_fix_25
+  - first:
+      213: 3634637079234760710
+    second: Tent_right_fix_26
+  - first:
+      213: -4863701829779059063
+    second: Tent_right_fix_27
+  - first:
+      213: 8860366691709928819
+    second: Tent_right_fix_28
+  - first:
+      213: 5696838584422927635
+    second: Tent_right_fix_29
+  - first:
+      213: 8861803638010984984
+    second: Tent_right_fix_30
+  - first:
+      213: -8680776492092074519
+    second: Tent_right_fix_31
+  - first:
+      213: 7859439781611184064
+    second: Tent_right_fix_32
+  - first:
+      213: -1405766871316608794
+    second: Tent_right_fix_33
+  - first:
+      213: 3046611766353624618
+    second: Tent_right_fix_34
+  - first:
+      213: 4292559448153475683
+    second: Tent_right_fix_35
+  - first:
+      213: -1484203373635777220
+    second: Tent_right_fix_36
+  - first:
+      213: -7075104532859100103
+    second: Tent_right_fix_37
+  - first:
+      213: 6445329555079876690
+    second: Tent_right_fix_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tent_right_fix_0
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 307
+        width: 101
+        height: 1758
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a82be357933db10800000000000000
+      internalID: 2005009434835847747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_right_fix_1
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 322
+        width: 834
+        height: 1692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a18671997c4c5c0800000000000000
+      internalID: -4196009492465837429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_right_fix_2
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 380
+        width: 444
+        height: 1565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3288b0efbb1fca90800000000000000
+      internalID: -7291578760766651846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_right_fix_4
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 315
+        width: 293
+        height: 1740
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a468c905cf7c3c3f0800000000000000
+      internalID: -881641215536363958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_right_fix_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 618
+        width: 479
+        height: 1082
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5faacc8ab72e540800000000000000
+      internalID: 5035723298272114175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_right_fix_37
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 305
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9346d22b9ed20dd90800000000000000
+      internalID: -7075104532859100103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent_right_fix_38
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 307
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250dcded419627950800000000000000
+      internalID: 6445329555079876690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 439c09bc71fe6df4d93f074012b6e4cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tent_right_fix_0: 2005009434835847747
+      Tent_right_fix_1: -4196009492465837429
+      Tent_right_fix_10: -5888058109988491975
+      Tent_right_fix_11: 5382186839869184852
+      Tent_right_fix_12: -8364704503003969894
+      Tent_right_fix_13: 2970400955225884206
+      Tent_right_fix_14: 958073783252381888
+      Tent_right_fix_15: -2213893955655344106
+      Tent_right_fix_16: -4531016224142751126
+      Tent_right_fix_17: 8847333731042258055
+      Tent_right_fix_18: -6404058199435852724
+      Tent_right_fix_19: -199016359683791962
+      Tent_right_fix_2: -7291578760766651846
+      Tent_right_fix_20: -6398735833029359128
+      Tent_right_fix_21: -440619036920676675
+      Tent_right_fix_22: 1372057110063076387
+      Tent_right_fix_23: 3549297196808132987
+      Tent_right_fix_24: -3919821798087043169
+      Tent_right_fix_25: 5039089241443255060
+      Tent_right_fix_26: 3634637079234760710
+      Tent_right_fix_27: -4863701829779059063
+      Tent_right_fix_28: 8860366691709928819
+      Tent_right_fix_29: 5696838584422927635
+      Tent_right_fix_3: -7492288816859506511
+      Tent_right_fix_30: 8861803638010984984
+      Tent_right_fix_31: -8680776492092074519
+      Tent_right_fix_32: 7859439781611184064
+      Tent_right_fix_33: -1405766871316608794
+      Tent_right_fix_34: 3046611766353624618
+      Tent_right_fix_35: 4292559448153475683
+      Tent_right_fix_36: -1484203373635777220
+      Tent_right_fix_37: -7075104532859100103
+      Tent_right_fix_38: 6445329555079876690
+      Tent_right_fix_4: -881641215536363958
+      Tent_right_fix_5: 5035723298272114175
+      Tent_right_fix_6: -2549482718928653268
+      Tent_right_fix_7: 7605682124582842789
+      Tent_right_fix_8: -1924510633741490329
+      Tent_right_fix_9: 3282472319128771994
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

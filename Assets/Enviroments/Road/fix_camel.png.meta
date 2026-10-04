@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: 1c3aa0f4c7168a44fa5fd65a581a4b60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1575186916180219595
+    second: fix_camel_0
+  - first:
+      213: -749933988372148131
+    second: fix_camel_1
+  - first:
+      213: -5370886119020699389
+    second: fix_camel_2
+  - first:
+      213: 6659754110034570041
+    second: fix_camel_3
+  - first:
+      213: -6491009907641394581
+    second: fix_camel_4
+  - first:
+      213: 7569199684664497791
+    second: fix_camel_5
+  - first:
+      213: -1186506193577774180
+    second: fix_camel_6
+  - first:
+      213: 1646117961212923080
+    second: fix_camel_7
+  - first:
+      213: 5263621069517181034
+    second: fix_camel_8
+  - first:
+      213: 1261862504794668310
+    second: fix_camel_9
+  - first:
+      213: -1227043289239347294
+    second: fix_camel_10
+  - first:
+      213: 7856876232901528558
+    second: fix_camel_11
+  - first:
+      213: 9103674582710112541
+    second: fix_camel_12
+  - first:
+      213: -3268335568036378851
+    second: fix_camel_13
+  - first:
+      213: 7854589579655439617
+    second: fix_camel_14
+  - first:
+      213: -8945128236047142811
+    second: fix_camel_15
+  - first:
+      213: -6100414717362072690
+    second: fix_camel_16
+  - first:
+      213: -1814427483746450379
+    second: fix_camel_17
+  - first:
+      213: 6012280911473538419
+    second: fix_camel_18
+  - first:
+      213: -7124337983178512371
+    second: fix_camel_19
+  - first:
+      213: -688363648511425452
+    second: fix_camel_20
+  - first:
+      213: -380623135626169290
+    second: fix_camel_21
+  - first:
+      213: 1618738021866106924
+    second: fix_camel_22
+  - first:
+      213: -3317683726714072205
+    second: fix_camel_23
+  - first:
+      213: 3933977132422108398
+    second: fix_camel_24
+  - first:
+      213: -1226342810688757012
+    second: fix_camel_25
+  - first:
+      213: 276951915805949405
+    second: fix_camel_26
+  - first:
+      213: 4945010088916909378
+    second: fix_camel_27
+  - first:
+      213: -890228156450957174
+    second: fix_camel_28
+  - first:
+      213: -8735401609759725384
+    second: fix_camel_29
+  - first:
+      213: 5648852208751515446
+    second: fix_camel_30
+  - first:
+      213: 7740707744826028439
+    second: fix_camel_31
+  - first:
+      213: -55261269250451510
+    second: fix_camel_32
+  - first:
+      213: 7232905230105640080
+    second: fix_camel_33
+  - first:
+      213: -464832176534265712
+    second: fix_camel_34
+  - first:
+      213: 1292795331243542577
+    second: fix_camel_35
+  - first:
+      213: -6329005642902314938
+    second: fix_camel_36
+  - first:
+      213: -3337981234784760826
+    second: fix_camel_37
+  - first:
+      213: 7957546260414970329
+    second: fix_camel_38
+  - first:
+      213: -44387687916688323
+    second: fix_camel_39
+  - first:
+      213: -7574602589379029741
+    second: fix_camel_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fix_camel_0
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1347
+        width: 723
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6d3c197203cd510800000000000000
+      internalID: 1575186916180219595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_1
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1582
+        width: 395
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50161ac203b795f0800000000000000
+      internalID: -749933988372148131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1790
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc8c70709f28d610800000000000000
+      internalID: 1646117961212923080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_24
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1261
+        width: 1491
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4978cdb5b489630800000000000000
+      internalID: 3933977132422108398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1425
+        width: 124
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2ea0c06b72bfee0800000000000000
+      internalID: -1226342810688757012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_34
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 191
+        width: 246
+        height: 1118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090e08529959c89f0800000000000000
+      internalID: -464832176534265712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_35
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 401
+        width: 747
+        height: 915
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1380e06118ee0f110800000000000000
+      internalID: 1292795331243542577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_36
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 882
+        width: 375
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6406d5976eada28a0800000000000000
+      internalID: -6329005642902314938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_38
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 774
+        width: 341
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9b5c7b922ee6e60800000000000000
+      internalID: 7957546260414970329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_39
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 624
+        width: 363
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c235d02ad426ff0800000000000000
+      internalID: -44387687916688323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fix_camel_40
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 198
+        width: 330
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3151f41b31b91e690800000000000000
+      internalID: -7574602589379029741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 02ad82b5ae386b64c84a3c1d5316d609
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fix_camel_0: 1575186916180219595
+      fix_camel_1: -749933988372148131
+      fix_camel_10: -1227043289239347294
+      fix_camel_11: 7856876232901528558
+      fix_camel_12: 9103674582710112541
+      fix_camel_13: -3268335568036378851
+      fix_camel_14: 7854589579655439617
+      fix_camel_15: -8945128236047142811
+      fix_camel_16: -6100414717362072690
+      fix_camel_17: -1814427483746450379
+      fix_camel_18: 6012280911473538419
+      fix_camel_19: -7124337983178512371
+      fix_camel_2: -5370886119020699389
+      fix_camel_20: -688363648511425452
+      fix_camel_21: -380623135626169290
+      fix_camel_22: 1618738021866106924
+      fix_camel_23: -3317683726714072205
+      fix_camel_24: 3933977132422108398
+      fix_camel_25: -1226342810688757012
+      fix_camel_26: 276951915805949405
+      fix_camel_27: 4945010088916909378
+      fix_camel_28: -890228156450957174
+      fix_camel_29: -8735401609759725384
+      fix_camel_3: 6659754110034570041
+      fix_camel_30: 5648852208751515446
+      fix_camel_31: 7740707744826028439
+      fix_camel_32: -55261269250451510
+      fix_camel_33: 7232905230105640080
+      fix_camel_34: -464832176534265712
+      fix_camel_35: 1292795331243542577
+      fix_camel_36: -6329005642902314938
+      fix_camel_37: -3337981234784760826
+      fix_camel_38: 7957546260414970329
+      fix_camel_39: -44387687916688323
+      fix_camel_4: -6491009907641394581
+      fix_camel_40: -7574602589379029741
+      fix_camel_5: 7569199684664497791
+      fix_camel_6: -1186506193577774180
+      fix_camel_7: 1646117961212923080
+      fix_camel_8: 5263621069517181034
+      fix_camel_9: 1261862504794668310
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

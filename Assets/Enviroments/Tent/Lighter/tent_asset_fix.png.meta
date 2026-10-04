@@ -1,0 +1,1229 @@
+fileFormatVersion: 2
+guid: 022a20dc4ce591e48a80956765569d3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7283391390524231339
+    second: tent_asset_fix_0
+  - first:
+      213: 1938597384312229751
+    second: tent_asset_fix_1
+  - first:
+      213: -8544963684586148784
+    second: tent_asset_fix_2
+  - first:
+      213: -7966933909984608979
+    second: tent_asset_fix_3
+  - first:
+      213: 5382067785965429967
+    second: tent_asset_fix_4
+  - first:
+      213: 8584147164782035891
+    second: tent_asset_fix_5
+  - first:
+      213: 7286126083751844930
+    second: tent_asset_fix_6
+  - first:
+      213: 7146568836590968492
+    second: tent_asset_fix_7
+  - first:
+      213: -5168149603123840839
+    second: tent_asset_fix_8
+  - first:
+      213: 2625753269120072351
+    second: tent_asset_fix_9
+  - first:
+      213: -7886675021404339120
+    second: tent_asset_fix_10
+  - first:
+      213: 4913656567748625303
+    second: tent_asset_fix_11
+  - first:
+      213: 1487941882053580169
+    second: tent_asset_fix_12
+  - first:
+      213: 1209945625201993571
+    second: tent_asset_fix_13
+  - first:
+      213: -180566987216419286
+    second: tent_asset_fix_14
+  - first:
+      213: -8065399433501928643
+    second: tent_asset_fix_15
+  - first:
+      213: -2871160572919678630
+    second: tent_asset_fix_16
+  - first:
+      213: 2055899958629833272
+    second: tent_asset_fix_17
+  - first:
+      213: -8293336890600020582
+    second: tent_asset_fix_18
+  - first:
+      213: 4396386922111530896
+    second: tent_asset_fix_19
+  - first:
+      213: 7766785503534510105
+    second: tent_asset_fix_20
+  - first:
+      213: 7588688155821945912
+    second: tent_asset_fix_21
+  - first:
+      213: 1886984276131265623
+    second: tent_asset_fix_22
+  - first:
+      213: -1471728943299043282
+    second: tent_asset_fix_23
+  - first:
+      213: -1323570117320879290
+    second: tent_asset_fix_24
+  - first:
+      213: -408198962923180042
+    second: tent_asset_fix_25
+  - first:
+      213: 2136650920365200655
+    second: tent_asset_fix_26
+  - first:
+      213: 4929143847180857983
+    second: tent_asset_fix_27
+  - first:
+      213: 5983769234887954975
+    second: tent_asset_fix_28
+  - first:
+      213: -1498382093377955469
+    second: tent_asset_fix_29
+  - first:
+      213: -2902634155607333351
+    second: tent_asset_fix_30
+  - first:
+      213: 8722855484925959608
+    second: tent_asset_fix_31
+  - first:
+      213: 2322550668902101742
+    second: tent_asset_fix_32
+  - first:
+      213: 668683904010549737
+    second: tent_asset_fix_33
+  - first:
+      213: -6481373927248757840
+    second: tent_asset_fix_34
+  - first:
+      213: -1001950674651342319
+    second: tent_asset_fix_35
+  - first:
+      213: -1884465779230319402
+    second: tent_asset_fix_36
+  - first:
+      213: -7141602452398805131
+    second: tent_asset_fix_37
+  - first:
+      213: -3724750376092518062
+    second: tent_asset_fix_38
+  - first:
+      213: -4072502239383732342
+    second: tent_asset_fix_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tent_asset_fix_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 2023
+        width: 188
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baec55071edc31560800000000000000
+      internalID: 7283391390524231339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_1
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 2252
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f8e66cc0847ea10800000000000000
+      internalID: 1938597384312229751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 2248
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c21a15dc03a6980800000000000000
+      internalID: -8544963684586148784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_3
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2261
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d7a5ac1d3cf6190800000000000000
+      internalID: -7966933909984608979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_4
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 333
+        width: 191
+        height: 1987
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4ea8bc222f0ba40800000000000000
+      internalID: 5382067785965429967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1970
+        width: 336
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b382889d54012770800000000000000
+      internalID: 8584147164782035891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_6
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1898
+        width: 450
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c9cb2d1158d1560800000000000000
+      internalID: 7286126083751844930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_7
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 1896
+        width: 162
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae91e32e76bd2360800000000000000
+      internalID: 7146568836590968492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_8
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1896
+        width: 162
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b83ab7615b0748b0800000000000000
+      internalID: -5168149603123840839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_9
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 1917
+        width: 91
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9af8b9bfac807420800000000000000
+      internalID: 2625753269120072351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1790
+        width: 134
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0548f3a7ad6ec8290800000000000000
+      internalID: -7886675021404339120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1782
+        width: 224
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7930cec5d90d03440800000000000000
+      internalID: 4913656567748625303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_13
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1600
+        width: 530
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367e3b3b2279ac010800000000000000
+      internalID: 1209945625201993571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_14
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1683
+        width: 162
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a268dc4284f7e7df0800000000000000
+      internalID: -180566987216419286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_15
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 1688
+        width: 90
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d331b7292f1f11090800000000000000
+      internalID: -8065399433501928643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_16
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1683
+        width: 161
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59f306cba69728d0800000000000000
+      internalID: -2871160572919678630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_17
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 1683
+        width: 162
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a1fd7ae16088c10800000000000000
+      internalID: 2055899958629833272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1731
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95a429b90628ec80800000000000000
+      internalID: -8293336890600020582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1531
+        width: 243
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910f3d8e34a29cb60800000000000000
+      internalID: 7766785503534510105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_21
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1465
+        width: 137
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8343bfecbaf605960800000000000000
+      internalID: 7588688155821945912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_22
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1314
+        width: 530
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c3d83933aef2a10800000000000000
+      internalID: 1886984276131265623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_23
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1480
+        width: 185
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20eff8d25e539be0800000000000000
+      internalID: -1471728943299043282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_24
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1465
+        width: 149
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64354c9adfbb1ade0800000000000000
+      internalID: -1323570117320879290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_25
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 1475
+        width: 302
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffe749b439c55af0800000000000000
+      internalID: -408198962923180042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1387
+        width: 240
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05116d01b8e6ad10800000000000000
+      internalID: 2136650920365200655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_27
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1274
+        width: 65
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72740a9636d76440800000000000000
+      internalID: 4929143847180857983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_28
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 1248
+        width: 104
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12586f6a6e9a0350800000000000000
+      internalID: 5983769234887954975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_29
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1239
+        width: 107
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3799662cc6da43be0800000000000000
+      internalID: -1498382093377955469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_30
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1236
+        width: 103
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916eb124d95c7b7d0800000000000000
+      internalID: -2902634155607333351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_31
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 1237
+        width: 150
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd541e09decd0970800000000000000
+      internalID: 8722855484925959608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 854
+        width: 272
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee271c8278b5b3020800000000000000
+      internalID: 2322550668902101742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_33
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 994
+        width: 364
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9f195c774a74900800000000000000
+      internalID: 668683904010549737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_34
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 732
+        width: 205
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbfbd1c0c88d06a0800000000000000
+      internalID: -6481373927248757840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_35
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 748
+        width: 194
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a91f28b2b5812f0800000000000000
+      internalID: -1001950674651342319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_36
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 392
+        width: 272
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcd89dab5809d5e0800000000000000
+      internalID: -1884465779230319402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_37
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 736
+        width: 321
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fe5b9486ee3ec90800000000000000
+      internalID: -7141602452398805131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_38
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 366
+        width: 445
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259b00c74470f4cc0800000000000000
+      internalID: -3724750376092518062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 174
+        width: 371
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fbc825ac09b77c0800000000000000
+      internalID: -4072502239383732342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_12
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 1894
+        width: 501
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296e869ca4854734b8e6596b88210dcb
+      internalID: 1487941882053580169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_19
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 1683
+        width: 642
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1dab133f250554cb189e9dd5854215
+      internalID: 4396386922111530896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_40
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 1462
+        width: 675
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e994bfdcd598ce4ca488720504071e6
+      internalID: 1173729247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_asset_fix_41
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 1230
+        width: 527
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900e850c0b4abe04198fd037f0b8f970
+      internalID: 1406622815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2bb8d5a7d798087439fe798efe47bafc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tent_asset_fix_0: 7283391390524231339
+      tent_asset_fix_1: 1938597384312229751
+      tent_asset_fix_10: -7886675021404339120
+      tent_asset_fix_11: 4913656567748625303
+      tent_asset_fix_12: 1487941882053580169
+      tent_asset_fix_13: 1209945625201993571
+      tent_asset_fix_14: -180566987216419286
+      tent_asset_fix_15: -8065399433501928643
+      tent_asset_fix_16: -2871160572919678630
+      tent_asset_fix_17: 2055899958629833272
+      tent_asset_fix_18: -8293336890600020582
+      tent_asset_fix_19: 4396386922111530896
+      tent_asset_fix_2: -8544963684586148784
+      tent_asset_fix_20: 7766785503534510105
+      tent_asset_fix_21: 7588688155821945912
+      tent_asset_fix_22: 1886984276131265623
+      tent_asset_fix_23: -1471728943299043282
+      tent_asset_fix_24: -1323570117320879290
+      tent_asset_fix_25: -408198962923180042
+      tent_asset_fix_26: 2136650920365200655
+      tent_asset_fix_27: 4929143847180857983
+      tent_asset_fix_28: 5983769234887954975
+      tent_asset_fix_29: -1498382093377955469
+      tent_asset_fix_3: -7966933909984608979
+      tent_asset_fix_30: -2902634155607333351
+      tent_asset_fix_31: 8722855484925959608
+      tent_asset_fix_32: 2322550668902101742
+      tent_asset_fix_33: 668683904010549737
+      tent_asset_fix_34: -6481373927248757840
+      tent_asset_fix_35: -1001950674651342319
+      tent_asset_fix_36: -1884465779230319402
+      tent_asset_fix_37: -7141602452398805131
+      tent_asset_fix_38: -3724750376092518062
+      tent_asset_fix_39: -4072502239383732342
+      tent_asset_fix_4: 5382067785965429967
+      tent_asset_fix_40: 1173729247
+      tent_asset_fix_41: 1406622815
+      tent_asset_fix_5: 8584147164782035891
+      tent_asset_fix_6: 7286126083751844930
+      tent_asset_fix_7: 7146568836590968492
+      tent_asset_fix_8: -5168149603123840839
+      tent_asset_fix_9: 2625753269120072351
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

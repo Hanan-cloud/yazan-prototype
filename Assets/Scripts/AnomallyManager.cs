@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine.Rendering;
 
 public class AnomallyManager : MonoBehaviour
 {
@@ -16,7 +17,15 @@ public class AnomallyManager : MonoBehaviour
     private const int cooldownRounds = 3;
 
     bool isFirstRun = true;
+
+    bool forceAnomaly;
+    bool randomAnomaly;
+
     IAnomaly currentAnomaly;
+    int normalRunCounter = 0;
+    const int normalRunMax = 2;
+    int forcedAnomalyCounter;
+    int forcedAnomalyCount=3;
 
     private Dictionary<AnomalyList, bool> foundAnomaliesDic = new Dictionary<AnomalyList, bool>();
 
@@ -28,6 +37,7 @@ public class AnomallyManager : MonoBehaviour
     }
     private void Start()
     {
+        normalRunCounter = 0;
 
         isFirstRun = true;
         SetAnomalyDic();
@@ -42,6 +52,7 @@ public class AnomallyManager : MonoBehaviour
             {
                 anomalies.Add(anomaly);
             }
+
         }
 
 
@@ -50,7 +61,17 @@ public class AnomallyManager : MonoBehaviour
     }
 
 
+    public void setAnomalyByName(string name)
+    {
+        ResetAnomaly();
+       currentAnomaly = null;
+        currentAnomaly = anomalies.FirstOrDefault(item => item.AnomalyName.ToString() == name);
+        currentAnomaly.SetAnomaly();
+        isAnomalyRun = true;
 
+        Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
+
+    }
 
 
 
@@ -61,24 +82,33 @@ public class AnomallyManager : MonoBehaviour
             ResetAnomaly();
 
         }
-        if (UnityEngine.Random.value > 0.3f && isFirstRun == false) // 11/2 % 0 
-        {
-            isAnomalyRun = true;
-            //print("anomaly");
-            SetAnomaly();
 
+        randomAnomaly = !isFirstRun && forcedAnomalyCounter == 0 && UnityEngine.Random.value > 0.3f;
+
+        if (forcedAnomalyCounter > 0 || randomAnomaly)
+        {
+            if (forcedAnomalyCounter > 0)
+                forcedAnomalyCounter--;
+
+            isAnomalyRun = true;
+            SetAnomaly();
+            normalRunCounter = 0;
         }
         else
         {
-            isFirstRun= false;
+            normalRunCounter++;
+
+            if (normalRunCounter >= normalRunMax)
+                forcedAnomalyCounter = forcedAnomalyCount;
+
+            isFirstRun = false;
             isAnomalyRun = false;
             print("No anomaly");
-
         }
 
 
     }
-
+    
     public void SaveFoundAnomaly()
     {
        // if (foundAnomaliesDic[currentAnomaly.AnomalyName] == true) { return; }
@@ -177,27 +207,32 @@ public class AnomallyManager : MonoBehaviour
     }
 
 
-    //GUIStyle style = new GUIStyle();
+  //  GUIStyle style = new GUIStyle();
 
 
-    //void OnGUI()
-    //{
+  //  void OnGUI()
+  //  {
 
-    //    style.fontSize = 30;
-    //    style.normal.textColor = Color.black;
-    //    GUI.Label(
-    //        new Rect(20, 60, 300, 50),
-    //        "is Anomaly " + isAnomalyRun,
-    //        style
-    //    );
+  //      //style.fontSize = 30;
+  //      //style.normal.textColor = Color.black;
+  //      //GUI.Label(
+  //      //    new Rect(20, 60, 300, 50),
+  //      //    "is Anomaly " + isAnomalyRun,
+  //      //    style
+  //      //);
+
+  //      GUI.Label(
+  //    new Rect(20, 60, 300, 50),
+  //    "normal run counter " + normalRunCounter,
+  //    style
+  //);
 
 
-
-    //    if (currentAnomaly == null ) return; 
-    //    GUI.Label(
-    //        new Rect(20, 90, 300, 50),
-    //        "anomaly name " + currentAnomaly.AnomalyName,
-    //        style
-    //    );
-    //}
+  //      if (currentAnomaly == null) return;
+  //      GUI.Label(
+  //          new Rect(20, 90, 300, 50),
+  //          "anomaly name " + currentAnomaly.AnomalyName,
+  //          style
+  //      );
+  //  }
 }
