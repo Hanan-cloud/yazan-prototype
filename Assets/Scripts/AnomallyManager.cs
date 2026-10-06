@@ -56,7 +56,7 @@ public class AnomallyManager : MonoBehaviour
         }
 
 
-        print("anomaly count: "+anomalies.Count);
+        //print("anomaly count: "+anomalies.Count);
 
     }
 
@@ -69,7 +69,7 @@ public class AnomallyManager : MonoBehaviour
         currentAnomaly.SetAnomaly();
         isAnomalyRun = true;
 
-        Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
+      //  Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
 
     }
 
@@ -103,7 +103,7 @@ public class AnomallyManager : MonoBehaviour
 
             isFirstRun = false;
             isAnomalyRun = false;
-            print("No anomaly");
+           // print("No anomaly");
         }
 
 
@@ -135,7 +135,7 @@ public class AnomallyManager : MonoBehaviour
 
         currentAnomaly = GetRandomItem();
 
-        Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
+       // Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
 
         currentAnomaly.SetAnomaly();
         

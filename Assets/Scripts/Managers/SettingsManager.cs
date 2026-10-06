@@ -1,8 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using AHAKuo.Signalia.LocalizationStandalone.Internal;
-using System.Collections.Generic;
-using AHAKuo.Signalia.LocalizationStandalone.Framework;
+
 using TMPro;
 
 

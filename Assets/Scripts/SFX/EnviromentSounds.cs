@@ -63,12 +63,12 @@ public class EnviromentSounds : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(10f, 20f));
 
 
-            print("in area: "+ inAera);
+           // print("in area: "+ inAera);
 
             if (Random.Range(0f, 101f) < chance && inAera)
             {
 
-                print("Sound On");
+               // print("Sound On");
                 currentAudioSource.PlayOneShot(currentClips[Random.Range(0, currentClips.Count)]);
 
             }

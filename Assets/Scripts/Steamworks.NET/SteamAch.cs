@@ -51,13 +51,13 @@ public class SteamAch : MonoBehaviour
         {
             m_GameOverlayActivated = Callback<GameOverlayActivated_t>.Create(OnGameOverlayActivated);
 
-            Debug.Log("SteamManager.Initialized");
+            //Debug.Log("SteamManager.Initialized");
             string name = SteamFriends.GetPersonaName();
-            Debug.Log(name);
+           // Debug.Log(name);
         }
         else
         {
-            Debug.Log("SteamManager.Initialized nooooooooo");
+           // Debug.Log("SteamManager.Initialized nooooooooo");
         }
 
         //SteamAPI.RunCallbacks();

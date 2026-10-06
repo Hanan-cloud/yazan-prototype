@@ -50,7 +50,7 @@ public class LanguageSettingManager : MonoBehaviour
 
         for (int i = 0; i < languages.Count; i++)
         {
-            Debug.Log("lang: " + languages[i]);
+          //  Debug.Log("lang: " + languages[i]);
 
         }
         SetLanguageIndex();
