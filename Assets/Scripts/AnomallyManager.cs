@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEngine.Rendering;
+using System;
 
 public class AnomallyManager : MonoBehaviour
 {
@@ -28,36 +28,88 @@ public class AnomallyManager : MonoBehaviour
     int forcedAnomalyCount=3;
 
     private Dictionary<AnomalyList, bool> foundAnomaliesDic = new Dictionary<AnomalyList, bool>();
-
     readonly string FoundAnomalies = "FoundAnomalies";
+
+
+
+    // new system 
+    private Dictionary<AreaNames, List<IAnomaly> >  anomaliesCollection = new Dictionary<AreaNames, List<IAnomaly>>();
+
+
+
+
+
 
     private void Awake()
     {
         Instance = this;
+
+
+        //1- prepare all area lists empty
+        PrepareMTAreaList();
+
+
+
     }
+
+
+    void PrepareMTAreaList()
+    {
+        foreach (AreaNames area in Enum.GetValues(typeof(AreaNames)))
+            anomaliesCollection[area] = new List<IAnomaly>();
+    }
+
+
     private void Start()
     {
         normalRunCounter = 0;
 
         isFirstRun = true;
-        SetAnomalyDic();
+        //SetAnomalyDic();
         isAnomalyRun=false;
 
-        MonoBehaviour[] allObjects = FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None);
 
+        //2- find all anomalies => 3- categorise
+        FindAllAnomalies();
+
+
+
+
+        //print("anomaly count: "+anomalies.Count);
+
+    }
+
+    void FindAllAnomalies()
+    {
+        MonoBehaviour[] allObjects = FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None);
 
         foreach (MonoBehaviour obj in allObjects)
         {
             if (obj is IAnomaly anomaly)
             {
                 anomalies.Add(anomaly);
+                // 3- categorize anomalies
+                SeperateAnomalyByArea(anomaly);
+                // 4- retrive saved data
+                CallAllSavedAnomalyData(anomaly);
+                Debug.Log(anomaly.AnomalyName + ", " +  anomaly.AreaName + " || " + anomaly.AppearanceCount + ", " +anomaly.IsDiscoverd);
             }
 
         }
 
+    }
+    void SeperateAnomalyByArea(IAnomaly anomaly)
+    {
 
-        //print("anomaly count: "+anomalies.Count);
+        anomaliesCollection[anomaly.AreaName].Add(anomaly);
 
+
+    }
+
+   // 4- retrive saved data
+    void CallAllSavedAnomalyData(IAnomaly anomaly)
+    {
+        anomaly.SetData(AnomalySaveManager.instance.GetData(anomaly.AnomalyName.ToString()));
     }
 
 

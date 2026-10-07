@@ -9,7 +9,10 @@ public class ObjectsSwapper : AnomalyBase
 
     [SerializeField] bool isCarved;
 
-
+    private void Awake()
+    {
+        SetAnomalyName();
+    }
     private void Start()
     {
         GetTrees();    

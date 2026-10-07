@@ -5,7 +5,10 @@ public class PalmSwapper : AnomalyBase
 {
     [SerializeField] private List<SwapPair> swaps = new List<SwapPair>();
 
-
+    private void Awake()
+    {
+        SetAnomalyName();
+    }
 
     private void Start()
     {

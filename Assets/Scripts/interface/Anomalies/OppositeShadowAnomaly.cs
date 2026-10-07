@@ -16,7 +16,7 @@ public class OppositeShadowAnomaly : AnomalyBase, ILateSet
     //    get => anomalyName;
     //}
 
-    private void Start()
+    private void Awake()
     {
         SetAnomalyName();
     }

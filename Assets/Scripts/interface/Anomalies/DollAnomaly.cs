@@ -8,6 +8,12 @@ public class DollAnomaly : AnomalyBase, ILateSet
     Image dollImg;
     [SerializeField] Sprite normalDoll;
     Animator animator;
+
+    private void Awake()
+    {
+        SetAnomalyName();
+
+    }
     public override void ResetAnomaly()
     {
         animator.enabled = false;
