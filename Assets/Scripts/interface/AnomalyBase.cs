@@ -29,7 +29,7 @@ public abstract class AnomalyBase : MonoBehaviour, IAnomaly
     public void SetData(AnomalyData d) 
     {
         isDiscoverd = d.isDiscovered;
-        appearanceCount = d.appearanceCount;
+        appearanceCount += d.appearanceCount;
 
 
     }

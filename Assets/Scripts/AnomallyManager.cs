@@ -34,8 +34,9 @@ public class AnomallyManager : MonoBehaviour
 
     // new system 
     private Dictionary<AreaNames, List<IAnomaly> >  anomaliesCollection = new Dictionary<AreaNames, List<IAnomaly>>();
+    List<IAnomaly> candidates = new List<IAnomaly>();
 
-
+    string lastAreaSelected = null;
 
 
 
@@ -73,7 +74,7 @@ public class AnomallyManager : MonoBehaviour
         FindAllAnomalies();
 
 
-
+        SelectCandidates();
 
         //print("anomaly count: "+anomalies.Count);
 
@@ -113,20 +114,138 @@ public class AnomallyManager : MonoBehaviour
     }
 
 
+
+
+    //5- Select candidates
+    private void SelectCandidates()
+    {
+        candidates.Clear();
+
+        if (lastAreaSelected != null)
+        {
+
+            candidates = anomaliesCollection.SelectMany(pair => pair.Value).Where(anomaly => anomaly.AreaName.ToString() != lastAreaSelected).ToList();
+        }else
+        {
+
+            candidates = anomaliesCollection.SelectMany(pair => pair.Value).ToList();
+
+        }
+
+    }
+
+    // Weight
+    float GetWeight(IAnomaly anomaly)
+    {
+        float weight = 1f;
+
+        // Never shown before = very important
+        if (anomaly.AppearanceCount == 0)
+        {
+            weight += 5f;
+        }
+
+        // Player has not discovered it yet
+        if (!anomaly.IsDiscoverd)
+        {
+            weight += 3f;
+        }
+
+        // The more we showed it, the less we want it
+        weight -= anomaly.AppearanceCount * 0.5f;
+
+        // Don't allow weight to become zero or negative
+        weight = Mathf.Max(weight, 0.1f);
+
+        return weight;
+    }
+
+
+    // 
+    private IAnomaly PickWeighted(List<IAnomaly> candidates)
+    {
+        // First, calculate the total weight.
+        float totalWeight = 0f;
+
+        foreach (IAnomaly anomaly in candidates)
+        {
+            totalWeight += GetWeight(anomaly);
+        }
+
+
+        // Pick a random point somewhere between 0 and totalWeight.
+        float randomValue = UnityEngine.Random.Range(0f, totalWeight);
+
+
+        // Walk through the anomalies one by one.
+        foreach (IAnomaly anomaly in candidates)
+        {
+            // Remove this anomaly's "area" from our random value.
+            randomValue -= GetWeight(anomaly);
+
+
+            // If we reached zero, this is the winner.
+            if (randomValue <= 0f)
+            {
+                return anomaly;
+            }
+        }
+
+
+        // Safety fallback.
+        return candidates[candidates.Count - 1];
+    }
+
+    public IAnomaly PickNextAnomaly(string lastArea)
+    {
+        // Get every anomaly from every area.
+        List<IAnomaly> allAnomalies = anomaliesCollection
+            .SelectMany(pair => pair.Value)
+            .ToList();
+
+
+        // Remove anomalies from the previous area.
+        List<IAnomaly> candidates = allAnomalies
+            .Where(anomaly => anomaly.AreaName.ToString() != lastArea)
+            .ToList();
+
+
+        // If there is no other area available,
+        // allow the previous area again.
+        if (candidates.Count == 0)
+        {
+            candidates = allAnomalies;
+        }
+
+
+        // Choose one anomaly based on its weight.
+        return PickWeighted(candidates);
+    }
+
+
+    [ContextMenu("new anomaly random")]
+    public void CallNewRandom()
+    {
+        IAnomaly a = PickNextAnomaly(lastAreaSelected);
+        Debug.Log("anomaly: "+ a.AnomalyName);
+        AnomalyData d = new AnomalyData();
+        d.isDiscovered = false;
+        d.appearanceCount = 1;
+        a.SetData(d);
+        lastAreaSelected = a.AreaName.ToString();
+    }
+
     public void setAnomalyByName(string name)
     {
         ResetAnomaly();
-       currentAnomaly = null;
+        currentAnomaly = null;
         currentAnomaly = anomalies.FirstOrDefault(item => item.AnomalyName.ToString() == name);
         currentAnomaly.SetAnomaly();
         isAnomalyRun = true;
 
-      //  Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
+        //  Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
 
     }
-
-
-
     public void SetAnomalyProbability()
     {
         if (currentAnomaly != null)
