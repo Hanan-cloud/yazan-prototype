@@ -10600,7 +10600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 0
-  areaName: 0
+  areaName: 1
 --- !u!114 &255130296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50431,8 +50431,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: 0
-  areaName: 0
+  anomalyName: 8
+  areaName: 1
 --- !u!114 &1753851671
 MonoBehaviour:
   m_ObjectHideFlags: 0

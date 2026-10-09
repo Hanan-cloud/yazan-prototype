@@ -31,7 +31,6 @@ public class AnomalySaveManager : MonoBehaviour
 
     }
 
-    
 
     public void Save(string k, Dictionary<string, AnomalyData> d)
     {

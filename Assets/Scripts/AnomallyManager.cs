@@ -115,7 +115,6 @@ public class AnomallyManager : MonoBehaviour
 
 
 
-
     //5- Select candidates
     private void SelectCandidates()
     {
