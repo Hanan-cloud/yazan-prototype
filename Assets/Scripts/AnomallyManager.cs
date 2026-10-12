@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using Steamworks;
 
 public class AnomallyManager : MonoBehaviour
 {
@@ -13,9 +14,12 @@ public class AnomallyManager : MonoBehaviour
     public IAnomaly CurrentAnomaly { get => currentAnomaly; }
 
     private List<IAnomaly> allItems;
+    private List<IAnomaly> discoverdAnomaly = new();
     private Queue<IAnomaly> recentlyUsed = new Queue<IAnomaly>();
     private const int cooldownRounds = 3;
 
+
+    int anomalyRunCounter;
     bool isFirstRun = true;
 
     bool forceAnomaly;
@@ -33,7 +37,6 @@ public class AnomallyManager : MonoBehaviour
 
 
     // new system 
-    private Dictionary<AreaNames, List<IAnomaly> >  anomaliesCollection = new Dictionary<AreaNames, List<IAnomaly>>();
     List<IAnomaly> candidates = new List<IAnomaly>();
 
     string lastAreaSelected = null;
@@ -46,19 +49,13 @@ public class AnomallyManager : MonoBehaviour
         Instance = this;
 
 
-        //1- prepare all area lists empty
-        PrepareMTAreaList();
+
 
 
 
     }
 
 
-    void PrepareMTAreaList()
-    {
-        foreach (AreaNames area in Enum.GetValues(typeof(AreaNames)))
-            anomaliesCollection[area] = new List<IAnomaly>();
-    }
 
 
     private void Start()
@@ -90,27 +87,21 @@ public class AnomallyManager : MonoBehaviour
             {
                 anomalies.Add(anomaly);
                 // 3- categorize anomalies
-                SeperateAnomalyByArea(anomaly);
                 // 4- retrive saved data
                 CallAllSavedAnomalyData(anomaly);
-                Debug.Log(anomaly.AnomalyName + ", " +  anomaly.AreaName + " || " + anomaly.AppearanceCount + ", " +anomaly.IsDiscoverd);
             }
 
         }
 
     }
-    void SeperateAnomalyByArea(IAnomaly anomaly)
-    {
-
-        anomaliesCollection[anomaly.AreaName].Add(anomaly);
 
 
-    }
-
-   // 4- retrive saved data
+    // 4- retrive saved data
     void CallAllSavedAnomalyData(IAnomaly anomaly)
     {
-        anomaly.SetData(AnomalySaveManager.instance.GetData(anomaly.AnomalyName.ToString()));
+        anomaly.SetSavedData(AnomalySaveManager.instance.GetData(anomaly.AnomalyName.ToString()));
+       Debug.Log(anomaly.AnomalyName.ToString() + ", " + anomaly.AreaName + " || " + anomaly.AppearanceCount + ", " + anomaly.IsDiscoverd);
+
     }
 
 
@@ -120,21 +111,12 @@ public class AnomallyManager : MonoBehaviour
     {
         candidates.Clear();
 
-        if (lastAreaSelected != null)
-        {
-
-            candidates = anomaliesCollection.SelectMany(pair => pair.Value).Where(anomaly => anomaly.AreaName.ToString() != lastAreaSelected).ToList();
-        }else
-        {
-
-            candidates = anomaliesCollection.SelectMany(pair => pair.Value).ToList();
-
-        }
+        candidates = anomalies;
 
     }
 
     // Weight
-    float GetWeight(IAnomaly anomaly)
+    float GetWeight(IAnomaly anomaly, string lastArea)
     {
         float weight = 1f;
 
@@ -150,6 +132,18 @@ public class AnomallyManager : MonoBehaviour
             weight += 3f;
         }
 
+
+        //Debug.Log($"Anomaly Area: [{anomaly.AreaName}]");
+        //Debug.Log($"Last Area: [{lastArea}]");
+        //Debug.Log($"Are Equal: {anomaly.AreaName.ToString() == lastArea}");
+
+
+        if (anomaly.AreaName.ToString() == lastArea)
+        {
+            Debug.Log($"<color=green> last area </color>");
+
+            weight *= 0.7f;
+        }
         // The more we showed it, the less we want it
         weight -= anomaly.AppearanceCount * 0.5f;
 
@@ -161,14 +155,13 @@ public class AnomallyManager : MonoBehaviour
 
 
     // 
-    private IAnomaly PickWeighted(List<IAnomaly> candidates)
+    private IAnomaly PickWeighted(List<IAnomaly> candidates, string lastArea)
     {
         // First, calculate the total weight.
         float totalWeight = 0f;
-
         foreach (IAnomaly anomaly in candidates)
         {
-            totalWeight += GetWeight(anomaly);
+            totalWeight += GetWeight(anomaly, lastAreaSelected);
         }
 
 
@@ -180,12 +173,14 @@ public class AnomallyManager : MonoBehaviour
         foreach (IAnomaly anomaly in candidates)
         {
             // Remove this anomaly's "area" from our random value.
-            randomValue -= GetWeight(anomaly);
+            randomValue -= GetWeight(anomaly, lastAreaSelected);
 
+            Debug.Log($"<color=green> aaAAAa {anomaly.AreaName.ToString()} its num {randomValue} </color>");
 
             // If we reached zero, this is the winner.
             if (randomValue <= 0f)
             {
+
                 return anomaly;
             }
         }
@@ -195,44 +190,30 @@ public class AnomallyManager : MonoBehaviour
         return candidates[candidates.Count - 1];
     }
 
-    public IAnomaly PickNextAnomaly(string lastArea)
+
+    void SaveAnomaly()
     {
-        // Get every anomaly from every area.
-        List<IAnomaly> allAnomalies = anomaliesCollection
-            .SelectMany(pair => pair.Value)
-            .ToList();
+        AnomalyData data = new AnomalyData();
+        data.isDiscovered = currentAnomaly.IsDiscoverd;
+        data.appearanceCount = currentAnomaly.AppearanceCount;
+
+        AnomalySaveManager.instance.Save(currentAnomaly.AnomalyName.ToString(), data);
 
 
-        // Remove anomalies from the previous area.
-        List<IAnomaly> candidates = allAnomalies
-            .Where(anomaly => anomaly.AreaName.ToString() != lastArea)
-            .ToList();
-
-
-        // If there is no other area available,
-        // allow the previous area again.
-        if (candidates.Count == 0)
-        {
-            candidates = allAnomalies;
-        }
-
-
-        // Choose one anomaly based on its weight.
-        return PickWeighted(candidates);
     }
 
 
     [ContextMenu("new anomaly random")]
-    public void CallNewRandom()
-    {
-        IAnomaly a = PickNextAnomaly(lastAreaSelected);
-        Debug.Log("anomaly: "+ a.AnomalyName);
-        AnomalyData d = new AnomalyData();
-        d.isDiscovered = false;
-        d.appearanceCount = 1;
-        a.SetData(d);
-        lastAreaSelected = a.AreaName.ToString();
-    }
+    //public void CallNewRandom()
+    //{
+    //    IAnomaly a = PickWeighted(candidates,lastAreaSelected);
+    //    Debug.Log("#####anomaly: "+ a.AnomalyName + " , " +a.AppearanceCount + " , " + a.AreaName);
+    //    AnomalyData d = new AnomalyData();
+    //    d.isDiscovered = false;
+    //    d.appearanceCount = 1;
+    //    //a.SetData(d);
+    //    lastAreaSelected = a.AreaName.ToString();
+    //}
 
     public void setAnomalyByName(string name)
     {
@@ -261,11 +242,27 @@ public class AnomallyManager : MonoBehaviour
                 forcedAnomalyCounter--;
 
             isAnomalyRun = true;
-            SetAnomaly();
+
+            if(anomalyRunCounter > 8 && UnityEngine.Random.value < 0.6f )
+            {
+                SetDiscoverdAnomaly();
+                Debug.Log($"<color=green> CHOOSE FROM => anomalyRunConter </color>");
+
+            }
+            else
+            {
+
+                SetAnomaly();
+            }
+
+         
+
+
             normalRunCounter = 0;
         }
         else
         {
+            currentAnomaly=null;
             normalRunCounter++;
 
             if (normalRunCounter >= normalRunMax)
@@ -279,20 +276,35 @@ public class AnomallyManager : MonoBehaviour
 
     }
     
-    public void SaveFoundAnomaly()
+
+
+
+    void SetDiscoverdAnomaly()
     {
-       // if (foundAnomaliesDic[currentAnomaly.AnomalyName] == true) { return; }
 
 
-       // //Debug.Log("##anomaly name: "+currentAnomaly.AnomalyName);
-       // foundAnomaliesDic[currentAnomaly.AnomalyName] = true;
-       // ES3.Save(FoundAnomalies, foundAnomaliesDic);
-       //// Debug.Log("File saved");
-       // if (checkAllTrue(foundAnomaliesDic) == true)
-       // {
-       //    // Debug.Log("steam ach"); 
-       //     SteamAchWatcher.instance.AllAnomaliesDiscovered();
-       // }
+        currentAnomaly = discoverdAnomaly[UnityEngine.Random.Range(0, 6)];
+        currentAnomaly.UpdateAppearanceCount();
+        Debug.Log($"<color=green>  => currentAnomaly <= {currentAnomaly.AnomalyName} </color>");
+
+        lastAreaSelected = currentAnomaly.AreaName.ToString();
+        currentAnomaly.SetAnomaly();
+
+        discoverdAnomaly.Clear();
+        anomalyRunCounter = 0;
+
+    }
+
+    [ContextMenu("anomaly data")]
+    public void PrintAllAnomalyData()
+    {
+        foreach (var item in anomalies)
+        {
+            Debug.Log($"<color=green> {item.AnomalyName} , {item.AppearanceCount} , {item.IsDiscoverd} </color>");
+
+
+        }
+
 
     }
     public void SetAnomaly()
@@ -301,9 +313,12 @@ public class AnomallyManager : MonoBehaviour
 
 
 
+        currentAnomaly = PickWeighted(candidates, lastAreaSelected);
+        Debug.Log("#####anomaly: " + currentAnomaly.AnomalyName + " , " + currentAnomaly.AppearanceCount + " , " + currentAnomaly.AreaName);
 
+        currentAnomaly.UpdateAppearanceCount();
+        lastAreaSelected = currentAnomaly.AreaName.ToString();
 
-        currentAnomaly = GetRandomItem();
 
        // Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);
 
@@ -312,59 +327,33 @@ public class AnomallyManager : MonoBehaviour
 
     }
 
-  
-
-    public IAnomaly GetRandomItem()
+ 
+    public void ResetAnomaly(bool isWin = false)
     {
-        List<IAnomaly> available = anomalies
-            .Where(item => !recentlyUsed.Contains(item))
-            .ToList();
+        if (currentAnomaly == null) return;
 
-        if (available.Count == 0)
-            available = anomalies;
+        if (isWin)
+        {
+            anomalyRunCounter++;
+            Debug.Log($"<color=orange> anomalyRunConter: {anomalyRunCounter} </color>");
 
-        IAnomaly chosen = available[UnityEngine.Random.Range(0, available.Count)];
+            currentAnomaly.UpdateDiscover();
+            discoverdAnomaly.Add(currentAnomaly);
+            if (discoverdAnomaly.Count > 0) 
+            {
+                Debug.Log($"<color=orange> discoverdAnomaly last item {discoverdAnomaly[discoverdAnomaly.Count-1]} </color>");
 
-        recentlyUsed.Enqueue(chosen);
-        if (recentlyUsed.Count > cooldownRounds)
-            recentlyUsed.Dequeue();
-
-        return chosen;
-    }
-    public void ResetAnomaly()
-    {
-        if (currentAnomaly != null)
-
+            }
+        }
+        SaveAnomaly();
         currentAnomaly.ResetAnomaly();
     }
 
+ 
 
-    void SetAnomalyDic()
-    {
+   
 
-        //if (ES3.KeyExists(FoundAnomalies))
-        //{
-        //    foundAnomaliesDic = ES3.Load<Dictionary<AnomalyList, bool>>(FoundAnomalies);
-        //}
-        //else
-        //{
-        //    // Optional fallback: loads a blank dictionary or populates default values
-        //    foundAnomaliesDic = ES3.Load<Dictionary<AnomalyList, bool>>(FoundAnomalies, new Dictionary<AnomalyList, bool>());
-           
-        //    foreach (AnomalyList type in Enum.GetValues(typeof(AnomalyList)))
-        //    {
-        //        // Adds each enum value as a key, and sets the value to false
-        //        foundAnomaliesDic.Add(type, false);
-
-        //    }
-        //    ES3.Save(FoundAnomalies, foundAnomaliesDic);
-
-        //}
-
-
-    }
-
-    bool checkAllTrue(Dictionary<AnomalyList, bool> dict)
+    bool checkIfAllAnomalyDiscoverd(Dictionary<AnomalyList, bool> dict)
     {
         foreach (bool value in dict.Values)
         {

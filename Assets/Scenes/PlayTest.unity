@@ -10600,7 +10600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 0
-  areaName: 1
+  areaName: 2
 --- !u!114 &255130296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15626,7 +15626,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0599995, y: 0.27499986, z: 0}
+  m_LocalPosition: {x: 2.0629997, y: 0.27499986, z: 0}
   m_LocalScale: {x: 2.7027056, y: 2.7027056, z: 2.7027056}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16431,7 +16431,7 @@ Transform:
   m_GameObject: {fileID: 545108339}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.06, y: -0.61499995, z: 0}
+  m_LocalPosition: {x: 30.063, y: -0.61499995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16440,6 +16440,7 @@ Transform:
   - {fileID: 161777596}
   - {fileID: 322874697}
   - {fileID: 2020281525}
+  - {fileID: 1942707791}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &545108344
@@ -50432,7 +50433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 8
-  areaName: 1
+  areaName: 2
 --- !u!114 &1753851671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50446,7 +50447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjecSize
   anomalyName: 18
-  areaName: 1
+  areaName: 2
   objects:
   - {fileID: 1891987278}
   - {fileID: 312038015}
@@ -53587,7 +53588,7 @@ Transform:
   m_GameObject: {fileID: 1907371810}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0599995, y: 0.27499986, z: 0}
+  m_LocalPosition: {x: 2.0629997, y: 0.27499986, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54969,13 +54970,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942707787}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.441, y: -1.42, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -82.411, y: -0.805, z: 0}
   m_LocalScale: {x: 0.70832, y: 0.70832, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1885140972}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 545108343}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1945939309
 GameObject:
@@ -60319,7 +60320,6 @@ SceneRoots:
   - {fileID: 2145474262}
   - {fileID: 1367145675}
   - {fileID: 676227550}
-  - {fileID: 1942707791}
   - {fileID: 545108343}
   - {fileID: 1320171321}
   - {fileID: 445182264}

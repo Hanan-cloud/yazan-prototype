@@ -25,11 +25,22 @@ public abstract class AnomalyBase : MonoBehaviour, IAnomaly
     {
         get => appearanceCount;
     }
-
-    public void SetData(AnomalyData d) 
+    public void SetSavedData(AnomalyData data)
     {
-        isDiscoverd = d.isDiscovered;
-        appearanceCount += d.appearanceCount;
+        isDiscoverd = data.isDiscovered;
+        appearanceCount = data.appearanceCount;
+
+    }
+    public void UpdateDiscover() 
+    {
+        isDiscoverd = true;
+
+
+    }
+
+    public void UpdateAppearanceCount()
+    {
+        appearanceCount++;
 
 
     }
@@ -49,4 +60,6 @@ public abstract class AnomalyBase : MonoBehaviour, IAnomaly
 
     public abstract void SetAnomaly();
     public abstract void ResetAnomaly();
+
+
 }
