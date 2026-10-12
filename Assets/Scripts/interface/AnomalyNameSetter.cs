@@ -4,7 +4,9 @@ public class AnomalyNameSetter : MonoBehaviour
 {
 
 
-    [SerializeField] string anomalyName;
+    [SerializeField] AnomalyList anomalyName;
+    [SerializeField] AreaNames areaName;
 
-    public string AnomalyName { get => anomalyName; }
+    public AnomalyList AnomalyName { get => anomalyName; }
+    public AreaNames AreaName { get => areaName; }
 }

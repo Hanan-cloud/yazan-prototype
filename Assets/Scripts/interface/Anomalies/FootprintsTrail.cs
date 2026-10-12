@@ -33,18 +33,12 @@ public class FootprintsTrail : AnomalyBase
         canFlip = true;
         leftSR = leftFoot.GetComponent<SpriteRenderer>();
         rightSR = rightFoot.GetComponent<SpriteRenderer>();
+        SetAnomalyName();
     }
     private void Start()
     {
         TimeCounter = 0;
-        // anomalyObject.gameObject.SetActive(false);
 
-        SetAnomalyName();
-
-     
-
-        //leftFoot.SetActive(false);
-        //rightFoot.SetActive(false);
 
     }
 

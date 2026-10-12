@@ -23,15 +23,16 @@ public class FootStepSound : AnomalyBase
     Tween tween;
 
     public static Action<float> OnMonsterStep;
+
+    private void Awake()
+    {
+        SetAnomalyName();
+
+    }
     private void Start()
     {
         soundSource = soundObject.GetComponent<AudioSource>();
         currentX = soundObject.transform.localScale.x;
-
-    }
-
-    private void OnEnable()
-    {
 
     }
 

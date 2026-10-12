@@ -5,14 +5,52 @@ using UnityEngine;
 public abstract class AnomalyBase : MonoBehaviour, IAnomaly
 {
     [SerializeField] protected AnomalyList anomalyName;
+    [SerializeField] protected AreaNames areaName;
+    
+    bool isDiscoverd = false;
+    
+    int appearanceCount = 0;
+
 
     public AnomalyList AnomalyName => anomalyName;
+    public AreaNames AreaName => areaName;
+
+    public bool IsDiscoverd
+    {
+        get => isDiscoverd;
+
+    }
+
+    public int AppearanceCount
+    {
+        get => appearanceCount;
+    }
+    public void SetSavedData(AnomalyData data)
+    {
+        isDiscoverd = data.isDiscovered;
+        appearanceCount = data.appearanceCount;
+
+    }
+    public void UpdateDiscover() 
+    {
+        isDiscoverd = true;
+
+
+    }
+
+    public void UpdateAppearanceCount()
+    {
+        appearanceCount++;
+
+
+    }
 
     public virtual void SetAnomalyName()
     {
-        if (Enum.TryParse(GetComponent<AnomalyNameSetter>().AnomalyName, out AnomalyList name))
+        if (TryGetComponent<AnomalyNameSetter>(out AnomalyNameSetter names))
         {
-            anomalyName = name;
+            anomalyName = names.AnomalyName;
+            areaName = names.AreaName;
         }
         else
         {
@@ -22,4 +60,6 @@ public abstract class AnomalyBase : MonoBehaviour, IAnomaly
 
     public abstract void SetAnomaly();
     public abstract void ResetAnomaly();
+
+
 }

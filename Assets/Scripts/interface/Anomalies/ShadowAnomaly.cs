@@ -10,6 +10,11 @@ public class ShadowAnomaly : AnomalyBase, ILateSet
 
     Tween t;
 
+    private void Awake()
+    {
+        SetAnomalyName();
+
+    }
     public void LateSetAnomaly()
     {
         t.Kill();
@@ -34,7 +39,6 @@ public class ShadowAnomaly : AnomalyBase, ILateSet
 
     void Start()
     {
-        SetAnomalyName();
         sprite.DOFade(0, 0);
 
     }
