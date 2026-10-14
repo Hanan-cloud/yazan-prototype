@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 using AHAKuo.Signalia.LocalizationStandalone.Internal;
+using System;
 
 [System.Serializable]
 public class CutsceneSlide
@@ -23,8 +24,7 @@ public class CutsceneManager : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private TMP_Text storyText;
-    [SerializeField] private Button nextButton;
-    [SerializeField] private Button skipButton;
+
 
     [Header("Fade")]
     [SerializeField] private CanvasGroup fadeOverlay;
@@ -51,12 +51,13 @@ public class CutsceneManager : MonoBehaviour
 
     private bool pendingAdvance = false;
 
+    public event Action<bool> OnNextAvailabilityChanged;
+
     private void Start()
     {
         simpleText = storyText.gameObject.GetComponent<SimpleLocalizedText>();
 
-        nextButton.onClick.AddListener(OnNextPressed);
-        skipButton.onClick.AddListener(Finish);
+   
 
         foreach (var vp in new[] { playerA, playerB, playerC })
         {
@@ -181,7 +182,7 @@ public class CutsceneManager : MonoBehaviour
         }
     }
 
-    private void OnNextPressed()
+    public void OnNextPressed()
     {
         int target = index + 1;
 
@@ -232,7 +233,7 @@ public class CutsceneManager : MonoBehaviour
         return oldActive;
     }
 
-    private IEnumerator EndCutscene()
+    public IEnumerator EndCutscene()
     {
         yield return Fade(1f);
         Finish();
@@ -253,6 +254,6 @@ public class CutsceneManager : MonoBehaviour
 
     private void Finish()
     {
-        SceneManager.LoadScene(nextSceneName);
+        SceneManager.LoadScene("Demo");
     }
 }

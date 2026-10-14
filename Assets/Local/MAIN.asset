@@ -328,6 +328,19 @@ MonoBehaviour:
       - languageCode: new
         value: 
       aliases: []
+  - pageId: Extras
+    aboutPage: New Page
+    entries:
+    - key: Stop
+      originalValue: "\u0642\u0641"
+      variants:
+      - languageCode: en
+        value: 
+      - languageCode: jp
+        value: 
+      - languageCode: ar
+        value: 
+      aliases: []
   audioPages: []
   imagePages: []
   assetPages:

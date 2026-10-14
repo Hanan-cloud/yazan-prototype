@@ -172,7 +172,7 @@ public class AnomallyManager : MonoBehaviour
             // Remove this anomaly's "area" from our random value.
             randomValue -= GetWeight(anomaly, lastAreaSelected);
 
-            Debug.Log($"<color=green> aaAAAa {anomaly.AreaName.ToString()} its num {randomValue} </color>");
+            //Debug.Log($"<color=green> aaAAAa {anomaly.AreaName.ToString()} its num {randomValue} </color>");
 
             // If we reached zero, this is the winner.
             if (randomValue <= 0f)
