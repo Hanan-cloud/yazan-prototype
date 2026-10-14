@@ -941,37 +941,38 @@ MonoBehaviour:
   slides:
   - shot: {fileID: 32900000, guid: 299c571565c4356458d0556b15356e7e, type: 3}
     loopShot: {fileID: 32900000, guid: 904312c6d9a2fd743bbcd9db2d666e24, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: 9fb2e39ae43b20140aef612377a3d712, type: 3}
     loopShot: {fileID: 32900000, guid: 23ce2a22bf964bc48aa4e373881d2389, type: 3}
-    textKey: TEXT 1
   - shot: {fileID: 32900000, guid: 2c5e4046e818d2c40b5aa472fc7334a0, type: 3}
     loopShot: {fileID: 32900000, guid: a776f07dd8ccc5e4ebd696128c5215b3, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: df48f10792efd8941a6cb73284e74011, type: 3}
     loopShot: {fileID: 32900000, guid: df48f10792efd8941a6cb73284e74011, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: c4ce4eed738f3b24eba726ffbe654593, type: 3}
     loopShot: {fileID: 32900000, guid: f67fac0fcc6c37a45bc092675d35327d, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: fbc8134f7797b2a4daf7af4129aa06a2, type: 3}
     loopShot: {fileID: 32900000, guid: 38524f68bf1bef740ab725d0f8643bff, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: 13b02ea970c4e3e4ca74d692e913c7e2, type: 3}
     loopShot: {fileID: 32900000, guid: a3ce3b60706762e4baca842685bdb9de, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: 294da5e9d96fb9343b25110b402ab1b0, type: 3}
     loopShot: {fileID: 32900000, guid: 294da5e9d96fb9343b25110b402ab1b0, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: 041567e54edeb564484fbdf25e793c29, type: 3}
     loopShot: {fileID: 32900000, guid: 5ec27055f630b924b8346cb8a7b239bc, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: 2ceca4552a30e9d44a65cf7f931fcf95, type: 3}
     loopShot: {fileID: 32900000, guid: db2a8ffa5c93b5948b88ba6bb55d2cc1, type: 3}
-    textKey: TEXT 2
   - shot: {fileID: 32900000, guid: cfc33d45d6cd1974bb0ed5c3e1020954, type: 3}
     loopShot: {fileID: 32900000, guid: 080de648c68f7654eaead12d5c9cbf6d, type: 3}
-    textKey: TEXT 2
+  - shot: {fileID: 32900000, guid: b94e418f79ac3de4db4779e8980cc53a, type: 3}
+    loopShot: {fileID: 32900000, guid: f289cfe797a7f744a9d0e3fad8075469, type: 3}
+  - shot: {fileID: 32900000, guid: fa4301f44ba1e9a4ca2d22362ce83c58, type: 3}
+    loopShot: {fileID: 32900000, guid: 30b24061ce6a0a74ca9c5c48acc92514, type: 3}
+  - shot: {fileID: 32900000, guid: 1554cc15e9e15214fb19851ab5061558, type: 3}
+    loopShot: {fileID: 32900000, guid: 656b98b0225fb114d937ccb2bc99ad94, type: 3}
+  - shot: {fileID: 32900000, guid: 6d50a5f58ebbb724fadbe06dc8024b92, type: 3}
+    loopShot: {fileID: 32900000, guid: 6d50a5f58ebbb724fadbe06dc8024b92, type: 3}
+  - shot: {fileID: 32900000, guid: 8e1e60fa85215784595b0b97798742d6, type: 3}
+    loopShot: {fileID: 32900000, guid: 8e1e60fa85215784595b0b97798742d6, type: 3}
+  - shot: {fileID: 32900000, guid: 1c9b2747cc23d124c824304dd7fa7311, type: 3}
+    loopShot: {fileID: 32900000, guid: 1c9b2747cc23d124c824304dd7fa7311, type: 3}
   nextSceneName: 
   textKey: Panel_
 --- !u!4 &662142769

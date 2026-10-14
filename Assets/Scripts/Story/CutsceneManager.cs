@@ -12,7 +12,6 @@ public class CutsceneSlide
 {
     public VideoClip shot;
     public VideoClip loopShot;
-    public string textKey;
 }
 
 public class CutsceneManager : MonoBehaviour
@@ -104,7 +103,7 @@ public class CutsceneManager : MonoBehaviour
         activePlayer.prepareCompleted += OnActivePrepared;
         activePlayer.Prepare();
 
-        simpleText.SetKey(textKey + index);
+        simpleText.SetKey(textKey + (index+1));
     }
 
     private void OnActivePrepared(VideoPlayer vp)
@@ -211,7 +210,7 @@ public class CutsceneManager : MonoBehaviour
 
         index = target;
         isPlayingLoop = false;
-        simpleText.SetKey(textKey + index);
+        simpleText.SetKey(textKey + (index+1));
 
         loopPlayer = oldActive;
         nextPlayer = oldLoop;
