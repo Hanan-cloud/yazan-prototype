@@ -25,6 +25,7 @@ public class AnomallyManager : MonoBehaviour
     bool randomAnomaly;
 
     IAnomaly currentAnomaly;
+    IAnomaly lastAnomaly;   // <-- new: the last anomaly that was shown, so it is never picked twice in a row
     int normalRunCounter = 0;
     const int normalRunMax = 2;
     int forcedAnomalyCounter;
@@ -149,14 +150,25 @@ public class AnomallyManager : MonoBehaviour
     }
 
 
-    // 
+    // Weighted random pick that never returns the last shown anomaly
     private IAnomaly PickWeighted(List<IAnomaly> candidates, string lastArea)
     {
-        // First, calculate the total weight.
+        // First, calculate the total weight (skipping the last anomaly).
         float totalWeight = 0f;
+        IAnomaly fallback = null;
+
         foreach (IAnomaly anomaly in candidates)
         {
-            totalWeight += GetWeight(anomaly, lastAreaSelected);
+            if (anomaly == lastAnomaly) continue;
+
+            totalWeight += GetWeight(anomaly, lastArea);
+            fallback = anomaly;
+        }
+
+        // Only one anomaly exists, nothing else to pick.
+        if (fallback == null)
+        {
+            return candidates[candidates.Count - 1];
         }
 
 
@@ -167,8 +179,10 @@ public class AnomallyManager : MonoBehaviour
         // Walk through the anomalies one by one.
         foreach (IAnomaly anomaly in candidates)
         {
+            if (anomaly == lastAnomaly) continue;
+
             // Remove this anomaly's "area" from our random value.
-            randomValue -= GetWeight(anomaly, lastAreaSelected);
+            randomValue -= GetWeight(anomaly, lastArea);
 
             //Debug.Log($"<color=green> aaAAAa {anomaly.AreaName.ToString()} its num {randomValue} </color>");
 
@@ -182,7 +196,7 @@ public class AnomallyManager : MonoBehaviour
 
 
         // Safety fallback.
-        return candidates[candidates.Count - 1];
+        return fallback;
     }
 
 
@@ -276,14 +290,24 @@ public class AnomallyManager : MonoBehaviour
 
     void SetDiscoverdAnomaly()
     {
+        // Pick from discovered anomalies, excluding the last one shown
+        var pool = discoverdAnomaly.Where(a => a != lastAnomaly).ToList();
 
+        if (pool.Count == 0)
+        {
+            // Nothing valid in the discovered list, use the normal weighted pick
+            SetAnomaly();
+        }
+        else
+        {
+            currentAnomaly = pool[UnityEngine.Random.Range(0, pool.Count)];
+            lastAnomaly = currentAnomaly;   // <-- new
+            currentAnomaly.UpdateAppearanceCount();
+            Debug.Log($"<color=green>  => currentAnomaly <= {currentAnomaly.AnomalyName} </color>");
 
-        currentAnomaly = discoverdAnomaly[UnityEngine.Random.Range(0, 6)];
-        currentAnomaly.UpdateAppearanceCount();
-        Debug.Log($"<color=green>  => currentAnomaly <= {currentAnomaly.AnomalyName} </color>");
-
-        lastAreaSelected = currentAnomaly.AreaName.ToString();
-        currentAnomaly.SetAnomaly();
+            lastAreaSelected = currentAnomaly.AreaName.ToString();
+            currentAnomaly.SetAnomaly();
+        }
 
         discoverdAnomaly.Clear();
         anomalyRunCounter = 0;
@@ -309,6 +333,7 @@ public class AnomallyManager : MonoBehaviour
 
 
         currentAnomaly = PickWeighted(candidates, lastAreaSelected);
+        lastAnomaly = currentAnomaly;   // <-- new
        // Debug.Log("#####anomaly: " + currentAnomaly.AnomalyName + " , " + currentAnomaly.AppearanceCount + " , " + currentAnomaly.AreaName);
 
         currentAnomaly.UpdateAppearanceCount();
