@@ -1,52 +1,57 @@
+
+using System;
 using UnityEngine;
 using AHAKuo.Signalia.LocalizationStandalone.Internal;
-using TMPro;
-
 
 public class InGameStoryPanel : MonoBehaviour
 {
+    private const string TextKey = "InGameStory_";
 
-     string textKey = "InGameStory_";
-    int index;
-    [SerializeField] GameObject text;
-    SimpleLocalizedText simpleText;
+    private int index = 1;
+    private int displayedIndex;
+
+    [SerializeField] private GameObject text;
+
+    private SimpleLocalizedText simpleText;
+
+    public int Index => displayedIndex;
+
+    public event Action<int> OnStoryIndexChanged;
 
     private void Start()
     {
         simpleText = text.GetComponent<SimpleLocalizedText>();
-        index = 1;
+
         ResetPoint.OnNailsFalls += SetInGameStory;
         ResetPoint.OnNailsReset += ResetIndex;
 
-        SetInGameStory();
-        
-
-    }
-
-    void SetInGameStory()
-    {
-
-        if (index > 9) return;
-
-    
-
-        simpleText.SetKey(((textKey + index).ToString()));;
-        
-        index++;
-
-
-    }
-
-
-
-    void ResetIndex()
-    {
-
         index = 1;
-        SetInGameStory();
+        displayedIndex = 0;
 
+        SetInGameStory();
     }
 
+    private void SetInGameStory()
+    {
+        if (index > 9)
+            return;
+
+        displayedIndex = index;
+
+        simpleText.SetKey(TextKey + displayedIndex);
+
+        OnStoryIndexChanged?.Invoke(displayedIndex);
+
+        index++;
+    }
+
+    private void ResetIndex()
+    {
+        index = 1;
+        displayedIndex = 0;
+
+        SetInGameStory();
+    }
 
     private void OnDestroy()
     {

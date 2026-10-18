@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using AHAKuo.Signalia.LocalizationStandalone.Internal;
 using System;
-
+using DG.Tweening;
 [System.Serializable]
 public class CutsceneSlide
 {
@@ -52,11 +52,19 @@ public class CutsceneManager : MonoBehaviour
 
     public event Action<bool> OnNextAvailabilityChanged;
 
+[SerializeField] GameObject buttons;
+
+    [SerializeField] int trackNumToChangeMusic;
+    [SerializeField] AudioClip firstClip;
+    [SerializeField] AudioClip SecondClip;
+    [SerializeField] AudioSource music;
     private void Start()
     {
+       // buttons.SetActive(false);
         simpleText = storyText.gameObject.GetComponent<SimpleLocalizedText>();
 
-   
+    music.PlayOneShot(firstClip);
+    music.DOFade(1,2);
 
         foreach (var vp in new[] { playerA, playerB, playerC })
         {
@@ -178,11 +186,16 @@ public class CutsceneManager : MonoBehaviour
             loopPlayer = oldActive;
             loopPrepared = false;
             loopForIndex = -1;
+
+           // buttons.SetActive(true);
+
         }
     }
 
     public void OnNextPressed()
     {
+       // buttons.SetActive(false);
+
         int target = index + 1;
 
         if (target >= slides.Length)
@@ -209,6 +222,18 @@ public class CutsceneManager : MonoBehaviour
         VideoPlayer oldLoop = loopPlayer;
 
         index = target;
+
+        if(index == trackNumToChangeMusic)
+        {
+            music.DOFade(0,2).OnComplete(()=>
+            {
+                music.Stop();
+                music.PlayOneShot(SecondClip);
+                 music.DOFade(1,2);
+
+
+            });
+        }
         isPlayingLoop = false;
         simpleText.SetKey(textKey + (index+1));
 
@@ -234,6 +259,7 @@ public class CutsceneManager : MonoBehaviour
 
     public IEnumerator EndCutscene()
     {
+        music.DOFade(0,0.5f);
         yield return Fade(1f);
         Finish();
     }
@@ -253,6 +279,7 @@ public class CutsceneManager : MonoBehaviour
 
     private void Finish()
     {
+        DOTween.KillAll();
         SceneManager.LoadScene("Demo");
     }
 }

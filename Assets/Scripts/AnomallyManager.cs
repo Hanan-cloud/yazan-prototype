@@ -1,8 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
-using System;
-using Steamworks;
+
 
 public class AnomallyManager : MonoBehaviour
 {
@@ -97,7 +96,7 @@ public class AnomallyManager : MonoBehaviour
     void CallAllSavedAnomalyData(IAnomaly anomaly)
     {
         anomaly.SetSavedData(AnomalySaveManager.instance.GetData(anomaly.AnomalyName.ToString()));
-       Debug.Log(anomaly.AnomalyName.ToString() + ", " + anomaly.AreaName + " || " + anomaly.AppearanceCount + ", " + anomaly.IsDiscoverd);
+       //Debug.Log(anomaly.AnomalyName.ToString() + ", " + anomaly.AreaName + " || " + anomaly.AppearanceCount + ", " + anomaly.IsDiscoverd);
 
     }
 
@@ -137,7 +136,6 @@ public class AnomallyManager : MonoBehaviour
 
         if (anomaly.AreaName.ToString() == lastArea)
         {
-            Debug.Log($"<color=green> last area </color>");
 
             weight *= 0.7f;
         }
@@ -297,7 +295,7 @@ public class AnomallyManager : MonoBehaviour
     {
         foreach (var item in anomalies)
         {
-            Debug.Log($"<color=green> {item.AnomalyName} , {item.AppearanceCount} , {item.IsDiscoverd} </color>");
+          //  Debug.Log($"<color=green> {item.AnomalyName} , {item.AppearanceCount} , {item.IsDiscoverd} </color>");
 
 
         }
@@ -311,7 +309,7 @@ public class AnomallyManager : MonoBehaviour
 
 
         currentAnomaly = PickWeighted(candidates, lastAreaSelected);
-        Debug.Log("#####anomaly: " + currentAnomaly.AnomalyName + " , " + currentAnomaly.AppearanceCount + " , " + currentAnomaly.AreaName);
+       // Debug.Log("#####anomaly: " + currentAnomaly.AnomalyName + " , " + currentAnomaly.AppearanceCount + " , " + currentAnomaly.AreaName);
 
         currentAnomaly.UpdateAppearanceCount();
         lastAreaSelected = currentAnomaly.AreaName.ToString();
@@ -332,13 +330,13 @@ public class AnomallyManager : MonoBehaviour
         if (isWin)
         {
             anomalyRunCounter++;
-            Debug.Log($"<color=orange> anomalyRunConter: {anomalyRunCounter} </color>");
+          //  Debug.Log($"<color=orange> anomalyRunConter: {anomalyRunCounter} </color>");
 
             currentAnomaly.UpdateDiscover();
             discoverdAnomaly.Add(currentAnomaly);
             if (discoverdAnomaly.Count > 0) 
             {
-                Debug.Log($"<color=orange> discoverdAnomaly last item {discoverdAnomaly[discoverdAnomaly.Count-1]} </color>");
+             //   Debug.Log($"<color=orange> discoverdAnomaly last item {discoverdAnomaly[discoverdAnomaly.Count-1]} </color>");
 
             }
         }

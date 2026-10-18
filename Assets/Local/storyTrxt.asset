@@ -138,37 +138,43 @@ MonoBehaviour:
       variants:
       - languageCode: en
         value: "Yazan follows the light between rocks and forgotten paths until he
-          reaches an ancient wall. \r\nThere, he finds an ancient, motionless figure
+          reaches an ancient wall. There, he finds an ancient, motionless figure
           standing in the shadows, holding a lantern\u2026unlike anything he has
           ever seen"
       aliases: []
     - key: Panel_15
-      originalValue: " The old jinn studies the boy for a long moment. Then he speaks.\r\n\r\nGATEKEEPER:
-        \u201CYou are not lost, child\u2026 you are somewhere else entirely\u201D"
+      originalValue: 
       variants:
       - languageCode: en
-        value: 
+        value: " The old jinn studies the boy for a long moment. Then he speaks.\r\nGATEKEEPER:
+          \u201CYou are not lost, child\u2026 you are somewhere else entirely\u201D"
       aliases: []
     - key: Panel_16
-      originalValue: "GATEKEEPER: \u201CThis is Alkhafa\u2026 a world beside your
-        own, hidden from human eyes. It was once full of life\u2026 \r\n          
-        \r\nNow it\u2019s sick. It has forgotten its own shape, repeating itself
-        again and again, searching for what was taken from it\u201D"
+      originalValue: ..
       variants:
       - languageCode: en
-        value: 
+        value: "GATEKEEPER: \u201CThis is Alkhafa\u2026 a world beside your own,
+          hidden from human eyes. It was once full of life\u2026  Now it\u2019s sick.
+          It has forgotten its own shape, repeating itself again and again, searching
+          for what was taken from it\u201D"
       aliases: []
     - key: Panel_17
       originalValue: "The Gatekeeper lowers his gaze to the doll in Yazan\u2019s
         hand and points to it\r\n GATEKEEPER: - \u201CStart in either direction,
-        left or right. In each loop, you may find something that does not belong.\r\n
-        If you notice a change, turn back the way you came. If you find nothing,
-        keep going in the same direction.\u201D                                   
-        \r\n\u201CEach correct choice frees a nail. One mistake brings them all back.\u201D\r\n\u201CThe
-        doll knows\u2026 trust what it shows you. Go now\u2026 I will be here\u201D"
+        left or right. In each loop, you may find something that does not belong\u201D                                   
+        \r\n"
       variants:
       - languageCode: en
         value: 
+      aliases: []
+    - key: Panel_18
+      originalValue: ..
+      variants:
+      - languageCode: en
+        value: "\u201C If you notice a change, turn back the way you came. If you
+          find nothing, keep going in the same direction. Each correct choice frees
+          a nail. One mistake brings them all back. The doll knows\u2026 trust what
+          it shows you. Go now\u2026 I will be here\u201D"
       aliases: []
   audioPages: []
   imagePages: []

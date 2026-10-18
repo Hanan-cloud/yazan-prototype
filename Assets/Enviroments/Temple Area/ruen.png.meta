@@ -189,7 +189,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -270,10 +270,10 @@ TextureImporter:
       name: ruen_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 116
-        width: 25
-        height: 39
+        x: 2
+        y: 115
+        width: 45
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: ruen_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 119
-        width: 27
-        height: 34
+        x: 50
+        y: 115
+        width: 52
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: ruen_2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 119
-        width: 19
-        height: 35
+        x: 109
+        y: 115
+        width: 48
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: ruen_3
       rect:
         serializedVersion: 2
-        x: 184
-        y: 120
-        width: 15
-        height: 33
+        x: 162
+        y: 115
+        width: 51
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: ruen_4
       rect:
         serializedVersion: 2
-        x: 234
-        y: 122
-        width: 28
-        height: 30
+        x: 219
+        y: 116
+        width: 52
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: ruen_5
       rect:
         serializedVersion: 2
-        x: 289
-        y: 121
-        width: 24
-        height: 31
+        x: 278
+        y: 116
+        width: 47
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: ruen_6
       rect:
         serializedVersion: 2
-        x: 343
-        y: 121
-        width: 34
-        height: 33
+        x: 332
+        y: 116
+        width: 59
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: ruen_7
       rect:
         serializedVersion: 2
-        x: 409
-        y: 119
-        width: 24
-        height: 34
+        x: 397
+        y: 116
+        width: 45
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: ruen_8
       rect:
         serializedVersion: 2
-        x: 461
-        y: 121
-        width: 27
-        height: 32
+        x: 446
+        y: 116
+        width: 52
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: ruen_9
       rect:
         serializedVersion: 2
-        x: 515
-        y: 121
-        width: 30
-        height: 33
+        x: 505
+        y: 116
+        width: 49
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: ruen_10
       rect:
         serializedVersion: 2
-        x: 588
-        y: 118
-        width: 6
-        height: 34
+        x: 558
+        y: 116
+        width: 63
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: ruen_11
       rect:
         serializedVersion: 2
-        x: 635
-        y: 126
-        width: 25
-        height: 29
+        x: 627
+        y: 116
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
       name: ruen_13
       rect:
         serializedVersion: 2
-        x: 688
-        y: 122
-        width: 27
-        height: 32
+        x: 676
+        y: 116
+        width: 50
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: ruen_14
       rect:
         serializedVersion: 2
-        x: 743
-        y: 120
-        width: 32
-        height: 35
+        x: 734
+        y: 116
+        width: 47
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
       name: ruen_15
       rect:
         serializedVersion: 2
-        x: 800
-        y: 122
-        width: 22
-        height: 32
+        x: 789
+        y: 116
+        width: 46
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +600,10 @@ TextureImporter:
       name: ruen_16
       rect:
         serializedVersion: 2
-        x: 854
-        y: 122
-        width: 22
-        height: 35
+        x: 839
+        y: 116
+        width: 48
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: ruen_17
       rect:
         serializedVersion: 2
-        x: 892
-        y: 123
-        width: 22
-        height: 33
+        x: 878
+        y: 116
+        width: 47
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +644,10 @@ TextureImporter:
       name: ruen_18
       rect:
         serializedVersion: 2
-        x: 926
-        y: 124
-        width: 24
-        height: 31
+        x: 916
+        y: 116
+        width: 44
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: ruen_19
       rect:
         serializedVersion: 2
-        x: 966
-        y: 123
-        width: 26
-        height: 33
+        x: 956
+        y: 116
+        width: 47
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: ruen_20
       rect:
         serializedVersion: 2
-        x: 1004
-        y: 121
-        width: 17
-        height: 35
+        x: 992
+        y: 119
+        width: 37
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +710,10 @@ TextureImporter:
       name: ruen_21
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 125
-        width: 27
-        height: 27
+        x: 1023
+        y: 116
+        width: 42
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +732,10 @@ TextureImporter:
       name: ruen_22
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 128
-        width: 28
-        height: 29
+        x: 1061
+        y: 116
+        width: 41
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +754,10 @@ TextureImporter:
       name: ruen_23
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 123
-        width: 31
-        height: 36
+        x: 1105
+        y: 117
+        width: 44
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1288,7 +1288,9 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 8168a1b653168094d89bcc3c4ee04314, type: 3}
+      name: _Emission
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
