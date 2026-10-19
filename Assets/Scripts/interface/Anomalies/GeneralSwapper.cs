@@ -10,16 +10,23 @@ public class GeneralSwapper : AnomalyBase
     {
         foreach(var item in pairs)
         {
-            item.original.SetActive(true);
-            item.replacement.SetActive(false);
-        }    }
+            if(item != null)
+            {
+                item.original.SetActive(true);
+                item.replacement.SetActive(false);
+            }
+        }    
+    }
 
     public override void SetAnomaly()
     {
         foreach(var item in pairs)
         {
-            item.original.SetActive(false);
-            item.replacement.SetActive(true);
+            if(item != null)
+            {
+                item.original.SetActive(false);
+                item.replacement.SetActive(true);
+            }
         }
     }
 

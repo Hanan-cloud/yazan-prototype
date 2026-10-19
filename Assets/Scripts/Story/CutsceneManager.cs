@@ -50,7 +50,6 @@ public class CutsceneManager : MonoBehaviour
 
     private bool pendingAdvance = false;
 
-    public event Action<bool> OnNextAvailabilityChanged;
 
 [SerializeField] GameObject buttons;
 
@@ -58,13 +57,14 @@ public class CutsceneManager : MonoBehaviour
     [SerializeField] AudioClip firstClip;
     [SerializeField] AudioClip SecondClip;
     [SerializeField] AudioSource music;
+    const float maxMusic=0.3f;
     private void Start()
     {
        // buttons.SetActive(false);
         simpleText = storyText.gameObject.GetComponent<SimpleLocalizedText>();
 
     music.PlayOneShot(firstClip);
-    music.DOFade(1,2);
+    music.DOFade(maxMusic,2);
 
         foreach (var vp in new[] { playerA, playerB, playerC })
         {
@@ -82,7 +82,14 @@ public class CutsceneManager : MonoBehaviour
 
         StartCoroutine(StartCutscene());
     }
-
+private void LogState(string where)
+{
+    Debug.Log(
+        $"[Cutscene] {where} | index={index} (slide {index + 1}) | " +
+        $"active={activePlayer.name} loop={loopPlayer.name} next={nextPlayer.name} | " +
+        $"isPlayingLoop={isPlayingLoop} loopPrepared={loopPrepared} " +
+        $"nextPrepared={nextPrepared} nextForIndex={nextForIndex} pending={pendingAdvance}");
+}
     private void OnDestroy()
     {
         foreach (var vp in new[] { playerA, playerB, playerC })
@@ -125,7 +132,7 @@ public class CutsceneManager : MonoBehaviour
     {
         loopForIndex = forIndex;
         loopPrepared = false;
-
+    ResetPlayer(loopPlayer);
         if (slides[forIndex].loopShot == null) return;
 
         loopPlayer.clip = slides[forIndex].loopShot;
@@ -143,12 +150,19 @@ public class CutsceneManager : MonoBehaviour
         vp.Pause();
         loopPrepared = true;
     }
-
+    private void ResetPlayer(VideoPlayer vp)
+    {
+        vp.prepareCompleted -= OnLoopPrepared;
+        vp.prepareCompleted -= OnNextPrepared;
+        vp.prepareCompleted -= OnActivePrepared;
+        vp.Stop();
+        vp.clip = null;  
+    }
     private void PrepareNext(int forIndex)
     {
         nextForIndex = forIndex;
         nextPrepared = false;
-
+    ResetPlayer(nextPlayer);
         if (forIndex >= slides.Length) return;
 
         nextPlayer.clip = slides[forIndex].shot;
@@ -186,7 +200,7 @@ public class CutsceneManager : MonoBehaviour
             loopPlayer = oldActive;
             loopPrepared = false;
             loopForIndex = -1;
-
+LogState("SwitchedToLoop");
            // buttons.SetActive(true);
 
         }
@@ -195,7 +209,7 @@ public class CutsceneManager : MonoBehaviour
     public void OnNextPressed()
     {
        // buttons.SetActive(false);
-
+ LogState("NextPressed");
         int target = index + 1;
 
         if (target >= slides.Length)
@@ -229,7 +243,7 @@ public class CutsceneManager : MonoBehaviour
             {
                 music.Stop();
                 music.PlayOneShot(SecondClip);
-                 music.DOFade(1,2);
+                 music.DOFade(maxMusic,2);
 
 
             });
@@ -242,6 +256,7 @@ public class CutsceneManager : MonoBehaviour
 
         PrepareLoop(index);
         PrepareNext(index + 1);
+        LogState("Advanced");
     }
 
     private VideoPlayer SwapActiveTo(VideoPlayer newActive)

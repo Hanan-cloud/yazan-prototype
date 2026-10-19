@@ -1,39 +1,39 @@
+
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LoreManager : MonoBehaviour
 {
     [Header("Lore Objects")]
-    [SerializeField] private List<GlowController> Lore1 = new List<GlowController>();
-    [SerializeField] private List<GlowController> Lore2 = new List<GlowController>();
-    [SerializeField] private List<GlowController> Lore3 = new List<GlowController>();
-    [SerializeField] private List<GlowController> Lore4 = new List<GlowController>();
-    [SerializeField] private List<GlowController> Lore5 = new List<GlowController>();
-    [SerializeField] private List<GlowController> Lore6 = new List<GlowController>();
-    [SerializeField] private List<GlowController> Lore7 = new List<GlowController>();
-    [SerializeField] private List<GlowController> Lore8 = new List<GlowController>();
-    [SerializeField] private List<GlowController> Lore9 = new List<GlowController>();
+    [SerializeField] private List<GlowController> Lore1 = new();
+    [SerializeField] private List<GlowController> Lore2 = new();
+    [SerializeField] private List<GlowController> Lore3 = new();
+    [SerializeField] private List<GlowController> Lore4 = new();
+    [SerializeField] private List<GlowController> Lore5 = new();
+    [SerializeField] private List<GlowController> Lore6 = new();
+    [SerializeField] private List<GlowController> Lore7 = new();
+    [SerializeField] private List<GlowController> Lore8 = new();
+    [SerializeField] private List<GlowController> Lore9 = new();
 
     [Header("References")]
     [SerializeField] private InGameStoryPanel storyPanel;
 
     private const string SaveKeyPrefix = "LoreRead_";
+    private const string LoreUnlockedKey = "LoreUnlockedAfterFirstRun";
     private const int LoreCount = 9;
 
     private int currentLoreIndex;
+    private bool isLoreUnlocked;
 
-    // Lore the player has read since the story last reached them (current progress only).
-    // Never saved. Cleared for a lore whenever progress goes back past it
-    // (see HandleStoryIndexChanged), so an already-saved lore can glow again.
-    private readonly HashSet<int> readThisSession = new HashSet<int>();
-
-    // Index 0 is the starting state: lore 1 is the active lore there too.
-    private int ActiveLore => Mathf.Max(1, currentLoreIndex);
+    // Lore read during the current progress sequence.
+    private readonly HashSet<int> readThisSession = new();
 
     private void OnEnable()
     {
         if (storyPanel != null)
             storyPanel.OnStoryIndexChanged += HandleStoryIndexChanged;
+
+        ResetPoint.OnNailsFalls += UnlockLore;
     }
 
     private void Start()
@@ -48,7 +48,9 @@ public class LoreManager : MonoBehaviour
             return;
         }
 
+        isLoreUnlocked = ES3.Load<bool>(LoreUnlockedKey, false);
         currentLoreIndex = storyPanel.Index;
+
         RefreshLoreStates();
     }
 
@@ -56,13 +58,25 @@ public class LoreManager : MonoBehaviour
     {
         if (storyPanel != null)
             storyPanel.OnStoryIndexChanged -= HandleStoryIndexChanged;
+
+        ResetPoint.OnNailsFalls -= UnlockLore;
+    }
+
+    private void UnlockLore()
+    {
+        if (!isLoreUnlocked)
+        {
+            isLoreUnlocked = true;
+            ES3.Save(LoreUnlockedKey, true);
+        }
+
+        RefreshLoreStates();
     }
 
     private void HandleStoryIndexChanged(int newIndex)
     {
-        // Progress went backwards (player lost progress / index reset):
-        // forget "read this run" for every lore from the new position onward,
-        // so they glow again when reached. Saved data is untouched.
+        // If progress goes backwards, allow those lores
+        // to glow again when they become current.
         if (newIndex < currentLoreIndex)
         {
             int from = Mathf.Max(1, newIndex);
@@ -70,7 +84,19 @@ public class LoreManager : MonoBehaviour
         }
 
         currentLoreIndex = newIndex;
+
         RefreshLoreStates();
+    }
+
+    public bool CanInteractWithLore(int loreIndex)
+    {
+        if (!isLoreUnlocked)
+            return false;
+
+        if (loreIndex < 1 || loreIndex > LoreCount)
+            return false;
+
+        return loreIndex == currentLoreIndex;
     }
 
     public void RefreshLoreStates()
@@ -82,49 +108,42 @@ public class LoreManager : MonoBehaviour
             if (loreObjects == null)
                 continue;
 
-            bool isCurrent = i == ActiveLore;
+            if (!isLoreUnlocked)
+            {
+                SetLoreOff(loreObjects);
+                continue;
+            }
+
+            bool isCurrent = i == currentLoreIndex;
             bool readThisRun = readThisSession.Contains(i);
             bool savedAsRead = IsLoreRead(i);
 
-            foreach (GlowController glow in loreObjects)
+            // The current lore can glow again after progress returns to it.
+            if (isCurrent && !readThisRun)
             {
-                if (glow == null)
-                    continue;
-
-                if (isCurrent && !readThisRun)
-                {
-                    // Current lore not yet read in this run -> glow,
-                    // even if it was saved as read from a previous run.
-                    glow.CallCanRead();
-                }
-                else if (savedAsRead || readThisRun)
-                {
-                    glow.Callread();
-                }
-                else
-                {
-                    glow.CallOff();
-                }
+                SetLoreCanRead(loreObjects);
+            }
+            else if (savedAsRead || readThisRun)
+            {
+                SetLoreRead(loreObjects);
+            }
+            else
+            {
+                SetLoreOff(loreObjects);
             }
         }
     }
 
     public void MarkLoreAsRead(int loreIndex)
     {
-        if (loreIndex < 1 || loreIndex > LoreCount)
-        {
-            Debug.LogWarning(
-                $"LoreManager: Invalid lore index: {loreIndex}",
-                this
-            );
-
+        if (!CanInteractWithLore(loreIndex))
             return;
-        }
 
-        // Save is unchanged: still written to disk exactly as before.
+        if (loreIndex < 1 || loreIndex > LoreCount)
+            return;
+
         ES3.Save(GetSaveKey(loreIndex), true);
 
-        // Session flag: switches the glow from "can read" to "read" for this run.
         readThisSession.Add(loreIndex);
 
         RefreshLoreStates();
@@ -132,7 +151,37 @@ public class LoreManager : MonoBehaviour
 
     public bool IsLoreRead(int loreIndex)
     {
+        if (loreIndex < 1 || loreIndex > LoreCount)
+            return false;
+
         return ES3.Load<bool>(GetSaveKey(loreIndex), false);
+    }
+
+    private void SetLoreCanRead(List<GlowController> loreObjects)
+    {
+        foreach (GlowController glow in loreObjects)
+        {
+            if (glow != null)
+                glow.CallCanRead();
+        }
+    }
+
+    private void SetLoreRead(List<GlowController> loreObjects)
+    {
+        foreach (GlowController glow in loreObjects)
+        {
+            if (glow != null)
+                glow.Callread();
+        }
+    }
+
+    private void SetLoreOff(List<GlowController> loreObjects)
+    {
+        foreach (GlowController glow in loreObjects)
+        {
+            if (glow != null)
+                glow.CallOff();
+        }
     }
 
     private string GetSaveKey(int loreIndex)

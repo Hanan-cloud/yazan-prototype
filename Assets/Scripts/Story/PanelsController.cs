@@ -21,7 +21,6 @@ public class PanelsController : MonoBehaviour
 
     float currentCameraZoom = 3f;
     float originalCameraZoom = 4.13f;
-    float zoomTransitionTime = 1;
 
     int Panel_index = 0;
     int Shot_Index = 0;

@@ -10254,7 +10254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 23
-  areaName: 1
+  areaName: 2
 --- !u!114 &166436780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11587,7 +11587,7 @@ Transform:
   m_GameObject: {fileID: 203620590}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 125.53999, y: -0.15800047, z: 0}
+  m_LocalPosition: {x: 125.425995, y: -0.14199996, z: 0}
   m_LocalScale: {x: 1, y: 1.0436282, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21174,7 +21174,7 @@ Transform:
   m_GameObject: {fileID: 479995905}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 106.05, y: -0.15800047, z: 0}
+  m_LocalPosition: {x: 105.936, y: -0.142, z: 0}
   m_LocalScale: {x: 1, y: 1.0436282, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32542,7 +32542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 21
-  areaName: 1
+  areaName: 2
 --- !u!1 &818965838
 GameObject:
   m_ObjectHideFlags: 0
@@ -39171,7 +39171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 25
-  areaName: 1
+  areaName: 2
 --- !u!114 &1059267923 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7306865110895002767, guid: 0650a6c239ae0f149b725285af90418f, type: 3}
@@ -40888,7 +40888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 20
-  areaName: 1
+  areaName: 2
 --- !u!114 &1130663602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44463,7 +44463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 24
-  areaName: 1
+  areaName: 2
 --- !u!1 &1250037911
 GameObject:
   m_ObjectHideFlags: 0
@@ -45116,7 +45116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
   anomalyName: 22
-  areaName: 1
+  areaName: 2
 --- !u!114 &1296764813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75215,8 +75215,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -81150,7 +81150,6 @@ MonoBehaviour:
   step: 1
   leftFoot: {fileID: 594875271}
   rightFoot: {fileID: 580907136}
-  moveSpeed: 2
 --- !u!114 &2116867297
 MonoBehaviour:
   m_ObjectHideFlags: 0

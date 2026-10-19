@@ -153,13 +153,13 @@
           "variants": [
             {
               "language": "en",
-              "_value": "Yazan follows the light between rocks and forgotten paths until he reaches an ancient wall. There, he finds an ancient, motionless figure standing in the shadows, holding a lantern\u2026unlike anything he has ever seen"
+              "_value": "Yazan follows the light between rocks and forgotten paths until he reaches an ancient wall. "
             }
           ],
           "aliases": []
         },
         {
-          "key": "Panel_15",
+          "key": "Panel_16",
           "originalValue": "",
           "variants": [
             {
@@ -170,23 +170,45 @@
           "aliases": []
         },
         {
-          "key": "Panel_16",
+          "key": "Panel_17",
           "originalValue": "..",
           "variants": [
             {
               "language": "en",
-              "_value": "GATEKEEPER: \u201CThis is Alkhafa\u2026 a world beside your own, hidden from human eyes. It was once full of life\u2026  Now it\u2019s sick. It has forgotten its own shape, repeating itself again and again, searching for what was taken from it\u201D"
+              "_value": "GATEKEEPER: \u201CThis is Alkhafa\u2026 a world beside your own, hidden from human eyes. It was once full of life\u2026\u0022"
             }
           ],
           "aliases": []
         },
         {
-          "key": "Panel_17",
-          "originalValue": "The Gatekeeper lowers his gaze to the doll in Yazan\u2019s hand and points to it\r\n GATEKEEPER: - \u201CStart in either direction, left or right. In each loop, you may find something that does not belong\u201D                                    \r\n",
+          "key": "Panel_19",
+          "originalValue": "..",
           "variants": [
             {
               "language": "en",
-              "_value": ""
+              "_value": "The Gatekeeper lowers his gaze to the doll in Yazan\u2019s hand and points to it\r\n                                    \r\n"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_20",
+          "originalValue": "..",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "GATEKEEPER: \u201CStart in either direction, left or right. In each loop, you may find something that does not belong\u201D  "
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_15",
+          "originalValue": "..",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "There, he finds an ancient, motionless figure standing in the shadows, holding a lantern\u2026unlike anything he has ever seen"
             }
           ],
           "aliases": []
@@ -197,7 +219,40 @@
           "variants": [
             {
               "language": "en",
-              "_value": "\u201C If you notice a change, turn back the way you came. If you find nothing, keep going in the same direction. Each correct choice frees a nail. One mistake brings them all back. The doll knows\u2026 trust what it shows you. Go now\u2026 I will be here\u201D"
+              "_value": " GATEKEEPER: \u0022 Now it\u2019s sick. It has forgotten its own shape, repeating itself again and again, searching for what was taken from it\u201D"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_21",
+          "originalValue": "..",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "GATEKEEPER: \u201C If you notice a change, turn back the way you came. If you find nothing, keep going in the same direction.\u0022 "
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_22",
+          "originalValue": "..",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Gatekeeper: \u201CEach correct choice frees a nail. One mistake brings them all back.\u201D "
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_23",
+          "originalValue": "..",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Gatekeeper: \u201CThe doll knows\u2026 trust what it shows you. But remember, the doll itself might be an anomaly. Go now\u2026 I\u2019ll be here.\u201D"
             }
           ],
           "aliases": []

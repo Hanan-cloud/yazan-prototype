@@ -31,15 +31,13 @@ public class AnomallyManager : MonoBehaviour
     int forcedAnomalyCounter;
     int forcedAnomalyCount=3;
 
-    private Dictionary<AnomalyList, bool> foundAnomaliesDic = new Dictionary<AnomalyList, bool>();
-    readonly string FoundAnomalies = "FoundAnomalies";
 
 
 
     // new system 
     List<IAnomaly> candidates = new List<IAnomaly>();
 
-    string lastAreaSelected = null;
+    AreaNames? lastAreaSelected;
 
 
 
@@ -113,7 +111,7 @@ public class AnomallyManager : MonoBehaviour
     }
 
     // Weight
-    float GetWeight(IAnomaly anomaly, string lastArea)
+    float GetWeight(IAnomaly anomaly)
     {
         float weight = 1f;
 
@@ -130,16 +128,6 @@ public class AnomallyManager : MonoBehaviour
         }
 
 
-        //Debug.Log($"Anomaly Area: [{anomaly.AreaName}]");
-        //Debug.Log($"Last Area: [{lastArea}]");
-        //Debug.Log($"Are Equal: {anomaly.AreaName.ToString() == lastArea}");
-
-
-        if (anomaly.AreaName.ToString() == lastArea)
-        {
-
-            weight *= 0.7f;
-        }
         // The more we showed it, the less we want it
         weight -= anomaly.AppearanceCount * 0.5f;
 
@@ -151,24 +139,25 @@ public class AnomallyManager : MonoBehaviour
 
 
     // Weighted random pick that never returns the last shown anomaly
-    private IAnomaly PickWeighted(List<IAnomaly> candidates, string lastArea)
+    private IAnomaly PickWeighted(List<IAnomaly> candidates)
     {
-        // First, calculate the total weight (skipping the last anomaly).
+        List<IAnomaly> eligible = candidates
+            .Where(anomaly => anomaly != lastAnomaly &&
+                (!lastAreaSelected.HasValue || anomaly.AreaName != lastAreaSelected.Value))
+            .ToList();
+
+        if (eligible.Count == 0)
+        {
+            return null;
+        }
+
         float totalWeight = 0f;
         IAnomaly fallback = null;
 
-        foreach (IAnomaly anomaly in candidates)
+        foreach (IAnomaly anomaly in eligible)
         {
-            if (anomaly == lastAnomaly) continue;
-
-            totalWeight += GetWeight(anomaly, lastArea);
+            totalWeight += GetWeight(anomaly);
             fallback = anomaly;
-        }
-
-        // Only one anomaly exists, nothing else to pick.
-        if (fallback == null)
-        {
-            return candidates[candidates.Count - 1];
         }
 
 
@@ -177,12 +166,10 @@ public class AnomallyManager : MonoBehaviour
 
 
         // Walk through the anomalies one by one.
-        foreach (IAnomaly anomaly in candidates)
+        foreach (IAnomaly anomaly in eligible)
         {
-            if (anomaly == lastAnomaly) continue;
-
             // Remove this anomaly's "area" from our random value.
-            randomValue -= GetWeight(anomaly, lastArea);
+            randomValue -= GetWeight(anomaly);
 
             //Debug.Log($"<color=green> aaAAAa {anomaly.AreaName.ToString()} its num {randomValue} </color>");
 
@@ -227,8 +214,17 @@ public class AnomallyManager : MonoBehaviour
     public void setAnomalyByName(string name)
     {
         ResetAnomaly();
-        currentAnomaly = null;
         currentAnomaly = anomalies.FirstOrDefault(item => item.AnomalyName.ToString() == name);
+        if (currentAnomaly == null ||
+            (lastAreaSelected.HasValue && currentAnomaly.AreaName == lastAreaSelected.Value))
+        {
+            currentAnomaly = null;
+            isAnomalyRun = false;
+            return;
+        }
+
+        lastAnomaly = currentAnomaly;
+        lastAreaSelected = currentAnomaly.AreaName;
         currentAnomaly.SetAnomaly();
         isAnomalyRun = true;
 
@@ -243,15 +239,10 @@ public class AnomallyManager : MonoBehaviour
 
         }
 
-        randomAnomaly = !isFirstRun && forcedAnomalyCounter == 0 && UnityEngine.Random.value > 0.3f;
+        randomAnomaly = !isFirstRun && forcedAnomalyCounter == 0 && UnityEngine.Random.value > 0.4f;
 
         if (forcedAnomalyCounter > 0 || randomAnomaly)
         {
-            if (forcedAnomalyCounter > 0)
-                forcedAnomalyCounter--;
-
-            isAnomalyRun = true;
-
             if(anomalyRunCounter > 8 && UnityEngine.Random.value < 0.6f )
             {
                 SetDiscoverdAnomaly();
@@ -267,20 +258,26 @@ public class AnomallyManager : MonoBehaviour
          
 
 
-            normalRunCounter = 0;
-        }
-        else
-        {
-            currentAnomaly=null;
-            normalRunCounter++;
+            if (currentAnomaly != null)
+            {
+                if (forcedAnomalyCounter > 0)
+                    forcedAnomalyCounter--;
 
-            if (normalRunCounter >= normalRunMax)
-                forcedAnomalyCounter = forcedAnomalyCount;
-
-            isFirstRun = false;
-            isAnomalyRun = false;
-           // print("No anomaly");
+                normalRunCounter = 0;
+                isAnomalyRun = true;
+                return;
+            }
         }
+
+        currentAnomaly = null;
+        normalRunCounter++;
+
+        if (normalRunCounter >= normalRunMax)
+            forcedAnomalyCounter = forcedAnomalyCount;
+
+        isFirstRun = false;
+        isAnomalyRun = false;
+        print("No anomaly");
 
 
     }
@@ -291,7 +288,10 @@ public class AnomallyManager : MonoBehaviour
     void SetDiscoverdAnomaly()
     {
         // Pick from discovered anomalies, excluding the last one shown
-        var pool = discoverdAnomaly.Where(a => a != lastAnomaly).ToList();
+        var pool = discoverdAnomaly
+            .Where(a => a != lastAnomaly &&
+                (!lastAreaSelected.HasValue || a.AreaName != lastAreaSelected.Value))
+            .ToList();
 
         if (pool.Count == 0)
         {
@@ -305,7 +305,7 @@ public class AnomallyManager : MonoBehaviour
             currentAnomaly.UpdateAppearanceCount();
             Debug.Log($"<color=green>  => currentAnomaly <= {currentAnomaly.AnomalyName} </color>");
 
-            lastAreaSelected = currentAnomaly.AreaName.ToString();
+            lastAreaSelected = currentAnomaly.AreaName;
             currentAnomaly.SetAnomaly();
         }
 
@@ -332,12 +332,17 @@ public class AnomallyManager : MonoBehaviour
 
 
 
-        currentAnomaly = PickWeighted(candidates, lastAreaSelected);
+        currentAnomaly = PickWeighted(candidates);
+        if (currentAnomaly == null)
+        {
+            return;
+        }
+
         lastAnomaly = currentAnomaly;   // <-- new
-       // Debug.Log("#####anomaly: " + currentAnomaly.AnomalyName + " , " + currentAnomaly.AppearanceCount + " , " + currentAnomaly.AreaName);
+        Debug.Log("#####anomaly: " + currentAnomaly.AnomalyName + " , " + currentAnomaly.AppearanceCount + " , " + currentAnomaly.AreaName);
 
         currentAnomaly.UpdateAppearanceCount();
-        lastAreaSelected = currentAnomaly.AreaName.ToString();
+        lastAreaSelected = currentAnomaly.AreaName;
 
 
        // Debug.Log("##anomaly name: " + currentAnomaly.AnomalyName);

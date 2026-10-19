@@ -17,13 +17,17 @@ public class storyInteraction : MonoBehaviour
     private bool isInRange;
     private bool isTextOpen;
 
-    AudioSource audioSource;
+    private int openedLoreIndex;
+
+    private AudioSource audioSource;
 
     private void Start()
     {
         isInRange = false;
         isTextOpen = false;
-        audioSource=GetComponent<AudioSource>();
+
+        audioSource = GetComponent<AudioSource>();
+
         interactionButton.SetActive(false);
         storyCanvas.SetActive(false);
 
@@ -33,7 +37,10 @@ public class storyInteraction : MonoBehaviour
         }
         else
         {
-            Debug.LogError("storyInteraction: InputManager.Instance is null.", this);
+            Debug.LogError(
+                "storyInteraction: InputManager.Instance is null.",
+                this
+            );
         }
     }
 
@@ -45,42 +52,29 @@ public class storyInteraction : MonoBehaviour
         }
     }
 
-    private void ShowStory()
-    {
-        if (PauseMenu.instance != null &&
-            PauseMenu.instance.IsStopped)
-            return;
-
-        if (!isInRange || playerPos == null)
-            return;
-
-        if (!isTextOpen)
-        {
-            isTextOpen = true;
-            storyCanvas.SetActive(true);
-            interactionButton.SetActive(false);
-
-            lastPos = playerPos.position;
-        }
-        else
-        {
-            // Save the lore as read when the player closes the story.
-            if (loreManager != null && storyPanel != null)
-            {
-                loreManager.MarkLoreAsRead(storyPanel.Index);
-            }
-
-            CloseStory();
-        }
-    }
-
     private void Update()
     {
-        if (!isTextOpen || playerPos == null)
-            return;
+        if (!isTextOpen)
+        {
+            interactionButton.SetActive(
+                isInRange &&
+                playerPos != null &&
+                CanInteract()
+            );
 
-        float distanceMoved =
-            Vector3.Distance(playerPos.position, lastPos);
+            return;
+        }
+
+        if (playerPos == null)
+        {
+            CloseStory();
+            return;
+        }
+
+        float distanceMoved = Vector3.Distance(
+            playerPos.position,
+            lastPos
+        );
 
         if (distanceMoved > 0.5f)
         {
@@ -88,20 +82,70 @@ public class storyInteraction : MonoBehaviour
         }
     }
 
-    private void CloseStory()
-    {    
-        
-    if (isTextOpen && audioSource != null )
+    private bool CanInteract()
     {
-        audioSource.Play();
+        return loreManager != null &&
+               storyPanel != null &&
+               loreManager.CanInteractWithLore(storyPanel.Index);
     }
+
+    private void ShowStory()
+    {
+        if (PauseMenu.instance != null &&
+            PauseMenu.instance.IsStopped)
+        {
+            return;
+        }
+
+        if (!isInRange || playerPos == null)
+            return;
+
+        if (!isTextOpen)
+        {
+            if (!CanInteract())
+                return;
+
+            isTextOpen = true;
+
+            // Store the exact lore index opened by the player.
+            openedLoreIndex = storyPanel.Index;
+
+            storyCanvas.SetActive(true);
+            interactionButton.SetActive(false);
+
+            lastPos = playerPos.position;
+        }
+        else
+        {
+            CloseStory();
+        }
+    }
+
+    private void CloseStory()
+    {
+        if (isTextOpen)
+        {
+            // Save the lore that was actually opened,
+            // even if the current story index has changed.
+            if (loreManager != null && openedLoreIndex > 0)
+            {
+                loreManager.MarkLoreAsRead(openedLoreIndex);
+            }
+
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
+        }
 
         isTextOpen = false;
 
         storyCanvas.SetActive(false);
 
         interactionButton.SetActive(
-            isInRange && playerPos != null
+            isInRange &&
+            playerPos != null &&
+            CanInteract()
         );
     }
 
@@ -114,7 +158,7 @@ public class storyInteraction : MonoBehaviour
         playerPos = collision.transform;
         lastPos = playerPos.position;
 
-        interactionButton.SetActive(true);
+        interactionButton.SetActive(CanInteract());
     }
 
     private void OnTriggerExit2D(Collider2D collision)

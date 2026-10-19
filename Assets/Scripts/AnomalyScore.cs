@@ -18,7 +18,9 @@ public class AnomalyScore : MonoBehaviour
         LoadAndCountDiscovered();
     }
 
-    public int LoadAndCountDiscovered()
+
+
+    public void LoadAndCountDiscovered()
     {
         discoveredCount = 0;
 
@@ -45,6 +47,5 @@ public class AnomalyScore : MonoBehaviour
 
         Debug.Log($"Discovered Anomalies: {discoveredCount}");
 
-        return discoveredCount;
     }
 }

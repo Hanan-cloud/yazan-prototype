@@ -17,7 +17,6 @@ public class FootprintsTrail : AnomalyBase
     SpriteRenderer leftSR;
     SpriteRenderer rightSR;
     private int direction = 1;
-    [SerializeField] private int moveSpeed = 2;
 
     WaitForSeconds betweenSteps = new WaitForSeconds(1);
     WaitForSeconds stepToDisappar = new WaitForSeconds(0.5f);

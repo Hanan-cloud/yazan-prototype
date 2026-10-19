@@ -1,4 +1,3 @@
-
 using System;
 using UnityEngine;
 using AHAKuo.Signalia.LocalizationStandalone.Internal;
@@ -25,10 +24,11 @@ public class InGameStoryPanel : MonoBehaviour
         ResetPoint.OnNailsFalls += SetInGameStory;
         ResetPoint.OnNailsReset += ResetIndex;
 
+        // Start with no available lore.
         index = 1;
         displayedIndex = 0;
 
-        SetInGameStory();
+        OnStoryIndexChanged?.Invoke(displayedIndex);
     }
 
     private void SetInGameStory()
@@ -47,10 +47,11 @@ public class InGameStoryPanel : MonoBehaviour
 
     private void ResetIndex()
     {
+        // Reset to Run 0: no active lore index.
         index = 1;
         displayedIndex = 0;
 
-        SetInGameStory();
+        OnStoryIndexChanged?.Invoke(displayedIndex);
     }
 
     private void OnDestroy()

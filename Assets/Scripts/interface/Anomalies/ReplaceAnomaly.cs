@@ -23,8 +23,10 @@ public class ReplaceAnomaly : AnomalyBase
 
     public override void ResetAnomaly()
     {
-        anomalyObject.SetActive(false);
 
+        if(anomalyObject!=null)
+        anomalyObject.SetActive(false);
+        if(originalObject!=null)
         originalObject.SetActive(true);
 
     }
