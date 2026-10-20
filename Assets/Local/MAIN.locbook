@@ -11,6 +11,10 @@
             {
               "language": "en",
               "_value": "Start"
+            },
+            {
+              "language": "ko",
+              "_value": "\uAC8C\uC784 \uC2DC\uC791"
             }
           ],
           "aliases": []
@@ -44,6 +48,10 @@
             {
               "language": "en",
               "_value": "Exit"
+            },
+            {
+              "language": "ko",
+              "_value": "\uAC8C\uC784 \uC885\uB8CC"
             }
           ],
           "aliases": []
@@ -55,6 +63,10 @@
             {
               "language": "en",
               "_value": "Next"
+            },
+            {
+              "language": "ko",
+              "_value": "\uB2E4\uC74C"
             }
           ],
           "aliases": []
@@ -66,6 +78,10 @@
             {
               "language": "en",
               "_value": "Skip"
+            },
+            {
+              "language": "ko",
+              "_value": ""
             }
           ],
           "aliases": []
@@ -77,6 +93,10 @@
             {
               "language": "en",
               "_value": "Settings"
+            },
+            {
+              "language": "ko",
+              "_value": "\uC124\uC815"
             }
           ],
           "aliases": []
@@ -88,6 +108,10 @@
             {
               "language": "en",
               "_value": "Language"
+            },
+            {
+              "language": "ko",
+              "_value": "\uC5B8\uC5B4"
             }
           ],
           "aliases": []
@@ -99,6 +123,10 @@
             {
               "language": "en",
               "_value": "Screen mode"
+            },
+            {
+              "language": "ko",
+              "_value": "\uD654\uBA74 \uBAA8\uB4DC"
             }
           ],
           "aliases": []
@@ -110,6 +138,10 @@
             {
               "language": "en",
               "_value": "Music"
+            },
+            {
+              "language": "ko",
+              "_value": "\uC74C\uC545"
             }
           ],
           "aliases": []
@@ -121,6 +153,10 @@
             {
               "language": "en",
               "_value": "SFX"
+            },
+            {
+              "language": "ko",
+              "_value": "\uD6A8\uACFC\uC74C"
             }
           ],
           "aliases": []
@@ -132,6 +168,10 @@
             {
               "language": "en",
               "_value": "Master Volume"
+            },
+            {
+              "language": "ko",
+              "_value": "\uC804\uCCB4 \uBCFC\uB968"
             }
           ],
           "aliases": []
@@ -143,6 +183,10 @@
             {
               "language": "en",
               "_value": "Continue"
+            },
+            {
+              "language": "ko",
+              "_value": "\uAC8C\uC784 \uC7AC\uAC1C"
             }
           ],
           "aliases": []
@@ -154,6 +198,10 @@
             {
               "language": "en",
               "_value": "Feedback"
+            },
+            {
+              "language": "ko",
+              "_value": ""
             }
           ],
           "aliases": []
@@ -171,6 +219,10 @@
             {
               "language": "en",
               "_value": "Full Screen"
+            },
+            {
+              "language": "ko",
+              "_value": "\uC804\uCCB4 \uD654\uBA74"
             }
           ],
           "aliases": []
@@ -182,6 +234,10 @@
             {
               "language": "en",
               "_value": "Window"
+            },
+            {
+              "language": "ko",
+              "_value": ""
             }
           ],
           "aliases": []
@@ -213,6 +269,17 @@
             }
           ],
           "aliases": []
+        },
+        {
+          "key": "Korean",
+          "originalValue": "\uD55C\uAD6D\uC5B4",
+          "variants": [
+            {
+              "language": "en",
+              "_value": ""
+            }
+          ],
+          "aliases": []
         }
       ]
     },
@@ -227,6 +294,10 @@
             {
               "language": "en",
               "_value": "He left because he had nothing to say. He came back with the only story worth telling."
+            },
+            {
+              "language": "ko",
+              "_value": ""
             }
           ],
           "aliases": []

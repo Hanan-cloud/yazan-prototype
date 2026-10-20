@@ -1,0 +1,362 @@
+{
+  "pages": [
+    {
+      "pageId": "IntroStory",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "Panel_1",
+          "originalValue": "مع غروب الشمس، تجتمع العائلة حول النار.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "As the sun sets, the family gathers around the fire"
+            },
+            {
+              "language": "ko",
+              "_value": "해가 저물면 가족이 모닥불 주위에 모인다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_2",
+          "originalValue": "يجلس يزن بينهم، ودميته القماشية إلى جواره.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Yazan sits among them, holding his cloth doll."
+            },
+            {
+              "language": "ko",
+              "_value": "야잔은 가족들 사이에 앉아 헝겊 인형을 손에 들고 있다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_3",
+          "originalValue": "يلتفت إليه والده.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "father turns to him"
+            },
+            {
+              "language": "ko",
+              "_value": "아버지가 야잔을 돌아본다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_4",
+          "originalValue": "الأب: \"احكِ لنا قصة\"",
+          "variants": [
+            {
+              "language": "en",
+              "_value": " FATHER:  “Tell us a story”"
+            },
+            {
+              "language": "ko",
+              "_value": "아버지: “이야기 하나 들려주렴.”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_5",
+          "originalValue": "يخفض يزن نظره. لا يجد قصةً يرويها",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Yazan lowers his eyes. He has no story to tell"
+            },
+            {
+              "language": "ko",
+              "_value": "야잔은 시선을 떨군다. 들려줄 이야기가 없다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_6",
+          "originalValue": "يحمل دميته، ويبتعد قليلًا ليستكشف الوادي",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "He picks up his backpack and doll and wanders off to explore the valley"
+            },
+            {
+              "language": "ko",
+              "_value": "야잔은 배낭과 인형을 챙겨 계곡을 둘러보러 떠난다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_7",
+          "originalValue": "الأم: \"يزن… لا تبتعد كثيرًا. لهذا المكان حكايات مخيفة.\"",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "MOTHER: “Yazan… don’t go too far. There are frightening stories about this place”"
+            },
+            {
+              "language": "ko",
+              "_value": "어머니: “야잔… 너무 멀리 가지 마. 이곳엔 무서운 이야기가 많단다.”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_8",
+          "originalValue": "يلتفت إليها مجيبًا.                                                                                   يزن \"دميتي معي… لن أضلّ الطريق.\"",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "YAZAN: “I have my doll with me… I won’t get lost”"
+            },
+            {
+              "language": "ko",
+              "_value": "그는 어머니에게 대답하려고 돌아선다. 야잔:                                                                                                                                                                  “인형도 곁에 있으니까… 길을 잃지 않을 거야.”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_9",
+          "originalValue": "ومضى يزن في طريقه.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Yazan continues on his way"
+            },
+            {
+              "language": "ko",
+              "_value": "야잔은 계속 길을 간다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_10",
+          "originalValue": "يظن يزن أنه يعرف طريق العودة. لكن الوادي يبدّل ملامحه مع كل خطوة.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Yazan thinks he knows the way back. But the valley changes with every step"
+            },
+            {
+              "language": "ko",
+              "_value": "야잔은 돌아가는 길을 안다고 생각한다. 하지만 한 걸음 내디딜 때마다 계곡의 모습이 달라진다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_11",
+          "originalValue": "كل صخرة تشبه الأخرى، وكل ممر يقود إلى مثله، حتى يعجز عن تذكّر الطريق الذي جاء منه.\n",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Every rock resembles another. Every path leads to one just like it, until he can no longer remember which way he came"
+            },
+            {
+              "language": "ko",
+              "_value": "바위는 모두 서로 닮아 있다. 어느 길로 가도 꼭 닮은 다른 길로 이어진다. 그러다 야잔은 자신이 어느 길로 왔는지조차 기억하지 못한다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_12",
+          "originalValue": "بدأت المسامير تخترق الدمية واحدًا تلو الآخر، حتى بلغ عددها عشرة.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Suddenly, nails begin piercing the doll, one after another, until there are ten"
+            },
+            {
+              "language": "ko",
+              "_value": "갑자기 못이 하나씩 인형에 박히기 시작한다. 마침내 못은 열 개가 된다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_13",
+          "originalValue": "نظر إلى دميته، ممسكًا بها برفق والدموع تملأ عينيه. ثم ظهر أمامه نور.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "He looks down at his doll, holding it carefully with tears in his eyes. Then, a light appears before him"
+            },
+            {
+              "language": "ko",
+              "_value": "야잔은 인형을 조심스레 든 채 눈물을 글썽이며 내려다본다. 그때 그의 앞에 빛이 나타난다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_14",
+          "originalValue": "يتبع يزن الضوء بين الصخور والممرات المنسية، حتى يبلغ جدارًا قديمًا.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Yazan follows the light between rocks and forgotten paths until he reaches an ancient wall. "
+            },
+            {
+              "language": "ko",
+              "_value": "야잔은 바위 사이와 잊힌 길을 지나 빛을 따라간다. 마침내 고대의 벽에 다다른다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_16",
+          "originalValue": "يحدّق الجني العجوز في الصبي طويلًا، ثم يتحدث.                                                 حارس البوابة: \"أنت لست تائهًا يا بني… بل في مكان آخر تمامًا.\"",
+          "variants": [
+            {
+              "language": "en",
+              "_value": " The old jinn studies the boy for a long moment. Then he speaks.\r\nGATEKEEPER: “You are not lost, child… you are somewhere else entirely”"
+            },
+            {
+              "language": "ko",
+              "_value": "늙은 진은 한참 동안 소년을 살펴본다. 이윽고 입을 연다.                                                                                                                                                  문지기: “길을 잃은 게 아니란다, 아이야… 전혀 다른 곳에 온 거란다.”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_17",
+          "originalValue": "حارس البوابة: \"هذا هو الخفاء… عالم يجاور عالمكم، ومحجوب عن أعين البشر. كان يومًا نابضًا بالحياة.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "GATEKEEPER: “This is Alkhafa… a world beside your own, hidden from human eyes. It was once full of life…\""
+            },
+            {
+              "language": "ko",
+              "_value": "문지기: “이곳은 Alkhafa란다… 인간의 눈에 보이지 않는, 너희 세계 곁에 있는 또 다른 세계지. 한때는 생명으로 가득했단다…”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_19",
+          "originalValue": "يخفض الحارس بصره نحو الدمية في يد يزن، ويشير إليها.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "The Gatekeeper lowers his gaze to the doll in Yazan’s hand and points to it\r\n                                    \r\n"
+            },
+            {
+              "language": "ko",
+              "_value": "문지기는 야잔의 손에 든 인형을 내려다보며 그것을 가리킨다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_20",
+          "originalValue": " حارس البوابة: \"بدأ من أي اتجاه، يسارًا أو يمينًا. في كل دورة، قد تجد شيئًا لا ينتمي إلى المكان.    ",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "GATEKEEPER: “Start in either direction, left or right. In each loop, you may find something that does not belong”  "
+            },
+            {
+              "language": "ko",
+              "_value": "문지기: “왼쪽이나 오른쪽, 어느 쪽으로든 시작하렴. 루프마다 주변과 어울리지 않는 무언가를 발견할 수도 있단다.”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_15",
+          "originalValue": " هناك، يرى فانوسًا يحمله كائن يقف في الظلال… كائن لم يرَ يزن مثله من قبل. أقدم من أن يُقاس بالعمر، وأكثر سكونًا من السكون نفسه.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "There, he finds an ancient, motionless figure standing in the shadows, holding a lantern…unlike anything he has ever seen"
+            },
+            {
+              "language": "ko",
+              "_value": "그곳에서 야잔은 그림자 속에 미동도 없이 서 있는 고대의 인물을 발견한다. 그의 손에는 야잔이 지금껏 본 적 없는 등불이 들려 있다."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_18",
+          "originalValue": "حارس البوابة: \"أما الآن فقد اعتراه المرض. نسي هيئته، فأصبح يعيد نفسه مرارًا، باحثًا عمّا انتُزع منه.\"",
+          "variants": [
+            {
+              "language": "en",
+              "_value": " GATEKEEPER: \" Now it’s sick. It has forgotten its own shape, repeating itself again and again, searching for what was taken from it”"
+            },
+            {
+              "language": "ko",
+              "_value": "문지기: “이제는 병들었지. 제 모습을 잊은 채, 빼앗긴 것을 찾아 몇 번이고 되풀이하고 있단다.”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_21",
+          "originalValue": "حارس البوابة: إن لاحظت ما تغيّر، فعُد من حيث أتيت. وإن لم تجد شيئًا، فواصل السير في الاتجاه نفسه.\"",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "GATEKEEPER: “ If you notice a change, turn back the way you came. If you find nothing, keep going in the same direction.\" "
+            },
+            {
+              "language": "ko",
+              "_value": "문지기: “변화를 발견하면 왔던 길로 되돌아가거라. 아무것도 발견하지 못하면 같은 방향으로 계속 가거라.”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_22",
+          "originalValue": "حارس البوابة: \"كل اختيار صحيح ينزع مسمارًا، لكن خطأً واحدًا يعيدها كلها.\"",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Gatekeeper: “Each correct choice frees a nail. One mistake brings them all back.” "
+            },
+            {
+              "language": "ko",
+              "_value": "문지기: “올바른 선택을 할 때마다 못이 하나씩 빠진단다. 선택을 한 번이라도 잘못하면 못이 전부 다시 박힌단다.”"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Panel_23",
+          "originalValue": "حارس البوابة: \"الدمية تعرف...ثق بما تُريك إياه. لكن تذكّر، فقد تكون الدمية شاذة عن المألوف.\nاذهب الآن... سأبقى هنا.\"",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Gatekeeper: “The doll knows… trust what it shows you. But remember, the doll itself might be an anomaly. Go now… I’ll be here.”"
+            },
+            {
+              "language": "ko",
+              "_value": "문지기: “인형은 알고 있단다… 인형이 보여 주는 것을 믿거라. 하지만 잊지 말거라. 인형 자체가 이상 현상일 수도 있단다. 이제 가거라… 난 여기 있겠다.”"
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    }
+  ],
+  "keysLocked": false,
+  "originalValuesLocked": false,
+  "lockedLanguages": "",
+  "pageIdsLocked": false,
+  "aboutPagesLocked": false,
+  "aliasesLocked": false,
+  "encryptedPassword": ""
+}

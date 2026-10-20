@@ -24,7 +24,8 @@ public class LanguageSettingManager : MonoBehaviour
     private readonly string[] languageList = new string[]
    {
         "Arabic",
-        "English"
+        "English",
+        "Korean"
    };
 
 

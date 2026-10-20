@@ -12,6 +12,8 @@ public class CutsceneSlide
 {
     public VideoClip shot;
     public VideoClip loopShot;
+    // Number of text keys to show while this slide's loop plays.
+    [Min(1)] public int numberOfTexts = 1;
 }
 
 public class CutsceneManager : MonoBehaviour
@@ -40,6 +42,7 @@ public class CutsceneManager : MonoBehaviour
     private VideoPlayer nextPlayer;
 
     private int index = -1;
+    private int currentTextIndex;
     private bool isPlayingLoop = false;
 
     private int loopForIndex = -1;
@@ -51,7 +54,6 @@ public class CutsceneManager : MonoBehaviour
     private bool pendingAdvance = false;
 
 
-[SerializeField] GameObject buttons;
 
     [SerializeField] int trackNumToChangeMusic;
     [SerializeField] AudioClip firstClip;
@@ -60,7 +62,6 @@ public class CutsceneManager : MonoBehaviour
     const float maxMusic=0.3f;
     private void Start()
     {
-       // buttons.SetActive(false);
         simpleText = storyText.gameObject.GetComponent<SimpleLocalizedText>();
 
     music.PlayOneShot(firstClip);
@@ -84,11 +85,11 @@ public class CutsceneManager : MonoBehaviour
     }
 private void LogState(string where)
 {
-    Debug.Log(
-        $"[Cutscene] {where} | index={index} (slide {index + 1}) | " +
-        $"active={activePlayer.name} loop={loopPlayer.name} next={nextPlayer.name} | " +
-        $"isPlayingLoop={isPlayingLoop} loopPrepared={loopPrepared} " +
-        $"nextPrepared={nextPrepared} nextForIndex={nextForIndex} pending={pendingAdvance}");
+    // Debug.Log(
+    //     $"[Cutscene] {where} | index={index} (slide {index + 1}) | " +
+    //     $"active={activePlayer.name} loop={loopPlayer.name} next={nextPlayer.name} | " +
+    //     $"isPlayingLoop={isPlayingLoop} loopPrepared={loopPrepared} " +
+    //     $"nextPrepared={nextPrepared} nextForIndex={nextForIndex} pending={pendingAdvance}");
 }
     private void OnDestroy()
     {
@@ -118,7 +119,8 @@ private void LogState(string where)
         activePlayer.prepareCompleted += OnActivePrepared;
         activePlayer.Prepare();
 
-        simpleText.SetKey(textKey + (index+1));
+        currentTextIndex = 0;
+        SetCurrentText();
     }
 
     private void OnActivePrepared(VideoPlayer vp)
@@ -200,16 +202,21 @@ private void LogState(string where)
             loopPlayer = oldActive;
             loopPrepared = false;
             loopForIndex = -1;
-LogState("SwitchedToLoop");
-           // buttons.SetActive(true);
+            LogState("SwitchedToLoop");
 
         }
     }
 
     public void OnNextPressed()
     {
-       // buttons.SetActive(false);
- LogState("NextPressed");
+        if (currentTextIndex + 1 < Mathf.Max(1, slides[index].numberOfTexts))
+        {
+            currentTextIndex++;
+            SetCurrentText();
+            return;
+        }
+
+        LogState("NextPressed");
         int target = index + 1;
 
         if (target >= slides.Length)
@@ -249,7 +256,8 @@ LogState("SwitchedToLoop");
             });
         }
         isPlayingLoop = false;
-        simpleText.SetKey(textKey + (index+1));
+        currentTextIndex = 0;
+        SetCurrentText();
 
         loopPlayer = oldActive;
         nextPlayer = oldLoop;
@@ -257,6 +265,15 @@ LogState("SwitchedToLoop");
         PrepareLoop(index);
         PrepareNext(index + 1);
         LogState("Advanced");
+    }
+
+    private void SetCurrentText()
+    {
+        int keyIndex = 1;
+        for (int i = 0; i < index; i++)
+            keyIndex += Mathf.Max(1, slides[i].numberOfTexts);
+
+        simpleText.SetKey(textKey + (keyIndex + currentTextIndex));
     }
 
     private VideoPlayer SwapActiveTo(VideoPlayer newActive)
@@ -298,3 +315,4 @@ LogState("SwitchedToLoop");
         SceneManager.LoadScene("Demo");
     }
 }
+

@@ -1,0 +1,814 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc60cef16fb84a239e422cb0e81cb8d, type: 3}
+  m_Name: MAIN
+  m_EditorClassIdentifier: Assembly-CSharp::AHAKuo.Signalia.LocalizationStandalone.Internal.LocBook
+  locbookFile: {fileID: 102900000, guid: 601f45e8053bb5b40b5bf27e07f10821, type: 3}
+  pages:
+  - pageId: MAIN MENU
+    aboutPage: New Page
+    entries:
+    - key: Start_Key
+      originalValue: "\u0627\u0628\u062F\u0623"
+      variants:
+      - languageCode: en
+        value: Start
+      - languageCode: ko
+        value: "\uAC8C\uC784 \uC2DC\uC791"
+      aliases: []
+    - key: arabic
+      originalValue: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+      variants:
+      - languageCode: en
+        value: Arabic
+      aliases: []
+    - key: english
+      originalValue: English
+      variants:
+      - languageCode: new
+        value: "\u0627\u0646\u062C\u0644\u0634"
+      aliases: []
+    - key: exit
+      originalValue: "\u062E\u0631\u0648\u062C"
+      variants:
+      - languageCode: en
+        value: Exit
+      - languageCode: ko
+        value: "\uAC8C\uC784 \uC885\uB8CC"
+      aliases: []
+    - key: Next
+      originalValue: "\u0627\u0644\u062A\u0627\u0644\u064A"
+      variants:
+      - languageCode: en
+        value: Next
+      - languageCode: ko
+        value: "\uB2E4\uC74C"
+      aliases: []
+    - key: Skip
+      originalValue: "\u062A\u062E\u0637\u064A"
+      variants:
+      - languageCode: en
+        value: Skip
+      - languageCode: ko
+        value: 
+      aliases: []
+    - key: Settings
+      originalValue: "\u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A"
+      variants:
+      - languageCode: en
+        value: Settings
+      - languageCode: ko
+        value: "\uC124\uC815"
+      aliases: []
+    - key: Language
+      originalValue: "\u0627\u0644\u0644\u063A\u0629"
+      variants:
+      - languageCode: en
+        value: Language
+      - languageCode: ko
+        value: "\uC5B8\uC5B4"
+      aliases: []
+    - key: Screen_mode
+      originalValue: "\u0646\u0645\u0637 \u0627\u0644\u0639\u0631\u0636"
+      variants:
+      - languageCode: en
+        value: Screen mode
+      - languageCode: ko
+        value: "\uD654\uBA74 \uBAA8\uB4DC"
+      aliases: []
+    - key: Music
+      originalValue: "\u0627\u0644\u0645\u0648\u0633\u064A\u0642\u0649"
+      variants:
+      - languageCode: en
+        value: Music
+      - languageCode: ko
+        value: "\uC74C\uC545"
+      aliases: []
+    - key: SFX
+      originalValue: "\u0627\u0644\u0645\u0624\u062B\u0631\u0627\u062A \u0627\u0644\u0635\u0648\u062A\u064A\u0629"
+      variants:
+      - languageCode: en
+        value: SFX
+      - languageCode: ko
+        value: "\uD6A8\uACFC\uC74C"
+      aliases: []
+    - key: Sounds
+      originalValue: "\u0627\u0644\u0623\u0635\u0648\u0627\u062A"
+      variants:
+      - languageCode: en
+        value: Master Volume
+      - languageCode: ko
+        value: "\uC804\uCCB4 \uBCFC\uB968"
+      aliases: []
+    - key: Continue
+      originalValue: "\u0627\u0633\u062A\u0645\u0631\u0627\u0631"
+      variants:
+      - languageCode: en
+        value: Continue
+      - languageCode: ko
+        value: "\uAC8C\uC784 \uC7AC\uAC1C"
+      aliases: []
+    - key: FeedBack
+      originalValue: "\u0642\u064A\u0645 \u0627\u0644\u0644\u0639\u0628\u0629"
+      variants:
+      - languageCode: en
+        value: Feedback
+      - languageCode: ko
+        value: 
+      aliases: []
+    - key: Anomaly
+      originalValue: "\u0645\u0624\u062B\u0631\u0627\u062A\r\n"
+      variants:
+      - languageCode: en
+        value: Anomaly SFX
+      - languageCode: ko
+        value: 
+      aliases: []
+  - pageId: Screen Mode
+    aboutPage: New Page
+    entries:
+    - key: Fullscreen
+      originalValue: "\u0643\u0627\u0645\u0644 \u0627\u0644\u0634\u0627\u0634\u0629"
+      variants:
+      - languageCode: en
+        value: Full Screen
+      - languageCode: ko
+        value: "\uC804\uCCB4 \uD654\uBA74"
+      aliases: []
+    - key: Windowed
+      originalValue: "\u0646\u0627\u0641\u0630\u0629"
+      variants:
+      - languageCode: en
+        value: Window
+      - languageCode: ko
+        value: 
+      aliases: []
+  - pageId: LanguagesList
+    aboutPage: New Page
+    entries:
+    - key: Arabic
+      originalValue: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+      variants:
+      - languageCode: en
+        value: Arabic
+      aliases: []
+    - key: English
+      originalValue: "\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629"
+      variants:
+      - languageCode: en
+        value: English
+      aliases: []
+    - key: Korean
+      originalValue: "\uD55C\uAD6D\uC5B4"
+      variants:
+      - languageCode: en
+        value: 
+      aliases: []
+  - pageId: StoryPanel
+    aboutPage: New Page
+    entries:
+    - key: InGameStory_1
+      originalValue: "\u063A\u0627\u062F\u0631 \u0644\u0623\u0646\u0647 \u0644\u0645
+        \u064A\u0643\u0646 \u064A\u0645\u0644\u0643 \u0645\u0627 \u064A\u0642\u0648\u0644\u0647...
+        \u0648\u0639\u0627\u062F \u064A\u062D\u0645\u0644 \u0627\u0644\u062D\u0643\u0627\u064A\u0629
+        \u0627\u0644\u0648\u062D\u064A\u062F\u0629 \u0627\u0644\u062A\u064A \u062A\u0633\u062A\u062D\u0642
+        \u0623\u0646 \u062A\u064F\u0631\u0648\u0649."
+      variants:
+      - languageCode: en
+        value: '"He left because he had nothing to say. He came back with the only
+          story worth telling."'
+      - languageCode: es
+        value: "Se march\xF3 porque no ten\xEDa nada que decir. Volvi\xF3 con la
+          \xFAnica historia que merec\xEDa ser contada."
+      - languageCode: zh
+        value: "\u4ED6\u79BB\u5F00\u65F6\u65E0\u8BDD\u53EF\u8BF4\u3002\u5F52\u6765\u65F6\uFF0C\u5374\u5E26\u56DE\u4E86\u552F\u4E00\u503C\u5F97\u8BB2\u8FF0\u7684\u6545\u4E8B\u3002"
+      - languageCode: jp
+        value: "\u5F7C\u306F\u4F55\u3082\u8A9E\u308B\u3053\u3068\u304C\u306A\u304F\u3066\u53BB\u3063\u305F\u3002\u305D\u3057\u3066\u3001\u8A9E\u308B\u4FA1\u5024\u306E\u3042\u308B\u552F\u4E00\u306E\u7269\u8A9E\u3092\u643A\u3048\u3066\u623B\u3063\u3066\u304D\u305F\u3002"
+      - languageCode: fr
+        value: "Il est parti parce qu\u2019il n\u2019avait rien \xE0 dire. Il est
+          revenu avec la seule histoire qui m\xE9ritait d\u2019\xEAtre racont\xE9e."
+      - languageCode: pl
+        value: "Il est parti parce qu\u2019il n\u2019avait rien \xE0 dire. Il est
+          revenu avec la seule histoire qui m\xE9ritait d\u2019\xEAtre racont\xE9e."
+      - languageCode: ko
+        value: "\uADF8\uB294 \uD560 \uB9D0\uC774 \uC5C6\uC5B4 \uB5A0\uB0AC\uB2E4.
+          \uB3CC\uC544\uC62C \uB550 \uB4E4\uB824\uC904 \uAC00\uCE58\uAC00 \uC788\uB294
+          \uB2E8 \uD558\uB098\uC758 \uC774\uC57C\uAE30\uB97C \uD488\uACE0 \uC788\uC5C8\uB2E4."
+      - languageCode: ru
+        value: "\u041E\u043D \u0443\u0448\u0451\u043B, \u043F\u043E\u0442\u043E\u043C\u0443
+          \u0447\u0442\u043E \u0435\u043C\u0443 \u043D\u0435\u0447\u0435\u0433\u043E
+          \u0431\u044B\u043B\u043E \u0441\u043A\u0430\u0437\u0430\u0442\u044C. \u041E\u043D
+          \u0432\u0435\u0440\u043D\u0443\u043B\u0441\u044F \u0441 \u0435\u0434\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0439
+          \u0438\u0441\u0442\u043E\u0440\u0438\u0435\u0439, \u043A\u043E\u0442\u043E\u0440\u0443\u044E
+          \u0441\u0442\u043E\u0438\u043B\u043E \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u0442\u044C."
+      - languageCode: pt
+        value: "Ele foi embora porque n\xE3o tinha nada a dizer. Voltou com a \xFAnica
+          hist\xF3ria que valia a pena contar."
+      - languageCode: de
+        value: "Er ging fort, weil er nichts zu sagen hatte. Zur\xFCck kam er mit
+          der einzigen Geschichte, die es wert war, erz\xE4hlt zu werden."
+      aliases: []
+    - key: InGameStory_2
+      originalValue: "\u0639\u0634\u0631\u0629 \u0645\u0633\u0627\u0645\u064A\u0631.
+        \u0639\u0634\u0631\u0629 \u0623\u062E\u062A\u0627\u0645. \u062D\u0645\u0644\u0647\u0627
+        \u0637\u0641\u0644\u064C \u0628\u064A\u0646 \u064A\u062F\u064A\u0647... \u0648\u0644\u0645
+        \u064A\u0633\u0623\u0644 \u0623\u062D\u062F\u064C \u064A\u0648\u0645\u064B\u0627
+        \u0639\u0645\u0651\u0627 \u0643\u0627\u0646\u062A \u062A\u062E\u0641\u064A\u0647."
+      variants:
+      - languageCode: en
+        value: '"Ten nails. Ten seals. A child carrying all of them and not one question
+          asked."'
+      - languageCode: es
+        value: "Diez clavos. Diez sellos. Un ni\xF1o los llevaba todos y nadie hizo
+          una sola pregunta."
+      - languageCode: zh
+        value: "\u5341\u679A\u9489\u5B50\u3002\u5341\u9053\u5C01\u5370\u3002\u4E00\u4E2A\u5B69\u5B50\u5E26\u7740\u5B83\u4EEC\uFF0C\u5374\u6CA1\u6709\u4EBA\u95EE\u8FC7\u4E00\u53E5\u3002"
+      - languageCode: jp
+        value: "\u5341\u672C\u306E\u91D8\u3002\u5341\u306E\u5C01\u5370\u3002\u305D\u308C\u3089\u3092\u3059\u3079\u3066\u62B1\u3048\u305F\u5B50\u3069\u3082\u306B\u3001\u8AB0\u3082\u3072\u3068\u3064\u3082\u5C0B\u306D\u306A\u304B\u3063\u305F\u3002"
+      - languageCode: fr
+        value: Dix clous. Dix sceaux. Un enfant les portait tous sans que personne
+          ne pose la moindre question.
+      - languageCode: pl
+        value: Dix clous. Dix sceaux. Un enfant les portait tous sans que personne
+          ne pose la moindre question.
+      - languageCode: ko
+        value: "\uBABB \uC5F4 \uAC1C. \uBD09\uC778 \uC5F4 \uAC1C. \uC544\uC774\uB294
+          \uADF8\uAC78 \uBAA8\uB450 \uB4E4\uACE0 \uC788\uC5C8\uC9C0\uB9CC, \uB204\uAD6C
+          \uD558\uB098 \uBB3B\uC9C0 \uC54A\uC558\uB2E4."
+      - languageCode: ru
+        value: "\u0414\u0435\u0441\u044F\u0442\u044C \u0433\u0432\u043E\u0437\u0434\u0435\u0439.
+          \u0414\u0435\u0441\u044F\u0442\u044C \u043F\u0435\u0447\u0430\u0442\u0435\u0439.
+          \u0420\u0435\u0431\u0451\u043D\u043E\u043A \u043D\u0451\u0441 \u0438\u0445
+          \u0432\u0441\u0435, \u0438 \u043D\u0438\u043A\u0442\u043E \u043D\u0435
+          \u0437\u0430\u0434\u0430\u043B \u043D\u0438 \u0435\u0434\u0438\u043D\u043E\u0433\u043E
+          \u0432\u043E\u043F\u0440\u043E\u0441\u0430."
+      - languageCode: pt
+        value: "Dez pregos. Dez selos. Um menino os carregava, e ningu\xE9m fez uma
+          pergunta sequer."
+      - languageCode: de
+        value: "Zehn N\xE4gel. Zehn Siegel. Ein Kind trug sie alle, und niemand stellte
+          auch nur eine Frage."
+      aliases: []
+    - key: InGameStory_3
+      originalValue: "\u0644\u0645 \u064A\u0643\u0646 \u0627\u0644\u0648\u0627\u062F\u064A
+        \u0637\u0631\u064A\u0642\u064B\u0627... \u0628\u0644 \u0628\u0627\u0628\u064B\u0627.
+        \u0648\u0644\u0645 \u062A\u0643\u0646 \u0627\u0644\u0623\u0636\u0648\u0627\u0621
+        \u0625\u0644\u0627 \u062F\u0639\u0648\u0629. \u0639\u0628\u0631\u0647\u0627...
+        \u0648\u0647\u0648 \u064A\u062C\u0647\u0644 \u0625\u0644\u0649 \u0623\u064A
+        \u0639\u0627\u0644\u0645\u064D \u064A\u0645\u0636\u064A."
+      variants:
+      - languageCode: en
+        value: '"The valley was a door. The lights were an invitation. He walked
+          through both without reading what was written above them."'
+      - languageCode: es
+        value: "El valle era una puerta. Las luces, una invitaci\xF3n. Atraves\xF3
+          ambas sin leer lo que estaba escrito sobre ellas."
+      - languageCode: zh
+        value: "\u5C71\u8C37\u662F\u4E00\u6247\u95E8\uFF0C\u706F\u5149\u662F\u4E00\u4EFD\u9080\u8BF7\u3002\u4ED6\u7A7F\u8FC7\u4E86\u8FD9\u4E24\u9053\u95E8\uFF0C\u5374\u6CA1\u6709\u8BFB\u8FC7\u95E8\u4E0A\u7684\u6587\u5B57\u3002"
+      - languageCode: jp
+        value: "\u8C37\u306F\u6249\u3060\u3063\u305F\u3002\u706F\u308A\u306F\u8A98\u3044\u3060\u3063\u305F\u3002\u5F7C\u306F\u305D\u306E\u4E21\u65B9\u3092\u304F\u3050\u308A\u629C\u3051\u305F\u3002\u982D\u4E0A\u306B\u8A18\u3055\u308C\u305F\u8A00\u8449\u3092\u8AAD\u3080\u3053\u3068\u3082\u306A\u304F\u3002"
+      - languageCode: fr
+        value: "La vall\xE9e \xE9tait une porte. Les lumi\xE8res, une invitation.
+          Il les a travers\xE9es toutes les deux sans lire ce qui \xE9tait \xE9crit
+          au-dessus."
+      - languageCode: pl
+        value: "La vall\xE9e \xE9tait une porte. Les lumi\xE8res, une invitation.
+          Il les a travers\xE9es toutes les deux sans lire ce qui \xE9tait \xE9crit
+          au-dessus."
+      - languageCode: ko
+        value: "\uACC4\uACE1\uC740 \uBB38\uC774\uC5C8\uB2E4. \uBD88\uBE5B\uC740 \uCD08\uB300\uC600\uB2E4.
+          \uADF8\uB294 \uADF8 \uB458\uC744 \uBAA8\uB450 \uD1B5\uACFC\uD588\uB2E4.
+          \uC704\uC5D0 \uC801\uD78C \uAE00\uC740 \uC77D\uC9C0 \uC54A\uC740 \uCC44."
+      - languageCode: ru
+        value: "\u0414\u043E\u043B\u0438\u043D\u0430 \u0431\u044B\u043B\u0430 \u0434\u0432\u0435\u0440\u044C\u044E.
+          \u041E\u0433\u043D\u0438 \u0431\u044B\u043B\u0438 \u043F\u0440\u0438\u0433\u043B\u0430\u0448\u0435\u043D\u0438\u0435\u043C.
+          \u041E\u043D \u043F\u0440\u043E\u0448\u0451\u043B \u0447\u0435\u0440\u0435\u0437
+          \u0442\u043E \u0438 \u0434\u0440\u0443\u0433\u043E\u0435, \u043D\u0435
+          \u043F\u0440\u043E\u0447\u0438\u0442\u0430\u0432, \u0447\u0442\u043E \u0431\u044B\u043B\u043E
+          \u043D\u0430\u043F\u0438\u0441\u0430\u043D\u043E \u043D\u0430\u0434 \u043D\u0438\u043C\u0438."
+      - languageCode: pt
+        value: O vale era uma porta. As luzes eram um convite. Ele atravessou os
+          dois sem ler o que estava escrito acima deles.
+      - languageCode: de
+        value: "Das Tal war eine T\xFCr. Die Lichter waren eine Einladung. Er ging
+          durch beides hindurch, ohne zu lesen, was dar\xFCber geschrieben stand."
+      aliases: []
+    - key: InGameStory_4
+      originalValue: "\u0644\u0645 \u064A\u0645\u062A \u0627\u0644\u062E\u0641\u0627\u0621...
+        \u0628\u0644 \u062D\u0628\u0633 \u0623\u0646\u0641\u0627\u0633\u0647. \u0641\u0627\u0644\u0639\u0627\u0644\u0645
+        \u0627\u0644\u0630\u064A \u064A\u0641\u0642\u062F \u0642\u0644\u0628\u0647
+        \u0628\u0625\u0631\u0627\u062F\u062A\u0647\u060C \u064A\u0639\u062C\u0632
+        \u0639\u0646 \u0627\u0644\u0627\u062D\u062A\u0641\u0627\u0638 \u0628\u0635\u0648\u0631\u062A\u0647.
+        \u0641\u064A\u062A\u0628\u062F\u0651\u0644\u060C \u0648\u064A\u0643\u0631\u0631
+        \u0646\u0641\u0633\u0647\u060C \u0648\u064A\u0646\u0633\u0649 \u0627\u0644\u0647\u064A\u0626\u0629
+        \u0627\u0644\u062A\u064A \u062E\u064F\u0644\u0642 \u0639\u0644\u064A\u0647\u0627.\xBB"
+      variants:
+      - languageCode: en
+        value: '"Al-Khafa did not die. It is holding its breath. A world without
+          its willing heart cannot hold its own shape. It shifts. It repeats. It
+          forgets what it looked like before."'
+      - languageCode: es
+        value: "Al-Khafa no muri\xF3. Contiene la respiraci\xF3n. Un mundo sin un
+          coraz\xF3n entregado por voluntad propia no puede conservar su forma. Cambia.
+          Se repite. Olvida c\xF3mo era antes."
+      - languageCode: zh
+        value: "Al-Khafa\u6CA1\u6709\u6B7B\u3002\u5B83\u53EA\u662F\u5C4F\u4F4F\u4E86\u547C\u5438\u3002\u5931\u53BB\u90A3\u9897\u7518\u613F\u5949\u732E\u7684\u5FC3\uFF0C\u8FD9\u4E2A\u4E16\u754C\u4FBF\u65E0\u6CD5\u7EF4\u6301\u539F\u672C\u7684\u5F62\u6001\u3002\u5B83\u4E0D\u65AD\u53D8\u5E7B\uFF0C\u4E0D\u65AD\u91CD\u590D\uFF0C\u6E10\u6E10\u5FD8\u4E86\u81EA\u5DF1\u539F\u6765\u7684\u6A21\u6837\u3002"
+      - languageCode: jp
+        value: "Al-Khafa\u306F\u6B7B\u3093\u3067\u306F\u3044\u306A\u3044\u3002\u305F\u3060\u606F\u3092\u6F5C\u3081\u3066\u3044\u308B\u3002\u81EA\u3089\u9032\u3093\u3067\u6367\u3052\u3089\u308C\u305F\u5FC3\u306A\u304F\u3057\u3066\u3001\u3053\u306E\u4E16\u754C\u306F\u305D\u306E\u59FF\u3092\u4FDD\u3066\u306A\u3044\u3002\u59FF\u3092\u5909\u3048\u3001\u7E70\u308A\u8FD4\u3057\u3001\u304B\u3064\u3066\u306E\u59FF\u3092\u5FD8\u308C\u3066\u3044\u304F\u3002"
+      - languageCode: fr
+        value: "Al-Khafa n\u2019est pas morte. Elle retient son souffle. Sans son
+          c\u0153ur offert de plein gr\xE9, le monde ne peut conserver sa forme.
+          Il change. Il se r\xE9p\xE8te. Il oublie ce qu\u2019il \xE9tait avant."
+      - languageCode: pl
+        value: "Al-Khafa n\u2019est pas morte. Elle retient son souffle. Sans son
+          c\u0153ur offert de plein gr\xE9, le monde ne peut conserver sa forme.
+          Il change. Il se r\xE9p\xE8te. Il oublie ce qu\u2019il \xE9tait avant."
+      - languageCode: ko
+        value: "Al-Khafa\uB294 \uC8FD\uC9C0 \uC54A\uC558\uB2E4. \uC228\uC744 \uC8FD\uC774\uACE0
+          \uC788\uC744 \uBFD0\uC774\uB2E4. \uAE30\uAEBC\uC774 \uB0B4\uC5B4\uC900
+          \uC2EC\uC7A5 \uC5C6\uC774 \uC774 \uC138\uACC4\uB294 \uC81C \uBAA8\uC2B5\uC744
+          \uC720\uC9C0\uD560 \uC218 \uC5C6\uB2E4. \uC138\uC0C1\uC740 \uBCC0\uD55C\uB2E4.
+          \uBC18\uBCF5\uB41C\uB2E4. \uC608\uC804 \uBAA8\uC2B5\uC744 \uC78A\uC5B4
+          \uAC04\uB2E4."
+      - languageCode: ru
+        value: "\u0410\u043B\u044C-\u0425\u0430\u0444\u0430 \u043D\u0435 \u0443\u043C\u0435\u0440\u043B\u0430.
+          \u041E\u043D\u0430 \u0437\u0430\u0442\u0430\u0438\u043B\u0430 \u0434\u044B\u0445\u0430\u043D\u0438\u0435.
+          \u0411\u0435\u0437 \u0441\u0435\u0440\u0434\u0446\u0430, \u043E\u0442\u0434\u0430\u043D\u043D\u043E\u0433\u043E
+          \u043F\u043E \u0434\u043E\u0431\u0440\u043E\u0439 \u0432\u043E\u043B\u0435,
+          \u044D\u0442\u043E\u0442 \u043C\u0438\u0440 \u043D\u0435 \u043C\u043E\u0436\u0435\u0442
+          \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0441\u0432\u043E\u0439
+          \u043E\u0431\u043B\u0438\u043A. \u041E\u043D \u043C\u0435\u043D\u044F\u0435\u0442\u0441\u044F.
+          \u041F\u043E\u0432\u0442\u043E\u0440\u044F\u0435\u0442\u0441\u044F. \u0417\u0430\u0431\u044B\u0432\u0430\u0435\u0442,
+          \u043A\u0430\u043A\u0438\u043C \u0431\u044B\u043B \u043F\u0440\u0435\u0436\u0434\u0435."
+      - languageCode: pt
+        value: "Al-Khafa n\xE3o morreu. Est\xE1 prendendo a respira\xE7\xE3o. Um
+          mundo sem o cora\xE7\xE3o que se entrega por vontade pr\xF3pria n\xE3o
+          consegue manter a pr\xF3pria forma. Ele muda. Se repete. Esquece como era
+          antes."
+      - languageCode: de
+        value: "Al-Khafa ist nicht tot. Die Welt h\xE4lt den Atem an. Ohne ein Herz,
+          das sich freiwillig hingibt, kann diese Welt ihre eigene Gestalt nicht
+          bewahren. Sie ver\xE4ndert sich. Sie wiederholt sich. Sie vergisst, wie
+          sie einst aussah."
+      aliases: []
+    - key: InGameStory_5
+      originalValue: "\u0641\u064A \u0642\u0644\u0628 \u0647\u0630\u0627 \u0627\u0644\u0639\u0627\u0644\u0645
+        \u0634\u062C\u0631\u0629\u064C \u0623\u0642\u062F\u0645 \u0645\u0646 \u0627\u0644\u062D\u0627\u0643\u0645
+        \u0646\u0641\u0633\u0647. \u0644\u0627 \u062A\u0623\u062E\u0630... \u0628\u0644
+        \u062A\u0633\u062A\u0642\u0628\u0644. \u0648\u0645\u0627 \u0644\u0627 \u064A\u064F\u0642\u062F\u0651\u064E\u0645
+        \u0625\u0644\u064A\u0647\u0627 \u0637\u0648\u0639\u064B\u0627\u060C \u062A\u0631\u0641\u0636\u0647...
+        \u0648\u064A\u0631\u0641\u0636\u0647 \u0627\u0644\u0639\u0627\u0644\u0645
+        \u0645\u0639\u0647\u0627."
+      variants:
+      - languageCode: en
+        value: '"There is a tree at the center of this world that is older than its
+          ruler. It does not take. It receives. And what it receives must come freely
+          or it will reject it, and everything with it."'
+      - languageCode: es
+        value: "En el centro de este mundo hay un \xE1rbol m\xE1s antiguo que su
+          gobernante. No toma. Recibe. Todo lo que recibe debe entreg\xE1rsele de
+          buen grado. Si no, lo rechazar\xE1 junto con todo lo dem\xE1s."
+      - languageCode: zh
+        value: "\u8FD9\u4E16\u754C\u7684\u4E2D\u5FC3\u6709\u4E00\u68F5\u6811\uFF0C\u5B83\u6BD4\u7EDF\u6CBB\u8005\u66F4\u52A0\u53E4\u8001\u3002\u5B83\u4ECE\u4E0D\u7D22\u53D6\uFF0C\u53EA\u63A5\u53D7\u9988\u8D60\u3002\u5B83\u6240\u63A5\u6536\u7684\u4E00\u5207\uFF0C\u90FD\u5FC5\u987B\u662F\u81EA\u613F\u5949\u4E0A\u7684\uFF1B\u5426\u5219\uFF0C\u5B83\u4FBF\u4F1A\u62D2\u7EDD\uFF0C\u800C\u6574\u4E2A\u4E16\u754C\u4E5F\u5C06\u968F\u4E4B\u88AB\u62D2\u7EDD\u3002"
+      - languageCode: jp
+        value: "\u3053\u306E\u4E16\u754C\u306E\u4E2D\u5FC3\u306B\u306F\u3001\u7D71\u6CBB\u8005\u3088\u308A\u3082\u53E4\u3044\u6728\u304C\u3042\u308B\u3002\u6728\u306F\u596A\u308F\u306A\u3044\u3002\u53D7\u3051\u53D6\u308B\u306E\u3060\u3002\u6728\u304C\u53D7\u3051\u53D6\u308B\u3082\u306E\u306F\u3001\u81EA\u3089\u306E\u610F\u5FD7\u3067\u6367\u3052\u3089\u308C\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3002\u305D\u3046\u3067\u306A\u3051\u308C\u3070\u3001\u6728\u306F\u305D\u308C\u3092\u62D2\u307F\u3001\u305D\u308C\u306B\u4F34\u3046\u3059\u3079\u3066\u3092\u62D2\u3080\u3002"
+      - languageCode: fr
+        value: "Au c\u0153ur de ce monde se trouve un arbre plus ancien que son souverain.
+          Il ne prend pas. Il re\xE7oit. Tout ce qu\u2019il re\xE7oit doit lui \xEAtre
+          offert de plein gr\xE9, sans quoi il le rejettera avec tout ce qui l\u2019accompagne."
+      - languageCode: pl
+        value: "Au c\u0153ur de ce monde se trouve un arbre plus ancien que son souverain.
+          Il ne prend pas. Il re\xE7oit. Tout ce qu\u2019il re\xE7oit doit lui \xEAtre
+          offert de plein gr\xE9, sans quoi il le rejettera avec tout ce qui l\u2019accompagne."
+      - languageCode: ko
+        value: "\uC774 \uC138\uACC4 \uD55C\uAC00\uC6B4\uB370\uC5D0\uB294 \uD1B5\uCE58\uC790\uBCF4\uB2E4
+          \uC624\uB798\uB41C \uB098\uBB34\uAC00 \uC788\uB2E4. \uB098\uBB34\uB294
+          \uBE7C\uC557\uC9C0 \uC54A\uB294\uB2E4. \uBC1B\uC544\uB4E4\uC778\uB2E4.
+          \uB098\uBB34\uAC00 \uBC1B\uB294 \uAC83\uC740 \uBC18\uB4DC\uC2DC \uC790\uBC1C\uC801\uC73C\uB85C
+          \uBC14\uCCD0\uC838\uC57C \uD55C\uB2E4. \uADF8\uB807\uC9C0 \uC54A\uC73C\uBA74
+          \uB098\uBB34\uB294 \uADF8\uAC83\uC744 \uAC70\uBD80\uD558\uACE0, \uADF8\uAC83\uACFC
+          \uD568\uAED8 \uC628 \uBAA8\uB4E0 \uAC83\uAE4C\uC9C0 \uAC70\uBD80\uD560
+          \uAC83\uC774\uB2E4."
+      - languageCode: ru
+        value: "\u0412 \u0446\u0435\u043D\u0442\u0440\u0435 \u044D\u0442\u043E\u0433\u043E
+          \u043C\u0438\u0440\u0430 \u0440\u0430\u0441\u0442\u0451\u0442 \u0434\u0435\u0440\u0435\u0432\u043E,
+          \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u0441\u0442\u0430\u0440\u0448\u0435
+          \u0441\u0430\u043C\u043E\u0433\u043E \u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u044F.
+          \u041E\u043D\u043E \u043D\u0435 \u0431\u0435\u0440\u0451\u0442, \u0430
+          \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442. \u0418 \u0442\u043E,
+          \u0447\u0442\u043E \u043E\u043D\u043E \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442,
+          \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043E\u0442\u0434\u0430\u043D\u043E
+          \u0434\u043E\u0431\u0440\u043E\u0432\u043E\u043B\u044C\u043D\u043E. \u0418\u043D\u0430\u0447\u0435
+          \u043E\u043D\u043E \u043E\u0442\u0432\u0435\u0440\u0433\u043D\u0435\u0442
+          \u0434\u0430\u0440, \u0430 \u0437\u0430\u043E\u0434\u043D\u043E \u0438
+          \u0432\u0441\u0451 \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435."
+      - languageCode: pt
+        value: "No centro deste mundo h\xE1 uma \xE1rvore mais antiga que seu governante.
+          Ela n\xE3o toma. Ela recebe. Tudo o que recebe precisa ser oferecido de
+          livre vontade. Caso contr\xE1rio, ela o rejeitar\xE1, junto com tudo o
+          que vier com ele."
+      - languageCode: de
+        value: "Im Zentrum dieser Welt steht ein Baum, \xE4lter als ihr Herrscher.
+          Er nimmt nicht. Er empf\xE4ngt. Was er empf\xE4ngt, muss freiwillig gegeben
+          werden. Sonst weist er es zur\xFCck und mit ihm alles andere."
+      aliases: []
+    - key: InGameStory_6
+      originalValue: "\u0623\u062D\u0628\u0651 \u0627\u0628\u0646\u062A\u0647 \u0643\u0645\u0627
+        \u064A\u064F\u062D\u0628 \u0627\u0644\u062D\u0627\u0643\u0645 \u062A\u0627\u062C\u0647.
+        \u0644\u0645 \u064A\u0633\u0623\u0644\u0647\u0627 \u064A\u0648\u0645\u064B\u0627:
+        \u0645\u0627\u0630\u0627 \u062A\u0631\u064A\u062F\u064A\u0646\u061F \u0623\u0642\u0646\u0639
+        \u0646\u0641\u0633\u0647 \u0623\u0646 \u0630\u0644\u0643 \u062D\u0628. \u0648\u0644\u0639\u0644\u0647
+        \u0643\u0627\u0646 \u0643\u0630\u0644\u0643... \u0644\u0643\u0646 \u0627\u0644\u062D\u0628
+        \u0627\u0644\u0630\u064A \u0644\u0627 \u064A\u064F\u0635\u063A\u064A\u060C
+        \u0644\u064A\u0633 \u0625\u0644\u0627 \u0648\u062C\u0647\u064B\u0627 \u0622\u062E\u0631
+        \u0644\u062A\u0633\u0644\u0637."
+      variants:
+      - languageCode: en
+        value: '"He loved his daughter the way a ruler loves his crown. He never
+          once asked: what do you want? He told himself it was love. It may have
+          been. But love that does not listen is just another word for force."'
+      - languageCode: es
+        value: "La amaba como un gobernante ama su corona. Nunca le pregunt\xF3:
+          \xAB\xBFQu\xE9 quieres?\xBB Se dijo a s\xED mismo que era amor. Tal vez
+          lo fuera. Pero el amor que no escucha no es m\xE1s que una forma de coacci\xF3n."
+      - languageCode: zh
+        value: "\u4ED6\u7231\u5973\u513F\uFF0C\u5C31\u50CF\u7EDF\u6CBB\u8005\u7231\u81EA\u5DF1\u7684\u738B\u51A0\u3002\u4ED6\u4ECE\u672A\u95EE\u8FC7\u5979\uFF1A\u201C\u4F60\u60F3\u8981\u4EC0\u4E48\uFF1F\u201D\u4ED6\u544A\u8BC9\u81EA\u5DF1\uFF0C\u90A3\u5C31\u662F\u7231\u3002\u4E5F\u8BB8\u66FE\u7ECF\u662F\u5427\u3002\u4F46\u4E0D\u61C2\u503E\u542C\u7684\u7231\uFF0C\u4E0D\u8FC7\u662F\u5F3A\u8FEB\u7684\u53E6\u4E00\u79CD\u8BF4\u6CD5\u3002"
+      - languageCode: jp
+        value: "\u5F7C\u306F\u5A18\u3092\u3001\u7D71\u6CBB\u8005\u304C\u738B\u51A0\u3092\u611B\u3059\u308B\u3088\u3046\u306B\u611B\u3057\u305F\u3002\u4E00\u5EA6\u3082\u5C0B\u306D\u305F\u3053\u3068\u306F\u306A\u304B\u3063\u305F\u3002\u300C\u541B\u306F\u4F55\u3092\u671B\u3080\uFF1F\u300D\u3068\u3002\u305D\u308C\u3092\u611B\u3060\u3068\u8A00\u3044\u805E\u304B\u305B\u3066\u3044\u305F\u3002\u305D\u3046\u3060\u3063\u305F\u306E\u304B\u3082\u3057\u308C\u306A\u3044\u3002\u3060\u304C\u3001\u8033\u3092\u50BE\u3051\u306A\u3044\u611B\u306F\u3001\u305F\u3060\u5F37\u3044\u308B\u3053\u3068\u306E\u5225\u306E\u547C\u3073\u540D\u306B\u3059\u304E\u306A\u3044\u3002"
+      - languageCode: fr
+        value: "Il aimait sa fille comme un souverain aime sa couronne. Jamais il
+          ne lui a demand\xE9 : \xAB Que veux-tu ? \xBB Il se disait que c\u2019\xE9tait
+          de l\u2019amour. Peut-\xEAtre que \xE7a l\u2019\xE9tait. Mais un amour
+          qui n\u2019\xE9coute pas, c\u2019est une autre fa\xE7on d\u2019imposer
+          sa volont\xE9."
+      - languageCode: pl
+        value: "Il aimait sa fille comme un souverain aime sa couronne. Jamais il
+          ne lui a demand\xE9 : \xAB Que veux-tu ? \xBB Il se disait que c\u2019\xE9tait
+          de l\u2019amour. Peut-\xEAtre que \xE7a l\u2019\xE9tait. Mais un amour
+          qui n\u2019\xE9coute pas, c\u2019est une autre fa\xE7on d\u2019imposer
+          sa volont\xE9."
+      - languageCode: ko
+        value: "\uADF8\uB294 \uD1B5\uCE58\uC790\uAC00 \uC655\uAD00\uC744 \uC0AC\uB791\uD558\uB4EF
+          \uB538\uC744 \uC0AC\uB791\uD588\uB2E4. \uB2E8 \uD55C \uBC88\uB3C4 \uBB3C\uC5B4\uBCF8
+          \uC801\uC774 \uC5C6\uC5C8\uB2E4. \u201C\uB10C \uBB58 \uC6D0\uD558\uB2C8?\u201D
+          \uC2A4\uC2A4\uB85C\uB294 \uADF8\uAC83\uC774 \uC0AC\uB791\uC774\uB77C\uACE0
+          \uBBFF\uC5C8\uB2E4. \uC5B4\uCA4C\uBA74 \uC0AC\uB791\uC774\uC5C8\uC744\uC9C0\uB3C4
+          \uBAA8\uB978\uB2E4. \uD558\uC9C0\uB9CC \uADC0 \uAE30\uC6B8\uC774\uC9C0
+          \uC54A\uB294 \uC0AC\uB791\uC740 \uADF8\uC800 \uAC15\uC694\uC758 \uB2E4\uB978
+          \uC774\uB984\uC77C \uBFD0\uC774\uB2E4."
+      - languageCode: ru
+        value: "\u041E\u043D \u043B\u044E\u0431\u0438\u043B \u0434\u043E\u0447\u044C,
+          \u043A\u0430\u043A \u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u044C
+          \u043B\u044E\u0431\u0438\u0442 \u0441\u0432\u043E\u044E \u043A\u043E\u0440\u043E\u043D\u0443.
+          \u041E\u043D \u043D\u0438 \u0440\u0430\u0437\u0443 \u043D\u0435 \u0441\u043F\u0440\u043E\u0441\u0438\u043B
+          \u0435\u0451: \xAB\u0427\u0435\u0433\u043E \u0442\u044B \u0445\u043E\u0447\u0435\u0448\u044C?\xBB
+          \u041E\u043D \u0443\u0432\u0435\u0440\u044F\u043B \u0441\u0435\u0431\u044F,
+          \u0447\u0442\u043E \u044D\u0442\u043E \u043B\u044E\u0431\u043E\u0432\u044C.
+          \u041C\u043E\u0436\u0435\u0442, \u0442\u0430\u043A \u0438 \u0431\u044B\u043B\u043E.
+          \u041D\u043E \u043B\u044E\u0431\u043E\u0432\u044C, \u043A\u043E\u0442\u043E\u0440\u0430\u044F
+          \u043D\u0435 \u0443\u043C\u0435\u0435\u0442 \u0441\u043B\u0443\u0448\u0430\u0442\u044C,
+          \u0432\u0441\u0435\u0433\u043E \u043B\u0438\u0448\u044C \u0434\u0440\u0443\u0433\u043E\u0435
+          \u0441\u043B\u043E\u0432\u043E \u0434\u043B\u044F \u043F\u0440\u0438\u043D\u0443\u0436\u0434\u0435\u043D\u0438\u044F."
+      - languageCode: pt
+        value: "Ele amava a filha como um governante ama a pr\xF3pria coroa. Nunca
+          perguntou: \u201CO que voc\xEA quer?\u201D Dizia a si mesmo que aquilo
+          era amor. Talvez fosse. Mas o amor que n\xE3o sabe ouvir \xE9 s\xF3 outra
+          forma de impor a pr\xF3pria vontade."
+      - languageCode: de
+        value: "Er liebte seine Tochter, wie ein Herrscher seine Krone liebt. Nicht
+          ein einziges Mal fragte er sie: \u201EWas willst du?\u201C Er redete sich
+          ein, es sei Liebe. Vielleicht war es das auch. Aber Liebe, die nicht zuh\xF6rt,
+          ist nur ein anderes Wort f\xFCr Zwang."
+      aliases: []
+    - key: InGameStory_7
+      originalValue: "\u0623\u062F\u0631\u0643 \u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629
+        \u0645\u0627 \u0639\u062C\u0632 \u0627\u0644\u062D\u0627\u0643\u0645 \u0639\u0646
+        \u0625\u062F\u0631\u0627\u0643\u0647. \u0641\u0645\u0627 \u064A\u064F\u0645\u0646\u062D
+        \u0637\u0648\u0639\u0627 \u064A\u0634\u0641\u064A, \u0648\u0645\u0627 \u064A\u0646\u0632\u0639
+        \u0628\u0627\u0644\u0642\u0648\u0629 \u064A\u0647\u0644\u0643. \u0644\u0630\u0644\u0643
+        \u062E\u062A\u0645\u0647\u0627\u060C \u0648\u0647\u0648 \u064A\u0639\u0644\u0645
+        \u0623\u0646 \u0627\u0644\u0639\u0627\u0644\u0645 \u0633\u064A\u0648\u0627\u0635\u0644
+        \u0627\u0644\u0627\u0646\u0647\u064A\u0627\u0631\u060C \u0648\u0623\u0646
+        \u0627\u0644\u062D\u0627\u0643\u0645 \u0644\u0646 \u064A\u063A\u0641\u0631
+        \u0644\u0647 \u0623\u0628\u062F\u064B\u0627."
+      variants:
+      - languageCode: en
+        value: "\u201CThe gatekeeper understood what the ruler could not. Power given
+          freely heals. Power taken by force destroys. So he sealed her away knowing
+          the world would keep deteriorating, knowing the ruler would never forgive
+          him.\u201D"
+      - languageCode: es
+        value: "El guardi\xE1n de la puerta comprendi\xF3 lo que el gobernante no.
+          El poder que se entrega libremente sana. El poder arrebatado por la fuerza
+          destruye. Por eso la sell\xF3, sabiendo que el mundo seguir\xEDa deterior\xE1ndose
+          y que el gobernante nunca se lo perdonar\xEDa."
+      - languageCode: zh
+        value: "\u5B88\u95E8\u4EBA\u660E\u767D\u7EDF\u6CBB\u8005\u4E0D\u660E\u767D\u7684\u9053\u7406\uFF1A\u81EA\u613F\u7ED9\u4E88\u7684\u529B\u91CF\u80FD\u591F\u6CBB\u6108\uFF0C\u5F3A\u884C\u593A\u53D6\u7684\u529B\u91CF\u53EA\u4F1A\u5E26\u6765\u6BC1\u706D\u3002\u56E0\u6B64\uFF0C\u4ED6\u5C01\u5370\u4E86\u5979\uFF0C\u660E\u77E5\u4E16\u754C\u4F1A\u7EE7\u7EED\u8870\u8D25\uFF0C\u4E5F\u660E\u77E5\u7EDF\u6CBB\u8005\u6C38\u8FDC\u4E0D\u4F1A\u539F\u8C05\u4ED6\u3002"
+      - languageCode: jp
+        value: "\u9580\u756A\u306F\u3001\u7D71\u6CBB\u8005\u306B\u306F\u308F\u304B\u3089\u306A\u304B\u3063\u305F\u3053\u3068\u3092\u7406\u89E3\u3057\u3066\u3044\u305F\u3002\u81EA\u3089\u9032\u3093\u3067\u4E0E\u3048\u3089\u308C\u305F\u529B\u306F\u7652\u3084\u3059\u3002\u529B\u305A\u304F\u3067\u596A\u308F\u308C\u305F\u529B\u306F\u7834\u58CA\u3092\u3082\u305F\u3089\u3059\u3002\u3060\u304B\u3089\u5F7C\u306F\u5F7C\u5973\u3092\u5C01\u3058\u305F\u3002\u4E16\u754C\u304C\u8870\u3048\u7D9A\u3051\u308B\u3053\u3068\u3082\u3001\u7D71\u6CBB\u8005\u304C\u6C7A\u3057\u3066\u81EA\u5206\u3092\u8A31\u3055\u306A\u3044\u3053\u3068\u3082\u627F\u77E5\u306E\u4E0A\u3067\u3002"
+      - languageCode: fr
+        value: "Le gardien du portail avait compris ce que le souverain ne pouvait
+          pas comprendre. Le pouvoir offert librement gu\xE9rit. Le pouvoir arrach\xE9
+          par la force d\xE9truit. Alors il l\u2019a scell\xE9e, sachant que le monde
+          continuerait de d\xE9p\xE9rir et que le souverain ne lui pardonnerait jamais."
+      - languageCode: pl
+        value: "Le gardien du portail avait compris ce que le souverain ne pouvait
+          pas comprendre. Le pouvoir offert librement gu\xE9rit. Le pouvoir arrach\xE9
+          par la force d\xE9truit. Alors il l\u2019a scell\xE9e, sachant que le monde
+          continuerait de d\xE9p\xE9rir et que le souverain ne lui pardonnerait jamais."
+      - languageCode: ko
+        value: "\uBB38\uC9C0\uAE30\uB294 \uD1B5\uCE58\uC790\uAC00 \uC54C\uC9C0 \uBABB\uD55C
+          \uAC83\uC744 \uC774\uD574\uD588\uB2E4. \uC790\uBC1C\uC801\uC73C\uB85C \uB0B4\uC5B4\uC900
+          \uD798\uC740 \uCE58\uC720\uD55C\uB2E4. \uAC15\uC81C\uB85C \uBE7C\uC557\uC740
+          \uD798\uC740 \uD30C\uAD34\uD55C\uB2E4. \uADF8\uB798\uC11C \uADF8\uB294
+          \uADF8\uB140\uB97C \uBD09\uC778\uD588\uB2E4. \uC138\uC0C1\uC774 \uACC4\uC18D
+          \uC1E0\uB77D\uD560 \uAC83\uC784\uC744, \uD1B5\uCE58\uC790\uAC00 \uACB0\uCF54
+          \uC790\uC2E0\uC744 \uC6A9\uC11C\uD558\uC9C0 \uC54A\uC73C\uB9AC\uB780 \uAC83\uC744
+          \uC54C\uBA74\uC11C\uB3C4."
+      - languageCode: ru
+        value: "\u0421\u0442\u0440\u0430\u0436 \u0432\u043E\u0440\u043E\u0442 \u043F\u043E\u043D\u044F\u043B
+          \u0442\u043E, \u0447\u0435\u0433\u043E \u043D\u0435 \u043F\u043E\u043D\u044F\u043B
+          \u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u044C. \u0421\u0438\u043B\u0430,
+          \u043E\u0442\u0434\u0430\u043D\u043D\u0430\u044F \u0434\u043E\u0431\u0440\u043E\u0432\u043E\u043B\u044C\u043D\u043E,
+          \u0438\u0441\u0446\u0435\u043B\u044F\u0435\u0442. \u0421\u0438\u043B\u0430,
+          \u043E\u0442\u043D\u044F\u0442\u0430\u044F \u0441\u0438\u043B\u043E\u0439,
+          \u0440\u0430\u0437\u0440\u0443\u0448\u0430\u0435\u0442. \u041F\u043E\u044D\u0442\u043E\u043C\u0443
+          \u043E\u043D \u0437\u0430\u043F\u0435\u0447\u0430\u0442\u0430\u043B \u0435\u0451,
+          \u0437\u043D\u0430\u044F, \u0447\u0442\u043E \u043C\u0438\u0440 \u0431\u0443\u0434\u0435\u0442
+          \u0438 \u0434\u0430\u043B\u044C\u0448\u0435 \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u044C
+          \u0432 \u0443\u043F\u0430\u0434\u043E\u043A \u0438 \u0447\u0442\u043E \u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u044C
+          \u043D\u0438\u043A\u043E\u0433\u0434\u0430 \u0435\u0433\u043E \u043D\u0435
+          \u043F\u0440\u043E\u0441\u0442\u0438\u0442."
+      - languageCode: pt
+        value: "O guardi\xE3o do portal entendeu o que o governante n\xE3o conseguiu.
+          O poder oferecido de livre vontade cura. O poder tomado \xE0 for\xE7a destr\xF3i.
+          Por isso, ele a selou, sabendo que o mundo continuaria se deteriorando
+          e que o governante jamais o perdoaria."
+      - languageCode: de
+        value: "Der Torw\xE4chter begriff, was der Herrscher nicht begriff. Freiwillig
+          gegebene Macht heilt. Mit Gewalt entrissene Macht zerst\xF6rt. Also versiegelte
+          er sie, wohl wissend, dass die Welt weiter verfallen und der Herrscher
+          ihm niemals verzeihen w\xFCrde."
+      aliases: []
+    - key: InGameStory_8
+      originalValue: "\u0645\u0627 \u062D\u0645\u0644\u062A\u0647 \u0628\u064A\u0646
+        \u064A\u062F\u064A\u0643 \u0644\u0645 \u064A\u0643\u0646 \u0644\u0639\u0628\u0629\u064B
+        \u0644\u0637\u0641\u0644. \u0643\u0627\u0646 \u0631\u0648\u062D\u064B\u0627
+        \u0646\u0633\u064A \u0627\u0644\u0639\u0627\u0644\u0645 \u0627\u0633\u0645\u0647\u0627\u060C
+        \u0648\u0644\u0645 \u062A\u0646\u0633\u064E \u0647\u064A \u0637\u0631\u064A\u0642
+        \u0627\u0644\u0639\u0648\u062F\u0629."
+      variants:
+      - languageCode: en
+        value: "\u201CThe doll in your hands is not a doll. A soul was sealed inside
+          it. A soul that has felt every loop through your hands, every decision
+          you made, every moment you carried it without knowing what it was. It did
+          not choose to be sealed. But it chose to stay. And it has already decided
+          what comes next.\""
+      - languageCode: es
+        value: "La mu\xF1eca que tienes entre las manos no es una mu\xF1eca. Un alma
+          fue sellada en su interior. Un alma que ha sentido, a trav\xE9s de tus
+          manos, cada bucle, cada decisi\xF3n que tomaste y cada instante que la
+          llevaste contigo sin saber lo que era. No eligi\xF3 ser sellada, pero s\xED
+          quedarse. Y ya ha decidido lo que vendr\xE1."
+      - languageCode: zh
+        value: "\u4F60\u624B\u4E2D\u7684\u90A3\u4E2A\u5A03\u5A03\uFF0C\u5E76\u975E\u771F\u6B63\u7684\u5A03\u5A03\u3002\u5B83\u4F53\u5185\u5C01\u7740\u4E00\u4E2A\u7075\u9B42\u3002\u8FD9\u4E2A\u7075\u9B42\u900F\u8FC7\u4F60\u7684\u53CC\u624B\uFF0C\u611F\u53D7\u8FC7\u6BCF\u4E00\u6B21\u5FAA\u73AF\u3001\u4F60\u505A\u51FA\u7684\u6BCF\u4E00\u4E2A\u51B3\u5B9A\uFF0C\u4E5F\u611F\u53D7\u8FC7\u4F60\u5728\u4E0D\u77E5\u5B83\u4E3A\u4F55\u7269\u65F6\u5E26\u7740\u5B83\u8D70\u8FC7\u7684\u6BCF\u4E00\u523B\u3002\u5B83\u5E76\u975E\u81EA\u613F\u88AB\u5C01\u5370\u5176\u4E2D\uFF0C\u5374\u9009\u62E9\u7559\u4E0B\u3002\u800C\u63A5\u4E0B\u6765\u4F1A\u53D1\u751F\u4EC0\u4E48\uFF0C\u5B83\u65E9\u5DF2\u505A\u51FA\u51B3\u5B9A\u3002"
+      - languageCode: jp
+        value: "\u3042\u306A\u305F\u306E\u624B\u306E\u4E2D\u306B\u3042\u308B\u4EBA\u5F62\u306F\u3001\u4EBA\u5F62\u3067\u306F\u306A\u3044\u3002\u305D\u306E\u4E2D\u306B\u306F\u9B42\u304C\u5C01\u3058\u3089\u308C\u3066\u3044\u305F\u3002\u305D\u306E\u9B42\u306F\u3001\u3042\u306A\u305F\u306E\u624B\u306E\u4E2D\u3067\u904E\u3054\u3057\u305F\u3059\u3079\u3066\u306E\u30EB\u30FC\u30D7\u3068\u3001\u3042\u306A\u305F\u304C\u4E0B\u3057\u305F\u3059\u3079\u3066\u306E\u6C7A\u65AD\u3001\u305D\u3057\u3066\u305D\u308C\u304C\u4F55\u304B\u3082\u77E5\u3089\u305A\u306B\u904B\u3093\u3067\u3044\u305F\u4E00\u77AC\u4E00\u77AC\u3092\u611F\u3058\u3066\u304D\u305F\u3002\u81EA\u3089\u5C01\u3058\u3089\u308C\u308B\u3053\u3068\u3092\u9078\u3093\u3060\u308F\u3051\u3067\u306F\u306A\u3044\u3002\u305D\u308C\u3067\u3082\u3001\u7559\u307E\u308B\u3053\u3068\u306F\u81EA\u5206\u3067\u9078\u3093\u3060\u3002\u305D\u3057\u3066\u3001\u3053\u306E\u5148\u306B\u4F55\u304C\u8D77\u304D\u308B\u304B\u306F\u3082\u3046\u6C7A\u3081\u3066\u3044\u308B\u3002"
+      - languageCode: fr
+        value: "La poup\xE9e que tu tiens entre les mains n\u2019est pas une poup\xE9e.
+          Une \xE2me y a \xE9t\xE9 scell\xE9e. Cette \xE2me a ressenti, au creux
+          de tes mains, chaque boucle, chacune de tes d\xE9cisions et chaque instant
+          o\xF9 tu l\u2019as port\xE9e sans savoir ce qu\u2019elle \xE9tait. Elle
+          n\u2019a pas choisi d\u2019\xEAtre scell\xE9e. Mais elle a choisi de rester.
+          Et elle a d\xE9j\xE0 d\xE9cid\xE9 de la suite."
+      - languageCode: pl
+        value: "La poup\xE9e que tu tiens entre les mains n\u2019est pas une poup\xE9e.
+          Une \xE2me y a \xE9t\xE9 scell\xE9e. Cette \xE2me a ressenti, au creux
+          de tes mains, chaque boucle, chacune de tes d\xE9cisions et chaque instant
+          o\xF9 tu l\u2019as port\xE9e sans savoir ce qu\u2019elle \xE9tait. Elle
+          n\u2019a pas choisi d\u2019\xEAtre scell\xE9e. Mais elle a choisi de rester.
+          Et elle a d\xE9j\xE0 d\xE9cid\xE9 de la suite."
+      - languageCode: ko
+        value: "\uB124 \uC190\uC5D0 \uB4E0 \uC778\uD615\uC740 \uC778\uD615\uC774
+          \uC544\uB2C8\uB2E4. \uADF8 \uC548\uC5D0\uB294 \uC601\uD63C \uD558\uB098\uAC00
+          \uBD09\uC778\uB418\uC5B4 \uC788\uC5C8\uB2E4. \uADF8 \uC601\uD63C\uC740
+          \uB124 \uC190\uC5D0 \uB4E4\uB824 \uB9E4 \uB8E8\uD504\uB97C \uACAA\uC5C8\uB2E4.
+          \uB124\uAC00 \uB0B4\uB9B0 \uACB0\uC815 \uD558\uB098\uD558\uB098\uB3C4,
+          \uC778\uD615\uC758 \uC815\uCCB4\uB97C \uBAA8\uB978 \uCC44 \uB4E4\uACE0
+          \uB2E4\uB2CC \uBAA8\uB4E0 \uC21C\uAC04\uB3C4 \uB290\uAF08\uB2E4. \uADF8
+          \uC601\uD63C\uC740 \uBD09\uC778\uB418\uAE30\uB97C \uC120\uD0DD\uD558\uC9C0
+          \uC54A\uC558\uB2E4. \uD558\uC9C0\uB9CC \uB0A8\uAE30\uB85C\uB294 \uC2A4\uC2A4\uB85C
+          \uC120\uD0DD\uD588\uB2E4. \uADF8\uB9AC\uACE0 \uB2E4\uC74C\uC5D0 \uC77C\uC5B4\uB0A0
+          \uC77C\uC740 \uC774\uBBF8 \uACB0\uC815\uD588\uB2E4."
+      - languageCode: ru
+        value: "\u041A\u0443\u043A\u043B\u0430 \u0432 \u0442\u0432\u043E\u0438\u0445
+          \u0440\u0443\u043A\u0430\u0445 \u0432\u043E\u0432\u0441\u0435 \u043D\u0435
+          \u043A\u0443\u043A\u043B\u0430. \u0412\u043D\u0443\u0442\u0440\u0438 \u043D\u0435\u0451
+          \u0437\u0430\u043F\u0435\u0447\u0430\u0442\u0430\u043D\u0430 \u0434\u0443\u0448\u0430.
+          \u041E\u043D\u0430 \u0447\u0443\u0432\u0441\u0442\u0432\u043E\u0432\u0430\u043B\u0430
+          \u043A\u0430\u0436\u0434\u044B\u0439 \u0446\u0438\u043A\u043B, \u043F\u0440\u043E\u0439\u0434\u0435\u043D\u043D\u044B\u0439
+          \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 \u0442\u043E\u0431\u043E\u0439,
+          \u043A\u0430\u0436\u0434\u043E\u0435 \u0442\u0432\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435
+          \u0438 \u043A\u0430\u0436\u0434\u043E\u0435 \u043C\u0433\u043D\u043E\u0432\u0435\u043D\u0438\u0435,
+          \u043A\u043E\u0433\u0434\u0430 \u0442\u044B \u043D\u0451\u0441 \u0435\u0451,
+          \u043D\u0435 \u0437\u043D\u0430\u044F, \u0447\u0442\u043E \u043E\u043D\u0430
+          \u0442\u0430\u043A\u043E\u0435. \u041E\u043D\u0430 \u043D\u0435 \u0432\u044B\u0431\u0438\u0440\u0430\u043B\u0430
+          \u0431\u044B\u0442\u044C \u0437\u0430\u043F\u0435\u0447\u0430\u0442\u0430\u043D\u043D\u043E\u0439,
+          \u043D\u043E \u043E\u0441\u0442\u0430\u0442\u044C\u0441\u044F \u0440\u0435\u0448\u0438\u043B\u0430
+          \u0441\u0430\u043C\u0430. \u0418 \u0443\u0436\u0435 \u0440\u0435\u0448\u0438\u043B\u0430,
+          \u0447\u0442\u043E \u0431\u0443\u0434\u0435\u0442 \u0434\u0430\u043B\u044C\u0448\u0435."
+      - languageCode: pt
+        value: "O boneco que voc\xEA tem nas m\xE3os n\xE3o \xE9 um boneco. Uma alma
+          foi selada dentro dele. Essa alma sentiu, pelas suas m\xE3os, cada loop,
+          cada decis\xE3o sua e cada instante em que voc\xEA o carregou sem saber
+          o que era. N\xE3o escolheu ser selada, mas escolheu ficar. E j\xE1 decidiu
+          o que vem depois."
+      - languageCode: de
+        value: "Die Puppe in deinen H\xE4nden ist keine Puppe. In ihr wurde eine
+          Seele versiegelt. Eine Seele, die in deinen H\xE4nden jeden Durchlauf gesp\xFCrt
+          hat, jede deiner Entscheidungen und jeden Augenblick, in dem du sie getragen
+          hast, ohne zu wissen, was sie war. Sie hat nicht gew\xE4hlt, versiegelt
+          zu werden. Doch zu bleiben war ihre Entscheidung. Und sie hat bereits entschieden,
+          was als N\xE4chstes kommt."
+      aliases: []
+    - key: InGameStory_9
+      originalValue: "\u0643\u0644 \u062F\u0648\u0631\u0629 \u0643\u0627\u0646\u062A
+        \u062A\u0642\u0648\u062F \u0625\u0644\u0649 \u0647\u0630\u0647 \u0627\u0644\u0644\u062D\u0638\u0629.
+        \u0648\u0643\u0644 \u0645\u0633\u0645\u0627\u0631\u064D \u0627\u0642\u062A\u0644\u0639\u062A\u0647\u060C
+        \u0643\u0627\u0646 \u064A\u0632\u064A\u0644 \u062E\u062A\u0645\u064B\u0627
+        \u0639\u0646 \u0627\u0644\u062D\u0642\u064A\u0642\u0629."
+      variants:
+      - languageCode: en
+        value: '"One nail left. One truth left. Everything that happened, every loop,
+          every wrong thing you found, every nail you freed was leading here. To
+          a choice that was never yours to make. But yours to allow."'
+      - languageCode: es
+        value: "Queda un clavo. Queda una verdad. Todo te condujo hasta aqu\xED:
+          cada bucle, cada anomal\xEDa que encontraste, cada clavo que liberaste.
+          Hasta una elecci\xF3n que nunca te correspondi\xF3 tomar, pero que s\xED
+          puedes permitir que ocurra."
+      - languageCode: zh
+        value: "\u8FD8\u5269\u4E00\u679A\u9489\u5B50\u3002\u8FD8\u5269\u4E00\u4E2A\u771F\u76F8\u3002\u4E00\u8DEF\u53D1\u751F\u7684\u4E00\u5207\u3001\u6BCF\u4E00\u6B21\u5FAA\u73AF\u3001\u4F60\u53D1\u73B0\u7684\u6BCF\u4E00\u5904\u5F02\u5E38\u3001\u4F60\u62D4\u51FA\u7684\u6BCF\u4E00\u679A\u9489\u5B50\uFF0C\u90FD\u5C06\u4F60\u5F15\u5411\u8FD9\u91CC\u3002\u5F15\u5411\u4E00\u4E2A\u672C\u4E0D\u8BE5\u7531\u4F60\u505A\u51FA\u3001\u5374\u7531\u4F60\u6765\u5E94\u5141\u7684\u9009\u62E9\u3002"
+      - languageCode: jp
+        value: "\u6B8B\u308B\u91D8\u306F\u4E00\u672C\u3002\u6B8B\u308B\u771F\u5B9F\u306F\u3072\u3068\u3064\u3002\u8D77\u304D\u305F\u3059\u3079\u3066\u306E\u3053\u3068\u304C\u3001\u3042\u306A\u305F\u3092\u3053\u3053\u3078\u5C0E\u3044\u3066\u3044\u305F\u3002\u3059\u3079\u3066\u306E\u30EB\u30FC\u30D7\u3002\u898B\u3064\u3051\u305F\u7570\u5909\u306E\u4E00\u3064\u3072\u3068\u3064\u3002\u89E3\u304D\u653E\u3063\u305F\u91D8\u306E\u4E00\u3064\u3072\u3068\u3064\u3082\u3002\u9078\u3076\u306E\u306F\u3042\u306A\u305F\u3067\u306F\u306A\u3044\u3002\u3060\u304C\u3001\u305D\u308C\u3092\u8A31\u3059\u304B\u3069\u3046\u304B\u306F\u3042\u306A\u305F\u6B21\u7B2C\u3060\u3002"
+      - languageCode: fr
+        value: "Il ne reste qu\u2019un clou. Il ne reste qu\u2019une v\xE9rit\xE9.
+          Tout t\u2019a men\xE9 jusqu\u2019ici : chaque boucle, chaque anomalie que
+          tu as d\xE9couverte, chaque clou que tu as lib\xE9r\xE9. Jusqu\u2019\xE0
+          un choix qu\u2019il ne t\u2019a jamais appartenu de faire. Mais qu\u2019il
+          t\u2019appartient de permettre."
+      - languageCode: pl
+        value: "Il ne reste qu\u2019un clou. Il ne reste qu\u2019une v\xE9rit\xE9.
+          Tout t\u2019a men\xE9 jusqu\u2019ici : chaque boucle, chaque anomalie que
+          tu as d\xE9couverte, chaque clou que tu as lib\xE9r\xE9. Jusqu\u2019\xE0
+          un choix qu\u2019il ne t\u2019a jamais appartenu de faire. Mais qu\u2019il
+          t\u2019appartient de permettre."
+      - languageCode: ko
+        value: "\uBABB \uD558\uB098\uAC00 \uB0A8\uC558\uB2E4. \uC9C4\uC2E4 \uD558\uB098\uAC00
+          \uB0A8\uC558\uB2E4. \uC77C\uC5B4\uB09C \uBAA8\uB4E0 \uC77C\uC774 \uB108\uB97C
+          \uC5EC\uAE30\uB85C \uC774\uB04C\uC5C8\uB2E4. \uB124\uAC00 \uAC70\uCE5C
+          \uB8E8\uD504 \uD558\uB098\uD558\uB098, \uCC3E\uC544\uB0B8 \uC774\uC0C1
+          \uD604\uC0C1 \uD558\uB098\uD558\uB098, \uBF51\uC544\uB0B8 \uBABB \uD558\uB098\uD558\uB098\uAC00.
+          \uADF8 \uC120\uD0DD\uC740 \uB124 \uBAAB\uC774 \uC544\uB2C8\uC5C8\uB2E4.
+          \uD558\uC9C0\uB9CC \uADF8 \uC120\uD0DD\uC774 \uC774\uB904\uC9C0\uB3C4\uB85D
+          \uD5C8\uB77D\uD558\uB294 \uAC74 \uB124 \uBAAB\uC774\uB2E4."
+      - languageCode: ru
+        value: "\u041E\u0441\u0442\u0430\u043B\u0441\u044F \u043E\u0434\u0438\u043D
+          \u0433\u0432\u043E\u0437\u0434\u044C. \u041E\u0441\u0442\u0430\u043B\u0430\u0441\u044C
+          \u043E\u0434\u043D\u0430 \u043F\u0440\u0430\u0432\u0434\u0430. \u0421\u044E\u0434\u0430
+          \u0432\u0435\u043B\u0438 \u043A\u0430\u0436\u0434\u044B\u0439 \u0446\u0438\u043A\u043B,
+          \u043A\u0430\u0436\u0434\u0430\u044F \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u043D\u0430\u044F
+          \u0442\u043E\u0431\u043E\u0439 \u0430\u043D\u043E\u043C\u0430\u043B\u0438\u044F
+          \u0438 \u043A\u0430\u0436\u0434\u044B\u0439 \u0433\u0432\u043E\u0437\u0434\u044C,
+          \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0442\u0435\u0431\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C
+          \u043E\u0441\u0432\u043E\u0431\u043E\u0434\u0438\u0442\u044C. \u041A \u0432\u044B\u0431\u043E\u0440\u0443,
+          \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0442\u0435\u0431\u0435 \u043D\u0435
+          \u0434\u0430\u043D\u043E \u0441\u0434\u0435\u043B\u0430\u0442\u044C, \u043D\u043E
+          \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C
+          \u0435\u043C\u0443 \u0441\u043E\u0441\u0442\u043E\u044F\u0442\u044C\u0441\u044F."
+      - languageCode: pt
+        value: "Falta um prego. Falta uma verdade. Tudo o que aconteceu estava levando
+          voc\xEA at\xE9 aqui: cada loop, cada anomalia que voc\xEA encontrou, cada
+          prego que voc\xEA libertou. At\xE9 uma escolha que nunca coube a voc\xEA
+          fazer, mas que cabe a voc\xEA permitir."
+      - languageCode: de
+        value: "Ein Nagel noch. Eine Wahrheit noch. Alles f\xFChrte dich hierher:
+          jeder Durchlauf, jede Anomalie, die du entdeckt hast, jeder Nagel, den
+          du befreit hast. Zu einer Entscheidung, die nie deine war. Aber du kannst
+          zulassen, dass sie getroffen wird."
+      aliases: []
+  - pageId: tutorial
+    aboutPage: New Page
+    entries:
+    - key: GateKeeperTutorial
+      originalValue: "\u0627\u0646\u062A \u0645\u062D\u0627\u0635\u0631 \u0648\u062A\u0627\u0626\u0647
+        \u0641\u064A \u062D\u0644\u0642\u0629 \u0644\u062A\u0647\u0631\u0628 \u0627\u0628\u062F\u0623
+        \u0645\u0646 \u0623\u064A \u0627\u062A\u062C\u0627\u0647\u060C \u064A\u0633\u0627\u0631\u064B\u0627
+        \u0623\u0648 \u064A\u0645\u064A\u0646\u064B\u0627. \u0641\u064A \u0643\u0644
+        \u062F\u0648\u0631\u0629\u060C \u0642\u062F \u062A\u062C\u062F \u0634\u064A\u0626\u064B\u0627
+        \u0644\u0627 \u064A\u0646\u062A\u0645\u064A \u0625\u0644\u0649 \u0627\u0644\u0645\u0643\u0627\u0646.
+        \u0625\u0646 \u0644\u0627\u062D\u0638\u062A \u0645\u0627 \u062A\u063A\u064A\u0651\u0631\u060C
+        \u0641\u0639\u064F\u062F \u0645\u0646 \u062D\u064A\u062B \u0623\u062A\u064A\u062A.
+        \u0648\u0625\u0646 \u0644\u0645 \u062A\u062C\u062F \u0634\u064A\u0626\u064B\u0627\u060C
+        \u0641\u0648\u0627\u0635\u0644 \u0627\u0644\u0633\u064A\u0631 \u0641\u064A
+        \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0646\u0641\u0633\u0647. \u0648\u0627\u062E\u064A\u0631\u0627
+        \u0627\u0628\u0642\u064A \u0639\u064A\u0646\u064A\u0643 \u064A\u0642\u0638\u0629
+        \u0639\u0644\u0649 \u0645\u062D\u064A\u0637\u0643 \u0648\u0639\u0644\u0649
+        \u0627\u0644\u062F\u0645\u064A\u0629 ."
+      variants:
+      - languageCode: en
+        value: You are lost and trapped in a loop. Start in either direction, left
+          or right. In each loop, you may find something that does not belong. If
+          you notice a change, turn back the way you came. If you find nothing, keep
+          going in the same direction. Finally, keep your eyes open to your surroundings
+          and the doll.
+      - languageCode: ko
+        value: 
+      aliases: []
+  - pageId: CONTROLS
+    aboutPage: New Page
+    entries:
+    - key: Controls
+      originalValue: "\u0627\u0644\u062A\u062D\u0643\u0645"
+      variants:
+      - languageCode: en
+        value: Controls
+      - languageCode: new
+        value: "\uC870\uC791 \uBC29\uBC95"
+      aliases: []
+    - key: C_Walk
+      originalValue: "\u0627\u0644\u0645\u0634\u064A"
+      variants:
+      - languageCode: en
+        value: Walk
+      - languageCode: ko
+        value: "\uAC77\uAE30"
+      aliases: []
+    - key: C_Run
+      originalValue: "\u0627\u0644\u0631\u0643\u0636"
+      variants:
+      - languageCode: en
+        value: Run
+      - languageCode: ko
+        value: "\uB2EC\uB9AC\uAE30"
+      aliases: []
+    - key: C_Interact
+      originalValue: "\u0627\u0644\u062A\u0641\u0627\u0639\u0644"
+      variants:
+      - languageCode: en
+        value: Interact
+      - languageCode: ko
+        value: "\uC0C1\uD638\uC791\uC6A9"
+      aliases: []
+    - key: C_Doll
+      originalValue: "\u0627\u0638\u0647\u0627\u0631 \u0648\u0625\u062E\u0641\u0627\u0621
+        \u0627\u0644\u062F\u0645\u064A\u0629"
+      variants:
+      - languageCode: en
+        value: Show / Hide doll
+      - languageCode: ko
+        value: "\uC778\uD615 \uD45C\uC2DC/\uC228\uAE30\uAE30"
+      aliases: []
+    - key: C_instruction
+      originalValue: "\u0627\u0638\u0647\u0627\u0631 \u0648\u0625\u062E\u0641\u0627\u0621
+        \u0627\u0644\u062A\u0639\u0644\u064A\u0645\u0627\u062A"
+      variants:
+      - languageCode: en
+        value: Show / Hide Instruction
+      - languageCode: ko
+        value: "\uC548\uB0B4 \uD45C\uC2DC/\uC228\uAE30\uAE30"
+      aliases: []
+  - pageId: Extras
+    aboutPage: New Page
+    entries:
+    - key: Stop
+      originalValue: "\u0642\u0641"
+      variants:
+      - languageCode: en
+        value: 
+      - languageCode: jp
+        value: 
+      - languageCode: ar
+        value: 
+      aliases: []
+  audioPages: []
+  imagePages: []
+  assetPages:
+  - pageId: Logos
+    aboutPage: 
+    assetEntries:
+    - key: asset_key_1
+      variants:
+      - languageCode: ar
+        asset: {fileID: 8679474224202739601, guid: 628bcc0feb6a4044ca5fd28703cbdcd2, type: 3}
+      - languageCode: en
+        asset: {fileID: 406247984722104087, guid: 3fdcaf9baf852994ca009fcfd8013aa6, type: 3}

@@ -12,10 +12,12 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private Slider masterSlider;
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider sfxSlider;
+    [SerializeField] private Slider anomalySlider;
 
     private const string MASTER_KEY = "MasterVolume";
     private const string MUSIC_KEY = "MusicVolume";
     private const string SFX_KEY = "SFXVolume";
+    private const string ANOMALY_KEY = "AnomalyVolume";
 
     private void Start()
     {
@@ -24,11 +26,13 @@ public class AudioManager : MonoBehaviour
         masterSlider.onValueChanged.AddListener(SetMasterVolume);
         musicSlider.onValueChanged.AddListener(SetMusicVolume);
         sfxSlider.onValueChanged.AddListener(SetSFXVolume);
+        anomalySlider.onValueChanged.AddListener(SetAnomalyVolume);
     }
 
     public void SetMasterVolume(float value) => SetVolume(MASTER_KEY, value);
     public void SetMusicVolume(float value) => SetVolume(MUSIC_KEY, value);
     public void SetSFXVolume(float value) => SetVolume(SFX_KEY, value);
+    public void SetAnomalyVolume(float value) => SetVolume(ANOMALY_KEY, value);
 
     private void SetVolume(string parameterName, float sliderValue)
     {
@@ -44,13 +48,16 @@ public class AudioManager : MonoBehaviour
         float masterVal = PlayerPrefs.GetFloat(MASTER_KEY, 1f);
         float musicVal = PlayerPrefs.GetFloat(MUSIC_KEY, 1f);
         float sfxVal = PlayerPrefs.GetFloat(SFX_KEY, 1f);
+        float anomalyVal = PlayerPrefs.GetFloat(ANOMALY_KEY, 1f);
 
         masterSlider.value = masterVal;
         musicSlider.value = musicVal;
         sfxSlider.value = sfxVal;
+        anomalySlider.value = anomalyVal;
 
         SetVolume(MASTER_KEY, masterVal);
         SetVolume(MUSIC_KEY, musicVal);
         SetVolume(SFX_KEY, sfxVal);
+        SetVolume(ANOMALY_KEY, anomalyVal);
     }
 }

@@ -22,6 +22,8 @@ MonoBehaviour:
       variants:
       - languageCode: en
         value: Start
+      - languageCode: ko
+        value: "\uAC8C\uC784 \uC2DC\uC791"
       aliases: []
     - key: arabic
       originalValue: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
@@ -40,66 +42,88 @@ MonoBehaviour:
       variants:
       - languageCode: en
         value: Exit
+      - languageCode: ko
+        value: "\uAC8C\uC784 \uC885\uB8CC"
       aliases: []
     - key: Next
       originalValue: "\u0627\u0644\u062A\u0627\u0644\u064A"
       variants:
       - languageCode: en
         value: Next
+      - languageCode: ko
+        value: "\uB2E4\uC74C"
       aliases: []
     - key: Skip
       originalValue: "\u062A\u062E\u0637\u064A"
       variants:
       - languageCode: en
         value: Skip
+      - languageCode: ko
+        value: 
       aliases: []
     - key: Settings
       originalValue: "\u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A"
       variants:
       - languageCode: en
         value: Settings
+      - languageCode: ko
+        value: "\uC124\uC815"
       aliases: []
     - key: Language
       originalValue: "\u0627\u0644\u0644\u063A\u0629"
       variants:
       - languageCode: en
         value: Language
+      - languageCode: ko
+        value: "\uC5B8\uC5B4"
       aliases: []
     - key: Screen_mode
       originalValue: "\u0646\u0645\u0637 \u0627\u0644\u0639\u0631\u0636"
       variants:
       - languageCode: en
         value: Screen mode
+      - languageCode: ko
+        value: "\uD654\uBA74 \uBAA8\uB4DC"
       aliases: []
     - key: Music
       originalValue: "\u0627\u0644\u0645\u0648\u0633\u064A\u0642\u0649"
       variants:
       - languageCode: en
         value: Music
+      - languageCode: ko
+        value: "\uC74C\uC545"
       aliases: []
     - key: SFX
       originalValue: "\u0627\u0644\u0645\u0624\u062B\u0631\u0627\u062A \u0627\u0644\u0635\u0648\u062A\u064A\u0629"
       variants:
       - languageCode: en
         value: SFX
+      - languageCode: ko
+        value: "\uD6A8\uACFC\uC74C"
       aliases: []
     - key: Sounds
       originalValue: "\u0627\u0644\u0623\u0635\u0648\u0627\u062A"
       variants:
       - languageCode: en
         value: Master Volume
+      - languageCode: ko
+        value: "\uC804\uCCB4 \uBCFC\uB968"
       aliases: []
     - key: Continue
       originalValue: "\u0627\u0633\u062A\u0645\u0631\u0627\u0631"
       variants:
       - languageCode: en
         value: Continue
+      - languageCode: ko
+        value: "\uAC8C\uC784 \uC7AC\uAC1C"
       aliases: []
     - key: FeedBack
       originalValue: "\u0642\u064A\u0645 \u0627\u0644\u0644\u0639\u0628\u0629"
       variants:
       - languageCode: en
         value: Feedback
+      - languageCode: ko
+        value: 
       aliases: []
   - pageId: Screen Mode
     aboutPage: New Page
@@ -109,12 +133,16 @@ MonoBehaviour:
       variants:
       - languageCode: en
         value: Full Screen
+      - languageCode: ko
+        value: "\uC804\uCCB4 \uD654\uBA74"
       aliases: []
     - key: Windowed
       originalValue: "\u0646\u0627\u0641\u0630\u0629"
       variants:
       - languageCode: en
         value: Window
+      - languageCode: ko
+        value: 
       aliases: []
   - pageId: LanguagesList
     aboutPage: New Page
@@ -131,6 +159,12 @@ MonoBehaviour:
       - languageCode: en
         value: English
       aliases: []
+    - key: Korean
+      originalValue: "\uD55C\uAD6D\uC5B4"
+      variants:
+      - languageCode: en
+        value: 
+      aliases: []
   - pageId: StoryPanel
     aboutPage: New Page
     entries:
@@ -144,6 +178,8 @@ MonoBehaviour:
       - languageCode: en
         value: He left because he had nothing to say. He came back with the only
           story worth telling.
+      - languageCode: ko
+        value: 
       aliases: []
     - key: InGameStory_2
       originalValue: "\u0639\u0634\u0631\u0629 \u0645\u0633\u0627\u0645\u064A\u0631.
