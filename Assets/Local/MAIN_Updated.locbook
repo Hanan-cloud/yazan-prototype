@@ -81,7 +81,7 @@
             },
             {
               "language": "ko",
-              "_value": null
+              "_value": "\uAC74\uB108\uB6F0\uAE30"
             }
           ],
           "aliases": []
@@ -207,16 +207,46 @@
           "aliases": []
         },
         {
-          "key": "Anomaly",
-          "originalValue": "\u0645\u0624\u062B\u0631\u0627\u062A\r\n",
+          "key": "Ambient",
+          "originalValue": "\u0623\u0635\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629",
           "variants": [
             {
               "language": "en",
-              "_value": "Anomaly SFX"
+              "_value": "Ambient Volume"
             },
             {
               "language": "ko",
-              "_value": ""
+              "_value": "\uD658\uACBD\uC74C \uC74C\uB7C9"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Credit",
+          "originalValue": "\u0641\u0631\u064A\u0642 \u0627\u0644\u0639\u0645\u0644",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Credits"
+            },
+            {
+              "language": "ko",
+              "_value": "\uC81C\uC791\uC9C4"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Found",
+          "originalValue": "\u0648\u062C\u062F\u062A:",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Found:"
+            },
+            {
+              "language": "ko",
+              "_value": "\uBC1C\uACAC: "
             }
           ],
           "aliases": []
@@ -252,7 +282,7 @@
             },
             {
               "language": "ko",
-              "_value": null
+              "_value": "\uCC3D \uBAA8\uB4DC"
             }
           ],
           "aliases": []
@@ -733,15 +763,15 @@
       "pageFiles": [
         {
           "key": "GateKeeperTutorial",
-          "originalValue": "\u0627\u0646\u062A \u0645\u062D\u0627\u0635\u0631 \u0648\u062A\u0627\u0626\u0647 \u0641\u064A \u062D\u0644\u0642\u0629 \u0644\u062A\u0647\u0631\u0628 \u0627\u0628\u062F\u0623 \u0645\u0646 \u0623\u064A \u0627\u062A\u062C\u0627\u0647\u060C \u064A\u0633\u0627\u0631\u064B\u0627 \u0623\u0648 \u064A\u0645\u064A\u0646\u064B\u0627. \u0641\u064A \u0643\u0644 \u062F\u0648\u0631\u0629\u060C \u0642\u062F \u062A\u062C\u062F \u0634\u064A\u0626\u064B\u0627 \u0644\u0627 \u064A\u0646\u062A\u0645\u064A \u0625\u0644\u0649 \u0627\u0644\u0645\u0643\u0627\u0646. \u0625\u0646 \u0644\u0627\u062D\u0638\u062A \u0645\u0627 \u062A\u063A\u064A\u0651\u0631\u060C \u0641\u0639\u064F\u062F \u0645\u0646 \u062D\u064A\u062B \u0623\u062A\u064A\u062A. \u0648\u0625\u0646 \u0644\u0645 \u062A\u062C\u062F \u0634\u064A\u0626\u064B\u0627\u060C \u0641\u0648\u0627\u0635\u0644 \u0627\u0644\u0633\u064A\u0631 \u0641\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0646\u0641\u0633\u0647. \u0648\u0627\u062E\u064A\u0631\u0627 \u0627\u0628\u0642\u064A \u0639\u064A\u0646\u064A\u0643 \u064A\u0642\u0638\u0629 \u0639\u0644\u0649 \u0645\u062D\u064A\u0637\u0643 \u0648\u0639\u0644\u0649 \u0627\u0644\u062F\u0645\u064A\u0629 .",
+          "originalValue": "\u0623\u0646\u062A \u0639\u0627\u0644\u0642 \u0641\u064A \u062D\u0644\u0642\u0629. \u0627\u062E\u062A\u0631 \u0627\u062A\u062C\u0627\u0647\u064B\u0627. \u0625\u0646 \u0631\u0623\u064A\u062A \u0645\u0627 \u064A\u0628\u062F\u0648 \u062E\u0627\u0631\u062C\u064B\u0627 \u0639\u0646 \u0627\u0644\u0645\u0623\u0644\u0648\u0641 \u0641\u0627\u0631\u062C\u0639\u060C \u0648\u0625\u0644\u0627 \u0641\u0648\u0627\u0635\u0644. \u0648\u0644\u0627 \u062A\u064F\u063A\u0641\u0644 \u0639\u064A\u0646\u0643 \u0639\u0646 \u0627\u0644\u062F\u0645\u064A\u0629.",
           "variants": [
             {
               "language": "en",
-              "_value": "You are lost and trapped in a loop. Start in either direction, left or right. In each loop, you may find something that does not belong. If you notice a change, turn back the way you came. If you find nothing, keep going in the same direction. Finally, keep your eyes open to your surroundings and the doll."
+              "_value": "You\u2019re trapped in a loop. Choose a direction. If anything seems out of place, turn back. If not, keep going. Watch the doll."
             },
             {
               "language": "ko",
-              "_value": ""
+              "_value": "\uB2F9\uC2E0\uC740 \uBC18\uBCF5\uB418\uB294 \uB8E8\uD504\uC5D0 \uAC07\uD600 \uC788\uC2B5\uB2C8\uB2E4. \uBC29\uD5A5\uC744 \uC120\uD0DD\uD558\uC138\uC694. \uBB34\uC5B8\uAC00 \uC774\uC0C1\uD558\uAC70\uB098 \uC5B4\uC6B8\uB9AC\uC9C0 \uC54A\uB294 \uAC83\uC774 \uBCF4\uC774\uBA74 \uB418\uB3CC\uC544\uAC00\uC138\uC694. \uADF8\uB807\uC9C0 \uC54A\uB2E4\uBA74 \uACC4\uC18D \uB098\uC544\uAC00\uC138\uC694. \uC778\uD615\uC744 \uC798 \uC0B4\uD3B4\uBCF4\uC138\uC694."
             }
           ],
           "aliases": []
@@ -761,7 +791,7 @@
               "_value": "Controls"
             },
             {
-              "language": "new",
+              "language": "ko",
               "_value": "\uC870\uC791 \uBC29\uBC95"
             }
           ],
@@ -838,31 +868,6 @@
             {
               "language": "ko",
               "_value": "\uC548\uB0B4 \uD45C\uC2DC/\uC228\uAE30\uAE30"
-            }
-          ],
-          "aliases": []
-        }
-      ]
-    },
-    {
-      "pageId": "Extras",
-      "aboutPage": "New Page",
-      "pageFiles": [
-        {
-          "key": "Stop",
-          "originalValue": "\u0642\u0641",
-          "variants": [
-            {
-              "language": "en",
-              "_value": null
-            },
-            {
-              "language": "jp",
-              "_value": null
-            },
-            {
-              "language": "ar",
-              "_value": null
             }
           ],
           "aliases": []

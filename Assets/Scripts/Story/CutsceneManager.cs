@@ -59,13 +59,17 @@ public class CutsceneManager : MonoBehaviour
     [SerializeField] AudioClip firstClip;
     [SerializeField] AudioClip SecondClip;
     [SerializeField] AudioSource music;
-    const float maxMusic=0.3f;
+    const float maxMusic = 0.3f;
     private void Start()
     {
         simpleText = storyText.gameObject.GetComponent<SimpleLocalizedText>();
 
-    music.PlayOneShot(firstClip);
-    music.DOFade(maxMusic,2);
+        music.clip = firstClip;
+        music.volume = 0;
+        music.Play();
+        music.DOFade(maxMusic, 2);
+        music.loop = true;
+
 
         foreach (var vp in new[] { playerA, playerB, playerC })
         {
@@ -83,14 +87,14 @@ public class CutsceneManager : MonoBehaviour
 
         StartCoroutine(StartCutscene());
     }
-private void LogState(string where)
-{
-    // Debug.Log(
-    //     $"[Cutscene] {where} | index={index} (slide {index + 1}) | " +
-    //     $"active={activePlayer.name} loop={loopPlayer.name} next={nextPlayer.name} | " +
-    //     $"isPlayingLoop={isPlayingLoop} loopPrepared={loopPrepared} " +
-    //     $"nextPrepared={nextPrepared} nextForIndex={nextForIndex} pending={pendingAdvance}");
-}
+    private void LogState(string where)
+    {
+        Debug.Log(
+            $"[Cutscene] {where} | index={index} (slide {index + 1}) | " +
+            $"active={activePlayer.name} loop={loopPlayer.name} next={nextPlayer.name} | " +
+            $"isPlayingLoop={isPlayingLoop} loopPrepared={loopPrepared} " +
+            $"nextPrepared={nextPrepared} nextForIndex={nextForIndex} pending={pendingAdvance}");
+    }
     private void OnDestroy()
     {
         foreach (var vp in new[] { playerA, playerB, playerC })
@@ -134,7 +138,7 @@ private void LogState(string where)
     {
         loopForIndex = forIndex;
         loopPrepared = false;
-    ResetPlayer(loopPlayer);
+        ResetPlayer(loopPlayer);
         if (slides[forIndex].loopShot == null) return;
 
         loopPlayer.clip = slides[forIndex].loopShot;
@@ -158,13 +162,13 @@ private void LogState(string where)
         vp.prepareCompleted -= OnNextPrepared;
         vp.prepareCompleted -= OnActivePrepared;
         vp.Stop();
-        vp.clip = null;  
+        vp.clip = null;
     }
     private void PrepareNext(int forIndex)
     {
         nextForIndex = forIndex;
         nextPrepared = false;
-    ResetPlayer(nextPlayer);
+        ResetPlayer(nextPlayer);
         if (forIndex >= slides.Length) return;
 
         nextPlayer.clip = slides[forIndex].shot;
@@ -244,13 +248,16 @@ private void LogState(string where)
 
         index = target;
 
-        if(index == trackNumToChangeMusic)
+        if (index == trackNumToChangeMusic)
         {
-            music.DOFade(0,2).OnComplete(()=>
+            music.DOFade(0, 2).OnComplete(() =>
             {
                 music.Stop();
-                music.PlayOneShot(SecondClip);
-                 music.DOFade(maxMusic,2);
+                music.clip = SecondClip;
+
+                music.Play();
+                music.DOFade(maxMusic, 2);
+                music.loop = true;
 
 
             });
@@ -291,7 +298,7 @@ private void LogState(string where)
 
     public IEnumerator EndCutscene()
     {
-        music.DOFade(0,0.5f);
+        music.DOFade(0, 0.5f);
         yield return Fade(1f);
         Finish();
     }

@@ -2,38 +2,118 @@ using UnityEngine;
 
 public class GateKeeperInteraction : MonoBehaviour
 {
-    [SerializeField] private GameObject interactionButton;
-    [SerializeField] private GameObject storyCanvas;    
-      private Transform playerPos;
-    private Vector3 lastPos;
-    private bool isTextOpen;
 
-    private bool isInRange;
-    void Start()
+    [SerializeField] GameObject interactionButton;
+    [SerializeField] GameObject storyCanvas;
+
+
+    Transform playerPos;
+    Vector3 lastPos;
+
+    bool isInRange;
+    bool isTextOpen=false;
+
+
+    private void Start()
     {
         isInRange = false;
-        isTextOpen = false;
-
-
+        InputManager.Instance.InteractionEvent += ShowStory;
         interactionButton.SetActive(false);
-        storyCanvas.SetActive(false);
-
-        if (InputManager.Instance != null)
-        {
-           // InputManager.Instance.InteractionEvent += ShowStory;
-        }
-        else
-        {
-            Debug.LogError(
-                "storyInteraction: InputManager.Instance is null.",
-                this
-            );
-        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        InputManager.Instance.InteractionEvent -= ShowStory;
+
     }
+
+    void ShowStory()
+    {
+        if(PauseMenu.instance.IsStopped) return;
+
+        if (isInRange) {
+
+            if (isTextOpen==false)
+            {
+                isTextOpen = true;
+                storyCanvas.SetActive(true);
+                interactionButton.SetActive(false);
+                lastPos = playerPos.position;
+
+            }
+            else
+            {
+
+                isTextOpen = false;
+                storyCanvas.SetActive(false);
+                interactionButton.SetActive(true);
+                lastPos = playerPos.position;
+
+
+            }
+
+
+
+
+        }
+
+
+    }
+
+
+    private void Update()
+    {
+
+        if (playerPos != null)
+        {
+           // Debug.Log(isInRange);
+
+
+            float distanceMoved = Vector3.Distance(playerPos.position, lastPos);
+            if (distanceMoved > 0.5f)
+            {
+                HideText();
+                distanceMoved = 0f;
+            }
+
+        }
+    }
+
+    private void HideText()
+    {
+        storyCanvas.SetActive(false);
+        interactionButton.SetActive(true);
+
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            isInRange = true;
+            interactionButton.SetActive(true);
+            playerPos = collision.transform;
+            lastPos = collision.transform.position;
+
+
+        }
+    }
+
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            interactionButton.SetActive(false);
+
+            isInRange = false;
+            playerPos = null;
+
+
+        }
+    }
+
+
+
 }

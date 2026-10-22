@@ -309,7 +309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -27.614502, y: -364.48553}
+  m_AnchoredPosition: {x: -26.754517, y: -364.48553}
   m_SizeDelta: {x: 20.829, y: 20.82901}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &334719930
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_fontSizeMax: 17
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AHAKuo.Signalia.LocalizationStandalone.Internal.SimpleLocalizedText
   key: 
-  paragraphStyle: 
+  paragraphStyle: story
 --- !u!1 &516028573
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,13 +977,13 @@ MonoBehaviour:
     numberOfTexts: 1
   - shot: {fileID: 32900000, guid: fa4301f44ba1e9a4ca2d22362ce83c58, type: 3}
     loopShot: {fileID: 32900000, guid: 30b24061ce6a0a74ca9c5c48acc92514, type: 3}
-    numberOfTexts: 2
-  - shot: {fileID: 32900000, guid: 1554cc15e9e15214fb19851ab5061558, type: 3}
-    loopShot: {fileID: 32900000, guid: 656b98b0225fb114d937ccb2bc99ad94, type: 3}
     numberOfTexts: 1
-  - shot: {fileID: 32900000, guid: 6d50a5f58ebbb724fadbe06dc8024b92, type: 3}
+  - shot: {fileID: 32900000, guid: 08295c8bf034a674d89dab145029bd77, type: 3}
+    loopShot: {fileID: 32900000, guid: d9f942fd0ce84704eb4db47d48611b11, type: 3}
+    numberOfTexts: 1
+  - shot: {fileID: 32900000, guid: 331a6243027cf65408fc8a15ea17f464, type: 3}
     loopShot: {fileID: 32900000, guid: 6d50a5f58ebbb724fadbe06dc8024b92, type: 3}
-    numberOfTexts: 1
+    numberOfTexts: 2
   - shot: {fileID: 32900000, guid: 8e1e60fa85215784595b0b97798742d6, type: 3}
     loopShot: {fileID: 32900000, guid: 8e1e60fa85215784595b0b97798742d6, type: 3}
     numberOfTexts: 2
@@ -1113,7 +1113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650.5, y: -410}
+  m_AnchoredPosition: {x: 651.36, y: -410}
   m_SizeDelta: {x: 21.1292, y: 21.1291}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &746677247
@@ -1269,7 +1269,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 641.0686, y: 90.5811}
+  m_SizeDelta: {x: 641.0686, y: 70.4455}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &834045779
 MonoBehaviour:
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2556837399428289638, guid: de9d3bcab74e3834d86443a349f12989, type: 3}
+  m_Sprite: {fileID: 9082161482091317487, guid: 651b9ab8d4e7d1f438070689767c61fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1343,7 +1343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -17.599976, y: 75.5}
+  m_AnchoredPosition: {x: -16.73999, y: 75.5}
   m_SizeDelta: {x: 21.1292, y: 21.1292}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885684313
@@ -2293,7 +2293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 659.2, y: -410}
+  m_AnchoredPosition: {x: 660.06, y: -410}
   m_SizeDelta: {x: 36.15143, y: 19.822815}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1829508711

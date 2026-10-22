@@ -1059,7 +1059,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.45999995, y: 0.5002161}
+  m_Size: {x: 0.46, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2236,7 +2236,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.8999999, y: 3.571543}
+  m_Size: {x: 7.6312428, y: 9.369999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4860,7 +4860,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.45999995, y: 0.5002161}
+  m_Size: {x: 0.46, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -12145,7 +12145,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.45999995, y: 0.5002161}
+  m_Size: {x: 0.46, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -15153,7 +15153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af92d211720d984aa8c4eb221c2f5ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AHAKuo.Signalia.LocalizationStandalone.Internal.SimpleLocalizedText
-  key: Anomaly
+  key: SFX
   paragraphStyle: settings
 --- !u!114 &303797921
 MonoBehaviour:
@@ -17435,7 +17435,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.54, y: 1.1404928}
+  m_Size: {x: 4.0906663, y: 2.9099998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -17812,7 +17812,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.54, y: 1.1404928}
+  m_Size: {x: 6.8311124, y: 3.09}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -18661,7 +18661,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.45999995, y: 0.5002161}
+  m_Size: {x: 0.46, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -20183,7 +20183,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.45999995, y: 0.5002161}
+  m_Size: {x: 0.46, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -29640,7 +29640,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &728747020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32750,7 +32750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReplaceAnomaly
   anomalyName: 21
-  areaName: 1
+  areaName: 0
   originalObject: {fileID: 1010490965}
   anomalyObject: {fileID: 60190456}
 --- !u!114 &817528411
@@ -37750,7 +37750,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.8999999, y: 3.571543}
+  m_Size: {x: 7.6612477, y: 9.309999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -39149,7 +39149,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.8999999, y: 3.571543}
+  m_Size: {x: 7.621241, y: 9.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -39454,7 +39454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReplaceAnomaly
   anomalyName: 25
-  areaName: 1
+  areaName: 0
   originalObject: {fileID: 1396614814}
   anomalyObject: {fileID: 1436991504}
 --- !u!114 &1052235787
@@ -39976,7 +39976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1080803442
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41276,7 +41276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReplaceAnomaly
   anomalyName: 20
-  areaName: 2
+  areaName: 0
   originalObject: {fileID: 1702132877}
   anomalyObject: {fileID: 1974195715}
 --- !u!1 &1133954448
@@ -42476,10 +42476,12 @@ MonoBehaviour:
   - {fileID: 1526933045}
   - {fileID: 861251094}
   - {fileID: 717787852}
+  - {fileID: 303797921}
   sliders:
   - {fileID: 1567185006}
   - {fileID: 444477114}
   - {fileID: 1637995577}
+  - {fileID: 1245467004}
 --- !u!114 &1179493962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44094,7 +44096,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.45999995, y: 0.5002161}
+  m_Size: {x: 0.46, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -44911,7 +44913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReplaceAnomaly
   anomalyName: 24
-  areaName: 1
+  areaName: 0
   originalObject: {fileID: 408193510}
   anomalyObject: {fileID: 154353938}
 --- !u!114 &1249477731
@@ -44988,7 +44990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReplaceAnomaly
   anomalyName: 26
-  areaName: 2
+  areaName: 0
   originalObject: {fileID: 1396614814}
   anomalyObject: {fileID: 1238426643}
 --- !u!1 &1250333615
@@ -48366,7 +48368,7 @@ MonoBehaviour:
   masterSlider: {fileID: 1567185006}
   musicSlider: {fileID: 444477114}
   sfxSlider: {fileID: 1637995577}
-  anomalySlider: {fileID: 0}
+  anomalySlider: {fileID: 1245467004}
 --- !u!4 &1402282403
 Transform:
   m_ObjectHideFlags: 0
@@ -49894,7 +49896,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 9.64, y: 13.27}
+  m_Size: {x: 3.19, y: 11.15}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -57281,7 +57283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af92d211720d984aa8c4eb221c2f5ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AHAKuo.Signalia.LocalizationStandalone.Internal.SimpleLocalizedText
-  key: SFX
+  key: Ambient
   paragraphStyle: settings
 --- !u!222 &1526933044
 CanvasRenderer:
@@ -63630,8 +63632,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1587530024}
-  - component: {fileID: 1587530023}
   - component: {fileID: 1587530025}
+  - component: {fileID: 1587530023}
   m_Layer: 0
   m_Name: Ano OppositeClone
   m_TagString: Untagged
@@ -68222,7 +68224,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.54, y: 1.1404928}
+  m_Size: {x: 3.99065, y: 2.8999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -68428,7 +68430,7 @@ GameObject:
   - component: {fileID: 1713744182}
   - component: {fileID: 1713744185}
   - component: {fileID: 1713744184}
-  - component: {fileID: 1713744183}
+  - component: {fileID: 1713744186}
   m_Layer: 0
   m_Name: 'Gate Keeper interaction '
   m_TagString: Untagged
@@ -68451,22 +68453,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 33808282}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1713744183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713744181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01071326135467d409e46416d08c0f8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::storyInteraction
-  interactionButton: {fileID: 30450179}
-  storyCanvas: {fileID: 1658970064}
-  loreManager: {fileID: 0}
-  storyPanel: {fileID: 0}
 --- !u!61 &1713744184
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68572,6 +68558,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1713744186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713744181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4cca3df143ee841b00fc5a71a88d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GateKeeperInteraction
+  interactionButton: {fileID: 30450179}
+  storyCanvas: {fileID: 1658970064}
 --- !u!1 &1714035816
 GameObject:
   m_ObjectHideFlags: 0
@@ -72222,7 +72222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1828540477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76756,7 +76756,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.54, y: 1.1404928}
+  m_Size: {x: 3.9206386, y: 2.8799999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -81728,7 +81728,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.8999999, y: 3.571543}
+  m_Size: {x: 7.161166, y: 9.469999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

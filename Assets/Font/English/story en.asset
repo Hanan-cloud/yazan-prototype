@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AHAKuo.Signalia.LocalizationStandalone.Internal.TextStyle
   languageCode: en
   paragraphStyle: story
-  font: {fileID: 11400000, guid: ef2aef8cec66b8c4cb0319663201d8a8, type: 2}
+  font: {fileID: 11400000, guid: 8ee8171dc522fd044ac5558f2e723b5d, type: 2}
   materialOverride: {fileID: 0}
   formattingOptions: 0
   enableRTL: 0

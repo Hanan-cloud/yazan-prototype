@@ -6,7 +6,7 @@
       "pageFiles": [
         {
           "key": "Panel_1",
-          "originalValue": "مع غروب الشمس، تجتمع العائلة حول النار.",
+          "originalValue": "\u0645\u0639 \u063A\u0631\u0648\u0628 \u0627\u0644\u0634\u0645\u0633\u060C \u062A\u062C\u062A\u0645\u0639 \u0627\u0644\u0639\u0627\u0626\u0644\u0629 \u062D\u0648\u0644 \u0627\u0644\u0646\u0627\u0631.",
           "variants": [
             {
               "language": "en",
@@ -14,14 +14,14 @@
             },
             {
               "language": "ko",
-              "_value": "해가 저물면 가족이 모닥불 주위에 모인다."
+              "_value": "\uD574\uAC00 \uC800\uBB3C\uBA74 \uAC00\uC871\uC774 \uBAA8\uB2E5\uBD88 \uC8FC\uC704\uC5D0 \uBAA8\uC778\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_2",
-          "originalValue": "يجلس يزن بينهم، ودميته القماشية إلى جواره.",
+          "originalValue": "\u064A\u062C\u0644\u0633 \u064A\u0632\u0646 \u0628\u064A\u0646\u0647\u0645\u060C \u0648\u062F\u0645\u064A\u062A\u0647 \u0627\u0644\u0642\u0645\u0627\u0634\u064A\u0629 \u0625\u0644\u0649 \u062C\u0648\u0627\u0631\u0647.",
           "variants": [
             {
               "language": "en",
@@ -29,14 +29,14 @@
             },
             {
               "language": "ko",
-              "_value": "야잔은 가족들 사이에 앉아 헝겊 인형을 손에 들고 있다."
+              "_value": "\uC57C\uC794\uC740 \uAC00\uC871\uB4E4 \uC0AC\uC774\uC5D0 \uC549\uC544 \uD5DD\uAC8A \uC778\uD615\uC744 \uC190\uC5D0 \uB4E4\uACE0 \uC788\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_3",
-          "originalValue": "يلتفت إليه والده.",
+          "originalValue": "\u064A\u0644\u062A\u0641\u062A \u0625\u0644\u064A\u0647 \u0648\u0627\u0644\u062F\u0647.",
           "variants": [
             {
               "language": "en",
@@ -44,307 +44,307 @@
             },
             {
               "language": "ko",
-              "_value": "아버지가 야잔을 돌아본다."
+              "_value": "\uC544\uBC84\uC9C0\uAC00 \uC57C\uC794\uC744 \uB3CC\uC544\uBCF8\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_4",
-          "originalValue": "الأب: \"احكِ لنا قصة\"",
+          "originalValue": "\u0627\u0644\u0623\u0628: \u0022\u0627\u062D\u0643\u0650 \u0644\u0646\u0627 \u0642\u0635\u0629.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": " FATHER:  “Tell us a story”"
+              "_value": " FATHER:  \u201CTell us a story.\u201D"
             },
             {
               "language": "ko",
-              "_value": "아버지: “이야기 하나 들려주렴.”"
+              "_value": "\uC544\uBC84\uC9C0: \u201C\uC774\uC57C\uAE30 \uD558\uB098 \uB4E4\uB824\uC8FC\uB834.\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_5",
-          "originalValue": "يخفض يزن نظره. لا يجد قصةً يرويها",
+          "originalValue": "\u064A\u062E\u0641\u0636 \u064A\u0632\u0646 \u0646\u0638\u0631\u0647. \u0644\u0627 \u064A\u062C\u062F \u0642\u0635\u0629\u064B \u064A\u0631\u0648\u064A\u0647\u0627.",
           "variants": [
             {
               "language": "en",
-              "_value": "Yazan lowers his eyes. He has no story to tell"
+              "_value": "Yazan lowers his eyes. He has no story to tell."
             },
             {
               "language": "ko",
-              "_value": "야잔은 시선을 떨군다. 들려줄 이야기가 없다."
+              "_value": "\uC57C\uC794\uC740 \uC2DC\uC120\uC744 \uB5A8\uAD70\uB2E4. \uB4E4\uB824\uC904 \uC774\uC57C\uAE30\uAC00 \uC5C6\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_6",
-          "originalValue": "يحمل دميته، ويبتعد قليلًا ليستكشف الوادي",
+          "originalValue": "\u064A\u062D\u0645\u0644 \u062F\u0645\u064A\u062A\u0647\u060C \u0648\u064A\u0628\u062A\u0639\u062F \u0642\u0644\u064A\u0644\u064B\u0627 \u0644\u064A\u0633\u062A\u0643\u0634\u0641 \u0627\u0644\u0648\u0627\u062F\u064A.",
           "variants": [
             {
               "language": "en",
-              "_value": "He picks up his backpack and doll and wanders off to explore the valley"
+              "_value": "He picks up his backpack and doll and wanders off to explore the valley."
             },
             {
               "language": "ko",
-              "_value": "야잔은 배낭과 인형을 챙겨 계곡을 둘러보러 떠난다."
+              "_value": "\uC57C\uC794\uC740 \uBC30\uB0AD\uACFC \uC778\uD615\uC744 \uCC59\uACA8 \uACC4\uACE1\uC744 \uB458\uB7EC\uBCF4\uB7EC \uB5A0\uB09C\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_7",
-          "originalValue": "الأم: \"يزن… لا تبتعد كثيرًا. لهذا المكان حكايات مخيفة.\"",
+          "originalValue": "\u0627\u0644\u0623\u0645: \u0022\u064A\u0632\u0646\u2026 \u0644\u0627 \u062A\u0628\u062A\u0639\u062F \u0643\u062B\u064A\u0631\u064B\u0627. \u0644\u0647\u0630\u0627 \u0627\u0644\u0645\u0643\u0627\u0646 \u062D\u0643\u0627\u064A\u0627\u062A \u0645\u062E\u064A\u0641\u0629.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": "MOTHER: “Yazan… don’t go too far. There are frightening stories about this place”"
+              "_value": "MOTHER: \u201CYazan\u2026 don\u2019t go too far. There are frightening stories about this place.\u201D"
             },
             {
               "language": "ko",
-              "_value": "어머니: “야잔… 너무 멀리 가지 마. 이곳엔 무서운 이야기가 많단다.”"
+              "_value": "\uC5B4\uBA38\uB2C8: \u201C\uC57C\uC794\u2026 \uB108\uBB34 \uBA40\uB9AC \uAC00\uC9C0 \uB9C8. \uC774\uACF3\uC5D4 \uBB34\uC11C\uC6B4 \uC774\uC57C\uAE30\uAC00 \uB9CE\uB2E8\uB2E4.\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_8",
-          "originalValue": "يلتفت إليها مجيبًا.                                                                                   يزن \"دميتي معي… لن أضلّ الطريق.\"",
+          "originalValue": "\u064A\u0644\u062A\u0641\u062A \u0625\u0644\u064A\u0647\u0627 \u0645\u062C\u064A\u0628\u064B\u0627. \r\n\u064A\u0632\u0646: \u0022\u062F\u0645\u064A\u062A\u064A \u0645\u0639\u064A\u2026 \u0644\u0646 \u0623\u0636\u0644\u0651 \u0627\u0644\u0637\u0631\u064A\u0642.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": "YAZAN: “I have my doll with me… I won’t get lost”"
+              "_value": "YAZAN: \u201CI have my doll with me\u2026 I won\u2019t get lost.\u201D"
             },
             {
               "language": "ko",
-              "_value": "그는 어머니에게 대답하려고 돌아선다. 야잔:                                                                                                                                                                  “인형도 곁에 있으니까… 길을 잃지 않을 거야.”"
+              "_value": "\uADF8\uB294 \uC5B4\uBA38\uB2C8\uC5D0\uAC8C \uB300\uB2F5\uD558\uB824\uACE0 \uB3CC\uC544\uC120\uB2E4.\r\n\uC57C\uC794:\u201C\uC778\uD615\uB3C4 \uACC1\uC5D0 \uC788\uC73C\uB2C8\uAE4C\u2026 \uAE38\uC744 \uC783\uC9C0 \uC54A\uC744 \uAC70\uC57C.\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_9",
-          "originalValue": "ومضى يزن في طريقه.",
+          "originalValue": "\u0648\u0645\u0636\u0649 \u064A\u0632\u0646 \u0641\u064A \u0637\u0631\u064A\u0642\u0647.",
           "variants": [
             {
               "language": "en",
-              "_value": "Yazan continues on his way"
+              "_value": "Yazan continues on his way."
             },
             {
               "language": "ko",
-              "_value": "야잔은 계속 길을 간다."
+              "_value": "\uC57C\uC794\uC740 \uACC4\uC18D \uAE38\uC744 \uAC04\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_10",
-          "originalValue": "يظن يزن أنه يعرف طريق العودة. لكن الوادي يبدّل ملامحه مع كل خطوة.",
+          "originalValue": "\u064A\u0638\u0646 \u064A\u0632\u0646 \u0623\u0646\u0647 \u064A\u0639\u0631\u0641 \u0637\u0631\u064A\u0642 \u0627\u0644\u0639\u0648\u062F\u0629. \u0644\u0643\u0646 \u0627\u0644\u0648\u0627\u062F\u064A \u064A\u0628\u062F\u0651\u0644 \u0645\u0644\u0627\u0645\u062D\u0647 \u0645\u0639 \u0643\u0644 \u062E\u0637\u0648\u0629.",
           "variants": [
             {
               "language": "en",
-              "_value": "Yazan thinks he knows the way back. But the valley changes with every step"
+              "_value": "Yazan thinks he knows the way back. \r\nBut the valley changes with every step."
             },
             {
               "language": "ko",
-              "_value": "야잔은 돌아가는 길을 안다고 생각한다. 하지만 한 걸음 내디딜 때마다 계곡의 모습이 달라진다."
+              "_value": "\uC57C\uC794\uC740 \uB3CC\uC544\uAC00\uB294 \uAE38\uC744 \uC548\uB2E4\uACE0 \uC0DD\uAC01\uD55C\uB2E4. \r\n\uD558\uC9C0\uB9CC \uD55C \uAC78\uC74C \uB0B4\uB514\uB51C \uB54C\uB9C8\uB2E4 \uACC4\uACE1\uC758 \uBAA8\uC2B5\uC774 \uB2EC\uB77C\uC9C4\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_11",
-          "originalValue": "كل صخرة تشبه الأخرى، وكل ممر يقود إلى مثله، حتى يعجز عن تذكّر الطريق الذي جاء منه.\n",
+          "originalValue": "\u0643\u0644 \u0635\u062E\u0631\u0629 \u062A\u0634\u0628\u0647 \u0627\u0644\u0623\u062E\u0631\u0649\u060C \u0648\u0643\u0644 \u0645\u0645\u0631 \u064A\u0642\u0648\u062F \u0625\u0644\u0649 \u0645\u062B\u0644\u0647\u060C\r\n\u062D\u062A\u0649 \u064A\u0639\u062C\u0632 \u0639\u0646 \u062A\u0630\u0643\u0651\u0631 \u0627\u0644\u0637\u0631\u064A\u0642 \u0627\u0644\u0630\u064A \u062C\u0627\u0621 \u0645\u0646\u0647.",
           "variants": [
             {
               "language": "en",
-              "_value": "Every rock resembles another. Every path leads to one just like it, until he can no longer remember which way he came"
+              "_value": "Every rock resembles another. Every path leads to one just like it, \r\nuntil he can no longer remember which way he came."
             },
             {
               "language": "ko",
-              "_value": "바위는 모두 서로 닮아 있다. 어느 길로 가도 꼭 닮은 다른 길로 이어진다. 그러다 야잔은 자신이 어느 길로 왔는지조차 기억하지 못한다."
+              "_value": "\uBC14\uC704\uB294 \uBAA8\uB450 \uC11C\uB85C \uB2EE\uC544 \uC788\uB2E4. \uC5B4\uB290 \uAE38\uB85C \uAC00\uB3C4 \uAF2D \uB2EE\uC740 \uB2E4\uB978 \uAE38\uB85C \uC774\uC5B4\uC9C4\uB2E4.\r\n\uADF8\uB7EC\uB2E4 \uC57C\uC794\uC740 \uC790\uC2E0\uC774 \uC5B4\uB290 \uAE38\uB85C \uC654\uB294\uC9C0\uC870\uCC28 \uAE30\uC5B5\uD558\uC9C0 \uBABB\uD55C\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_12",
-          "originalValue": "بدأت المسامير تخترق الدمية واحدًا تلو الآخر، حتى بلغ عددها عشرة.",
+          "originalValue": "\u0628\u062F\u0623\u062A \u0627\u0644\u0645\u0633\u0627\u0645\u064A\u0631 \u062A\u062E\u062A\u0631\u0642 \u0627\u0644\u062F\u0645\u064A\u0629 \u0648\u0627\u062D\u062F\u064B\u0627 \u062A\u0644\u0648 \u0627\u0644\u0622\u062E\u0631\u060C \u062D\u062A\u0649 \u0628\u0644\u063A \u0639\u062F\u062F\u0647\u0627 \u0639\u0634\u0631\u0629.",
           "variants": [
             {
               "language": "en",
-              "_value": "Suddenly, nails begin piercing the doll, one after another, until there are ten"
+              "_value": "Suddenly, nails begin piercing the doll, one after another, until there are ten."
             },
             {
               "language": "ko",
-              "_value": "갑자기 못이 하나씩 인형에 박히기 시작한다. 마침내 못은 열 개가 된다."
+              "_value": "\uAC11\uC790\uAE30 \uBABB\uC774 \uD558\uB098\uC529 \uC778\uD615\uC5D0 \uBC15\uD788\uAE30 \uC2DC\uC791\uD55C\uB2E4. \uB9C8\uCE68\uB0B4 \uBABB\uC740 \uC5F4 \uAC1C\uAC00 \uB41C\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_13",
-          "originalValue": "نظر إلى دميته، ممسكًا بها برفق والدموع تملأ عينيه. ثم ظهر أمامه نور.",
+          "originalValue": "\u0646\u0638\u0631 \u0625\u0644\u0649 \u062F\u0645\u064A\u062A\u0647\u060C \u0645\u0645\u0633\u0643\u064B\u0627 \u0628\u0647\u0627 \u0628\u0631\u0641\u0642 \u0648\u0627\u0644\u062F\u0645\u0648\u0639 \u062A\u0645\u0644\u0623 \u0639\u064A\u0646\u064A\u0647. \u062B\u0645 \u0638\u0647\u0631 \u0623\u0645\u0627\u0645\u0647 \u0646\u0648\u0631.",
           "variants": [
             {
               "language": "en",
-              "_value": "He looks down at his doll, holding it carefully with tears in his eyes. Then, a light appears before him"
+              "_value": "He looks down at his doll, holding it carefully with tears in his eyes. \r\nThen, a light appears before him."
             },
             {
               "language": "ko",
-              "_value": "야잔은 인형을 조심스레 든 채 눈물을 글썽이며 내려다본다. 그때 그의 앞에 빛이 나타난다."
+              "_value": "\uC57C\uC794\uC740 \uC778\uD615\uC744 \uC870\uC2EC\uC2A4\uB808 \uB4E0 \uCC44 \uB208\uBB3C\uC744 \uAE00\uC37D\uC774\uBA70 \uB0B4\uB824\uB2E4\uBCF8\uB2E4. \r\n\uADF8\uB54C \uADF8\uC758 \uC55E\uC5D0 \uBE5B\uC774 \uB098\uD0C0\uB09C\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_14",
-          "originalValue": "يتبع يزن الضوء بين الصخور والممرات المنسية، حتى يبلغ جدارًا قديمًا.",
+          "originalValue": "\u064A\u062A\u0628\u0639 \u064A\u0632\u0646 \u0627\u0644\u0636\u0648\u0621 \u0628\u064A\u0646 \u0627\u0644\u0635\u062E\u0648\u0631 \u0648\u0627\u0644\u0645\u0645\u0631\u0627\u062A \u0627\u0644\u0645\u0646\u0633\u064A\u0629\u060C|\r\n\u062D\u062A\u0649 \u064A\u0628\u0644\u063A \u062C\u062F\u0627\u0631\u064B\u0627 \u0642\u062F\u064A\u0645\u0627.",
           "variants": [
             {
               "language": "en",
-              "_value": "Yazan follows the light between rocks and forgotten paths until he reaches an ancient wall. "
+              "_value": "Yazan follows the light between rocks and forgotten paths,\r\nuntil he reaches an ancient wall. "
             },
             {
               "language": "ko",
-              "_value": "야잔은 바위 사이와 잊힌 길을 지나 빛을 따라간다. 마침내 고대의 벽에 다다른다."
+              "_value": "\uC57C\uC794\uC740 \uBC14\uC704 \uC0AC\uC774\uC640 \uC78A\uD78C \uAE38\uC744 \uC9C0\uB098 \uBE5B\uC744 \uB530\uB77C\uAC04\uB2E4. \r\n\uB9C8\uCE68\uB0B4 \uACE0\uB300\uC758 \uBCBD\uC5D0 \uB2E4\uB2E4\uB978\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_16",
-          "originalValue": "يحدّق الجني العجوز في الصبي طويلًا، ثم يتحدث.                                                 حارس البوابة: \"أنت لست تائهًا يا بني… بل في مكان آخر تمامًا.\"",
+          "originalValue": "\u0022\u064A\u062D\u062F\u0651\u0642 \u0627\u0644\u062C\u0646\u064A \u0627\u0644\u0639\u062C\u0648\u0632 \u0641\u064A \u0627\u0644\u0635\u0628\u064A \u0637\u0648\u064A\u0644\u064B\u0627\u060C \u062B\u0645 \u064A\u062A\u062D\u062F\u062B.\r\n\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629: \u0022\u0623\u0646\u062A \u0644\u0633\u062A \u062A\u0627\u0626\u0647\u064B\u0627 \u064A\u0627 \u0628\u0646\u064A\u2026 \u0628\u0644 \u0641\u064A \u0645\u0643\u0627\u0646 \u0622\u062E\u0631 \u062A\u0645\u0627\u0645\u064B\u0627.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": " The old jinn studies the boy for a long moment. Then he speaks.\r\nGATEKEEPER: “You are not lost, child… you are somewhere else entirely”"
+              "_value": "The old jinn studies the boy for a long moment. Then he speaks.\r\nGATEKEEPER: \u201CYou are not lost, child\u2026 you are somewhere else entirely.\u201D"
             },
             {
               "language": "ko",
-              "_value": "늙은 진은 한참 동안 소년을 살펴본다. 이윽고 입을 연다.                                                                                                                                                  문지기: “길을 잃은 게 아니란다, 아이야… 전혀 다른 곳에 온 거란다.”"
+              "_value": "\uB299\uC740 \uC815\uB839\uC740 \uD55C\uCC38 \uB3D9\uC548 \uC18C\uB144\uC744 \uC0B4\uD3B4\uBCF8\uB2E4. \uC774\uC73D\uACE0 \uC785\uC744 \uC5F0\uB2E4. \r\n\uBB38\uC9C0\uAE30: \u201C\uAE38\uC744 \uC783\uC740 \uAC8C \uC544\uB2C8\uB780\uB2E4, \uC544\uC774\uC57C\u2026 \uC804\uD600 \uB2E4\uB978 \uACF3\uC5D0 \uC628 \uAC70\uB780\uB2E4.\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_17",
-          "originalValue": "حارس البوابة: \"هذا هو الخفاء… عالم يجاور عالمكم، ومحجوب عن أعين البشر. كان يومًا نابضًا بالحياة.",
+          "originalValue": "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629: \u0022\u0647\u0630\u0627 \u0647\u0648 \u0627\u0644\u062E\u0641\u0627\u0621\u2026 \u0639\u0627\u0644\u0645 \u064A\u062C\u0627\u0648\u0631 \u0639\u0627\u0644\u0645\u0643\u0645\u060C\r\n\u0648\u0645\u062D\u062C\u0648\u0628 \u0639\u0646 \u0623\u0639\u064A\u0646 \u0627\u0644\u0628\u0634\u0631. \u0643\u0627\u0646 \u064A\u0648\u0645\u064B\u0627 \u0646\u0627\u0628\u0636\u064B\u0627 \u0628\u0627\u0644\u062D\u064A\u0627\u0629.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": "GATEKEEPER: “This is Alkhafa… a world beside your own, hidden from human eyes. It was once full of life…\""
+              "_value": "GATEKEEPER: \u201CThis is Alkhafa\u2026 a world beside your own, \r\nhidden from human eyes. It was once full of life\u2026\u0022"
             },
             {
               "language": "ko",
-              "_value": "문지기: “이곳은 Alkhafa란다… 인간의 눈에 보이지 않는, 너희 세계 곁에 있는 또 다른 세계지. 한때는 생명으로 가득했단다…”"
+              "_value": "\uBB38\uC9C0\uAE30: \u201C\uC774\uACF3\uC740 Alkhafa\uB780\uB2E4\u2026 \uC778\uAC04\uC758 \uB208\uC5D0 \uBCF4\uC774\uC9C0 \uC54A\uB294, \r\n\uB108\uD76C \uC138\uACC4 \uACC1\uC5D0 \uC788\uB294 \uB610 \uB2E4\uB978 \uC138\uACC4\uC9C0. \uD55C\uB54C\uB294 \uC0DD\uBA85\uC73C\uB85C \uAC00\uB4DD\uD588\uB2E8\uB2E4\u2026\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_19",
-          "originalValue": "يخفض الحارس بصره نحو الدمية في يد يزن، ويشير إليها.",
+          "originalValue": "\u064A\u062E\u0641\u0636 \u0627\u0644\u062D\u0627\u0631\u0633 \u0628\u0635\u0631\u0647 \u0646\u062D\u0648 \u0627\u0644\u062F\u0645\u064A\u0629 \u0641\u064A \u064A\u062F \u064A\u0632\u0646\u060C \u0648\u064A\u0634\u064A\u0631 \u0625\u0644\u064A\u0647\u0627.",
           "variants": [
             {
               "language": "en",
-              "_value": "The Gatekeeper lowers his gaze to the doll in Yazan’s hand and points to it\r\n                                    \r\n"
+              "_value": "The Gatekeeper lowers his gaze to the doll in Yazan\u2019s hand and points to it."
             },
             {
               "language": "ko",
-              "_value": "문지기는 야잔의 손에 든 인형을 내려다보며 그것을 가리킨다."
+              "_value": "\uBB38\uC9C0\uAE30\uB294 \uC57C\uC794\uC758 \uC190\uC5D0 \uB4E0 \uC778\uD615\uC744 \uB0B4\uB824\uB2E4\uBCF4\uBA70 \uADF8\uAC83\uC744 \uAC00\uB9AC\uD0A8\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_20",
-          "originalValue": " حارس البوابة: \"بدأ من أي اتجاه، يسارًا أو يمينًا. في كل دورة، قد تجد شيئًا لا ينتمي إلى المكان.    ",
+          "originalValue": " \u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629: \u0022\u0625\u0628\u062F\u0623 \u0645\u0646 \u0623\u064A \u0627\u062A\u062C\u0627\u0647\u060C \u064A\u0633\u0627\u0631\u064B\u0627 \u0623\u0648 \u064A\u0645\u064A\u0646\u064B\u0627. \u0641\u064A \u0643\u0644 \u062F\u0648\u0631\u0629\u060C \u0642\u062F \u062A\u062C\u062F \u0634\u064A\u0626\u064B\u0627 \u0644\u0627 \u064A\u0646\u062A\u0645\u064A \u0625\u0644\u0649 \u0627\u0644\u0645\u0643\u0627\u0646.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": "GATEKEEPER: “Start in either direction, left or right. In each loop, you may find something that does not belong”  "
+              "_value": "GATEKEEPER: \u201CStart in either direction, left or right. In each loop,\r\nyou may find something that does not belong.\u201D  "
             },
             {
               "language": "ko",
-              "_value": "문지기: “왼쪽이나 오른쪽, 어느 쪽으로든 시작하렴. 루프마다 주변과 어울리지 않는 무언가를 발견할 수도 있단다.”"
+              "_value": "\uBB38\uC9C0\uAE30: \u201C\uC67C\uCABD\uC774\uB098 \uC624\uB978\uCABD, \uC5B4\uB290 \uCABD\uC73C\uB85C\uB4E0 \uC2DC\uC791\uD558\uB834. \r\n\uB8E8\uD504\uB9C8\uB2E4 \uC8FC\uBCC0\uACFC \uC5B4\uC6B8\uB9AC\uC9C0 \uC54A\uB294 \uBB34\uC5B8\uAC00\uB97C \uBC1C\uACAC\uD560 \uC218\uB3C4 \uC788\uB2E8\uB2E4.\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_15",
-          "originalValue": " هناك، يرى فانوسًا يحمله كائن يقف في الظلال… كائن لم يرَ يزن مثله من قبل. أقدم من أن يُقاس بالعمر، وأكثر سكونًا من السكون نفسه.",
+          "originalValue": " \u0647\u0646\u0627\u0643\u060C \u064A\u0631\u0649 \u0641\u0627\u0646\u0648\u0633\u064B\u0627 \u064A\u062D\u0645\u0644\u0647 \u0643\u0627\u0626\u0646 \u064A\u0642\u0641 \u0641\u064A \u0627\u0644\u0638\u0644\u0627\u0644\u2026 \u0643\u0627\u0626\u0646 \u0644\u0645 \u064A\u0631\u064E \u064A\u0632\u0646 \u0645\u062B\u0644\u0647 \u0645\u0646 \u0642\u0628\u0644.\r\n \u0623\u0642\u062F\u0645 \u0645\u0646 \u0623\u0646 \u064A\u064F\u0642\u0627\u0633 \u0628\u0627\u0644\u0639\u0645\u0631\u060C \u0648\u0623\u0643\u062B\u0631 \u0633\u0643\u0648\u0646\u064B\u0627 \u0645\u0646 \u0627\u0644\u0633\u0643\u0648\u0646 \u0646\u0641\u0633\u0647.",
           "variants": [
             {
               "language": "en",
-              "_value": "There, he finds an ancient, motionless figure standing in the shadows, holding a lantern…unlike anything he has ever seen"
+              "_value": "There, he finds an ancient, motionless figure standing in the shadows, \r\nholding a lantern\u2026unlike anything he has ever seen."
             },
             {
               "language": "ko",
-              "_value": "그곳에서 야잔은 그림자 속에 미동도 없이 서 있는 고대의 인물을 발견한다. 그의 손에는 야잔이 지금껏 본 적 없는 등불이 들려 있다."
+              "_value": "\uADF8\uACF3\uC5D0\uC11C \uC57C\uC794\uC740 \uADF8\uB9BC\uC790 \uC18D\uC5D0 \uBBF8\uB3D9\uB3C4 \uC5C6\uC774 \uC11C \uC788\uB294 \uACE0\uB300\uC758 \uC778\uBB3C\uC744 \uBC1C\uACAC\uD55C\uB2E4.\r\n\uADF8\uC758 \uC190\uC5D0\uB294 \uC57C\uC794\uC774 \uC9C0\uAE08\uAECF \uBCF8 \uC801 \uC5C6\uB294 \uB4F1\uBD88\uC774 \uB4E4\uB824 \uC788\uB2E4."
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_18",
-          "originalValue": "حارس البوابة: \"أما الآن فقد اعتراه المرض. نسي هيئته، فأصبح يعيد نفسه مرارًا، باحثًا عمّا انتُزع منه.\"",
+          "originalValue": "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629: \u0022\u0623\u0645\u0627 \u0627\u0644\u0622\u0646 \u0641\u0642\u062F \u0627\u0639\u062A\u0631\u0627\u0647 \u0627\u0644\u0645\u0631\u0636.\r\n \u0646\u0633\u064A \u0647\u064A\u0626\u062A\u0647\u060C \u0641\u0623\u0635\u0628\u062D \u064A\u0639\u064A\u062F \u0646\u0641\u0633\u0647 \u0645\u0631\u0627\u0631\u064B\u0627\u060C \u0628\u0627\u062D\u062B\u064B\u0627 \u0639\u0645\u0651\u0627 \u0627\u0646\u062A\u064F\u0632\u0639 \u0645\u0646\u0647.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": " GATEKEEPER: \" Now it’s sick. It has forgotten its own shape, repeating itself again and again, searching for what was taken from it”"
+              "_value": "GATEKEEPER: \u0022 Now it\u2019s sick. It has forgotten its own shape,\r\nrepeating itself again and again, searching for what was taken from it\u201D"
             },
             {
               "language": "ko",
-              "_value": "문지기: “이제는 병들었지. 제 모습을 잊은 채, 빼앗긴 것을 찾아 몇 번이고 되풀이하고 있단다.”"
+              "_value": "\uBB38\uC9C0\uAE30: \u201C\uC774\uC81C\uB294 \uBCD1\uB4E4\uC5C8\uC9C0. \uC81C \uBAA8\uC2B5\uC744 \uC78A\uC740 \uCC44, \r\n\uBE7C\uC557\uAE34 \uAC83\uC744 \uCC3E\uC544 \uBA87 \uBC88\uC774\uACE0 \uB418\uD480\uC774\uD558\uACE0 \uC788\uB2E8\uB2E4.\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_21",
-          "originalValue": "حارس البوابة: إن لاحظت ما تغيّر، فعُد من حيث أتيت. وإن لم تجد شيئًا، فواصل السير في الاتجاه نفسه.\"",
+          "originalValue": "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629: \u0022\u0625\u0646 \u0644\u0627\u062D\u0638\u062A \u0645\u0627 \u062A\u063A\u064A\u0651\u0631\u060C \u0641\u0639\u064F\u062F \u0645\u0646 \u062D\u064A\u062B \u0623\u062A\u064A\u062A.\r\n\u0648\u0625\u0646 \u0644\u0645 \u062A\u062C\u062F \u0634\u064A\u0626\u064B\u0627\u060C \u0641\u0648\u0627\u0635\u0644 \u0627\u0644\u0633\u064A\u0631 \u0641\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0646\u0641\u0633\u0647.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": "GATEKEEPER: “ If you notice a change, turn back the way you came. If you find nothing, keep going in the same direction.\" "
+              "_value": "GATEKEEPER: \u201C If you notice a change, turn back the way you came. \r\nIf you find nothing, keep going in the same direction.\u0022 "
             },
             {
               "language": "ko",
-              "_value": "문지기: “변화를 발견하면 왔던 길로 되돌아가거라. 아무것도 발견하지 못하면 같은 방향으로 계속 가거라.”"
+              "_value": "\uBB38\uC9C0\uAE30: \u201C\uBCC0\uD654\uB97C \uBC1C\uACAC\uD558\uBA74 \uC654\uB358 \uAE38\uB85C \uB418\uB3CC\uC544\uAC00\uAC70\uB77C. \r\n\uC544\uBB34\uAC83\uB3C4 \uBC1C\uACAC\uD558\uC9C0 \uBABB\uD558\uBA74 \uAC19\uC740 \uBC29\uD5A5\uC73C\uB85C \uACC4\uC18D \uAC00\uAC70\uB77C.\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_22",
-          "originalValue": "حارس البوابة: \"كل اختيار صحيح ينزع مسمارًا، لكن خطأً واحدًا يعيدها كلها.\"",
+          "originalValue": "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629: \u0022\u0643\u0644 \u0627\u062E\u062A\u064A\u0627\u0631 \u0635\u062D\u064A\u062D \u064A\u0646\u0632\u0639 \u0645\u0633\u0645\u0627\u0631\u064B\u0627\u060C \u0644\u0643\u0646 \u062E\u0637\u0623\u064B \u0648\u0627\u062D\u062F\u064B\u0627 \u064A\u0639\u064A\u062F\u0647\u0627 \u0643\u0644\u0647\u0627.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": "Gatekeeper: “Each correct choice frees a nail. One mistake brings them all back.” "
+              "_value": "Gatekeeper: \u201CEach correct choice frees a nail. \r\nOne mistake brings them all back.\u201D "
             },
             {
               "language": "ko",
-              "_value": "문지기: “올바른 선택을 할 때마다 못이 하나씩 빠진단다. 선택을 한 번이라도 잘못하면 못이 전부 다시 박힌단다.”"
+              "_value": "\uBB38\uC9C0\uAE30: \u201C\uC62C\uBC14\uB978 \uC120\uD0DD\uC744 \uD560 \uB54C\uB9C8\uB2E4 \uBABB\uC774 \uD558\uB098\uC529 \uBE60\uC9C4\uB2E8\uB2E4. \r\n\uC120\uD0DD\uC744 \uD55C \uBC88\uC774\uB77C\uB3C4 \uC798\uBABB\uD558\uBA74 \uBABB\uC774 \uC804\uBD80 \uB2E4\uC2DC \uBC15\uD78C\uB2E8\uB2E4.\u201D"
             }
           ],
           "aliases": []
         },
         {
           "key": "Panel_23",
-          "originalValue": "حارس البوابة: \"الدمية تعرف...ثق بما تُريك إياه. لكن تذكّر، فقد تكون الدمية شاذة عن المألوف.\nاذهب الآن... سأبقى هنا.\"",
+          "originalValue": "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629: \u0022\u0627\u0644\u062F\u0645\u064A\u0629 \u062A\u0639\u0631\u0641...\u062B\u0642 \u0628\u0645\u0627 \u062A\u064F\u0631\u064A\u0643 \u0625\u064A\u0627\u0647. \u0644\u0643\u0646 \u062A\u0630\u0643\u0651\u0631\u060C \r\n\u0641\u0642\u062F \u062A\u0643\u0648\u0646 \u0627\u0644\u062F\u0645\u064A\u0629 \u0634\u0627\u0630\u0629 \u0639\u0646 \u0627\u0644\u0645\u0623\u0644\u0648\u0641. \u0627\u0630\u0647\u0628 \u0627\u0644\u0622\u0646... \u0633\u0623\u0628\u0642\u0649 \u0647\u0646\u0627.\u0022",
           "variants": [
             {
               "language": "en",
-              "_value": "Gatekeeper: “The doll knows… trust what it shows you. But remember, the doll itself might be an anomaly. Go now… I’ll be here.”"
+              "_value": "Gatekeeper: \u201CThe doll knows\u2026 trust what it shows you.\r\n But remember, the doll itself might be an anomaly. Go now\u2026 I\u2019ll be here.\u201D"
             },
             {
               "language": "ko",
-              "_value": "문지기: “인형은 알고 있단다… 인형이 보여 주는 것을 믿거라. 하지만 잊지 말거라. 인형 자체가 이상 현상일 수도 있단다. 이제 가거라… 난 여기 있겠다.”"
+              "_value": "\uBB38\uC9C0\uAE30: \u201C\uC778\uD615\uC740 \uC54C\uACE0 \uC788\uB2E8\uB2E4\u2026 \uC778\uD615\uC774 \uBCF4\uC5EC \uC8FC\uB294 \uAC83\uC744 \uBBFF\uAC70\uB77C. \uD558\uC9C0\uB9CC \uC78A\uC9C0 \uB9D0\uAC70\uB77C.\r\n\uC778\uD615 \uC790\uCCB4\uAC00 \uC774\uC0C1 \uD604\uC0C1\uC77C \uC218\uB3C4 \uC788\uB2E8\uB2E4. \uC774\uC81C \uAC00\uAC70\uB77C\u2026 \uB09C \uC5EC\uAE30 \uC788\uACA0\uB2E4.\u201D"
             }
           ],
           "aliases": []

@@ -319,7 +319,7 @@ public class AnomallyManager : MonoBehaviour
     {
         foreach (var item in anomalies)
         {
-          //  Debug.Log($"<color=green> {item.AnomalyName} , {item.AppearanceCount} , {item.IsDiscoverd} </color>");
+         Debug.Log($"<color=green> {item.AnomalyName} , {item.AppearanceCount} , {item.IsDiscoverd} </color>");
 
 
         }

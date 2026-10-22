@@ -13,7 +13,7 @@ public class StoryInput : MonoBehaviour
     private bool isSkip;
     private bool isSkipped=false;
 
-    float timer =3;
+    float timer =4;
     [SerializeField] Image load;
 
     [SerializeField] CanvasGroup nextPanelCanvasGroup;
