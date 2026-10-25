@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using AHAKuo.Signalia.LocalizationStandalone.Internal;
 using AHAKuo.Signalia.LocalizationStandalone.Framework;
+using UnityEngine.UI;
 
 public class AnomalyScore : MonoBehaviour
 {
@@ -12,10 +13,10 @@ public class AnomalyScore : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI discoveredCountText;
-
+    [SerializeField] private HorizontalLayoutGroup horizontalLayoutGroup;
     private int discoveredCount;
-
-    [SerializeField] private SimpleLocalizedText simpleText;
+    int totalAnomalies = 15;
+    //[SerializeField] private SimpleLocalizedText simpleText;
 
     private LocalizationEvents.LanguageChangeSubscription localizationSubscription;
 
@@ -23,14 +24,14 @@ public class AnomalyScore : MonoBehaviour
 
     private void Awake()
     {
-        if (simpleText != null)
-        {
-            simpleText.enabled = false;
-        }
-        else if (discoveredCountText != null)
-        {
-            discoveredCountLabel = discoveredCountText.text;
-        }
+        // if (simpleText != null)
+        // {
+        //     simpleText.enabled = false;
+        // }
+        // else if (discoveredCountText != null)
+        // {
+        //     discoveredCountLabel = discoveredCountText.text;
+        // }
     }
 
     private void Start()
@@ -58,6 +59,7 @@ public class AnomalyScore : MonoBehaviour
                 {
                     if (anomaly != null && anomaly.isDiscovered)
                     {
+                        Debug.Log($"Discovered Anomaly: {anomaly} - Count: {discoveredCount}");
                         discoveredCount++;
                     }
                 }
@@ -71,17 +73,19 @@ public class AnomalyScore : MonoBehaviour
     private void UpdateDiscoveredCountText()
     {
         if (discoveredCountText != null)
-        {
-            if (simpleText != null)
+        {string count= "";
+            if(LocalizationRuntime.CurrentLanguageCode == "ar")
             {
-                simpleText.UpdateText();
-                discoveredCountLabel = discoveredCountText.text;
+                horizontalLayoutGroup.reverseArrangement = true;
+               count = $"{totalAnomalies}/{discoveredCount}";
+            }else {
+                horizontalLayoutGroup.reverseArrangement = false;
+               count = $"{discoveredCount}/{totalAnomalies}";
             }
 
-            if(LocalizationRuntime.CurrentLanguageCode == "ar")
-            discoveredCountText.text = $"{discoveredCountLabel}{discoveredCount}/51";
-            else
-            discoveredCountText.text = $"{discoveredCountLabel}{discoveredCount}/15";
-        }
+            
+
+            discoveredCountText.text = $"{count}";
+            
     }
-}
+}}

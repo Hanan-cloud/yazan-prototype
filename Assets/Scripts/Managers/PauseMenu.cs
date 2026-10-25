@@ -17,6 +17,13 @@ public class PauseMenu : MonoBehaviour
     private bool isPaused = false;
     private bool isDolled = false;
 
+    [SerializeField] private AudioClip ClipOnOpen;
+    [SerializeField] private AudioClip ClipOnClose;
+
+    AudioSource audioSource;
+
+
+    
 
 
     [SerializeField] UnityEvent OnSetContinueButton;
