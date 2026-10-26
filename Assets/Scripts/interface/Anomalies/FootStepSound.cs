@@ -16,8 +16,7 @@ public class FootStepSound : AnomalyBase
     [SerializeField] List<Transform> rocks;
 
     float currentX;
-    [SerializeField] float shakeStrength;
-    [SerializeField] float shakeDuration;
+
     Coroutine  coroutine;
 
     Tween tween;
@@ -59,7 +58,7 @@ public class FootStepSound : AnomalyBase
         // soundSource.Play();
         soundObject.transform.position = soundstartPos.transform.position;
 
-        tween = soundObject.transform.DOLocalMoveX(currentX - 1.5f, 15).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
+        tween = soundObject.transform.DOLocalMoveX(currentX - 1.5f, 20).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
 
 
 
@@ -79,13 +78,8 @@ public class FootStepSound : AnomalyBase
                 soundSource.PlayOneShot(footstep[i]);
                 yield return new WaitForSeconds(0.2f);
 
-               // OnMonsterStep?.Invoke(transform.localPosition.x);
-                //for (int j = 0;j < rocks.Count; j++)
-                //{
-    
-
-                //    rocks[j].DOShakeRotation(shakeDuration, shakeStrength);
-                //}
+               OnMonsterStep?.Invoke(soundObject.transform.position.x);
+            
                 yield return new WaitForSeconds(1.3f);
 
             }

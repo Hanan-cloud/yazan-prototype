@@ -4,7 +4,7 @@ using UnityEngine;
 public class RockShakebyDistance : MonoBehaviour
 {
 
-    
+    Tween tween;    
 
     private void Start()
     {
@@ -18,24 +18,26 @@ public class RockShakebyDistance : MonoBehaviour
     void ShakeRock(float x)
     {
 
-        float distX = Mathf.Abs( transform.localPosition.x- x);
-        Debug.Log("===== distance: "+distX);
-
+        float distX = Mathf.Abs( transform.position.x- x);
+       
         float maxDistance = 5f;
 
         float t = Mathf.InverseLerp(maxDistance, 0f, distX);
 
-        float value = Mathf.Lerp(1f, 10f, t);
+        float value = Mathf.Lerp(5f, 25f, t);
 
-        Debug.Log(value);
+       
 
-
-        transform.DOShakeRotation(0.3f, value);
+        tween.Kill();
+       tween = transform.DOShakeRotation(0.5f, value);
 
 
 
     }
-
+    private void OnDisable()
+    {
+        FootStepSound.OnMonsterStep -= ShakeRock;
+    }
 
 
 }

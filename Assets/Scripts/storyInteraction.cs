@@ -125,8 +125,7 @@ public class storyInteraction : MonoBehaviour
     {
         if (isTextOpen)
         {
-            // Save the lore that was actually opened,
-            // even if the current story index has changed.
+            // Save the lore that was actually opened.
             if (loreManager != null && openedLoreIndex > 0)
             {
                 loreManager.MarkLoreAsRead(openedLoreIndex);
@@ -140,13 +139,19 @@ public class storyInteraction : MonoBehaviour
 
         isTextOpen = false;
 
-        storyCanvas.SetActive(false);
+        if (storyCanvas != null)
+        {
+            storyCanvas.SetActive(false);
+        }
 
-        interactionButton.SetActive(
-            isInRange &&
-            playerPos != null &&
-            CanInteract()
-        );
+        if (interactionButton != null)
+        {
+            interactionButton.SetActive(
+                isInRange &&
+                playerPos != null &&
+                CanInteract()
+            );
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -172,6 +177,9 @@ public class storyInteraction : MonoBehaviour
 
         playerPos = null;
 
-        interactionButton.SetActive(false);
+        if (interactionButton != null)
+        {
+            interactionButton.SetActive(false);
+        }
     }
 }

@@ -59,14 +59,14 @@ public class AnomalyScore : MonoBehaviour
                 {
                     if (anomaly != null && anomaly.isDiscovered)
                     {
-                        Debug.Log($"Discovered Anomaly: {anomaly} - Count: {discoveredCount}");
+                        //Debug.Log($"Discovered Anomaly: {anomaly} - Count: {discoveredCount}");
                         discoveredCount++;
                     }
                 }
             }
         }
 
-        Debug.Log($"Discovered Anomalies: {discoveredCount}");
+        //Debug.Log($"Discovered Anomalies: {discoveredCount}");
         UpdateDiscoveredCountText();
     }
 

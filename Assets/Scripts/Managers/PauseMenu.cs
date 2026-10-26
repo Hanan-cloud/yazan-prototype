@@ -3,10 +3,12 @@ using UnityEngine;
 using UnityEngine.Events;
 using DG.Tweening;
 using UnityEngine.InputSystem;
+using System;
 
 public class PauseMenu : MonoBehaviour
 {
     public static PauseMenu instance;
+    public static event Action<bool> StoppedStateChanged;
 
     [SerializeField] private InputActionReference cancelAction;
 
@@ -82,8 +84,8 @@ public class PauseMenu : MonoBehaviour
     {
         Cursor.visible = false;
 
-        isPaused = false;
-        isDolled = false;
+        SetPausedState(false);
+        SetDolledState(false);
         isPauseAnimating = false;
         isPauseClosing = false;
         isDollAnimating = false;
@@ -120,8 +122,8 @@ public class PauseMenu : MonoBehaviour
             Cursor.visible = false;
         }
 
-        isPaused = false;
-        isDolled = false;
+        SetPausedState(false);
+        SetDolledState(false);
         isPauseAnimating = false;
         isPauseClosing = false;
         isDollAnimating = false;
@@ -171,9 +173,10 @@ public class PauseMenu : MonoBehaviour
         {
             SettingsPanel.SetActive(false);
 
-            if (pauseButtonsPanel != null)
+            if (pauseButtonsPanel != null){
                 pauseButtonsPanel.SetActive(true);
-
+                OnSetContinueButton?.Invoke();
+            }
             return;
         }
 
@@ -195,7 +198,7 @@ public class PauseMenu : MonoBehaviour
 
         if (!isPaused)
         {
-            isPaused = true;
+            SetPausedState(true);
             Time.timeScale = 0f;
             Cursor.visible = true;
 
@@ -288,7 +291,7 @@ public class PauseMenu : MonoBehaviour
 
     private void FinishPauseClose()
     {
-        isPaused = false;
+        SetPausedState(false);
         isPauseAnimating = false;
         isPauseClosing = false;
 
@@ -314,7 +317,7 @@ public class PauseMenu : MonoBehaviour
             if (dollPanel == null || dollRect == null)
                 return;
 
-            isDolled = true;
+            SetDolledState(true);
             Time.timeScale = 0f;
 
             dollPanel.SetActive(true);
@@ -353,12 +356,32 @@ public class PauseMenu : MonoBehaviour
 
     private void FinishDollClose()
     {
-        isDolled = false;
+        SetDolledState(false);
         isDollAnimating = false;
         isDollClosing = false;
 
         Time.timeScale = isPaused ? 0f : 1f;
         Cursor.visible = isPaused;
+    }
+
+    private void SetPausedState(bool paused)
+    {
+        bool wasStopped = IsStopped;
+        isPaused = paused;
+        NotifyStoppedStateChanged(wasStopped);
+    }
+
+    private void SetDolledState(bool dolled)
+    {
+        bool wasStopped = IsStopped;
+        isDolled = dolled;
+        NotifyStoppedStateChanged(wasStopped);
+    }
+
+    private void NotifyStoppedStateChanged(bool wasStopped)
+    {
+        if (wasStopped != IsStopped)
+            StoppedStateChanged?.Invoke(IsStopped);
     }
 
     // --------------------------------------------------
