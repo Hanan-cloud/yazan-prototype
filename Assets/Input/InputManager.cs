@@ -131,15 +131,21 @@ public class InputManager : MonoBehaviour, GameInput.IPlayerActions, GameInput.I
 
     }
 
-    public void OnPause(InputAction.CallbackContext context)
-    {
-        PauseEvent?.Invoke();
-    }
+public void OnPause(InputAction.CallbackContext context)
+{
+    if (!context.performed)
+        return;
 
-    public void OnDoll(InputAction.CallbackContext context)
-    {
-        DollEvent?.Invoke();
-    }
+    PauseEvent?.Invoke();
+}
+
+public void OnDoll(InputAction.CallbackContext context)
+{
+    if (!context.performed)
+        return;
+
+    DollEvent?.Invoke();
+}
 
     public void OnInstructions(InputAction.CallbackContext context)
     {
