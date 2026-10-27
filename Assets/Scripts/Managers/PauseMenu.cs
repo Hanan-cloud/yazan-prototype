@@ -278,6 +278,7 @@ public class PauseMenu : MonoBehaviour
 
         isPauseClosing = true;
 
+
         PlaySound(ClipOnClose);
 
         PlayCloseAnimation(
@@ -478,7 +479,7 @@ public class PauseMenu : MonoBehaviour
 
     private void PlaySound(AudioClip clip)
     {
-        if (audioSource != null && clip != null)
+        if (audioSource != null && clip != null && !audioSource.isPlaying)
             audioSource.PlayOneShot(clip);
     }
 }

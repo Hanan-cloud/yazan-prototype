@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 460f3dd5ca569b0bf3f3895852d41689
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 412370
+  packageName: Cozy Feedback SFX - Free
+  packageVersion: 1.0
+  assetPath: Assets/AmazingSFX/Cozy Feedback SFX Free/Audio/UI/UI_Select_02.wav
+  uploadId: 1007342
