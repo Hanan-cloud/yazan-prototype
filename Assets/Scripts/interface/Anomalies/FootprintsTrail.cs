@@ -76,8 +76,8 @@ public class FootprintsTrail : AnomalyBase
 
     void GetInitialPos()
     { 
-        float temp = (rightEdge.position.x - leftEdge.position.x) / 2;
-        anomalyObject.transform.localPosition = new Vector3(temp, anomalyObject.transform.position.y, anomalyObject.transform.position.z);
+        float centerX = (leftEdge.position.x + rightEdge.position.x) / 2;
+        anomalyObject.transform.position = new Vector3(centerX, anomalyObject.transform.position.y, anomalyObject.transform.position.z);
 
     
 
@@ -86,7 +86,7 @@ public class FootprintsTrail : AnomalyBase
     void SetDir()
     {
 
-        if (UnityEngine.Random.Range(1, 7) % 2 == 0)
+        if (UnityEngine.Random.Range(1, 11) % 2 == 0)
         {
             direction = 1;
             leftSR.flipX = true;

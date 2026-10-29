@@ -67,9 +67,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _WindSpeed: 5
+    - _WindSpeed: 2
     - _Wind_Strength: 0.1
-    - _Wind_influence_mask: 5
+    - _Wind_influence_mask: 4
     - _Wind_speed: 0.05
     - _ZWrite: 0
     m_Colors:

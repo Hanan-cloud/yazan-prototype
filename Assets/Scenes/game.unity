@@ -2518,7 +2518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: NoReflection
+  anomalyName: 0
+  areaName: 0
 --- !u!114 &85858521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2532,6 +2533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MirrorRefAnomaly
   anomalyName: 0
+  areaName: 0
 --- !u!212 &85858522
 SpriteRenderer:
   serializedVersion: 2
@@ -10299,7 +10301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &239817187
 Transform:
   m_ObjectHideFlags: 0
@@ -10631,7 +10633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: 'ChurnLeather  '
+  anomalyName: 0
+  areaName: 0
 --- !u!114 &255130296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10645,6 +10648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReplaceAnomaly
   anomalyName: 0
+  areaName: 0
   originalObject: {fileID: 515963595}
   anomalyObject: {fileID: 812486999}
 --- !u!1 &257636913
@@ -11491,7 +11495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: BloodyDoll
+  anomalyName: 0
+  areaName: 0
 --- !u!114 &295207653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11505,6 +11510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DollAnomaly
   anomalyName: 39
+  areaName: 0
   doll: {fileID: 1502147358}
   normalDoll: {fileID: 1148639083290222801, guid: 887e0c4eb90955e479fa25481908e04d, type: 3}
 --- !u!1 &298595026
@@ -13470,6 +13476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootStepSound
   anomalyName: 40
+  areaName: 0
   soundObject: {fileID: 1957570358}
   soundstartPos: {fileID: 0}
   footstep:
@@ -13483,8 +13490,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  shakeStrength: 10
-  shakeDuration: 0.4
 --- !u!114 &375490448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13497,7 +13502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: 'StepSound  '
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &375995092
 GameObject:
   m_ObjectHideFlags: 0
@@ -24733,6 +24739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShadowAnomaly
   anomalyName: 33
+  areaName: 0
   sprite: {fileID: 460949187}
 --- !u!114 &832597616
 MonoBehaviour:
@@ -24746,7 +24753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: ShadowGrowing
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &834063571
 GameObject:
   m_ObjectHideFlags: 0
@@ -33285,6 +33293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LanternFlameAnomaly
   anomalyName: 17
+  areaName: 0
   originalColor: {r: 1, g: 0.62319684, b: 0, a: 1}
   anomalyColor: {r: 0.43336582, g: 1, b: 0, a: 1}
   flames:
@@ -33305,7 +33314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: LanternColor
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &1244885878
 GameObject:
   m_ObjectHideFlags: 0
@@ -36972,6 +36982,8 @@ MonoBehaviour:
   masterSlider: {fileID: 1567185006}
   musicSlider: {fileID: 444477114}
   sfxSlider: {fileID: 1637995577}
+  anomalySlider: {fileID: 0}
+  sliderSound: {fileID: 0}
 --- !u!4 &1402282403
 Transform:
   m_ObjectHideFlags: 0
@@ -39196,6 +39208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectsSwapper
   anomalyName: 37
+  areaName: 0
   swaps:
   - original: {fileID: 1069505539}
     replacement: {fileID: 1544561445}
@@ -39216,7 +39229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: CarvedTrees
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &1517974897
 GameObject:
   m_ObjectHideFlags: 0
@@ -45809,6 +45823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OppositeShadowAnomaly
   anomalyName: 34
+  areaName: 0
   yazanClone: {fileID: 1942707787}
 --- !u!4 &1587530024
 Transform:
@@ -45837,7 +45852,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: OppositeShadow
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &1587932737
 GameObject:
   m_ObjectHideFlags: 0
@@ -49992,6 +50008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::storyInteraction
   interactionButton: {fileID: 536758958}
   storyCanvas: {fileID: 1466770311}
+  loreManager: {fileID: 0}
+  storyPanel: {fileID: 0}
 --- !u!61 &1744635255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50340,7 +50358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: ObjectResize
+  anomalyName: 0
+  areaName: 0
 --- !u!114 &1753851671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50354,6 +50373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjecSize
   anomalyName: 18
+  areaName: 0
   objects:
   - {fileID: 54564173}
   - {fileID: 1232409085}
@@ -55492,6 +55512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectsSwapper
   anomalyName: 35
+  areaName: 0
   swaps:
   - original: {fileID: 1498627082}
     replacement: {fileID: 1602684627}
@@ -55518,7 +55539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: TwinPlants
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &1952264189
 GameObject:
   m_ObjectHideFlags: 0
@@ -61501,10 +61523,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a6a98315639d4d47b712c24f2a37e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
+  cancelAction: {fileID: 0}
   pausePanel: {fileID: 1179493960}
   pauseButtonsPanel: {fileID: 1080803441}
   dollPanel: {fileID: 1502147358}
   SettingsPanel: {fileID: 1383254442}
+  panel: {fileID: 0}
+  duration: 0.4
+  startScale: 0.01
+  stretchX: 1.08
+  stretchY: 0.92
+  closeDuration: 0.25
+  dollRect: {fileID: 0}
+  dollDuration: 0.4
+  ClipOnOpen: {fileID: 0}
+  ClipOnClose: {fileID: 0}
   OnSetContinueButton:
     m_PersistentCalls:
       m_Calls:
@@ -62105,6 +62138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MirrorRefAnomaly
   anomalyName: 0
+  areaName: 0
 --- !u!114 &2020281529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62117,7 +62151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: NoReflection
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &2021221810
 GameObject:
   m_ObjectHideFlags: 0
@@ -63039,6 +63074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectsSwapper
   anomalyName: 38
+  areaName: 0
   swaps:
   - original: {fileID: 1069505539}
     replacement: {fileID: 537675542}
@@ -63059,7 +63095,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: HollowTree
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &2080123664
 GameObject:
   m_ObjectHideFlags: 0
@@ -63743,13 +63780,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootprintsTrail
   anomalyName: 0
+  areaName: 0
   anomalyObject: {fileID: 982184400}
   leftEdge: {fileID: 1344692223}
   rightEdge: {fileID: 853079859}
   step: 1
   leftFoot: {fileID: 548425780}
   rightFoot: {fileID: 1526327748}
-  moveSpeed: 2
 --- !u!114 &2116867297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63762,7 +63799,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9954facc3ff868340a4716c0c8b76a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyNameSetter
-  anomalyName: FootprintsTrail
+  anomalyName: 0
+  areaName: 0
 --- !u!1 &2124486831
 GameObject:
   m_ObjectHideFlags: 0

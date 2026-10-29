@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PalmLeafsController
   windSpeed: 0.8
-  WindStrength: 0.2
+  WindStrength: 0.3
   windInfuluenceMask: 20
 --- !u!1 &3038194409026625246
 GameObject:
@@ -117,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6250412192347814494}
   - component: {fileID: 4344153474344098600}
+  - component: {fileID: 7850258862284090721}
   m_Layer: 0
   m_Name: Mid Atlas_10
   m_TagString: Untagged
@@ -165,7 +166,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: d6a2e5ba4ccde3a4681d548c3fa35fb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -198,6 +199,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &7850258862284090721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3038194409026625246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2eae3e0304a17d4686cff3f33a77cde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PalmLeafsController
+  windSpeed: 2
+  WindStrength: 0.1
+  windInfuluenceMask: 10
 --- !u!1 &5334312420447242210
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +543,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3047852507917525088, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d6a2e5ba4ccde3a4681d548c3fa35fb7, type: 2}
     - target: {fileID: 5740387843136516385, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}
       propertyPath: m_Name
       value: '# foreground Palm Anomaly'
@@ -535,16 +555,47 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7160351709057307694, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}
+      propertyPath: WindStrength
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160351709057307694, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}
+      propertyPath: windInfuluenceMask
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4952904523738146161, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2124833070136437992}
   m_SourcePrefab: {fileID: 100100000, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}
 --- !u!1 &4017915450722193871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5740387843136516385, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}
   m_PrefabInstance: {fileID: 8677157221081473262}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4384030937215698335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4952904523738146161, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}
+  m_PrefabInstance: {fileID: 8677157221081473262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2124833070136437992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384030937215698335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2eae3e0304a17d4686cff3f33a77cde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PalmLeafsController
+  windSpeed: 2
+  WindStrength: 0.3
+  windInfuluenceMask: 2
 --- !u!4 &7818717115945558788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1507260354432156650, guid: 6cd0a8386a4d5b948aef020e84761828, type: 3}

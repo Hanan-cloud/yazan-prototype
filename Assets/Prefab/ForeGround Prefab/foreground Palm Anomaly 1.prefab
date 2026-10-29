@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PalmLeafsController
   windSpeed: 1
   WindStrength: 1
-  windInfuluenceMask: 20
+  windInfuluenceMask: 10
 --- !u!1 &201142138350369233
 GameObject:
   m_ObjectHideFlags: 0
