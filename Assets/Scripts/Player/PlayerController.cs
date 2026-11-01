@@ -134,7 +134,7 @@ public class PlayerController : MonoBehaviour
             Vector3 scale = transform.localScale;
             scale.x = effectiveDirSign > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
             transform.localScale = scale;
-
+            
             SetAnimatorsState(isRuning ? Run : Walk);
         }
         else

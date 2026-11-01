@@ -18,17 +18,13 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private GameObject dollPanel;
     [SerializeField] private GameObject SettingsPanel;
 
-    [Header("Pause Animation")]
-    [SerializeField] private RectTransform panel;
-    [SerializeField] private float duration = 0.4f;
+    [Header("Doll Animation")]
+    [SerializeField] private RectTransform dollRect;
+    [SerializeField] private float dollDuration = 0.4f;
     [SerializeField] private float startScale = 0.01f;
     [SerializeField] private float stretchX = 1.08f;
     [SerializeField] private float stretchY = 0.92f;
     [SerializeField] private float closeDuration = 0.25f;
-
-    [Header("Doll Animation")]
-    [SerializeField] private RectTransform dollRect;
-    [SerializeField] private float dollDuration = 0.4f;
 
     [Header("Audio")]
     [SerializeField] private AudioClip ClipOnOpen;
@@ -40,15 +36,12 @@ public class PauseMenu : MonoBehaviour
 
     private bool isPaused;
     private bool isDolled;
+    private int pauseClosedFrame = -1;
 
-    // Prevent inputs from interrupting an active animation.
-    private bool isPauseAnimating;
-    private bool isPauseClosing;
     private bool isDollAnimating;
     private bool isDollClosing;
 
     private AudioSource audioSource;
-    private Tween pauseTween;
     private Tween dollTween;
 
     public bool IsStopped => isPaused || isDolled;
@@ -62,9 +55,6 @@ public class PauseMenu : MonoBehaviour
         }
 
         instance = this;
-
-        if (panel == null && pausePanel != null)
-            panel = pausePanel.GetComponent<RectTransform>();
 
         if (dollRect == null && dollPanel != null)
             dollRect = dollPanel.GetComponent<RectTransform>();
@@ -86,8 +76,6 @@ public class PauseMenu : MonoBehaviour
 
         SetPausedState(false);
         SetDolledState(false);
-        isPauseAnimating = false;
-        isPauseClosing = false;
         isDollAnimating = false;
         isDollClosing = false;
 
@@ -109,14 +97,12 @@ public class PauseMenu : MonoBehaviour
         if (cancelAction != null && cancelAction.action != null)
             cancelAction.action.performed -= OnCancelPerformed;
 
-        pauseTween?.Kill();
         dollTween?.Kill();
 
-        pauseTween = null;
         dollTween = null;
 
         // Do not leave the game paused if this component is disabled.
-        if (isPaused || isDolled || isPauseClosing || isDollClosing)
+        if (isPaused || isDolled || isDollClosing)
         {
             Time.timeScale = 1f;
             Cursor.visible = false;
@@ -124,8 +110,6 @@ public class PauseMenu : MonoBehaviour
 
         SetPausedState(false);
         SetDolledState(false);
-        isPauseAnimating = false;
-        isPauseClosing = false;
         isDollAnimating = false;
         isDollClosing = false;
 
@@ -166,9 +150,6 @@ public class PauseMenu : MonoBehaviour
         if (!context.performed || !isPaused)
             return;
 
-        if (isPauseAnimating || isPauseClosing)
-            return;
-
         if (SettingsPanel != null && SettingsPanel.activeSelf)
         {
             SettingsPanel.SetActive(false);
@@ -190,10 +171,7 @@ public class PauseMenu : MonoBehaviour
 
     public void TogglePause()
     {
-        if (isDolled || isDollClosing || isPauseClosing)
-            return;
-
-        if (isPauseAnimating)
+        if (isDolled || isDollClosing)
             return;
 
         if (!isPaused)
@@ -212,7 +190,7 @@ public class PauseMenu : MonoBehaviour
 
     public void OpenPauseButton()
     {
-        if (!isPaused || isPauseClosing)
+        if (!isPaused)
             return;
 
         if (SettingsPanel != null)
@@ -228,7 +206,7 @@ public class PauseMenu : MonoBehaviour
 
     public void OpenSetting()
     {
-        if (!isPaused || isPauseClosing || isPauseAnimating)
+        if (!isPaused)
             return;
 
         if (pauseButtonsPanel != null)
@@ -238,63 +216,38 @@ public class PauseMenu : MonoBehaviour
             SettingsPanel.SetActive(true);
 
         OnSetMasterSlider?.Invoke();
-
-        // The pause panel is already open; do not restart its animation.
         OpenPausePanel();
     }
 
     private void OpenPausePanel()
     {
-        if (pausePanel == null || panel == null)
+        if (pausePanel == null)
             return;
 
         if (!pausePanel.activeSelf)
         {
             pausePanel.SetActive(true);
-
             PlaySound(ClipOnOpen);
-
-            isPauseAnimating = true;
-            PlayOpenAnimation(panel, ref pauseTween, duration);
         }
     }
 
     public void Resume()
     {
-        if (!isPaused || isPauseAnimating || isPauseClosing)
+        if (!isPaused)
             return;
 
-        if (pausePanel == null || panel == null)
+        if (pausePanel != null && pausePanel.activeSelf)
         {
-            FinishPauseClose();
-            return;
+            PlaySound(ClipOnClose);
+            pausePanel.SetActive(false);
         }
 
-        if (!pausePanel.activeSelf)
-        {
-            FinishPauseClose();
-            return;
-        }
-
-        isPauseClosing = true;
-
-
-        PlaySound(ClipOnClose);
-
-        PlayCloseAnimation(
-            panel,
-            ref pauseTween,
-            pausePanel,
-            closeDuration,
-            FinishPauseClose
-        );
+        FinishPauseClose();
     }
 
     private void FinishPauseClose()
     {
         SetPausedState(false);
-        isPauseAnimating = false;
-        isPauseClosing = false;
 
         Time.timeScale = isDolled ? 0f : 1f;
         Cursor.visible = isDolled;
@@ -307,7 +260,7 @@ public class PauseMenu : MonoBehaviour
     public void ToggleDoll()
     {
         // Never let gameplay Doll input interfere with the pause menu.
-        if (isPaused || isPauseClosing || isPauseAnimating)
+        if (isPaused || Time.frameCount == pauseClosedFrame)
             return;
 
         if (isDollAnimating || isDollClosing)
@@ -368,6 +321,9 @@ public class PauseMenu : MonoBehaviour
     private void SetPausedState(bool paused)
     {
         bool wasStopped = IsStopped;
+        if (isPaused && !paused)
+            pauseClosedFrame = Time.frameCount;
+
         isPaused = paused;
         NotifyStoppedStateChanged(wasStopped);
     }
@@ -396,7 +352,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (target == null)
         {
-            ResetAnimationState(target);
+            isDollAnimating = false;
             return;
         }
 
@@ -429,9 +385,6 @@ public class PauseMenu : MonoBehaviour
 
         sequence.OnComplete(() =>
         {
-            if (target == panel)
-                isPauseAnimating = false;
-
             if (target == dollRect)
                 isDollAnimating = false;
         });
@@ -466,15 +419,6 @@ public class PauseMenu : MonoBehaviour
                 targetObject.SetActive(false);
                 onComplete?.Invoke();
             });
-    }
-
-    private void ResetAnimationState(RectTransform target)
-    {
-        if (target == panel)
-            isPauseAnimating = false;
-
-        if (target == dollRect)
-            isDollAnimating = false;
     }
 
     private void PlaySound(AudioClip clip)

@@ -58,7 +58,7 @@ public class FootStepSound : AnomalyBase
         // soundSource.Play();
         soundObject.transform.position = soundstartPos.transform.position;
 
-        tween = soundObject.transform.DOLocalMoveX(currentX - 1.5f, 20).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
+        tween = soundObject.transform.DOLocalMoveX(soundstartPos.transform.localPosition.x - 1.2f, 30).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
 
 
 

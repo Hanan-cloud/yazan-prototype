@@ -1,29 +1,24 @@
-using System;
 using UnityEngine;
 [RequireComponent(typeof(AnomalyNameSetter))]
 public class MirrorRefAnomaly : AnomalyBase
 {
-    //[SerializeField]
-    //private AnomalyList anomalyName;
 
-    //public AnomalyList AnomalyName
-    //{
-    //    get => anomalyName;
-    //}
+    [SerializeField] GameObject mirrorRef;
 
     private void Start()
     {
         SetAnomalyName();
     }
+
     public  override void ResetAnomaly()
     {
-        gameObject.SetActive(true);
+        mirrorRef.SetActive(true);
 
     }
 
     public override void SetAnomaly()
     {
-        gameObject.SetActive(false);
+        mirrorRef.SetActive(false);
     }
 
 
