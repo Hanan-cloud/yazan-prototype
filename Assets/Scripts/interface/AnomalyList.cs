@@ -6,9 +6,9 @@ public enum AnomalyList
     ChurnLeather,
     ChurnBleeding,
     BloodTrail,
-    ExcessCups,
+    ExcessMugs,
     CushionShadow,
-    DatesVanishing,
+    DatePlate,
     HairBraids,
     UnclearVoices,
     EyesOnFabric,
@@ -20,7 +20,7 @@ public enum AnomalyList
     ObjectsMultiply,
     ChestMoving,
     LanternColor,
-    ObjectResize,
+    MugsResize,
     ShadowOutside,
     CamelTwoHeaded,
     CamelTwistedLegs,
@@ -46,7 +46,7 @@ public enum AnomalyList
     DreamKiller,
     Camouflaged,
     MismatchedCreature,
-    RandomCry
+    InfantCry
 
 
 }

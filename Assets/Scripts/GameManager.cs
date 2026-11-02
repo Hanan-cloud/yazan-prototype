@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] UnityEvent onNailFinish;
 
     Image doll;
-    const int nailsCount=6;
+    const int nailsCount=10;
     int nails;
 
     private void Awake()
