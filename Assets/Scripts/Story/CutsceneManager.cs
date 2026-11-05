@@ -319,7 +319,7 @@ public class CutsceneManager : MonoBehaviour
     private void Finish()
     {
         DOTween.KillAll();
-        SceneManager.LoadScene("Demo");
+        SceneManager.LoadScene("FullGame");
     }
 }
 

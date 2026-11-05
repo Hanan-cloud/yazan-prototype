@@ -279,7 +279,7 @@
             },
             {
               "language": "zh",
-              "_value": " | 语言"
+              "_value": "语言"
             },
             {
               "language": "ja",
@@ -550,10 +550,6 @@
             {
               "language": "en",
               "_value": "Feedback"
-            },
-            {
-              "language": "ko",
-              "_value": null
             }
           ],
           "aliases": []
@@ -596,7 +592,7 @@
             },
             {
               "language": "pt-BR",
-              "_value": "Громкость окружения"
+              "_value": "Volume ambiente"
             },
             {
               "language": "de",
@@ -663,6 +659,38 @@
             {
               "language": "ko",
               "_value": "발견: "
+            },
+            {
+              "language": "de",
+              "_value": "Gefunden:"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Encontradas:"
+            },
+            {
+              "language": "ru",
+              "_value": "Найдено:"
+            },
+            {
+              "language": "pl",
+              "_value": "Znaleziono:"
+            },
+            {
+              "language": "fr",
+              "_value": "Trouvées :"
+            },
+            {
+              "language": "ja",
+              "_value": "発見済み："
+            },
+            {
+              "language": "zh",
+              "_value": "已发现："
+            },
+            {
+              "language": "es",
+              "_value": "Encontradas:"
             }
           ],
           "aliases": []
@@ -798,12 +826,7 @@
         {
           "key": "Korean",
           "originalValue": "한국어",
-          "variants": [
-            {
-              "language": "en",
-              "_value": null
-            }
-          ],
+          "variants": [],
           "aliases": []
         },
         {
@@ -877,16 +900,12 @@
               "_value": "他离开时无话可说。归来时，却带回了唯一值得讲述的故事。"
             },
             {
-              "language": "jp",
-              "_value": "彼は何も語ることがなくて去った。そして、語る価値のある唯一の物語を携えて戻ってきた。"
-            },
-            {
               "language": "fr",
               "_value": "Il est parti parce qu’il n’avait rien à dire. Il est revenu avec la seule histoire qui méritait d’être racontée."
             },
             {
               "language": "pl",
-              "_value": "Il est parti parce qu’il n’avait rien à dire. Il est revenu avec la seule histoire qui méritait d’être racontée."
+              "_value": "Odszedł, ponieważ nie miał nic do powiedzenia. Wrócił z jedyną historią, którą warto było opowiedzieć."
             },
             {
               "language": "ko",
@@ -895,10 +914,6 @@
             {
               "language": "ru",
               "_value": "Он ушёл, потому что ему нечего было сказать. Он вернулся с единственной историей, которую стоило рассказать."
-            },
-            {
-              "language": "pt",
-              "_value": "Ele foi embora porque não tinha nada a dizer. Voltou com a única história que valia a pena contar."
             },
             {
               "language": "de",
@@ -932,16 +947,12 @@
               "_value": "十枚钉子。十道封印。一个孩子带着它们，却没有人问过一句。"
             },
             {
-              "language": "jp",
-              "_value": "十本の釘。十の封印。それらをすべて抱えた子どもに、誰もひとつも尋ねなかった。"
-            },
-            {
               "language": "fr",
               "_value": "Dix clous. Dix sceaux. Un enfant les portait tous sans que personne ne pose la moindre question."
             },
             {
               "language": "pl",
-              "_value": "Dix clous. Dix sceaux. Un enfant les portait tous sans que personne ne pose la moindre question."
+              "_value": "Dziesięć gwoździ. Dziesięć pieczęci. Dziecko niosło je wszystkie, a nikt nie zadał ani jednego pytania."
             },
             {
               "language": "ko",
@@ -950,10 +961,6 @@
             {
               "language": "ru",
               "_value": "Десять гвоздей. Десять печатей. Ребёнок нёс их все, и никто не задал ни единого вопроса."
-            },
-            {
-              "language": "pt",
-              "_value": "Dez pregos. Dez selos. Um menino os carregava, e ninguém fez uma pergunta sequer."
             },
             {
               "language": "de",
@@ -987,16 +994,12 @@
               "_value": "山谷是一扇门，灯光是一份邀请。他穿过了这两道门，却没有读过门上的文字。"
             },
             {
-              "language": "jp",
-              "_value": "谷は扉だった。灯りは誘いだった。彼はその両方をくぐり抜けた。頭上に記された言葉を読むこともなく。"
-            },
-            {
               "language": "fr",
               "_value": "La vallée était une porte. Les lumières, une invitation. Il les a traversées toutes les deux sans lire ce qui était écrit au-dessus."
             },
             {
               "language": "pl",
-              "_value": "La vallée était une porte. Les lumières, une invitation. Il les a traversées toutes les deux sans lire ce qui était écrit au-dessus."
+              "_value": "Dolina była drzwiami. Światła były zaproszeniem. Przeszedł przez jedno i drugie, nie czytając tego, co było nad nimi napisane."
             },
             {
               "language": "ko",
@@ -1005,10 +1008,6 @@
             {
               "language": "ru",
               "_value": "Долина была дверью. Огни были приглашением. Он прошёл через то и другое, не прочитав, что было написано над ними."
-            },
-            {
-              "language": "pt",
-              "_value": "O vale era uma porta. As luzes eram um convite. Ele atravessou os dois sem ler o que estava escrito acima deles."
             },
             {
               "language": "de",
@@ -1042,16 +1041,12 @@
               "_value": "Al-Khafa没有死。它只是屏住了呼吸。失去那颗甘愿奉献的心，这个世界便无法维持原本的形态。它不断变幻，不断重复，渐渐忘了自己原来的模样。"
             },
             {
-              "language": "jp",
-              "_value": "Al-Khafaは死んではいない。ただ息を潜めている。自ら進んで捧げられた心なくして、この世界はその姿を保てない。姿を変え、繰り返し、かつての姿を忘れていく。"
-            },
-            {
               "language": "fr",
               "_value": "Al-Khafa n’est pas morte. Elle retient son souffle. Sans son cœur offert de plein gré, le monde ne peut conserver sa forme. Il change. Il se répète. Il oublie ce qu’il était avant."
             },
             {
               "language": "pl",
-              "_value": "Al-Khafa n’est pas morte. Elle retient son souffle. Sans son cœur offert de plein gré, le monde ne peut conserver sa forme. Il change. Il se répète. Il oublie ce qu’il était avant."
+              "_value": "Al-Khafa nie umarła. Wstrzymuje oddech. Świat bez serca oddanego dobrowolnie nie może zachować swojego kształtu. Zmienia się. Powtarza się. Zapomina, jak wyglądał wcześniej."
             },
             {
               "language": "ko",
@@ -1060,10 +1055,6 @@
             {
               "language": "ru",
               "_value": "Аль-Хафа не умерла. Она затаила дыхание. Без сердца, отданного по доброй воле, этот мир не может сохранить свой облик. Он меняется. Повторяется. Забывает, каким был прежде."
-            },
-            {
-              "language": "pt",
-              "_value": "Al-Khafa não morreu. Está prendendo a respiração. Um mundo sem o coração que se entrega por vontade própria não consegue manter a própria forma. Ele muda. Se repete. Esquece como era antes."
             },
             {
               "language": "de",
@@ -1097,16 +1088,12 @@
               "_value": "这世界的中心有一棵树，它比统治者更加古老。它从不索取，只接受馈赠。它所接收的一切，都必须是自愿奉上的；否则，它便会拒绝，而整个世界也将随之被拒绝。"
             },
             {
-              "language": "jp",
-              "_value": "この世界の中心には、統治者よりも古い木がある。木は奪わない。受け取るのだ。木が受け取るものは、自らの意志で捧げられなければならない。そうでなければ、木はそれを拒み、それに伴うすべてを拒む。"
-            },
-            {
               "language": "fr",
               "_value": "Au cœur de ce monde se trouve un arbre plus ancien que son souverain. Il ne prend pas. Il reçoit. Tout ce qu’il reçoit doit lui être offert de plein gré, sans quoi il le rejettera avec tout ce qui l’accompagne."
             },
             {
               "language": "pl",
-              "_value": "Au cœur de ce monde se trouve un arbre plus ancien que son souverain. Il ne prend pas. Il reçoit. Tout ce qu’il reçoit doit lui être offert de plein gré, sans quoi il le rejettera avec tout ce qui l’accompagne."
+              "_value": "W centrum tego świata rośnie drzewo starsze od jego władcy. Nie zabiera. Przyjmuje. To, co otrzymuje, musi być ofiarowane dobrowolnie, inaczej odrzuci to wraz ze wszystkim, co temu towarzyszy."
             },
             {
               "language": "ko",
@@ -1115,10 +1102,6 @@
             {
               "language": "ru",
               "_value": "В центре этого мира растёт дерево, которое старше самого правителя. Оно не берёт, а принимает. И то, что оно принимает, должно быть отдано добровольно. Иначе оно отвергнет дар, а заодно и всё остальное."
-            },
-            {
-              "language": "pt",
-              "_value": "No centro deste mundo há uma árvore mais antiga que seu governante. Ela não toma. Ela recebe. Tudo o que recebe precisa ser oferecido de livre vontade. Caso contrário, ela o rejeitará, junto com tudo o que vier com ele."
             },
             {
               "language": "de",
@@ -1152,16 +1135,12 @@
               "_value": "他爱女儿，就像统治者爱自己的王冠。他从未问过她：“你想要什么？”他告诉自己，那就是爱。也许曾经是吧。但不懂倾听的爱，不过是强迫的另一种说法。"
             },
             {
-              "language": "jp",
-              "_value": "彼は娘を、統治者が王冠を愛するように愛した。一度も尋ねたことはなかった。「君は何を望む？」と。それを愛だと言い聞かせていた。そうだったのかもしれない。だが、耳を傾けない愛は、ただ強いることの別の呼び名にすぎない。"
-            },
-            {
               "language": "fr",
               "_value": "Il aimait sa fille comme un souverain aime sa couronne. Jamais il ne lui a demandé : « Que veux-tu ? » Il se disait que c’était de l’amour. Peut-être que ça l’était. Mais un amour qui n’écoute pas, c’est une autre façon d’imposer sa volonté."
             },
             {
               "language": "pl",
-              "_value": "Il aimait sa fille comme un souverain aime sa couronne. Jamais il ne lui a demandé : « Que veux-tu ? » Il se disait que c’était de l’amour. Peut-être que ça l’était. Mais un amour qui n’écoute pas, c’est une autre façon d’imposer sa volonté."
+              "_value": "Kochał swoją córkę tak, jak władca kocha swoją koronę. Ani razu nie zapytał: „Czego pragniesz?”. Wmawiał sobie, że to miłość. Być może nią była. Lecz miłość, która nie słucha, jest tylko innym słowem na przymus."
             },
             {
               "language": "ko",
@@ -1170,10 +1149,6 @@
             {
               "language": "ru",
               "_value": "Он любил дочь, как правитель любит свою корону. Он ни разу не спросил её: «Чего ты хочешь?» Он уверял себя, что это любовь. Может, так и было. Но любовь, которая не умеет слушать, всего лишь другое слово для принуждения."
-            },
-            {
-              "language": "pt",
-              "_value": "Ele amava a filha como um governante ama a própria coroa. Nunca perguntou: “O que você quer?” Dizia a si mesmo que aquilo era amor. Talvez fosse. Mas o amor que não sabe ouvir é só outra forma de impor a própria vontade."
             },
             {
               "language": "de",
@@ -1207,16 +1182,12 @@
               "_value": "守门人明白统治者不明白的道理：自愿给予的力量能够治愈，强行夺取的力量只会带来毁灭。因此，他封印了她，明知世界会继续衰败，也明知统治者永远不会原谅他。"
             },
             {
-              "language": "jp",
-              "_value": "門番は、統治者にはわからなかったことを理解していた。自ら進んで与えられた力は癒やす。力ずくで奪われた力は破壊をもたらす。だから彼は彼女を封じた。世界が衰え続けることも、統治者が決して自分を許さないことも承知の上で。"
-            },
-            {
               "language": "fr",
               "_value": "Le gardien du portail avait compris ce que le souverain ne pouvait pas comprendre. Le pouvoir offert librement guérit. Le pouvoir arraché par la force détruit. Alors il l’a scellée, sachant que le monde continuerait de dépérir et que le souverain ne lui pardonnerait jamais."
             },
             {
               "language": "pl",
-              "_value": "Le gardien du portail avait compris ce que le souverain ne pouvait pas comprendre. Le pouvoir offert librement guérit. Le pouvoir arraché par la force détruit. Alors il l’a scellée, sachant que le monde continuerait de dépérir et que le souverain ne lui pardonnerait jamais."
+              "_value": "Strażnik bramy zrozumiał to, czego władca nie potrafił pojąć. Moc dana dobrowolnie uzdrawia. Moc odebrana siłą niszczy. Dlatego zapieczętował ją, wiedząc, że świat będzie nadal podupadał, a władca nigdy mu nie wybaczy."
             },
             {
               "language": "ko",
@@ -1225,10 +1196,6 @@
             {
               "language": "ru",
               "_value": "Страж ворот понял то, чего не понял правитель. Сила, отданная добровольно, исцеляет. Сила, отнятая силой, разрушает. Поэтому он запечатал её, зная, что мир будет и дальше приходить в упадок и что правитель никогда его не простит."
-            },
-            {
-              "language": "pt",
-              "_value": "O guardião do portal entendeu o que o governante não conseguiu. O poder oferecido de livre vontade cura. O poder tomado à força destrói. Por isso, ele a selou, sabendo que o mundo continuaria se deteriorando e que o governante jamais o perdoaria."
             },
             {
               "language": "de",
@@ -1262,16 +1229,12 @@
               "_value": "你手中的那个娃娃，并非真正的娃娃。它体内封着一个灵魂。这个灵魂透过你的双手，感受过每一次循环、你做出的每一个决定，也感受过你在不知它为何物时带着它走过的每一刻。它并非自愿被封印其中，却选择留下。而接下来会发生什么，它早已做出决定。"
             },
             {
-              "language": "jp",
-              "_value": "あなたの手の中にある人形は、人形ではない。その中には魂が封じられていた。その魂は、あなたの手の中で過ごしたすべてのループと、あなたが下したすべての決断、そしてそれが何かも知らずに運んでいた一瞬一瞬を感じてきた。自ら封じられることを選んだわけではない。それでも、留まることは自分で選んだ。そして、この先に何が起きるかはもう決めている。"
-            },
-            {
               "language": "fr",
               "_value": "La poupée que tu tiens entre les mains n’est pas une poupée. Une âme y a été scellée. Cette âme a ressenti, au creux de tes mains, chaque boucle, chacune de tes décisions et chaque instant où tu l’as portée sans savoir ce qu’elle était. Elle n’a pas choisi d’être scellée. Mais elle a choisi de rester. Et elle a déjà décidé de la suite."
             },
             {
               "language": "pl",
-              "_value": "La poupée que tu tiens entre les mains n’est pas une poupée. Une âme y a été scellée. Cette âme a ressenti, au creux de tes mains, chaque boucle, chacune de tes décisions et chaque instant où tu l’as portée sans savoir ce qu’elle était. Elle n’a pas choisi d’être scellée. Mais elle a choisi de rester. Et elle a déjà décidé de la suite."
+              "_value": "Lalka w twoich rękach nie jest lalką. Zamknięto w niej duszę. Duszę, która przez twoje ręce odczuła każdą pętlę, każdą podjętą przez ciebie decyzję i każdą chwilę, gdy ją niosłeś, nie wiedząc, czym jest. Nie wybrała uwięzienia. Ale wybrała pozostanie. I już zdecydowała, co będzie dalej."
             },
             {
               "language": "ko",
@@ -1280,10 +1243,6 @@
             {
               "language": "ru",
               "_value": "Кукла в твоих руках вовсе не кукла. Внутри неё запечатана душа. Она чувствовала каждый цикл, пройденный вместе с тобой, каждое твоё решение и каждое мгновение, когда ты нёс её, не зная, что она такое. Она не выбирала быть запечатанной, но остаться решила сама. И уже решила, что будет дальше."
-            },
-            {
-              "language": "pt",
-              "_value": "O boneco que você tem nas mãos não é um boneco. Uma alma foi selada dentro dele. Essa alma sentiu, pelas suas mãos, cada loop, cada decisão sua e cada instante em que você o carregou sem saber o que era. Não escolheu ser selada, mas escolheu ficar. E já decidiu o que vem depois."
             },
             {
               "language": "de",
@@ -1317,16 +1276,12 @@
               "_value": "还剩一枚钉子。还剩一个真相。一路发生的一切、每一次循环、你发现的每一处异常、你拔出的每一枚钉子，都将你引向这里。引向一个本不该由你做出、却由你来应允的选择。"
             },
             {
-              "language": "jp",
-              "_value": "残る釘は一本。残る真実はひとつ。起きたすべてのことが、あなたをここへ導いていた。すべてのループ。見つけた異変の一つひとつ。解き放った釘の一つひとつも。選ぶのはあなたではない。だが、それを許すかどうかはあなた次第だ。"
-            },
-            {
               "language": "fr",
               "_value": "Il ne reste qu’un clou. Il ne reste qu’une vérité. Tout t’a mené jusqu’ici : chaque boucle, chaque anomalie que tu as découverte, chaque clou que tu as libéré. Jusqu’à un choix qu’il ne t’a jamais appartenu de faire. Mais qu’il t’appartient de permettre."
             },
             {
               "language": "pl",
-              "_value": "Il ne reste qu’un clou. Il ne reste qu’une vérité. Tout t’a mené jusqu’ici : chaque boucle, chaque anomalie que tu as découverte, chaque clou que tu as libéré. Jusqu’à un choix qu’il ne t’a jamais appartenu de faire. Mais qu’il t’appartient de permettre."
+              "_value": "Pozostał jeden gwóźdź. Pozostała jedna prawda. Wszystko, co się wydarzyło — każda pętla, każda znaleziona anomalia, każdy uwolniony gwóźdź — prowadziło tutaj. Do wyboru, którego nigdy nie miałeś dokonać. Ale możesz pozwolić, by został dokonany."
             },
             {
               "language": "ko",
@@ -1335,10 +1290,6 @@
             {
               "language": "ru",
               "_value": "Остался один гвоздь. Осталась одна правда. Сюда вели каждый цикл, каждая обнаруженная тобой аномалия и каждый гвоздь, который тебе удалось освободить. К выбору, который тебе не дано сделать, но ты можешь позволить ему состояться."
-            },
-            {
-              "language": "pt",
-              "_value": "Falta um prego. Falta uma verdade. Tudo o que aconteceu estava levando você até aqui: cada loop, cada anomalia que você encontrou, cada prego que você libertou. Até uma escolha que nunca coube a você fazer, mas que cabe a você permitir."
             },
             {
               "language": "de",

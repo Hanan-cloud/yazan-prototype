@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp-firstpass::ES3Defaults
   settings:
     _location: 0
-    path: YazanDemo.es3
+    path: YazanF.es3
     encryptionType: 0
     compressionType: 0
     encryptionPassword: password

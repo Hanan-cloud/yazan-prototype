@@ -15,7 +15,7 @@ public class AnomalyScore : MonoBehaviour
     [SerializeField] private TextMeshProUGUI discoveredCountText;
     [SerializeField] private HorizontalLayoutGroup horizontalLayoutGroup;
     private int discoveredCount;
-    int totalAnomalies = 15;
+    int totalAnomalies = 7;
     //[SerializeField] private SimpleLocalizedText simpleText;
 
     private LocalizationEvents.LanguageChangeSubscription localizationSubscription;
@@ -73,7 +73,8 @@ public class AnomalyScore : MonoBehaviour
     private void UpdateDiscoveredCountText()
     {
         if (discoveredCountText != null)
-        {string count= "";
+        {
+            string count= "";
             if(LocalizationRuntime.CurrentLanguageCode == "ar")
             {
                 horizontalLayoutGroup.reverseArrangement = true;

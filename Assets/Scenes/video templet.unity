@@ -990,7 +990,7 @@ MonoBehaviour:
   - shot: {fileID: 32900000, guid: 1c9b2747cc23d124c824304dd7fa7311, type: 3}
     loopShot: {fileID: 32900000, guid: 1c9b2747cc23d124c824304dd7fa7311, type: 3}
     numberOfTexts: 5
-  nextSceneName: Demo
+  nextSceneName: FullGame
   textKey: Panel_
   trackNumToChangeMusic: 9
   firstClip: {fileID: 8300000, guid: 255d0b3de3584485f9dd59171118d7bd, type: 3}

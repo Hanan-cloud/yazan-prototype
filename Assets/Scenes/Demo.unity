@@ -2983,6 +2983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MirrorRefAnomaly
   anomalyName: 0
   areaName: 0
+  mirrorRef: {fileID: 0}
 --- !u!212 &85858522
 SpriteRenderer:
   serializedVersion: 2
@@ -11086,7 +11087,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177345558}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -33630,8 +33631,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dfc66ab41ec90d4c9dc03fc9c1d1c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerEffects
-  clipList:
-  - {fileID: 8300000, guid: dd3a9bf23f1906c41820c9956b72b01f, type: 3}
+  soilClips: []
+  concreteClips: []
+  soilLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  concreteLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  rayLength: 1
   stepEffect: {fileID: 0}
 --- !u!212 &777855776
 SpriteRenderer:
@@ -36505,6 +36513,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnviromentSounds
   mixer: {fileID: 24100000, guid: d10da5a3f7998964292470b2b8bff166, type: 2}
+  cutoffFreq: CuttoffFreq
+  defaultFrequency: 22000
+  smoothTime: 0.08
   tentAreaAudio: {fileID: 751338465}
   camelAreaAudio: {fileID: 1537129527}
   ruinsAreaAudio: {fileID: 2051491553}
@@ -47642,8 +47653,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dfc66ab41ec90d4c9dc03fc9c1d1c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerEffects
-  clipList:
-  - {fileID: 8300000, guid: b1b94cca920e0544590c1a77049a7bd4, type: 3}
+  soilClips: []
+  concreteClips: []
+  soilLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  concreteLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  rayLength: 1
   stepEffect: {fileID: 161777598}
 --- !u!1 &1248771427
 GameObject:
@@ -77329,14 +77347,12 @@ MonoBehaviour:
   pauseButtonsPanel: {fileID: 1080803441}
   dollPanel: {fileID: 1502147358}
   SettingsPanel: {fileID: 1383254442}
-  panel: {fileID: 1419430117}
-  duration: 0.4
+  dollRect: {fileID: 1502147362}
+  dollDuration: 0.4
   startScale: 0.01
   stretchX: 1.08
   stretchY: 0.92
   closeDuration: 0.25
-  dollRect: {fileID: 1502147362}
-  dollDuration: 0.4
   ClipOnOpen: {fileID: 8300000, guid: 83ffb5b9fca90084581d28bfdaa533e9, type: 3}
   ClipOnClose: {fileID: 8300000, guid: d9f511aa90e3e6c409e109764c25eb5a, type: 3}
   OnSetContinueButton:
@@ -78474,6 +78490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MirrorRefAnomaly
   anomalyName: 0
   areaName: 0
+  mirrorRef: {fileID: 0}
 --- !u!114 &2020281529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80875,7 +80892,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078023984}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
