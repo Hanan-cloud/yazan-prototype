@@ -1,4 +1,5 @@
 
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,6 +25,7 @@ public class LoreManager : MonoBehaviour
 
     private int currentLoreIndex;
     private bool isLoreUnlocked;
+    private Coroutine refreshCoroutine;
 
     // Lore read during the current progress sequence.
     private readonly HashSet<int> readThisSession = new();
@@ -101,37 +103,51 @@ public class LoreManager : MonoBehaviour
 
     public void RefreshLoreStates()
     {
+        if (refreshCoroutine != null)
+            StopCoroutine(refreshCoroutine);
+
+        refreshCoroutine = StartCoroutine(RefreshLoreStatesRoutine());
+    }
+
+    private IEnumerator RefreshLoreStatesRoutine()
+    {
         for (int i = 1; i <= LoreCount; i++)
         {
             List<GlowController> loreObjects = GetLoreList(i);
 
-            if (loreObjects == null)
-                continue;
+            if (loreObjects != null)
+            {
+                if (!isLoreUnlocked)
+                {
+                    SetLoreOff(loreObjects);
+                }
+                else
+                {
+                    bool isCurrent = i == currentLoreIndex;
+                    bool readThisRun = readThisSession.Contains(i);
+                    bool savedAsRead = IsLoreRead(i);
 
-            if (!isLoreUnlocked)
-            {
-                SetLoreOff(loreObjects);
-                continue;
+                    // The current lore can glow again after progress returns to it.
+                    if (isCurrent && !readThisRun)
+                    {
+                        SetLoreCanRead(loreObjects);
+                    }
+                    else if (savedAsRead || readThisRun)
+                    {
+                        SetLoreRead(loreObjects);
+                    }
+                    else
+                    {
+                        SetLoreOff(loreObjects);
+                    }
+                }
             }
 
-            bool isCurrent = i == currentLoreIndex;
-            bool readThisRun = readThisSession.Contains(i);
-            bool savedAsRead = IsLoreRead(i);
-
-            // The current lore can glow again after progress returns to it.
-            if (isCurrent && !readThisRun)
-            {
-                SetLoreCanRead(loreObjects);
-            }
-            else if (savedAsRead || readThisRun)
-            {
-                SetLoreRead(loreObjects);
-            }
-            else
-            {
-                SetLoreOff(loreObjects);
-            }
+            if (i < LoreCount)
+                yield return new WaitForSeconds(0.5f);
         }
+
+        refreshCoroutine = null;
     }
 
     public void MarkLoreAsRead(int loreIndex)

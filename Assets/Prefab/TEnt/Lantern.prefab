@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 6081389671454342}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.222, y: 0.252, z: 0}
+  m_LocalPosition: {x: -0.411, y: 0.706, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -110,8 +110,8 @@ Transform:
   m_GameObject: {fileID: 3294303740522381993}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.22679901, y: 0.41739988, z: 0}
-  m_LocalScale: {x: 0.66562647, y: 0.7126755, z: 0.7468045}
+  m_LocalPosition: {x: -0.4087, y: 0.7818, z: 0}
+  m_LocalScale: {x: 0.39691305, y: 0.42496842, z: 0.4453195}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4746560166786751857}
@@ -201,8 +201,8 @@ Transform:
   m_GameObject: {fileID: 5594806349901976822}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.21630096, y: 0.47200012, z: 0}
-  m_LocalScale: {x: 0.6731, y: 0.6731, z: 0.6731}
+  m_LocalPosition: {x: -0.4024, y: 0.8144, z: 0}
+  m_LocalScale: {x: 0.40136954, y: 0.40136954, z: 0.40136954}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4746560166786751857}
@@ -325,7 +325,7 @@ Transform:
   m_GameObject: {fileID: 8692434354984784217}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.92, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -359,8 +359,8 @@ Transform:
   m_GameObject: {fileID: 8851155350818122402}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.22399902, y: 0.30700016, z: 0}
-  m_LocalScale: {x: 0.33262974, y: 0.42190728, z: 0.6012129}
+  m_LocalPosition: {x: -0.407, y: 0.716, z: 0}
+  m_LocalScale: {x: 0.19834712, y: 0.2515833, z: 0.35850325}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4746560166786751857}

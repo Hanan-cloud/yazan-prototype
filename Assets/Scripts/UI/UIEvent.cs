@@ -50,13 +50,22 @@ public class UIEvent : MonoBehaviour
     }
     void OnLanguageChanged()
     {
-        for (int i = 0; i < logos.Count; i++) 
+        foreach (Logos item in logos)
         {
-            logos[i].logo.SetActive(false);
+            if (item.logo != null)
+            {
+                item.logo.SetActive(false);
+            }
+        }
 
-            logosDic[LocalizationRuntime.CurrentLanguageCode].SetActive(true);
-
-
+        string language = LocalizationRuntime.CurrentLanguageCode == "ar" ? "ar" : "en";
+        if (logosDic.TryGetValue(language, out GameObject logo))
+        {
+            logo.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning($"No logo configured for language: {language}", this);
         }
 
     }

@@ -1,0 +1,1709 @@
+{
+  "pages": [
+    {
+      "pageId": "MAIN MENU",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "Start_Key",
+          "originalValue": "ابدأ",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Start"
+            },
+            {
+              "language": "ko",
+              "_value": "게임 시작"
+            },
+            {
+              "language": "es",
+              "_value": "Empezar"
+            },
+            {
+              "language": "zh",
+              "_value": "开始游戏"
+            },
+            {
+              "language": "ja",
+              "_value": "ゲーム開始"
+            },
+            {
+              "language": "fr",
+              "_value": "Jouer"
+            },
+            {
+              "language": "pl",
+              "_value": "Rozpocznij grę"
+            },
+            {
+              "language": "ru",
+              "_value": "Начать игру"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Iniciar"
+            },
+            {
+              "language": "de",
+              "_value": "Spiel starten"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arabic",
+          "originalValue": "العربية",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Arabic"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "english",
+          "originalValue": "English",
+          "variants": [
+            {
+              "language": "new",
+              "_value": "انجلش"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "exit",
+          "originalValue": "خروج",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Exit"
+            },
+            {
+              "language": "ko",
+              "_value": "게임 종료"
+            },
+            {
+              "language": "es",
+              "_value": "Salir del juego"
+            },
+            {
+              "language": "zh",
+              "_value": "退出游戏"
+            },
+            {
+              "language": "ja",
+              "_value": "ゲームを終了"
+            },
+            {
+              "language": "fr",
+              "_value": "Quitter le jeu"
+            },
+            {
+              "language": "pl",
+              "_value": "Wyjdź z gry"
+            },
+            {
+              "language": "ru",
+              "_value": "Выйти из игры"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Sair do jogo"
+            },
+            {
+              "language": "de",
+              "_value": "Spiel beenden"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Next",
+          "originalValue": "التالي",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Next"
+            },
+            {
+              "language": "ko",
+              "_value": "다음"
+            },
+            {
+              "language": "es",
+              "_value": "Siguiente"
+            },
+            {
+              "language": "zh",
+              "_value": "下一步"
+            },
+            {
+              "language": "ja",
+              "_value": "次へ"
+            },
+            {
+              "language": "fr",
+              "_value": "Suivant"
+            },
+            {
+              "language": "pl",
+              "_value": "Dalej"
+            },
+            {
+              "language": "ru",
+              "_value": "Далее"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Próximo"
+            },
+            {
+              "language": "de",
+              "_value": "Weiter"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Skip",
+          "originalValue": "تخطي",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Skip"
+            },
+            {
+              "language": "ko",
+              "_value": "건너뛰기"
+            },
+            {
+              "language": "es",
+              "_value": "Omitir"
+            },
+            {
+              "language": "zh",
+              "_value": "跳过"
+            },
+            {
+              "language": "ja",
+              "_value": "スキップ"
+            },
+            {
+              "language": "fr",
+              "_value": "Passer"
+            },
+            {
+              "language": "pl",
+              "_value": "Pomiń"
+            },
+            {
+              "language": "ru",
+              "_value": "Пропустить"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Pular"
+            },
+            {
+              "language": "de",
+              "_value": "Überspringen"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Settings",
+          "originalValue": "الإعدادات",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Settings"
+            },
+            {
+              "language": "ko",
+              "_value": "설정"
+            },
+            {
+              "language": "es",
+              "_value": "Ajustes"
+            },
+            {
+              "language": "zh",
+              "_value": "设置"
+            },
+            {
+              "language": "ja",
+              "_value": "設定"
+            },
+            {
+              "language": "fr",
+              "_value": "Paramètres"
+            },
+            {
+              "language": "pl",
+              "_value": "Ustawienia"
+            },
+            {
+              "language": "ru",
+              "_value": "Настройки"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Configurações"
+            },
+            {
+              "language": "de",
+              "_value": "Einstellungen"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Language",
+          "originalValue": "اللغة",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Language"
+            },
+            {
+              "language": "ko",
+              "_value": "언어"
+            },
+            {
+              "language": "es",
+              "_value": "Idioma"
+            },
+            {
+              "language": "zh",
+              "_value": " | 语言"
+            },
+            {
+              "language": "ja",
+              "_value": "言語"
+            },
+            {
+              "language": "fr",
+              "_value": "Langue"
+            },
+            {
+              "language": "pl",
+              "_value": "Język"
+            },
+            {
+              "language": "ru",
+              "_value": "Язык"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Idioma"
+            },
+            {
+              "language": "de",
+              "_value": "Sprache"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Screen_mode",
+          "originalValue": "نمط العرض",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Screen mode"
+            },
+            {
+              "language": "ko",
+              "_value": "화면 모드"
+            },
+            {
+              "language": "es",
+              "_value": "Modo de pantalla"
+            },
+            {
+              "language": "zh",
+              "_value": "显示模式"
+            },
+            {
+              "language": "ja",
+              "_value": "画面モード"
+            },
+            {
+              "language": "fr",
+              "_value": "Mode d’affichage"
+            },
+            {
+              "language": "pl",
+              "_value": "Tryb wyświetlania"
+            },
+            {
+              "language": "ru",
+              "_value": "Режим экрана"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Modo de tela"
+            },
+            {
+              "language": "de",
+              "_value": "Anzeigemodus"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Music",
+          "originalValue": "الموسيقى",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Music"
+            },
+            {
+              "language": "ko",
+              "_value": "음악"
+            },
+            {
+              "language": "es",
+              "_value": "Música"
+            },
+            {
+              "language": "zh",
+              "_value": "音乐音量"
+            },
+            {
+              "language": "ja",
+              "_value": "BGM"
+            },
+            {
+              "language": "fr",
+              "_value": "Musique"
+            },
+            {
+              "language": "pl",
+              "_value": "Muzyka"
+            },
+            {
+              "language": "ru",
+              "_value": "Музыка"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Música"
+            },
+            {
+              "language": "de",
+              "_value": "Musik"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "SFX",
+          "originalValue": "المؤثرات الصوتية",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "SFX"
+            },
+            {
+              "language": "ko",
+              "_value": "효과음"
+            },
+            {
+              "language": "es",
+              "_value": "Efectos de sonido"
+            },
+            {
+              "language": "zh",
+              "_value": "音效音量"
+            },
+            {
+              "language": "ja",
+              "_value": "効果音"
+            },
+            {
+              "language": "fr",
+              "_value": "Effets sonores"
+            },
+            {
+              "language": "pl",
+              "_value": "Efekty dźwiękowe"
+            },
+            {
+              "language": "ru",
+              "_value": "Звуковые эффекты"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Efeitos sonoros"
+            },
+            {
+              "language": "de",
+              "_value": "Soundeffekte"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Sounds",
+          "originalValue": "الأصوات",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Master Volume"
+            },
+            {
+              "language": "ko",
+              "_value": "전체 볼륨"
+            },
+            {
+              "language": "es",
+              "_value": "Volumen general"
+            },
+            {
+              "language": "zh",
+              "_value": "主音量"
+            },
+            {
+              "language": "ja",
+              "_value": "マスター音量"
+            },
+            {
+              "language": "fr",
+              "_value": "Volume général"
+            },
+            {
+              "language": "pl",
+              "_value": "Głośność ogólna"
+            },
+            {
+              "language": "ru",
+              "_value": "Общая громкость"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Volume geral"
+            },
+            {
+              "language": "de",
+              "_value": "Gesamtlautstärke"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Continue",
+          "originalValue": "استمرار",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Continue"
+            },
+            {
+              "language": "ko",
+              "_value": "게임 재개"
+            },
+            {
+              "language": "es",
+              "_value": "Continuar"
+            },
+            {
+              "language": "zh",
+              "_value": "继续游戏"
+            },
+            {
+              "language": "ja",
+              "_value": "続ける"
+            },
+            {
+              "language": "fr",
+              "_value": "Reprendre"
+            },
+            {
+              "language": "pl",
+              "_value": "Wznów grę"
+            },
+            {
+              "language": "ru",
+              "_value": "Продолжить"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Continuar"
+            },
+            {
+              "language": "de",
+              "_value": "Fortsetzen"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "FeedBack",
+          "originalValue": "قيم اللعبة",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Feedback"
+            },
+            {
+              "language": "ko",
+              "_value": null
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Ambient",
+          "originalValue": "أصوات البيئة",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Ambient Volume"
+            },
+            {
+              "language": "ko",
+              "_value": "환경음 음량"
+            },
+            {
+              "language": "es",
+              "_value": "Volumen ambiental"
+            },
+            {
+              "language": "zh",
+              "_value": "环境音量"
+            },
+            {
+              "language": "ja",
+              "_value": "環境音量"
+            },
+            {
+              "language": "fr",
+              "_value": "Volume d’ambiance"
+            },
+            {
+              "language": "pl",
+              "_value": "Głośność otoczenia"
+            },
+            {
+              "language": "ru",
+              "_value": "Громкость окружения"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Громкость окружения"
+            },
+            {
+              "language": "de",
+              "_value": "Umgebungslautstärke"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Credit",
+          "originalValue": "فريق العمل",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Credits"
+            },
+            {
+              "language": "ko",
+              "_value": "제작진"
+            },
+            {
+              "language": "es",
+              "_value": "Créditos"
+            },
+            {
+              "language": "zh",
+              "_value": "制作人员"
+            },
+            {
+              "language": "ja",
+              "_value": "クレジット"
+            },
+            {
+              "language": "fr",
+              "_value": "Crédits"
+            },
+            {
+              "language": "pl",
+              "_value": "Twórcy"
+            },
+            {
+              "language": "ru",
+              "_value": "Авторы"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Créditos"
+            },
+            {
+              "language": "de",
+              "_value": "Mitwirkende"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Found",
+          "originalValue": "وجدت:",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Found:"
+            },
+            {
+              "language": "ko",
+              "_value": "발견: "
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "pageId": "Screen Mode",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "Fullscreen",
+          "originalValue": "كامل الشاشة",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Full Screen"
+            },
+            {
+              "language": "ko",
+              "_value": "전체 화면"
+            },
+            {
+              "language": "es",
+              "_value": "Pantalla completa"
+            },
+            {
+              "language": "zh",
+              "_value": "全屏"
+            },
+            {
+              "language": "ja",
+              "_value": "フルスクリーン"
+            },
+            {
+              "language": "fr",
+              "_value": "Plein écran"
+            },
+            {
+              "language": "pl",
+              "_value": "Pełny ekran"
+            },
+            {
+              "language": "ru",
+              "_value": "Полный экран"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Tela cheia"
+            },
+            {
+              "language": "de",
+              "_value": "Vollbild"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Windowed",
+          "originalValue": "نافذة",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Window"
+            },
+            {
+              "language": "ko",
+              "_value": "창 모드"
+            },
+            {
+              "language": "es",
+              "_value": "Modo ventana"
+            },
+            {
+              "language": "zh",
+              "_value": "窗口模式"
+            },
+            {
+              "language": "ja",
+              "_value": "ウィンドウモード"
+            },
+            {
+              "language": "fr",
+              "_value": "Mode fenêtré"
+            },
+            {
+              "language": "pl",
+              "_value": "Tryb okienkowy"
+            },
+            {
+              "language": "ru",
+              "_value": "Оконный режим"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Modo janela"
+            },
+            {
+              "language": "de",
+              "_value": "Fenstermodus"
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "pageId": "LanguagesList",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "Arabic",
+          "originalValue": "العربية",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Arabic"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "English",
+          "originalValue": "الإنجليزية",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "English"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Korean",
+          "originalValue": "한국어",
+          "variants": [
+            {
+              "language": "en",
+              "_value": null
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Spanish",
+          "originalValue": "Español",
+          "variants": [],
+          "aliases": []
+        },
+        {
+          "key": "Chinese",
+          "originalValue": "中文",
+          "variants": [],
+          "aliases": []
+        },
+        {
+          "key": "Japanese",
+          "originalValue": "日本語",
+          "variants": [],
+          "aliases": []
+        },
+        {
+          "key": "French",
+          "originalValue": "Français",
+          "variants": [],
+          "aliases": []
+        },
+        {
+          "key": "Polish",
+          "originalValue": "Polski",
+          "variants": [],
+          "aliases": []
+        },
+        {
+          "key": "Russian",
+          "originalValue": "Русский",
+          "variants": [],
+          "aliases": []
+        },
+        {
+          "key": "Portuguese (Brazil)",
+          "originalValue": "Português",
+          "variants": [],
+          "aliases": []
+        },
+        {
+          "key": "German",
+          "originalValue": "Deutsch",
+          "variants": [],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "pageId": "StoryPanel",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "InGameStory_1",
+          "originalValue": "غادر لأنه لم يكن يملك ما يقوله... وعاد يحمل الحكاية الوحيدة التي تستحق أن تُروى.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "\"He left because he had nothing to say. He came back with the only story worth telling.\""
+            },
+            {
+              "language": "es",
+              "_value": "Se marchó porque no tenía nada que decir. Volvió con la única historia que merecía ser contada."
+            },
+            {
+              "language": "zh",
+              "_value": "他离开时无话可说。归来时，却带回了唯一值得讲述的故事。"
+            },
+            {
+              "language": "jp",
+              "_value": "彼は何も語ることがなくて去った。そして、語る価値のある唯一の物語を携えて戻ってきた。"
+            },
+            {
+              "language": "fr",
+              "_value": "Il est parti parce qu’il n’avait rien à dire. Il est revenu avec la seule histoire qui méritait d’être racontée."
+            },
+            {
+              "language": "pl",
+              "_value": "Il est parti parce qu’il n’avait rien à dire. Il est revenu avec la seule histoire qui méritait d’être racontée."
+            },
+            {
+              "language": "ko",
+              "_value": "그는 할 말이 없어 떠났다. 돌아올 땐 들려줄 가치가 있는 단 하나의 이야기를 품고 있었다."
+            },
+            {
+              "language": "ru",
+              "_value": "Он ушёл, потому что ему нечего было сказать. Он вернулся с единственной историей, которую стоило рассказать."
+            },
+            {
+              "language": "pt",
+              "_value": "Ele foi embora porque não tinha nada a dizer. Voltou com a única história que valia a pena contar."
+            },
+            {
+              "language": "de",
+              "_value": "Er ging fort, weil er nichts zu sagen hatte. Zurück kam er mit der einzigen Geschichte, die es wert war, erzählt zu werden."
+            },
+            {
+              "language": "ja",
+              "_value": "彼は何も語ることがなくて去った。そして、語る価値のある唯一の物語を携えて戻ってきた。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Ele foi embora porque não tinha nada a dizer. Voltou com a única história que valia a pena contar."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_2",
+          "originalValue": "عشرة مسامير. عشرة أختام. حملها طفلٌ بين يديه... ولم يسأل أحدٌ يومًا عمّا كانت تخفيه.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "\"Ten nails. Ten seals. A child carrying all of them and not one question asked.\""
+            },
+            {
+              "language": "es",
+              "_value": "Diez clavos. Diez sellos. Un niño los llevaba todos y nadie hizo una sola pregunta."
+            },
+            {
+              "language": "zh",
+              "_value": "十枚钉子。十道封印。一个孩子带着它们，却没有人问过一句。"
+            },
+            {
+              "language": "jp",
+              "_value": "十本の釘。十の封印。それらをすべて抱えた子どもに、誰もひとつも尋ねなかった。"
+            },
+            {
+              "language": "fr",
+              "_value": "Dix clous. Dix sceaux. Un enfant les portait tous sans que personne ne pose la moindre question."
+            },
+            {
+              "language": "pl",
+              "_value": "Dix clous. Dix sceaux. Un enfant les portait tous sans que personne ne pose la moindre question."
+            },
+            {
+              "language": "ko",
+              "_value": "못 열 개. 봉인 열 개. 아이는 그걸 모두 들고 있었지만, 누구 하나 묻지 않았다."
+            },
+            {
+              "language": "ru",
+              "_value": "Десять гвоздей. Десять печатей. Ребёнок нёс их все, и никто не задал ни единого вопроса."
+            },
+            {
+              "language": "pt",
+              "_value": "Dez pregos. Dez selos. Um menino os carregava, e ninguém fez uma pergunta sequer."
+            },
+            {
+              "language": "de",
+              "_value": "Zehn Nägel. Zehn Siegel. Ein Kind trug sie alle, und niemand stellte auch nur eine Frage."
+            },
+            {
+              "language": "ja",
+              "_value": "十本の釘。十の封印。それらをすべて抱えた子どもに、誰もひとつも尋ねなかった。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Dez pregos. Dez selos. Um menino os carregava, e ninguém fez uma pergunta sequer."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_3",
+          "originalValue": "لم يكن الوادي طريقًا... بل بابًا. ولم تكن الأضواء إلا دعوة. عبرها... وهو يجهل إلى أي عالمٍ يمضي.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "\"The valley was a door. The lights were an invitation. He walked through both without reading what was written above them.\""
+            },
+            {
+              "language": "es",
+              "_value": "El valle era una puerta. Las luces, una invitación. Atravesó ambas sin leer lo que estaba escrito sobre ellas."
+            },
+            {
+              "language": "zh",
+              "_value": "山谷是一扇门，灯光是一份邀请。他穿过了这两道门，却没有读过门上的文字。"
+            },
+            {
+              "language": "jp",
+              "_value": "谷は扉だった。灯りは誘いだった。彼はその両方をくぐり抜けた。頭上に記された言葉を読むこともなく。"
+            },
+            {
+              "language": "fr",
+              "_value": "La vallée était une porte. Les lumières, une invitation. Il les a traversées toutes les deux sans lire ce qui était écrit au-dessus."
+            },
+            {
+              "language": "pl",
+              "_value": "La vallée était une porte. Les lumières, une invitation. Il les a traversées toutes les deux sans lire ce qui était écrit au-dessus."
+            },
+            {
+              "language": "ko",
+              "_value": "계곡은 문이었다. 불빛은 초대였다. 그는 그 둘을 모두 통과했다. 위에 적힌 글은 읽지 않은 채."
+            },
+            {
+              "language": "ru",
+              "_value": "Долина была дверью. Огни были приглашением. Он прошёл через то и другое, не прочитав, что было написано над ними."
+            },
+            {
+              "language": "pt",
+              "_value": "O vale era uma porta. As luzes eram um convite. Ele atravessou os dois sem ler o que estava escrito acima deles."
+            },
+            {
+              "language": "de",
+              "_value": "Das Tal war eine Tür. Die Lichter waren eine Einladung. Er ging durch beides hindurch, ohne zu lesen, was darüber geschrieben stand."
+            },
+            {
+              "language": "ja",
+              "_value": "谷は扉だった。灯りは誘いだった。彼はその両方をくぐり抜けた。頭上に記された言葉を読むこともなく。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "O vale era uma porta. As luzes eram um convite. Ele atravessou os dois sem ler o que estava escrito acima deles."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_4",
+          "originalValue": "لم يمت الخفاء... بل حبس أنفاسه. فالعالم الذي يفقد قلبه بإرادته، يعجز عن الاحتفاظ بصورته. فيتبدّل، ويكرر نفسه، وينسى الهيئة التي خُلق عليها.»",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "\"Al-Khafa did not die. It is holding its breath. A world without its willing heart cannot hold its own shape. It shifts. It repeats. It forgets what it looked like before.\""
+            },
+            {
+              "language": "es",
+              "_value": "Al-Khafa no murió. Contiene la respiración. Un mundo sin un corazón entregado por voluntad propia no puede conservar su forma. Cambia. Se repite. Olvida cómo era antes."
+            },
+            {
+              "language": "zh",
+              "_value": "Al-Khafa没有死。它只是屏住了呼吸。失去那颗甘愿奉献的心，这个世界便无法维持原本的形态。它不断变幻，不断重复，渐渐忘了自己原来的模样。"
+            },
+            {
+              "language": "jp",
+              "_value": "Al-Khafaは死んではいない。ただ息を潜めている。自ら進んで捧げられた心なくして、この世界はその姿を保てない。姿を変え、繰り返し、かつての姿を忘れていく。"
+            },
+            {
+              "language": "fr",
+              "_value": "Al-Khafa n’est pas morte. Elle retient son souffle. Sans son cœur offert de plein gré, le monde ne peut conserver sa forme. Il change. Il se répète. Il oublie ce qu’il était avant."
+            },
+            {
+              "language": "pl",
+              "_value": "Al-Khafa n’est pas morte. Elle retient son souffle. Sans son cœur offert de plein gré, le monde ne peut conserver sa forme. Il change. Il se répète. Il oublie ce qu’il était avant."
+            },
+            {
+              "language": "ko",
+              "_value": "Al-Khafa는 죽지 않았다. 숨을 죽이고 있을 뿐이다. 기꺼이 내어준 심장 없이 이 세계는 제 모습을 유지할 수 없다. 세상은 변한다. 반복된다. 예전 모습을 잊어 간다."
+            },
+            {
+              "language": "ru",
+              "_value": "Аль-Хафа не умерла. Она затаила дыхание. Без сердца, отданного по доброй воле, этот мир не может сохранить свой облик. Он меняется. Повторяется. Забывает, каким был прежде."
+            },
+            {
+              "language": "pt",
+              "_value": "Al-Khafa não morreu. Está prendendo a respiração. Um mundo sem o coração que se entrega por vontade própria não consegue manter a própria forma. Ele muda. Se repete. Esquece como era antes."
+            },
+            {
+              "language": "de",
+              "_value": "Al-Khafa ist nicht tot. Die Welt hält den Atem an. Ohne ein Herz, das sich freiwillig hingibt, kann diese Welt ihre eigene Gestalt nicht bewahren. Sie verändert sich. Sie wiederholt sich. Sie vergisst, wie sie einst aussah."
+            },
+            {
+              "language": "ja",
+              "_value": "Al-Khafaは死んではいない。ただ息を潜めている。自ら進んで捧げられた心なくして、この世界はその姿を保てない。姿を変え、繰り返し、かつての姿を忘れていく。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Al-Khafa não morreu. Está prendendo a respiração. Um mundo sem o coração que se entrega por vontade própria não consegue manter a própria forma. Ele muda. Se repete. Esquece como era antes."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_5",
+          "originalValue": "في قلب هذا العالم شجرةٌ أقدم من الحاكم نفسه. لا تأخذ... بل تستقبل. وما لا يُقدَّم إليها طوعًا، ترفضه... ويرفضه العالم معها.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "\"There is a tree at the center of this world that is older than its ruler. It does not take. It receives. And what it receives must come freely or it will reject it, and everything with it.\""
+            },
+            {
+              "language": "es",
+              "_value": "En el centro de este mundo hay un árbol más antiguo que su gobernante. No toma. Recibe. Todo lo que recibe debe entregársele de buen grado. Si no, lo rechazará junto con todo lo demás."
+            },
+            {
+              "language": "zh",
+              "_value": "这世界的中心有一棵树，它比统治者更加古老。它从不索取，只接受馈赠。它所接收的一切，都必须是自愿奉上的；否则，它便会拒绝，而整个世界也将随之被拒绝。"
+            },
+            {
+              "language": "jp",
+              "_value": "この世界の中心には、統治者よりも古い木がある。木は奪わない。受け取るのだ。木が受け取るものは、自らの意志で捧げられなければならない。そうでなければ、木はそれを拒み、それに伴うすべてを拒む。"
+            },
+            {
+              "language": "fr",
+              "_value": "Au cœur de ce monde se trouve un arbre plus ancien que son souverain. Il ne prend pas. Il reçoit. Tout ce qu’il reçoit doit lui être offert de plein gré, sans quoi il le rejettera avec tout ce qui l’accompagne."
+            },
+            {
+              "language": "pl",
+              "_value": "Au cœur de ce monde se trouve un arbre plus ancien que son souverain. Il ne prend pas. Il reçoit. Tout ce qu’il reçoit doit lui être offert de plein gré, sans quoi il le rejettera avec tout ce qui l’accompagne."
+            },
+            {
+              "language": "ko",
+              "_value": "이 세계 한가운데에는 통치자보다 오래된 나무가 있다. 나무는 빼앗지 않는다. 받아들인다. 나무가 받는 것은 반드시 자발적으로 바쳐져야 한다. 그렇지 않으면 나무는 그것을 거부하고, 그것과 함께 온 모든 것까지 거부할 것이다."
+            },
+            {
+              "language": "ru",
+              "_value": "В центре этого мира растёт дерево, которое старше самого правителя. Оно не берёт, а принимает. И то, что оно принимает, должно быть отдано добровольно. Иначе оно отвергнет дар, а заодно и всё остальное."
+            },
+            {
+              "language": "pt",
+              "_value": "No centro deste mundo há uma árvore mais antiga que seu governante. Ela não toma. Ela recebe. Tudo o que recebe precisa ser oferecido de livre vontade. Caso contrário, ela o rejeitará, junto com tudo o que vier com ele."
+            },
+            {
+              "language": "de",
+              "_value": "Im Zentrum dieser Welt steht ein Baum, älter als ihr Herrscher. Er nimmt nicht. Er empfängt. Was er empfängt, muss freiwillig gegeben werden. Sonst weist er es zurück und mit ihm alles andere."
+            },
+            {
+              "language": "ja",
+              "_value": "この世界の中心には、統治者よりも古い木がある。木は奪わない。受け取るのだ。木が受け取るものは、自らの意志で捧げられなければならない。そうでなければ、木はそれを拒み、それに伴うすべてを拒む。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "No centro deste mundo há uma árvore mais antiga que seu governante. Ela não toma. Ela recebe. Tudo o que recebe precisa ser oferecido de livre vontade. Caso contrário, ela o rejeitará, junto com tudo o que vier com ele."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_6",
+          "originalValue": "أحبّ ابنته كما يُحب الحاكم تاجه. لم يسألها يومًا: ماذا تريدين؟ أقنع نفسه أن ذلك حب. ولعله كان كذلك... لكن الحب الذي لا يُصغي، ليس إلا وجهًا آخر لتسلط.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "\"He loved his daughter the way a ruler loves his crown. He never once asked: what do you want? He told himself it was love. It may have been. But love that does not listen is just another word for force.\""
+            },
+            {
+              "language": "es",
+              "_value": "La amaba como un gobernante ama su corona. Nunca le preguntó: «¿Qué quieres?» Se dijo a sí mismo que era amor. Tal vez lo fuera. Pero el amor que no escucha no es más que una forma de coacción."
+            },
+            {
+              "language": "zh",
+              "_value": "他爱女儿，就像统治者爱自己的王冠。他从未问过她：“你想要什么？”他告诉自己，那就是爱。也许曾经是吧。但不懂倾听的爱，不过是强迫的另一种说法。"
+            },
+            {
+              "language": "jp",
+              "_value": "彼は娘を、統治者が王冠を愛するように愛した。一度も尋ねたことはなかった。「君は何を望む？」と。それを愛だと言い聞かせていた。そうだったのかもしれない。だが、耳を傾けない愛は、ただ強いることの別の呼び名にすぎない。"
+            },
+            {
+              "language": "fr",
+              "_value": "Il aimait sa fille comme un souverain aime sa couronne. Jamais il ne lui a demandé : « Que veux-tu ? » Il se disait que c’était de l’amour. Peut-être que ça l’était. Mais un amour qui n’écoute pas, c’est une autre façon d’imposer sa volonté."
+            },
+            {
+              "language": "pl",
+              "_value": "Il aimait sa fille comme un souverain aime sa couronne. Jamais il ne lui a demandé : « Que veux-tu ? » Il se disait que c’était de l’amour. Peut-être que ça l’était. Mais un amour qui n’écoute pas, c’est une autre façon d’imposer sa volonté."
+            },
+            {
+              "language": "ko",
+              "_value": "그는 통치자가 왕관을 사랑하듯 딸을 사랑했다. 단 한 번도 물어본 적이 없었다. “넌 뭘 원하니?” 스스로는 그것이 사랑이라고 믿었다. 어쩌면 사랑이었을지도 모른다. 하지만 귀 기울이지 않는 사랑은 그저 강요의 다른 이름일 뿐이다."
+            },
+            {
+              "language": "ru",
+              "_value": "Он любил дочь, как правитель любит свою корону. Он ни разу не спросил её: «Чего ты хочешь?» Он уверял себя, что это любовь. Может, так и было. Но любовь, которая не умеет слушать, всего лишь другое слово для принуждения."
+            },
+            {
+              "language": "pt",
+              "_value": "Ele amava a filha como um governante ama a própria coroa. Nunca perguntou: “O que você quer?” Dizia a si mesmo que aquilo era amor. Talvez fosse. Mas o amor que não sabe ouvir é só outra forma de impor a própria vontade."
+            },
+            {
+              "language": "de",
+              "_value": "Er liebte seine Tochter, wie ein Herrscher seine Krone liebt. Nicht ein einziges Mal fragte er sie: „Was willst du?“ Er redete sich ein, es sei Liebe. Vielleicht war es das auch. Aber Liebe, die nicht zuhört, ist nur ein anderes Wort für Zwang."
+            },
+            {
+              "language": "ja",
+              "_value": "彼は娘を、統治者が王冠を愛するように愛した。一度も尋ねたことはなかった。「君は何を望む？」と。それを愛だと言い聞かせていた。そうだったのかもしれない。だが、耳を傾けない愛は、ただ強いることの別の呼び名にすぎない。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Ele amava a filha como um governante ama a própria coroa. Nunca perguntou: “O que você quer?” Dizia a si mesmo que aquilo era amor. Talvez fosse. Mas o amor que não sabe ouvir é só outra forma de impor a própria vontade."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_7",
+          "originalValue": "أدرك حارس البوابة ما عجز الحاكم عن إدراكه. فما يُمنح طوعا يشفي, وما ينزع بالقوة يهلك. لذلك ختمها، وهو يعلم أن العالم سيواصل الانهيار، وأن الحاكم لن يغفر له أبدًا.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "“The gatekeeper understood what the ruler could not. Power given freely heals. Power taken by force destroys. So he sealed her away knowing the world would keep deteriorating, knowing the ruler would never forgive him.”"
+            },
+            {
+              "language": "es",
+              "_value": "El guardián de la puerta comprendió lo que el gobernante no. El poder que se entrega libremente sana. El poder arrebatado por la fuerza destruye. Por eso la selló, sabiendo que el mundo seguiría deteriorándose y que el gobernante nunca se lo perdonaría."
+            },
+            {
+              "language": "zh",
+              "_value": "守门人明白统治者不明白的道理：自愿给予的力量能够治愈，强行夺取的力量只会带来毁灭。因此，他封印了她，明知世界会继续衰败，也明知统治者永远不会原谅他。"
+            },
+            {
+              "language": "jp",
+              "_value": "門番は、統治者にはわからなかったことを理解していた。自ら進んで与えられた力は癒やす。力ずくで奪われた力は破壊をもたらす。だから彼は彼女を封じた。世界が衰え続けることも、統治者が決して自分を許さないことも承知の上で。"
+            },
+            {
+              "language": "fr",
+              "_value": "Le gardien du portail avait compris ce que le souverain ne pouvait pas comprendre. Le pouvoir offert librement guérit. Le pouvoir arraché par la force détruit. Alors il l’a scellée, sachant que le monde continuerait de dépérir et que le souverain ne lui pardonnerait jamais."
+            },
+            {
+              "language": "pl",
+              "_value": "Le gardien du portail avait compris ce que le souverain ne pouvait pas comprendre. Le pouvoir offert librement guérit. Le pouvoir arraché par la force détruit. Alors il l’a scellée, sachant que le monde continuerait de dépérir et que le souverain ne lui pardonnerait jamais."
+            },
+            {
+              "language": "ko",
+              "_value": "문지기는 통치자가 알지 못한 것을 이해했다. 자발적으로 내어준 힘은 치유한다. 강제로 빼앗은 힘은 파괴한다. 그래서 그는 그녀를 봉인했다. 세상이 계속 쇠락할 것임을, 통치자가 결코 자신을 용서하지 않으리란 것을 알면서도."
+            },
+            {
+              "language": "ru",
+              "_value": "Страж ворот понял то, чего не понял правитель. Сила, отданная добровольно, исцеляет. Сила, отнятая силой, разрушает. Поэтому он запечатал её, зная, что мир будет и дальше приходить в упадок и что правитель никогда его не простит."
+            },
+            {
+              "language": "pt",
+              "_value": "O guardião do portal entendeu o que o governante não conseguiu. O poder oferecido de livre vontade cura. O poder tomado à força destrói. Por isso, ele a selou, sabendo que o mundo continuaria se deteriorando e que o governante jamais o perdoaria."
+            },
+            {
+              "language": "de",
+              "_value": "Der Torwächter begriff, was der Herrscher nicht begriff. Freiwillig gegebene Macht heilt. Mit Gewalt entrissene Macht zerstört. Also versiegelte er sie, wohl wissend, dass die Welt weiter verfallen und der Herrscher ihm niemals verzeihen würde."
+            },
+            {
+              "language": "ja",
+              "_value": "門番は、統治者にはわからなかったことを理解していた。自ら進んで与えられた力は癒やす。力ずくで奪われた力は破壊をもたらす。だから彼は彼女を封じた。世界が衰え続けることも、統治者が決して自分を許さないことも承知の上で。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "O guardião do portal entendeu o que o governante não conseguiu. O poder oferecido de livre vontade cura. O poder tomado à força destrói. Por isso, ele a selou, sabendo que o mundo continuaria se deteriorando e que o governante jamais o perdoaria."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_8",
+          "originalValue": "ما حملته بين يديك لم يكن لعبةً لطفل. كان روحًا نسي العالم اسمها، ولم تنسَ هي طريق العودة.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "“The doll in your hands is not a doll. A soul was sealed inside it. A soul that has felt every loop through your hands, every decision you made, every moment you carried it without knowing what it was. It did not choose to be sealed. But it chose to stay. And it has already decided what comes next.\""
+            },
+            {
+              "language": "es",
+              "_value": "La muñeca que tienes entre las manos no es una muñeca. Un alma fue sellada en su interior. Un alma que ha sentido, a través de tus manos, cada bucle, cada decisión que tomaste y cada instante que la llevaste contigo sin saber lo que era. No eligió ser sellada, pero sí quedarse. Y ya ha decidido lo que vendrá."
+            },
+            {
+              "language": "zh",
+              "_value": "你手中的那个娃娃，并非真正的娃娃。它体内封着一个灵魂。这个灵魂透过你的双手，感受过每一次循环、你做出的每一个决定，也感受过你在不知它为何物时带着它走过的每一刻。它并非自愿被封印其中，却选择留下。而接下来会发生什么，它早已做出决定。"
+            },
+            {
+              "language": "jp",
+              "_value": "あなたの手の中にある人形は、人形ではない。その中には魂が封じられていた。その魂は、あなたの手の中で過ごしたすべてのループと、あなたが下したすべての決断、そしてそれが何かも知らずに運んでいた一瞬一瞬を感じてきた。自ら封じられることを選んだわけではない。それでも、留まることは自分で選んだ。そして、この先に何が起きるかはもう決めている。"
+            },
+            {
+              "language": "fr",
+              "_value": "La poupée que tu tiens entre les mains n’est pas une poupée. Une âme y a été scellée. Cette âme a ressenti, au creux de tes mains, chaque boucle, chacune de tes décisions et chaque instant où tu l’as portée sans savoir ce qu’elle était. Elle n’a pas choisi d’être scellée. Mais elle a choisi de rester. Et elle a déjà décidé de la suite."
+            },
+            {
+              "language": "pl",
+              "_value": "La poupée que tu tiens entre les mains n’est pas une poupée. Une âme y a été scellée. Cette âme a ressenti, au creux de tes mains, chaque boucle, chacune de tes décisions et chaque instant où tu l’as portée sans savoir ce qu’elle était. Elle n’a pas choisi d’être scellée. Mais elle a choisi de rester. Et elle a déjà décidé de la suite."
+            },
+            {
+              "language": "ko",
+              "_value": "네 손에 든 인형은 인형이 아니다. 그 안에는 영혼 하나가 봉인되어 있었다. 그 영혼은 네 손에 들려 매 루프를 겪었다. 네가 내린 결정 하나하나도, 인형의 정체를 모른 채 들고 다닌 모든 순간도 느꼈다. 그 영혼은 봉인되기를 선택하지 않았다. 하지만 남기로는 스스로 선택했다. 그리고 다음에 일어날 일은 이미 결정했다."
+            },
+            {
+              "language": "ru",
+              "_value": "Кукла в твоих руках вовсе не кукла. Внутри неё запечатана душа. Она чувствовала каждый цикл, пройденный вместе с тобой, каждое твоё решение и каждое мгновение, когда ты нёс её, не зная, что она такое. Она не выбирала быть запечатанной, но остаться решила сама. И уже решила, что будет дальше."
+            },
+            {
+              "language": "pt",
+              "_value": "O boneco que você tem nas mãos não é um boneco. Uma alma foi selada dentro dele. Essa alma sentiu, pelas suas mãos, cada loop, cada decisão sua e cada instante em que você o carregou sem saber o que era. Não escolheu ser selada, mas escolheu ficar. E já decidiu o que vem depois."
+            },
+            {
+              "language": "de",
+              "_value": "Die Puppe in deinen Händen ist keine Puppe. In ihr wurde eine Seele versiegelt. Eine Seele, die in deinen Händen jeden Durchlauf gespürt hat, jede deiner Entscheidungen und jeden Augenblick, in dem du sie getragen hast, ohne zu wissen, was sie war. Sie hat nicht gewählt, versiegelt zu werden. Doch zu bleiben war ihre Entscheidung. Und sie hat bereits entschieden, was als Nächstes kommt."
+            },
+            {
+              "language": "ja",
+              "_value": "あなたの手の中にある人形は、人形ではない。その中には魂が封じられていた。その魂は、あなたの手の中で過ごしたすべてのループと、あなたが下したすべての決断、そしてそれが何かも知らずに運んでいた一瞬一瞬を感じてきた。自ら封じられることを選んだわけではない。それでも、留まることは自分で選んだ。そして、この先に何が起きるかはもう決めている。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "O boneco que você tem nas mãos não é um boneco. Uma alma foi selada dentro dele. Essa alma sentiu, pelas suas mãos, cada loop, cada decisão sua e cada instante em que você o carregou sem saber o que era. Não escolheu ser selada, mas escolheu ficar. E já decidiu o que vem depois."
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "InGameStory_9",
+          "originalValue": "كل دورة كانت تقود إلى هذه اللحظة. وكل مسمارٍ اقتلعته، كان يزيل ختمًا عن الحقيقة.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "\"One nail left. One truth left. Everything that happened, every loop, every wrong thing you found, every nail you freed was leading here. To a choice that was never yours to make. But yours to allow.\""
+            },
+            {
+              "language": "es",
+              "_value": "Queda un clavo. Queda una verdad. Todo te condujo hasta aquí: cada bucle, cada anomalía que encontraste, cada clavo que liberaste. Hasta una elección que nunca te correspondió tomar, pero que sí puedes permitir que ocurra."
+            },
+            {
+              "language": "zh",
+              "_value": "还剩一枚钉子。还剩一个真相。一路发生的一切、每一次循环、你发现的每一处异常、你拔出的每一枚钉子，都将你引向这里。引向一个本不该由你做出、却由你来应允的选择。"
+            },
+            {
+              "language": "jp",
+              "_value": "残る釘は一本。残る真実はひとつ。起きたすべてのことが、あなたをここへ導いていた。すべてのループ。見つけた異変の一つひとつ。解き放った釘の一つひとつも。選ぶのはあなたではない。だが、それを許すかどうかはあなた次第だ。"
+            },
+            {
+              "language": "fr",
+              "_value": "Il ne reste qu’un clou. Il ne reste qu’une vérité. Tout t’a mené jusqu’ici : chaque boucle, chaque anomalie que tu as découverte, chaque clou que tu as libéré. Jusqu’à un choix qu’il ne t’a jamais appartenu de faire. Mais qu’il t’appartient de permettre."
+            },
+            {
+              "language": "pl",
+              "_value": "Il ne reste qu’un clou. Il ne reste qu’une vérité. Tout t’a mené jusqu’ici : chaque boucle, chaque anomalie que tu as découverte, chaque clou que tu as libéré. Jusqu’à un choix qu’il ne t’a jamais appartenu de faire. Mais qu’il t’appartient de permettre."
+            },
+            {
+              "language": "ko",
+              "_value": "못 하나가 남았다. 진실 하나가 남았다. 일어난 모든 일이 너를 여기로 이끌었다. 네가 거친 루프 하나하나, 찾아낸 이상 현상 하나하나, 뽑아낸 못 하나하나가. 그 선택은 네 몫이 아니었다. 하지만 그 선택이 이뤄지도록 허락하는 건 네 몫이다."
+            },
+            {
+              "language": "ru",
+              "_value": "Остался один гвоздь. Осталась одна правда. Сюда вели каждый цикл, каждая обнаруженная тобой аномалия и каждый гвоздь, который тебе удалось освободить. К выбору, который тебе не дано сделать, но ты можешь позволить ему состояться."
+            },
+            {
+              "language": "pt",
+              "_value": "Falta um prego. Falta uma verdade. Tudo o que aconteceu estava levando você até aqui: cada loop, cada anomalia que você encontrou, cada prego que você libertou. Até uma escolha que nunca coube a você fazer, mas que cabe a você permitir."
+            },
+            {
+              "language": "de",
+              "_value": "Ein Nagel noch. Eine Wahrheit noch. Alles führte dich hierher: jeder Durchlauf, jede Anomalie, die du entdeckt hast, jeder Nagel, den du befreit hast. Zu einer Entscheidung, die nie deine war. Aber du kannst zulassen, dass sie getroffen wird."
+            },
+            {
+              "language": "ja",
+              "_value": "残る釘は一本。残る真実はひとつ。起きたすべてのことが、あなたをここへ導いていた。すべてのループ。見つけた異変の一つひとつ。解き放った釘の一つひとつも。選ぶのはあなたではない。だが、それを許すかどうかはあなた次第だ。"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Falta um prego. Falta uma verdade. Tudo o que aconteceu estava levando você até aqui: cada loop, cada anomalia que você encontrou, cada prego que você libertou. Até uma escolha que nunca coube a você fazer, mas que cabe a você permitir."
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "pageId": "tutorial",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "GateKeeperTutorial",
+          "originalValue": "أنت عالق في حلقة. اختر اتجاهًا. إن رأيت ما يبدو خارجًا عن المألوف فارجع، وإلا فواصل. ولا تُغفل عينك عن الدمية.",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "You’re trapped in a loop. Choose a direction. If anything seems out of place, turn back. If not, keep going. Watch the doll."
+            },
+            {
+              "language": "ko",
+              "_value": "당신은 반복되는 루프에 갇혀 있습니다. 방향을 선택하세요. 무언가 이상하거나 어울리지 않는 것이 보이면 되돌아가세요. 그렇지 않다면 계속 나아가세요. 인형을 잘 살펴보세요."
+            },
+            {
+              "language": "es",
+              "_value": "Estás atrapado en un bucle. Elige una dirección. Si algo parece fuera de lugar, vuelve por donde has venido. Si no, sigue adelante. Vigila el muñeco."
+            },
+            {
+              "language": "zh",
+              "_value": "你被困在循环里。选择一个方向。如果发现有不对劲的地方，就原路返回。如果没有，就继续前进。留意玩偶。"
+            },
+            {
+              "language": "ja",
+              "_value": "ループに閉じ込められています。進む方向を選んでください。異変に気づいたら、来た道を引き返してください。そうでなければ、そのまま進んでください。人形をよく見てください。"
+            },
+            {
+              "language": "fr",
+              "_value": "Tu es coincé dans une boucle. Choisis une direction. Si quelque chose ne semble pas à sa place, rebrousse chemin. Sinon, continue. Garde un œil sur la poupée."
+            },
+            {
+              "language": "pl",
+              "_value": "Utknąłeś w pętli. Wybierz kierunek. Jeśli coś wyda ci się nie na miejscu, zawróć. Jeśli nie, idź dalej. Obserwuj lalkę."
+            },
+            {
+              "language": "ru",
+              "_value": "Ты застрял в цикле. Выбери направление. Если заметишь что-то не на своём месте, возвращайся тем же путём. Если нет, продолжай идти. Следи за куклой."
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Você está preso em um loop. Escolha uma direção. Se algo parecer fora do lugar, volte por onde veio. Se não, continue em frente. Fique de olho no boneco."
+            },
+            {
+              "language": "de",
+              "_value": "Du steckst in einer Schleife fest. Wähle eine Richtung. Wenn dir etwas fehl am Platz vorkommt, geh denselben Weg zurück. Wenn nicht, geh weiter. Behalte die Puppe im Auge."
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "pageId": "CONTROLS",
+      "aboutPage": "New Page",
+      "pageFiles": [
+        {
+          "key": "Controls",
+          "originalValue": "التحكم",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Controls"
+            },
+            {
+              "language": "ko",
+              "_value": "조작 방법"
+            },
+            {
+              "language": "es",
+              "_value": "Controles"
+            },
+            {
+              "language": "zh",
+              "_value": "操作说明"
+            },
+            {
+              "language": "ja",
+              "_value": "操作方法"
+            },
+            {
+              "language": "fr",
+              "_value": "Commandes"
+            },
+            {
+              "language": "pl",
+              "_value": "Sterowanie"
+            },
+            {
+              "language": "ru",
+              "_value": "Управление"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Controles"
+            },
+            {
+              "language": "de",
+              "_value": "Steuerung"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "C_Walk",
+          "originalValue": "المشي",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Walk"
+            },
+            {
+              "language": "ko",
+              "_value": "걷기"
+            },
+            {
+              "language": "es",
+              "_value": "Caminar"
+            },
+            {
+              "language": "zh",
+              "_value": "行走"
+            },
+            {
+              "language": "ja",
+              "_value": "歩く"
+            },
+            {
+              "language": "fr",
+              "_value": "Marcher"
+            },
+            {
+              "language": "pl",
+              "_value": "Chód"
+            },
+            {
+              "language": "ru",
+              "_value": "Ходьба"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Andar"
+            },
+            {
+              "language": "de",
+              "_value": "Gehen"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "C_Run",
+          "originalValue": "الركض",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Run"
+            },
+            {
+              "language": "ko",
+              "_value": "달리기"
+            },
+            {
+              "language": "es",
+              "_value": "Correr"
+            },
+            {
+              "language": "zh",
+              "_value": "奔跑"
+            },
+            {
+              "language": "ja",
+              "_value": "走る"
+            },
+            {
+              "language": "fr",
+              "_value": "Courir"
+            },
+            {
+              "language": "pl",
+              "_value": "Bieg"
+            },
+            {
+              "language": "ru",
+              "_value": "Бег"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Correr"
+            },
+            {
+              "language": "de",
+              "_value": "Rennen"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "C_Interact",
+          "originalValue": "التفاعل",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Interact"
+            },
+            {
+              "language": "ko",
+              "_value": "상호작용"
+            },
+            {
+              "language": "es",
+              "_value": "Interactuar"
+            },
+            {
+              "language": "zh",
+              "_value": "交互"
+            },
+            {
+              "language": "ja",
+              "_value": "インタラクト"
+            },
+            {
+              "language": "fr",
+              "_value": "Interagir"
+            },
+            {
+              "language": "pl",
+              "_value": "Interakcja"
+            },
+            {
+              "language": "ru",
+              "_value": "Взаимодействие"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Interagir"
+            },
+            {
+              "language": "de",
+              "_value": "Interagieren"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "C_Doll",
+          "originalValue": "اظهار وإخفاء الدمية",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Show / Hide doll"
+            },
+            {
+              "language": "ko",
+              "_value": "인형 표시/숨기기"
+            },
+            {
+              "language": "es",
+              "_value": "Mostrar/ocultar muñeco"
+            },
+            {
+              "language": "zh",
+              "_value": "显示/隐藏玩偶"
+            },
+            {
+              "language": "ja",
+              "_value": "人形の表示切替"
+            },
+            {
+              "language": "fr",
+              "_value": "Afficher/masquer la poupée"
+            },
+            {
+              "language": "pl",
+              "_value": "Pokaż/ukryj lalkę"
+            },
+            {
+              "language": "ru",
+              "_value": "Показать/скрыть куклу"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Mostrar/ocultar boneco"
+            },
+            {
+              "language": "de",
+              "_value": "Puppe ein-/ausblenden"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "C_instruction",
+          "originalValue": "اظهار وإخفاء التعليمات",
+          "variants": [
+            {
+              "language": "en",
+              "_value": "Show / Hide Instruction"
+            },
+            {
+              "language": "ko",
+              "_value": "안내 표시/숨기기"
+            },
+            {
+              "language": "es",
+              "_value": "Mostrar/ocultar instrucciones"
+            },
+            {
+              "language": "zh",
+              "_value": "显示/隐藏说明"
+            },
+            {
+              "language": "ja",
+              "_value": "説明の表示切替"
+            },
+            {
+              "language": "fr",
+              "_value": "Afficher/masquer les instructions"
+            },
+            {
+              "language": "pl",
+              "_value": "Pokaż/ukryj instrukcję"
+            },
+            {
+              "language": "ru",
+              "_value": "Показать/скрыть инструкцию"
+            },
+            {
+              "language": "pt-BR",
+              "_value": "Mostrar/ocultar instruções"
+            },
+            {
+              "language": "de",
+              "_value": "Anleitung ein-/ausblenden"
+            }
+          ],
+          "aliases": []
+        }
+      ]
+    }
+  ],
+  "keysLocked": false,
+  "originalValuesLocked": false,
+  "lockedLanguages": "",
+  "pageIdsLocked": false,
+  "aboutPagesLocked": false,
+  "aliasesLocked": false,
+  "encryptedPassword": ""
+}

@@ -1,0 +1,918 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc60cef16fb84a239e422cb0e81cb8d, type: 3}
+  m_Name: New_Intro
+  m_EditorClassIdentifier: Assembly-CSharp::AHAKuo.Signalia.LocalizationStandalone.Internal.LocBook
+  locbookFile: {fileID: 102900000, guid: c2c1fbdf2d4c4054e8b796ed59b47592, type: 3}
+  pages:
+  - pageId: IntroStory
+    aboutPage: New Page
+    entries:
+    - key: Panel_1
+      originalValue: "\u0645\u0639 \u063A\u0631\u0648\u0628 \u0627\u0644\u0634\u0645\u0633\u060C
+        \u062A\u062C\u062A\u0645\u0639 \u0627\u0644\u0639\u0627\u0626\u0644\u0629
+        \u062D\u0648\u0644 \u0627\u0644\u0646\u0627\u0631."
+      variants:
+      - languageCode: en
+        value: As the sun sets, the family gathers around the fire
+      - languageCode: ko
+        value: "\uC5B4\uB290 \uB0A0, \uD574\uAC00 \uC9C8 \uBB34\uB835. \n\uD55C \uAC00\uC871\uC774
+          \uBAA8\uB2E5\uBD88 \uC8FC\uC704\uC5D0 \uBAA8\uC600\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: "Mientras se pone el sol, la familia se re\xFAne alrededor del fuego."
+      - languageCode: zh
+        value: "\u5915\u9633\u897F\u4E0B\uFF0C\u4E00\u5BB6\u4EBA\u56F4\u5750\u5728\u706B\u5806\u65C1\u3002"
+      - languageCode: ja
+        value: "\u65E5\u304C\u6C88\u3080\u3053\u308D\u3001\u5BB6\u65CF\u306F\u711A\u304D\u706B\u306E\u307E\u308F\u308A\u306B\u96C6\u307E\u308B\u3002"
+      - languageCode: fr
+        value: Au coucher du soleil, la famille se rassemble autour du feu.
+      - languageCode: pl
+        value: "Gdy zachodzi s\u0142o\u0144ce, rodzina gromadzi si\u0119 wok\xF3\u0142
+          ogniska."
+      - languageCode: ru
+        value: "\u041D\u0430 \u0437\u0430\u043A\u0430\u0442\u0435 \u0441\u0435\u043C\u044C\u044F
+          \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u0442\u0441\u044F \u0443 \u043A\u043E\u0441\u0442\u0440\u0430."
+      - languageCode: pt-BR
+        value: "Enquanto o sol se p\xF5e, a fam\xEDlia se re\xFAne ao redor da fogueira."
+      - languageCode: de
+        value: "W\xE4hrend die Sonne untergeht, versammelt sich die Familie ums Feuer."
+      aliases: []
+    - key: Panel_2
+      originalValue: "\u064A\u062C\u0644\u0633 \u064A\u0632\u0646 \u0628\u064A\u0646\u0647\u0645\u060C
+        \u0648\u062F\u0645\u064A\u062A\u0647 \u0627\u0644\u0642\u0645\u0627\u0634\u064A\u0629
+        \u0625\u0644\u0649 \u062C\u0648\u0627\u0631\u0647."
+      variants:
+      - languageCode: en
+        value: Yazan sits among them, holding his cloth doll.
+      - languageCode: ko
+        value: "\uC57C\uC794\uC740 \uBD80\uBAA8\uB2D8 \uC0AC\uC774\uC5D0 \uC549\uC544
+          \uC788\uC5C8\uACE0, \n\uACC1\uC5D0\uB294 \uCC9C\uC73C\uB85C \uB9CC\uB4E0
+          \uC778\uD615\uC774 \uB193\uC5EC \uC788\uC5C8\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: "Yazan est\xE1 sentado entre ellos, con su mu\xF1eco de trapo en las
+          manos."
+      - languageCode: zh
+        value: "\u4E9A\u8D5E\u5750\u5728\u4ED6\u4EEC\u4E2D\u95F4\uFF0C\u6000\u91CC\u62B1\u7740\u4ED6\u7684\u5E03\u5A03\u5A03\u3002"
+      - languageCode: ja
+        value: "\u30E4\u30B6\u30F3\u306F\u305D\u306E\u8F2A\u306E\u4E2D\u306B\u5EA7\u308A\u3001\u5E03\u306E\u4EBA\u5F62\u3092\u62B1\u3048\u3066\u3044\u308B\u3002"
+      - languageCode: fr
+        value: "Yazan est assis parmi eux, sa poup\xE9e de chiffon dans les mains."
+      - languageCode: pl
+        value: "Yazan siedzi po\u015Br\xF3d nich, trzymaj\u0105c swoj\u0105 szmacian\u0105
+          lalk\u0119."
+      - languageCode: ru
+        value: "\u042F\u0437\u0430\u043D \u0441\u0438\u0434\u0438\u0442 \u0441\u0440\u0435\u0434\u0438
+          \u043D\u0438\u0445, \u0434\u0435\u0440\u0436\u0430 \u0432 \u0440\u0443\u043A\u0430\u0445
+          \u0441\u0432\u043E\u044E \u0442\u0440\u044F\u043F\u0438\u0447\u043D\u0443\u044E
+          \u043A\u0443\u043A\u043B\u0443."
+      - languageCode: pt-BR
+        value: "Yazan est\xE1 sentado entre eles, segurando seu boneco de pano."
+      - languageCode: de
+        value: "Yazan sitzt mitten unter ihnen und h\xE4lt seine Stoffpuppe im Arm."
+      aliases: []
+    - key: Panel_3
+      originalValue: "\u064A\u0644\u062A\u0641\u062A \u0625\u0644\u064A\u0647 \u0648\u0627\u0644\u062F\u0647."
+      variants:
+      - languageCode: en
+        value: father turns to him
+      - languageCode: ko
+        value: "\uC544\uBC84\uC9C0\uAC00 \uC57C\uC794\uC744 \uB3CC\uC544\uBCF4\uC558\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: "El padre se vuelve hacia \xE9l."
+      - languageCode: zh
+        value: "\u7236\u4EB2\u8F6C\u5411\u4ED6\u3002"
+      - languageCode: ja
+        value: "\u7236\u304C\u5F7C\u306E\u307B\u3046\u3092\u5411\u304F\u3002"
+      - languageCode: fr
+        value: "Le p\xE8re se tourne vers lui."
+      - languageCode: pl
+        value: "Ojciec zwraca si\u0119 do niego."
+      - languageCode: ru
+        value: "\u041E\u0442\u0435\u0446 \u043F\u043E\u0432\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F
+          \u043A \u043D\u0435\u043C\u0443."
+      - languageCode: pt-BR
+        value: O pai se vira para ele.
+      - languageCode: de
+        value: Der Vater wendet sich ihm zu.
+      aliases: []
+    - key: Panel_4
+      originalValue: "\u0627\u0644\u0623\u0628: \"\u0627\u062D\u0643\u0650 \u0644\u0646\u0627
+        \u0642\u0635\u0629.\""
+      variants:
+      - languageCode: en
+        value: " FATHER:  \u201CTell us a story.\u201D"
+      - languageCode: ko
+        value: "\uC544\uBC84\uC9C0: \"\uC57C\uC794, \uC6B0\uB9AC\uC5D0\uAC8C \uC774\uC57C\uAE30\uB97C
+          \uD558\uB098 \uB4E4\uB824\uC8FC\uB834\""
+      - languageCode: es
+        value: "PADRE: \"Cu\xE9ntanos una historia\"."
+      - languageCode: zh
+        value: "\u7236\u4EB2\uFF1A\u201C\u7ED9\u6211\u4EEC\u8BB2\u4E2A\u6545\u4E8B\u5427\u3002\u201D"
+      - languageCode: ja
+        value: "\u7236\uFF1A\u300C\u4F55\u304B\u8A71\u3092\u805E\u304B\u305B\u3066\u304A\u304F\u308C\u300D"
+      - languageCode: fr
+        value: "P\xC8RE : \"Raconte-nous une histoire.\""
+      - languageCode: pl
+        value: "OJCIEC: \"Opowiedz nam jak\u0105\u015B histori\u0119.\u201D"
+      - languageCode: ru
+        value: "\u041E\u0422\u0415\u0426: \"\u0420\u0430\u0441\u0441\u043A\u0430\u0436\u0438
+          \u043D\u0430\u043C \u0438\u0441\u0442\u043E\u0440\u0438\u044E.\""
+      - languageCode: pt-BR
+        value: "PAI: \u201CConte uma hist\xF3ria pra gente.\u201D"
+      - languageCode: de
+        value: "VATER: \"Erz\xE4hl uns eine Geschichte.\u201C"
+      aliases: []
+    - key: Panel_5
+      originalValue: "\u064A\u062E\u0641\u0636 \u064A\u0632\u0646 \u0646\u0638\u0631\u0647.
+        \u0644\u0627 \u064A\u062C\u062F \u0642\u0635\u0629\u064B \u064A\u0631\u0648\u064A\u0647\u0627."
+      variants:
+      - languageCode: en
+        value: Yazan lowers his eyes. He has no story to tell.
+      - languageCode: ko
+        value: "\uC57C\uC794\uC740 \uACE0\uAC1C\uB97C \uC219\uC600\uC2B5\uB2C8\uB2E4.
+          \n\uB4E4\uB824\uC904 \uC774\uC57C\uAE30\uAC00 \uB2E8 \uD558\uB098\uB3C4
+          \uC5C6\uC5C8\uAE30 \uB54C\uBB38\uC785\uB2C8\uB2E4."
+      - languageCode: es
+        value: Yazan baja la mirada. No tiene ninguna historia que contar.
+      - languageCode: zh
+        value: "\u4E9A\u8D5E\u5782\u4E0B\u773C\u775B\u3002\u4ED6\u6CA1\u6709\u6545\u4E8B\u53EF\u8BB2\u3002"
+      - languageCode: ja
+        value: "\u30E4\u30B6\u30F3\u306F\u76EE\u3092\u4F0F\u305B\u308B\u3002\u5F7C\u306B\u306F\u8A71\u305B\u308B\u7269\u8A9E\u304C\u306A\u3044\u3002"
+      - languageCode: fr
+        value: "Yazan baisse les yeux. Il n\u2019a aucune histoire \xE0 raconter."
+      - languageCode: pl
+        value: "Yazan spuszcza wzrok. Nie ma \u017Cadnej historii do opowiedzenia."
+      - languageCode: ru
+        value: "\u042F\u0437\u0430\u043D \u043E\u043F\u0443\u0441\u043A\u0430\u0435\u0442
+          \u0433\u043B\u0430\u0437\u0430. \u0415\u043C\u0443 \u043D\u0435\u0447\u0435\u0433\u043E
+          \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u0442\u044C."
+      - languageCode: pt-BR
+        value: "Yazan abaixa os olhos. Ele n\xE3o tem nenhuma hist\xF3ria para contar."
+      - languageCode: de
+        value: "Yazan senkt den Blick. Er hat keine Geschichte zu erz\xE4hlen."
+      aliases: []
+    - key: Panel_6
+      originalValue: "\u064A\u062D\u0645\u0644 \u062F\u0645\u064A\u062A\u0647\u060C
+        \u0648\u064A\u0628\u062A\u0639\u062F \u0642\u0644\u064A\u0644\u064B\u0627
+        \u0644\u064A\u0633\u062A\u0643\u0634\u0641 \u0627\u0644\u0648\u0627\u062F\u064A."
+      variants:
+      - languageCode: en
+        value: He picks up his backpack and doll and wanders off to explore the valley.
+      - languageCode: ko
+        value: "\uADF8\uB798\uC11C \uC57C\uC794\uC740 \uC778\uD615\uC744 \uB4E4\uACE0
+          \n\uACC4\uACE1\uC744 \uD0D0\uD5D8\uD558\uAE30 \uC704\uD574 \uC870\uAE08\uC529
+          \uBA40\uC5B4\uC84C\uC2B5\uB2C8\uB2E4"
+      - languageCode: es
+        value: "Coge su mochila y su mu\xF1eco y se aleja para explorar el valle."
+      - languageCode: zh
+        value: "\u4ED6\u62FF\u8D77\u80CC\u5305\u548C\u5E03\u5A03\u5A03\uFF0C\u4FE1\u6B65\u8D70\u5F00\uFF0C\u53BB\u63A2\u7D22\u5C71\u8C37\u3002"
+      - languageCode: ja
+        value: "\u5F7C\u306F\u30EA\u30E5\u30C3\u30AF\u3068\u4EBA\u5F62\u3092\u624B\u306B\u53D6\u308A\u3001\u8C37\u3092\u63A2\u691C\u3057\u3088\u3046\u3068\u3075\u3089\u308A\u3068\u6B69\u304D\u51FA\u3059\u3002"
+      - languageCode: fr
+        value: "Il prend son sac \xE0 dos et sa poup\xE9e, puis s\u2019\xE9loigne
+          pour explorer la vall\xE9e."
+      - languageCode: pl
+        value: "Bierze plecak i lalk\u0119, po czym oddala si\u0119, by pozwiedza\u0107
+          dolin\u0119."
+      - languageCode: ru
+        value: "\u041E\u043D \u0431\u0435\u0440\u0451\u0442 \u0440\u044E\u043A\u0437\u0430\u043A
+          \u0438 \u043A\u0443\u043A\u043B\u0443 \u0438 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+          \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C \u0434\u043E\u043B\u0438\u043D\u0443."
+      - languageCode: pt-BR
+        value: Ele pega a mochila e o boneco e sai andando para explorar o vale.
+      - languageCode: de
+        value: Er nimmt seinen Rucksack und seine Puppe und zieht los, um das Tal
+          zu erkunden.
+      aliases: []
+    - key: Panel_7
+      originalValue: "\u0627\u0644\u0623\u0645: \"\u064A\u0632\u0646\u2026 \u0644\u0627
+        \u062A\u0628\u062A\u0639\u062F \u0643\u062B\u064A\u0631\u064B\u0627. \u0644\u0647\u0630\u0627
+        \u0627\u0644\u0645\u0643\u0627\u0646 \u062D\u0643\u0627\u064A\u0627\u062A
+        \u0645\u062E\u064A\u0641\u0629.\""
+      variants:
+      - languageCode: en
+        value: "MOTHER: \u201CYazan\u2026 don\u2019t go too far. There are frightening
+          stories about this place.\u201D"
+      - languageCode: ko
+        value: "\uC5B4\uBA38\uB2C8: \u201C\uC57C\uC794\u2026 \uB108\uBB34 \uBA40\uB9AC
+          \uAC00\uC9C0 \uB9D0\uB834. \uC774\uACF3\uC5D0\uB294 \uBB34\uC11C\uC6B4
+          \uC774\uC57C\uAE30\uB4E4\uC774 \uC788\uB2E8\uB2E4.\u201D"
+      - languageCode: es
+        value: "MADRE: \"Yazan\u2026 no te alejes demasiado. Cuentan historias aterradoras
+          sobre este lugar\"."
+      - languageCode: zh
+        value: "\u6BCD\u4EB2\uFF1A\u201C\u4E9A\u8D5E\u2026\u2026\u522B\u8D70\u592A\u8FDC\u3002\u5173\u4E8E\u8FD9\u4E2A\u5730\u65B9\uFF0C\u6D41\u4F20\u7740\u53EF\u6015\u7684\u4F20\u8BF4\u3002\u201D"
+      - languageCode: ja
+        value: "\u6BCD\uFF1A\u300C\u30E4\u30B6\u30F3\u2026\u2026\u3042\u307E\u308A\u9060\u304F\u3078\u884C\u304B\u306A\u3044\u3067\u306D\u3002\u3053\u306E\u5834\u6240\u306B\u306F\u6016\u3044\u8A00\u3044\u4F1D\u3048\u304C\u3042\u308B\u306E\u3088\u300D"
+      - languageCode: fr
+        value: "M\xC8RE : \"Yazan\u2026 ne va pas trop loin. On raconte des histoires
+          effrayantes sur cet endroit.\""
+      - languageCode: pl
+        value: "MATKA: \"Yazanie\u2026 nie odchod\u017A za daleko. O tym miejscu
+          kr\u0105\u017C\u0105 przera\u017Caj\u0105ce opowie\u015Bci.\""
+      - languageCode: ru
+        value: "\u041C\u0410\u0422\u042C: \"\u042F\u0437\u0430\u043D\u2026 \u043D\u0435
+          \u0443\u0445\u043E\u0434\u0438 \u0434\u0430\u043B\u0435\u043A\u043E. \u041E\u0431
+          \u044D\u0442\u043E\u043C \u043C\u0435\u0441\u0442\u0435 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442
+          \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u0435 \u0438\u0441\u0442\u043E\u0440\u0438\u0438.\""
+      - languageCode: pt-BR
+        value: "M\xC3E: \u201CYazan\u2026 n\xE3o v\xE1 muito longe. Contam hist\xF3rias
+          assustadoras sobre este lugar.\u201D"
+      - languageCode: de
+        value: "MUTTER: \"Yazan \u2026 geh nicht zu weit weg. Man erz\xE4hlt sich
+          schaurige Geschichten \xFCber diesen Ort.\u201C"
+      aliases: []
+    - key: Panel_8
+      originalValue: "\u064A\u0644\u062A\u0641\u062A \u0625\u0644\u064A\u0647\u0627
+        \u0645\u062C\u064A\u0628\u064B\u0627. \r\n\u064A\u0632\u0646: \"\u062F\u0645\u064A\u062A\u064A
+        \u0645\u0639\u064A\u2026 \u0644\u0646 \u0623\u0636\u0644\u0651 \u0627\u0644\u0637\u0631\u064A\u0642.\""
+      variants:
+      - languageCode: en
+        value: "YAZAN: \u201CI have my doll with me\u2026 I won\u2019t get lost.\u201D"
+      - languageCode: ko
+        value: "\uADF8\uB294 \uC5B4\uBA38\uB2C8\uC5D0\uAC8C \uB300\uB2F5\uD558\uB824\uACE0
+          \uB3CC\uC544\uC120\uB2E4. \r\n\uC57C\uC794: \u201C\uC778\uD615\uB3C4 \uACC1\uC5D0
+          \uC788\uC73C\uB2C8\uAE4C\u2026 \uAE38\uC744 \uC783\uC9C0 \uC54A\uC744 \uAC70\uC57C.\u201D"
+      - languageCode: es
+        value: "Se vuelve para responderle. YAZAN: \xABLlevo mi mu\xF1eco conmigo\u2026
+          No me voy a perder\xBB."
+      - languageCode: zh
+        value: "\u4ED6\u8F6C\u8EAB\u56DE\u7B54\u5979\u3002\u4E9A\u8D5E\uFF1A\u201C\u6211\u5E26\u7740\u6211\u7684\u5E03\u5A03\u5A03\u5462\u2026\u2026\u6211\u4E0D\u4F1A\u8FF7\u8DEF\u7684\u3002\u201D"
+      - languageCode: ja
+        value: "\u5F7C\u306F\u632F\u308A\u8FD4\u3063\u3066\u7B54\u3048\u308B\u3002\u30E4\u30B6\u30F3\uFF1A\u300C\u4EBA\u5F62\u304C\u4E00\u7DD2\u3060\u304B\u3089\u2026\u2026\u8FF7\u5B50\u306B\u306F\u306A\u3089\u306A\u3044\u3088\u300D"
+      - languageCode: fr
+        value: "Il se retourne pour lui r\xE9pondre. YAZAN : \"J\u2019ai ma poup\xE9e
+          avec moi\u2026 Je ne me perdrai pas.\""
+      - languageCode: pl
+        value: "Odwraca si\u0119, \u017Ceby jej odpowiedzie\u0107. YAZAN: \"Mam ze
+          sob\u0105 lalk\u0119\u2026 Nie zgubi\u0119 si\u0119.\u201D"
+      - languageCode: ru
+        value: "\u041E\u043D \u043E\u0431\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F,
+          \u0447\u0442\u043E\u0431\u044B \u043E\u0442\u0432\u0435\u0442\u0438\u0442\u044C
+          \u0435\u0439. \u042F\u0417\u0410\u041D: \"\u0421\u043E \u043C\u043D\u043E\u0439
+          \u043C\u043E\u044F \u043A\u0443\u043A\u043B\u0430\u2026 \u042F \u043D\u0435
+          \u043F\u043E\u0442\u0435\u0440\u044F\u044E\u0441\u044C.\""
+      - languageCode: pt-BR
+        value: "Ele se vira para responder a ela. YAZAN: \u201CEstou com meu boneco\u2026
+          N\xE3o vou me perder.\u201D"
+      - languageCode: de
+        value: "Er dreht sich zu ihr um und antwortet. YAZAN: \"Ich habe meine Puppe
+          dabei \u2026 Ich verlaufe mich nicht.\u201C"
+      aliases: []
+    - key: Panel_9
+      originalValue: "\u0648\u0645\u0636\u0649 \u064A\u0632\u0646 \u0641\u064A \u0637\u0631\u064A\u0642\u0647."
+      variants:
+      - languageCode: en
+        value: Yazan continues on his way.
+      - languageCode: ko
+        value: "\uC57C\uC794\uC740 \uADF8\uB807\uAC8C \uAE38\uC744 \uACC4\uC18D \uB098\uC544\uAC14\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: Yazan sigue su camino.
+      - languageCode: zh
+        value: "\u4E9A\u8D5E\u7EE7\u7EED\u5F80\u524D\u8D70\u3002"
+      - languageCode: ja
+        value: "\u30E4\u30B6\u30F3\u306F\u305D\u306E\u307E\u307E\u6B69\u304D\u7D9A\u3051\u308B\u3002"
+      - languageCode: fr
+        value: Yazan poursuit son chemin.
+      - languageCode: pl
+        value: Yazan idzie dalej.
+      - languageCode: ru
+        value: "\u042F\u0437\u0430\u043D \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442
+          \u0441\u0432\u043E\u0439 \u043F\u0443\u0442\u044C."
+      - languageCode: pt-BR
+        value: Yazan segue seu caminho.
+      - languageCode: de
+        value: Yazan setzt seinen Weg fort.
+      aliases: []
+    - key: Panel_10
+      originalValue: "\u064A\u0638\u0646 \u064A\u0632\u0646 \u0623\u0646\u0647 \u064A\u0639\u0631\u0641
+        \u0637\u0631\u064A\u0642 \u0627\u0644\u0639\u0648\u062F\u0629. \u0644\u0643\u0646
+        \u0627\u0644\u0648\u0627\u062F\u064A \u064A\u0628\u062F\u0651\u0644 \u0645\u0644\u0627\u0645\u062D\u0647
+        \u0645\u0639 \u0643\u0644 \u062E\u0637\u0648\u0629."
+      variants:
+      - languageCode: en
+        value: "Yazan thinks he knows the way back. \r\nBut the valley changes with
+          every step."
+      - languageCode: ko
+        value: "\uC57C\uC794\uC740 \uB3CC\uC544\uAC00\uB294 \uAE38\uC744 \uC54C\uACE0
+          \uC788\uB2E4\uACE0 \uC0DD\uAC01\uD588\uC2B5\uB2C8\uB2E4.\n\uD558\uC9C0\uB9CC
+          \uACC4\uACE1\uC740 \uD55C \uAC78\uC74C\uC529 \uC62E\uAE38 \uB54C\uB9C8\uB2E4
+          \uBAA8\uC2B5\uC744 \uBC14\uAFB8\uC5C8\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: Yazan cree que conoce el camino de vuelta. Pero el valle cambia a
+          cada paso.
+      - languageCode: zh
+        value: "\u4E9A\u8D5E\u4EE5\u4E3A\u81EA\u5DF1\u8BA4\u5F97\u56DE\u53BB\u7684\u8DEF\u3002\u53EF\u662F\uFF0C\u4ED6\u6BCF\u8D70\u4E00\u6B65\uFF0C\u5C71\u8C37\u90FD\u5728\u53D8\u5316\u3002"
+      - languageCode: ja
+        value: "\u30E4\u30B6\u30F3\u306F\u5E30\u308A\u9053\u304C\u308F\u304B\u3063\u3066\u3044\u308B\u3064\u3082\u308A\u3067\u3044\u308B\u3002\u3060\u304C\u3001\u8C37\u306F\u4E00\u6B69\u9032\u3080\u3054\u3068\u306B\u59FF\u3092\u5909\u3048\u3066\u3044\u304F\u3002"
+      - languageCode: fr
+        value: "Yazan croit conna\xEEtre le chemin du retour. Mais la vall\xE9e change
+          \xE0 chaque pas."
+      - languageCode: pl
+        value: "Yazan my\u015Bli, \u017Ce zna drog\u0119 powrotn\u0105. Ale dolina
+          zmienia si\u0119 z ka\u017Cdym krokiem."
+      - languageCode: ru
+        value: "\u042F\u0437\u0430\u043D\u0443 \u043A\u0430\u0436\u0435\u0442\u0441\u044F,
+          \u0447\u0442\u043E \u043E\u043D \u0437\u043D\u0430\u0435\u0442 \u0434\u043E\u0440\u043E\u0433\u0443
+          \u043D\u0430\u0437\u0430\u0434. \u041D\u043E \u0441 \u043A\u0430\u0436\u0434\u044B\u043C
+          \u0448\u0430\u0433\u043E\u043C \u0434\u043E\u043B\u0438\u043D\u0430 \u043C\u0435\u043D\u044F\u0435\u0442\u0441\u044F."
+      - languageCode: pt-BR
+        value: Yazan acha que sabe o caminho de volta. Mas o vale muda a cada passo.
+      - languageCode: de
+        value: "Yazan glaubt, den Weg zur\xFCck zu kennen. Doch das Tal ver\xE4ndert
+          sich mit jedem Schritt."
+      aliases: []
+    - key: Panel_11
+      originalValue: "\u0643\u0644 \u0635\u062E\u0631\u0629 \u062A\u0634\u0628\u0647
+        \u0627\u0644\u0623\u062E\u0631\u0649\u060C \u0648\u0643\u0644 \u0645\u0645\u0631
+        \u064A\u0642\u0648\u062F \u0625\u0644\u0649 \u0645\u062B\u0644\u0647\u060C\r\n\u062D\u062A\u0649
+        \u064A\u0639\u062C\u0632 \u0639\u0646 \u062A\u0630\u0643\u0651\u0631 \u0627\u0644\u0637\u0631\u064A\u0642
+        \u0627\u0644\u0630\u064A \u062C\u0627\u0621 \u0645\u0646\u0647."
+      variants:
+      - languageCode: en
+        value: "Every rock resembles another. Every path leads to one just like it,
+          \r\nuntil he can no longer remember which way he came."
+      - languageCode: ko
+        value: "\uBAA8\uB4E0 \uBC14\uC704\uAC00 \uC11C\uB85C \uB2EE\uC544 \uC788\uC5C8\uACE0,
+          \uBAA8\uB4E0 \uAE38\uC740 \uBE44\uC2B7\uD55C \uAE38\uB85C \uC774\uC5B4\uC838,
+          \n\uACB0\uAD6D \uAC78\uC5B4\uC628 \uAE38\uC870\uCC28 \uAE30\uC5B5\uD560
+          \uC218 \uC5C6\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: "Cada roca se parece a otra. Cada sendero lleva a otro id\xE9ntico,
+          hasta que ya no recuerda por d\xF3nde ha venido."
+      - languageCode: zh
+        value: "\u6BCF\u5757\u5CA9\u77F3\u90FD\u548C\u53E6\u4E00\u5757\u76F8\u4F3C\u3002\u6BCF\u6761\u5C0F\u8DEF\u90FD\u901A\u5411\u53E6\u4E00\u6761\u4E00\u6A21\u4E00\u6837\u7684\u8DEF\uFF0C\u76F4\u5230\u4ED6\u518D\u4E5F\u60F3\u4E0D\u8D77\u81EA\u5DF1\u662F\u4ECE\u54EA\u8FB9\u6765\u7684\u3002"
+      - languageCode: ja
+        value: "\u3069\u306E\u5CA9\u3082\u5225\u306E\u5CA9\u306B\u4F3C\u3066\u3044\u308B\u3002\u3069\u306E\u9053\u3082\u540C\u3058\u3088\u3046\u306A\u9053\u3078\u3068\u7D9A\u304D\u3001\u3084\u304C\u3066\u5F7C\u306F\u81EA\u5206\u304C\u3069\u3061\u3089\u304B\u3089\u6765\u305F\u306E\u304B\u601D\u3044\u51FA\u305B\u306A\u304F\u306A\u308B\u3002"
+      - languageCode: fr
+        value: "Chaque rocher ressemble \xE0 un autre. Chaque sentier m\xE8ne \xE0
+          un sentier identique, jusqu\u2019\xE0 ce qu\u2019il ne se souvienne plus
+          par o\xF9 il est venu."
+      - languageCode: pl
+        value: "Ka\u017Cda ska\u0142a przypomina inn\u0105. Ka\u017Cda \u015Bcie\u017Cka
+          prowadzi do takiej samej, a\u017C w ko\u0144cu nie pami\u0119ta ju\u017C,
+          kt\xF3r\u0119dy przyszed\u0142."
+      - languageCode: ru
+        value: "\u041A\u0430\u0436\u0434\u044B\u0439 \u043A\u0430\u043C\u0435\u043D\u044C
+          \u043F\u043E\u0445\u043E\u0436 \u043D\u0430 \u0434\u0440\u0443\u0433\u043E\u0439.
+          \u041A\u0430\u0436\u0434\u0430\u044F \u0442\u0440\u043E\u043F\u0430 \u0432\u0435\u0434\u0451\u0442
+          \u043A \u0442\u043E\u0447\u043D\u043E \u0442\u0430\u043A\u043E\u0439 \u0436\u0435,
+          \u0438 \u0432\u043E\u0442 \u043E\u043D \u0443\u0436\u0435 \u043D\u0435
+          \u043F\u043E\u043C\u043D\u0438\u0442, \u043E\u0442\u043A\u0443\u0434\u0430
+          \u043F\u0440\u0438\u0448\u0451\u043B."
+      - languageCode: pt-BR
+        value: "Cada pedra se parece com outra. Cada trilha leva a outra id\xEAntica,
+          at\xE9 que ele j\xE1 n\xE3o consegue lembrar por onde veio."
+      - languageCode: de
+        value: "Jeder Fels gleicht einem anderen. Jeder Pfad f\xFChrt zu einem, der
+          genauso aussieht, bis er sich nicht mehr erinnern kann, aus welcher Richtung
+          er gekommen ist."
+      aliases: []
+    - key: Panel_12
+      originalValue: "\u0628\u062F\u0623\u062A \u0627\u0644\u0645\u0633\u0627\u0645\u064A\u0631
+        \u062A\u062E\u062A\u0631\u0642 \u0627\u0644\u062F\u0645\u064A\u0629 \u0648\u0627\u062D\u062F\u064B\u0627
+        \u062A\u0644\u0648 \u0627\u0644\u0622\u062E\u0631\u060C \u062D\u062A\u0649
+        \u0628\u0644\u063A \u0639\u062F\u062F\u0647\u0627 \u0639\u0634\u0631\u0629."
+      variants:
+      - languageCode: en
+        value: Suddenly, nails begin piercing the doll, one after another, until
+          there are ten.
+      - languageCode: ko
+        value: "\uADF8\uB54C, \uC778\uD615\uC5D0 \uBABB\uC774 \uD558\uB098\uC529
+          \uBC15\uD788\uAE30 \uC2DC\uC791\uD588\uC2B5\uB2C8\uB2E4.\n\uADF8\uB7EC\uB2E4
+          \uACB0\uAD6D \uC5F4 \uAC1C\uC758 \uBABB\uC774 \uBC15\uD788\uACE0 \uB9D0\uC558\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: "De repente, unos clavos empiezan a atravesar el mu\xF1eco, uno tras
+          otro, hasta que son diez."
+      - languageCode: zh
+        value: "\u7A81\u7136\uFF0C\u9489\u5B50\u5F00\u59CB\u523A\u7A7F\u5E03\u5A03\u5A03\uFF0C\u4E00\u6839\u63A5\u4E00\u6839\uFF0C\u76F4\u5230\u8DB3\u8DB3\u624E\u4E86\u5341\u6839\u3002"
+      - languageCode: ja
+        value: "\u7A81\u7136\u3001\u4EBA\u5F62\u306B\u91D8\u304C\u4E00\u672C\u3001\u307E\u305F\u4E00\u672C\u3068\u7A81\u304D\u523A\u3055\u308A\u59CB\u3081\u3001\u3064\u3044\u306B\u5341\u672C\u306B\u306A\u308B\u3002"
+      - languageCode: fr
+        value: "Soudain, des clous se mettent \xE0 transpercer la poup\xE9e, l\u2019un
+          apr\xE8s l\u2019autre, jusqu\u2019\xE0 ce qu\u2019il y en ait dix."
+      - languageCode: pl
+        value: "Nagle w lalk\u0119 zaczynaj\u0105 wbija\u0107 si\u0119 gwo\u017Adzie,
+          jeden po drugim, a\u017C jest ich dziesi\u0119\u0107."
+      - languageCode: ru
+        value: "\u0412\u0434\u0440\u0443\u0433 \u0432 \u043A\u0443\u043A\u043B\u0443
+          \u043D\u0430\u0447\u0438\u043D\u0430\u044E\u0442 \u0432\u043E\u043D\u0437\u0430\u0442\u044C\u0441\u044F
+          \u0433\u0432\u043E\u0437\u0434\u0438, \u043E\u0434\u0438\u043D \u0437\u0430
+          \u0434\u0440\u0443\u0433\u0438\u043C, \u043F\u043E\u043A\u0430 \u0438\u0445
+          \u043D\u0435 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F
+          \u0434\u0435\u0441\u044F\u0442\u044C."
+      - languageCode: pt-BR
+        value: "De repente, pregos come\xE7am a perfurar o boneco, um ap\xF3s o outro,
+          at\xE9 chegarem a dez."
+      - languageCode: de
+        value: "Pl\xF6tzlich bohrt sich ein Nagel nach dem anderen in die Puppe,
+          bis es zehn sind."
+      aliases: []
+    - key: Panel_13
+      originalValue: "\u0646\u0638\u0631 \u0625\u0644\u0649 \u062F\u0645\u064A\u062A\u0647\u060C
+        \u0645\u0645\u0633\u0643\u064B\u0627 \u0628\u0647\u0627 \u0628\u0631\u0641\u0642
+        \u0648\u0627\u0644\u062F\u0645\u0648\u0639 \u062A\u0645\u0644\u0623 \u0639\u064A\u0646\u064A\u0647.
+        \u062B\u0645 \u0638\u0647\u0631 \u0623\u0645\u0627\u0645\u0647 \u0646\u0648\u0631."
+      variants:
+      - languageCode: en
+        value: "He looks down at his doll, holding it carefully with tears in his
+          eyes. \r\nThen, a light appears before him."
+      - languageCode: ko
+        value: "\uC57C\uC794\uC740 \uB208\uC5D0 \uB208\uBB3C\uC774 \uAC00\uB4DD \uACE0\uC778
+          \uCC44, \n\uADF8\uB294 \uC778\uD615\uC744 \uC870\uC2EC\uC2A4\uB808 \uC950\uC5C8\uC2B5\uB2C8\uB2E4.\n\uADF8\uB7EC\uC790
+          \uADF8\uC758 \uC55E\uC5D0 \uD55C \uC904\uAE30 \uBE5B\uC774 \uB098\uD0C0\uB0AC\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: "Baja la vista hacia su mu\xF1eco y lo sostiene con cuidado, con l\xE1grimas
+          en los ojos. Entonces, aparece una luz ante \xE9l."
+      - languageCode: zh
+        value: "\u4ED6\u4F4E\u5934\u770B\u7740\u5E03\u5A03\u5A03\uFF0C\u773C\u542B\u6CEA\u6C34\uFF0C\u5C0F\u5FC3\u7FFC\u7FFC\u5730\u6367\u7740\u5B83\u3002\u5C31\u5728\u8FD9\u65F6\uFF0C\u4E00\u9053\u5149\u51FA\u73B0\u5728\u4ED6\u9762\u524D\u3002"
+      - languageCode: ja
+        value: "\u5F7C\u306F\u6D99\u3092\u6D6E\u304B\u3079\u306A\u304C\u3089\u4EBA\u5F62\u3092\u898B\u4E0B\u308D\u3057\u3001\u305D\u3063\u3068\u62B1\u3048\u308B\u3002\u3059\u308B\u3068\u3001\u76EE\u306E\u524D\u306B\u5149\u304C\u73FE\u308C\u308B\u3002"
+      - languageCode: fr
+        value: "Il regarde sa poup\xE9e et la tient avec pr\xE9caution, les larmes
+          aux yeux. Puis une lumi\xE8re appara\xEEt devant lui."
+      - languageCode: pl
+        value: "Ze \u0142zami w oczach spogl\u0105da na lalk\u0119, ostro\u017Cnie
+          j\u0105 trzymaj\u0105c. Wtedy pojawia si\u0119 przed nim \u015Bwiat\u0142o."
+      - languageCode: ru
+        value: "\u041E\u043D \u0441\u043C\u043E\u0442\u0440\u0438\u0442 \u043D\u0430
+          \u043A\u0443\u043A\u043B\u0443 \u0438 \u0431\u0435\u0440\u0435\u0436\u043D\u043E
+          \u0434\u0435\u0440\u0436\u0438\u0442 \u0435\u0451, \u0441\u043E \u0441\u043B\u0435\u0437\u0430\u043C\u0438
+          \u043D\u0430 \u0433\u043B\u0430\u0437\u0430\u0445. \u0418 \u0442\u0443\u0442
+          \u043F\u0435\u0440\u0435\u0434 \u043D\u0438\u043C \u043F\u043E\u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+          \u0441\u0432\u0435\u0442."
+      - languageCode: pt-BR
+        value: "Ele olha para o boneco e o segura com cuidado, com l\xE1grimas nos
+          olhos. Ent\xE3o, uma luz surge diante dele."
+      - languageCode: de
+        value: "Er blickt auf seine Puppe hinab und h\xE4lt sie behutsam, mit Tr\xE4nen
+          in den Augen. Da erscheint ein Licht vor ihm."
+      aliases: []
+    - key: Panel_14
+      originalValue: "\u064A\u062A\u0628\u0639 \u064A\u0632\u0646 \u0627\u0644\u0636\u0648\u0621
+        \u0628\u064A\u0646 \u0627\u0644\u0635\u062E\u0648\u0631 \u0648\u0627\u0644\u0645\u0645\u0631\u0627\u062A
+        \u0627\u0644\u0645\u0646\u0633\u064A\u0629\u060C\r\n\u062D\u062A\u0649 \u064A\u0628\u0644\u063A
+        \u062C\u062F\u0627\u0631\u064B\u0627 \u0642\u062F\u064A\u0645\u0627."
+      variants:
+      - languageCode: en
+        value: 'Yazan follows the light between rocks and forgotten paths,
+
+          until
+          he reaches an ancient wall. '
+      - languageCode: ko
+        value: "\uBE5B\uC744 \uB530\uB77C\uAC04 \uC57C\uC794\uC740 \uBC14\uC704 \uC0AC\uC774\uC640
+          \uC78A\uD600\uC9C4 \uD1B5\uB85C\uB97C \uC9C0\uB098, \n\uC624\uB798\uB41C
+          \uBCBD\uC5D0 \uB2E4\uB2E4\uB790\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: Yazan sigue la luz entre rocas y senderos olvidados hasta llegar a
+          una muralla antigua.
+      - languageCode: zh
+        value: "\u4E9A\u8D5E\u8DDF\u7740\u90A3\u9053\u5149\uFF0C\u7A7F\u8FC7\u5CA9\u77F3\u4E0E\u88AB\u9057\u5FD8\u7684\u5C0F\u5F84\uFF0C\u6765\u5230\u4E00\u5835\u53E4\u5899\u524D\u3002"
+      - languageCode: ja
+        value: "\u30E4\u30B6\u30F3\u306F\u5149\u3092\u8FFD\u3063\u3066\u5CA9\u306E\u9593\u3084\u5FD8\u308C\u53BB\u3089\u308C\u305F\u5C0F\u9053\u3092\u629C\u3051\u3001\u3084\u304C\u3066\u592A\u53E4\u306E\u58C1\u306B\u305F\u3069\u308A\u7740\u304F\u3002"
+      - languageCode: fr
+        value: "Yazan suit la lumi\xE8re entre les rochers et les sentiers oubli\xE9s,
+          jusqu\u2019\xE0 atteindre une muraille antique."
+      - languageCode: pl
+        value: "Yazan pod\u0105\u017Ca za \u015Bwiat\u0142em mi\u0119dzy ska\u0142ami
+          i zapomnianymi \u015Bcie\u017Ckami, a\u017C dociera do staro\u017Cytnego
+          muru."
+      - languageCode: ru
+        value: "\u042F\u0437\u0430\u043D \u0438\u0434\u0451\u0442 \u0437\u0430 \u0441\u0432\u0435\u0442\u043E\u043C
+          \u0441\u0440\u0435\u0434\u0438 \u043A\u0430\u043C\u043D\u0435\u0439 \u0438
+          \u0437\u0430\u0431\u044B\u0442\u044B\u0445 \u0442\u0440\u043E\u043F, \u043F\u043E\u043A\u0430
+          \u043D\u0435 \u0434\u043E\u0445\u043E\u0434\u0438\u0442 \u0434\u043E \u0434\u0440\u0435\u0432\u043D\u0435\u0439
+          \u0441\u0442\u0435\u043D\u044B."
+      - languageCode: pt-BR
+        value: "Yazan segue a luz entre pedras e trilhas esquecidas at\xE9 chegar
+          a uma muralha antiga."
+      - languageCode: de
+        value: "Yazan folgt dem Licht zwischen Felsen hindurch und \xFCber vergessene
+          Pfade, bis er eine uralte Mauer erreicht."
+      aliases: []
+    - key: Panel_16
+      originalValue: "\"\u064A\u062D\u062F\u0651\u0642 \u0627\u0644\u062C\u0646\u064A
+        \u0627\u0644\u0639\u062C\u0648\u0632 \u0641\u064A \u0627\u0644\u0635\u0628\u064A
+        \u0637\u0648\u064A\u0644\u064B\u0627\u060C \u062B\u0645 \u064A\u062A\u062D\u062F\u062B.\r\n\u062D\u0627\u0631\u0633
+        \u0627\u0644\u0628\u0648\u0627\u0628\u0629: \"\u0623\u0646\u062A \u0644\u0633\u062A
+        \u062A\u0627\u0626\u0647\u064B\u0627 \u064A\u0627 \u0628\u0646\u064A\u2026
+        \u0628\u0644 \u0641\u064A \u0645\u0643\u0627\u0646 \u0622\u062E\u0631 \u062A\u0645\u0627\u0645\u064B\u0627.\""
+      variants:
+      - languageCode: en
+        value: "The old jinn studies the boy for a long moment. Then he speaks.\r\nGATEKEEPER:
+          \u201CYou are not lost, child\u2026 you are somewhere else entirely.\u201D"
+      - languageCode: ko
+        value: "\uB299\uC740 \uC815\uB839\uC740 \uC18C\uB144\uC744 \uC624\uB7AB\uB3D9\uC548
+          \uC751\uC2DC\uD558\uB2E4 \uC774\uB0B4 \uC785\uC744 \uC5F4\uC5C8\uC2B5\uB2C8\uB2E4.\n\uBB38\uC9C0\uAE30:
+          \"\uC598\uC57C, \uB108\uB294 \uAE38\uC744 \uC783\uC740 \uAC83\uC774 \uC544\uB2C8\uB780\uB2E4...
+          \uC644\uC804\uD788 \uB2E4\uB978 \uACF3\uC5D0 \uC640 \uC788\uB294 \uAC70\uC9C0.\""
+      - languageCode: es
+        value: "El anciano yinn observa al ni\xF1o durante un largo rato. Luego habla.
+          Guardi\xE1n: \"No est\xE1s perdido, peque\xF1o\u2026 est\xE1s en un lugar
+          completamente distinto.\""
+      - languageCode: zh
+        value: "\u5E74\u8FC8\u7684\u9547\u5C3C\u4E45\u4E45\u5730\u6253\u91CF\u7740\u8FD9\u4E2A\u7537\u5B69\u3002\u7136\u540E\uFF0C\u4ED6\u5F00\u53E3\u4E86\u3002\u5B88\u95E8\u4EBA\uFF1A\u201C\u4F60\u6CA1\u6709\u8FF7\u8DEF\uFF0C\u5B69\u5B50\u2026\u2026\u4F60\u53EA\u662F\u6765\u5230\u4E86\u4E00\u4E2A\u622A\u7136\u4E0D\u540C\u7684\u5730\u65B9\u3002\u201D"
+      - languageCode: ja
+        value: "\u5E74\u8001\u3044\u305F\u30B8\u30F3\u306F\u3001\u9577\u3044\u3042\u3044\u3060\u5C11\u5E74\u3092\u3058\u3063\u3068\u898B\u3064\u3081\u308B\u3002\u3084\u304C\u3066\u3001\u53E3\u3092\u958B\u304F\u3002\u9580\u756A\uFF1A\u300C\u8FF7\u5B50\u3067\u306F\u306A\u3044\u305E\u3001\u5B50\u3069\u3082\u3088\u2026\u2026\u304A\u307E\u3048\u306F\u307E\u3063\u305F\u304F\u5225\u306E\u5834\u6240\u306B\u3044\u308B\u306E\u3060\u300D"
+      - languageCode: fr
+        value: "Le vieux djinn observe longuement le gar\xE7on. Puis il prend la
+          parole. Gardien : \"Tu n\u2019es pas perdu, mon enfant\u2026 tu es dans
+          un tout autre lieu.\""
+      - languageCode: pl
+        value: "Stary d\u017Cin d\u0142ugo przygl\u0105da si\u0119 ch\u0142opcu.
+          Potem si\u0119 odzywa. Stra\u017Cnik: \"Nie zgubi\u0142e\u015B si\u0119,
+          dziecko\u2026 jeste\u015B zupe\u0142nie gdzie indziej.\u201D"
+      - languageCode: ru
+        value: "\u0421\u0442\u0430\u0440\u044B\u0439 \u0434\u0436\u0438\u043D\u043D
+          \u0434\u043E\u043B\u0433\u043E \u0440\u0430\u0437\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u0435\u0442
+          \u043C\u0430\u043B\u044C\u0447\u0438\u043A\u0430. \u0417\u0430\u0442\u0435\u043C
+          \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442 \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C.
+          \u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A: \"\u0422\u044B
+          \u043D\u0435 \u0437\u0430\u0431\u043B\u0443\u0434\u0438\u043B\u0441\u044F,
+          \u0434\u0438\u0442\u044F\u2026 \u0442\u044B \u0441\u043E\u0432\u0441\u0435\u043C
+          \u0432 \u0434\u0440\u0443\u0433\u043E\u043C \u043C\u0435\u0441\u0442\u0435.\""
+      - languageCode: pt-BR
+        value: "O velho jinn observa o menino demoradamente. Ent\xE3o, ele fala.
+          Guardi\xE3o: \u201CVoc\xEA n\xE3o est\xE1 perdido, crian\xE7a\u2026 voc\xEA
+          est\xE1 em um lugar completamente diferente.\u201D"
+      - languageCode: de
+        value: "Der alte Dschinn mustert den Jungen eine lange Weile. Dann spricht
+          er. Torw\xE4chter: \u201EDu hast dich nicht verirrt, Kind \u2026 du bist
+          an einem ganz anderen Ort.\u201C"
+      aliases: []
+    - key: Panel_17
+      originalValue: "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629:
+        \"\u0647\u0630\u0627 \u0647\u0648 \u0627\u0644\u062E\u0641\u0627\u0621\u2026
+        \u0639\u0627\u0644\u0645 \u064A\u062C\u0627\u0648\u0631 \u0639\u0627\u0644\u0645\u0643\u0645\u060C\r\n\u0648\u0645\u062D\u062C\u0648\u0628
+        \u0639\u0646 \u0623\u0639\u064A\u0646 \u0627\u0644\u0628\u0634\u0631. \u0643\u0627\u0646
+        \u064A\u0648\u0645\u064B\u0627 \u0646\u0627\u0628\u0636\u064B\u0627 \u0628\u0627\u0644\u062D\u064A\u0627\u0629.\""
+      variants:
+      - languageCode: en
+        value: "GATEKEEPER: \u201CThis is Alkhafa\u2026 a world beside your own,
+          \r\nhidden from human eyes. It was once full of life\u2026\""
+      - languageCode: ko
+        value: "\uBB38\uC9C0\uAE30: \"\uC774\uACF3\uC740 '\uC54C \uCE74\uD30C' \uB780\uB2E4...
+          \uC778\uAC04\uB4E4\uC758 \uC138\uACC4\uC640 \uB9DE\uB2FF\uC544 \uC788\uC73C\uBA74\uC11C\uB3C4,\n\uADF8\uB4E4\uC758
+          \uB208\uC5D0\uB294 \uBCF4\uC774\uC9C0 \uC54A\uB294 \uACF3\uC774\uC9C0.
+          \uD55C\uB54C\uB294 \uC0DD\uBA85\uC73C\uB85C \uAC00\uB4DD\uD588\uB358 \uACF3\uC774\uB780\uB2E4.\""
+      - languageCode: es
+        value: "Guardi\xE1n: \"Esto es Alkhafa\u2026 un mundo junto al tuyo, oculto
+          a los ojos humanos. Antes estaba lleno de vida.\""
+      - languageCode: zh
+        value: "\u5B88\u95E8\u4EBA\uFF1A\u201C\u8FD9\u91CC\u662F\u963F\u5C14\u54C8\u6CD5\u2026\u2026\u4E00\u4E2A\u5C31\u5728\u4F60\u7684\u4E16\u754C\u65C1\u8FB9\u3001\u5374\u4E0D\u4E3A\u4EBA\u773C\u6240\u89C1\u7684\u4E16\u754C\u3002\u5B83\u66FE\u7ECF\u751F\u673A\u52C3\u52C3\u2026\u2026\u201D"
+      - languageCode: ja
+        value: "\u9580\u756A\uFF1A\u300C\u3053\u3053\u306F\u30A2\u30EB\u30CF\u30D5\u30A1\u2026\u2026\u304A\u307E\u3048\u305F\u3061\u306E\u4E16\u754C\u306E\u3059\u3050\u96A3\u306B\u3042\u308A\u3001\u4EBA\u306E\u76EE\u304B\u3089\u306F\u96A0\u3055\u308C\u305F\u4E16\u754C\u3002\u304B\u3064\u3066\u306F\u547D\u306B\u3042\u3075\u308C\u3066\u3044\u305F\u2026\u2026\u300D"
+      - languageCode: fr
+        value: "Gardien : \"Voici Alkhafa\u2026 un monde \xE0 c\xF4t\xE9 du tien,
+          cach\xE9 aux yeux des humains. Autrefois, il d\xE9bordait de vie\u2026\""
+      - languageCode: pl
+        value: "Stra\u017Cnik: \"To Alkhafa\u2026 \u015Bwiat obok twojego, ukryty
+          przed ludzkim wzrokiem. Kiedy\u015B t\u0119tni\u0142 \u017Cyciem\u2026\u201D"
+      - languageCode: ru
+        value: "\u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A: \"\u042D\u0442\u043E
+          \u0410\u043B\u0445\u0430\u0444\u0430\u2026 \u043C\u0438\u0440 \u0440\u044F\u0434\u043E\u043C
+          \u0441 \u0442\u0432\u043E\u0438\u043C, \u0441\u043A\u0440\u044B\u0442\u044B\u0439
+          \u043E\u0442 \u0447\u0435\u043B\u043E\u0432\u0435\u0447\u0435\u0441\u043A\u0438\u0445
+          \u0433\u043B\u0430\u0437. \u041A\u043E\u0433\u0434\u0430-\u0442\u043E \u043E\u043D
+          \u0431\u044B\u043B \u043F\u043E\u043B\u043E\u043D \u0436\u0438\u0437\u043D\u0438\u2026\""
+      - languageCode: pt-BR
+        value: "Guardi\xE3o: \u201CAqui \xE9 Alkhafa\u2026 um mundo ao lado do seu,
+          escondido dos olhos humanos. Ele j\xE1 foi cheio de vida\u2026\u201D"
+      - languageCode: de
+        value: "Torw\xE4chter: \"Dies ist Alkhafa \u2026 eine Welt neben der deinen,
+          verborgen vor menschlichen Augen. Einst war sie voller Leben \u2026\u201C"
+      aliases: []
+    - key: Panel_19
+      originalValue: "\u064A\u062E\u0641\u0636 \u0627\u0644\u062D\u0627\u0631\u0633
+        \u0628\u0635\u0631\u0647 \u0646\u062D\u0648 \u0627\u0644\u062F\u0645\u064A\u0629
+        \u0641\u064A \u064A\u062F \u064A\u0632\u0646\u060C \u0648\u064A\u0634\u064A\u0631
+        \u0625\u0644\u064A\u0647\u0627."
+      variants:
+      - languageCode: en
+        value: "The Gatekeeper lowers his gaze to the doll in Yazan\u2019s hand and
+          points to it."
+      - languageCode: ko
+        value: "\uBB38\uC9C0\uAE30\uB294 \uC2DC\uC120\uC744 \uB0B4\uB824 \uC57C\uC794\uC758
+          \uC190\uC5D0 \uB4E4\uB9B0 \uC778\uD615\uC744 \uAC00\uB9AC\uCF30\uC2B5\uB2C8\uB2E4."
+      - languageCode: es
+        value: "El Guardi\xE1n baja la mirada hacia el mu\xF1eco que Yazan tiene
+          en la mano y lo se\xF1ala."
+      - languageCode: zh
+        value: "\u5B88\u95E8\u4EBA\u5782\u4E0B\u76EE\u5149\uFF0C\u770B\u5411\u4E9A\u8D5E\u624B\u4E2D\u7684\u5E03\u5A03\u5A03\uFF0C\u5E76\u6307\u4E86\u6307\u5B83\u3002"
+      - languageCode: ja
+        value: "\u9580\u756A\u306F\u30E4\u30B6\u30F3\u306E\u624B\u306B\u3042\u308B\u4EBA\u5F62\u306B\u76EE\u3092\u843D\u3068\u3057\u3001\u305D\u308C\u3092\u6307\u3055\u3059\u3002"
+      - languageCode: fr
+        value: "Le Gardien baisse les yeux vers la poup\xE9e que Yazan tient \xE0
+          la main et la d\xE9signe du doigt."
+      - languageCode: pl
+        value: "Stra\u017Cnik spogl\u0105da na lalk\u0119 w d\u0142oni Yazana i wskazuje
+          j\u0105 palcem."
+      - languageCode: ru
+        value: "\u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A \u043E\u043F\u0443\u0441\u043A\u0430\u0435\u0442
+          \u0432\u0437\u0433\u043B\u044F\u0434 \u043D\u0430 \u043A\u0443\u043A\u043B\u0443
+          \u0432 \u0440\u0443\u043A\u0435 \u042F\u0437\u0430\u043D\u0430 \u0438 \u0443\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442
+          \u043D\u0430 \u043D\u0435\u0451."
+      - languageCode: pt-BR
+        value: "O Guardi\xE3o baixa o olhar para o boneco na m\xE3o de Yazan e aponta
+          para ele."
+      - languageCode: de
+        value: "Der Torw\xE4chter senkt den Blick auf die Puppe in Yazans Hand und
+          deutet darauf."
+      aliases: []
+    - key: Panel_20
+      originalValue: " \u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629:
+        \"\u0625\u0628\u062F\u0623 \u0645\u0646 \u0623\u064A \u0627\u062A\u062C\u0627\u0647\u060C
+        \u064A\u0633\u0627\u0631\u064B\u0627 \u0623\u0648 \u064A\u0645\u064A\u0646\u064B\u0627.
+        \u0641\u064A \u0643\u0644 \u062F\u0648\u0631\u0629\u060C \u0642\u062F \u062A\u062C\u062F
+        \u0634\u064A\u0626\u064B\u0627 \u0644\u0627 \u064A\u0646\u062A\u0645\u064A
+        \u0625\u0644\u0649 \u0627\u0644\u0645\u0643\u0627\u0646.\""
+      variants:
+      - languageCode: en
+        value: "GATEKEEPER: \u201CStart in either direction, left or right. In each
+          loop,\r\nyou may find something that does not belong.\u201D  "
+      - languageCode: ko
+        value: "\uBB38\uC9C0\uAE30:\u201C\uC67C\uCABD\uC774\uB4E0 \uC624\uB978\uCABD\uC774\uB4E0,
+          \uC5B4\uB290 \uBC29\uD5A5\uC5D0\uC11C\uB4E0 \uC2DC\uC791\uD574 \uBCF4\uB834.\n\uD55C
+          \uBC14\uD034 \uB3CC \uB54C\uB9C8\uB2E4 \uC774\uACF3\uC5D0 \uC18D\uD558\uC9C0
+          \uC54A\uB294 \uBB34\uC5B8\uAC00\uB97C \uBC1C\uACAC\uD560\uC9C0\uB3C4 \uBAA8\uB978\uB2E8\uB2E4.\u201D"
+      - languageCode: es
+        value: "Guardi\xE1n: \"Empieza en cualquier direcci\xF3n, izquierda o derecha.
+          En cada bucle, puede que encuentres algo que no deber\xEDa estar ah\xED\"."
+      - languageCode: zh
+        value: "\u5B88\u95E8\u4EBA\uFF1A\u201C\u5411\u5DE6\u6216\u5411\u53F3\uFF0C\u4ECE\u4EFB\u610F\u4E00\u4E2A\u65B9\u5411\u51FA\u53D1\u3002\u6BCF\u4E00\u8F6E\u5FAA\u73AF\u4E2D\uFF0C\u4F60\u90FD\u53EF\u80FD\u53D1\u73B0\u4E0D\u5C5E\u4E8E\u8FD9\u91CC\u7684\u4E1C\u897F\u3002\u201D"
+      - languageCode: ja
+        value: "\u9580\u756A\uFF1A\u300C\u5DE6\u3067\u3082\u53F3\u3067\u3082\u3001\u597D\u304D\u306A\u65B9\u5411\u3078\u9032\u3081\u3002\u30EB\u30FC\u30D7\u306E\u305F\u3073\u306B\u3001\u3053\u3053\u306B\u3042\u308B\u306F\u305A\u306E\u306A\u3044\u3082\u306E\u304C\u898B\u3064\u304B\u308B\u304B\u3082\u3057\u308C\u3093\u300D"
+      - languageCode: fr
+        value: "Gardien : \"Pars dans la direction de ton choix, \xE0 gauche ou \xE0
+          droite. \xC0 chaque boucle, tu trouveras peut-\xEAtre quelque chose qui
+          n\u2019a rien \xE0 faire l\xE0.\""
+      - languageCode: pl
+        value: "Stra\u017Cnik: \"Ruszaj w kt\xF3r\u0105kolwiek stron\u0119, w lewo
+          lub w prawo. W ka\u017Cdej p\u0119tli mo\u017Cesz znale\u017A\u0107 co\u015B,
+          czego nie powinno tu by\u0107.\u201D"
+      - languageCode: ru
+        value: "\u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A: \"\u0418\u0434\u0438
+          \u0432 \u043B\u044E\u0431\u0443\u044E \u0441\u0442\u043E\u0440\u043E\u043D\u0443,
+          \u043D\u0430\u043B\u0435\u0432\u043E \u0438\u043B\u0438 \u043D\u0430\u043F\u0440\u0430\u0432\u043E.
+          \u041D\u0430 \u043A\u0430\u0436\u0434\u043E\u043C \u043A\u0440\u0443\u0433\u0435
+          \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u043D\u0430\u0439\u0442\u0438
+          \u0447\u0442\u043E-\u0442\u043E, \u0447\u0435\u043C\u0443 \u0437\u0434\u0435\u0441\u044C
+          \u043D\u0435 \u043C\u0435\u0441\u0442\u043E.\""
+      - languageCode: pt-BR
+        value: "Guardi\xE3o: \u201CComece pela esquerda ou pela direita. A cada volta,
+          voc\xEA pode encontrar algo que n\xE3o deveria estar ali.\u201D"
+      - languageCode: de
+        value: "Torw\xE4chter: \"W\xE4hle eine Richtung, links oder rechts. In jeder
+          Runde findest du vielleicht etwas, das nicht hierhergeh\xF6rt.\u201C"
+      aliases: []
+    - key: Panel_15
+      originalValue: " \u0647\u0646\u0627\u0643\u060C \u064A\u0631\u0649 \u0641\u0627\u0646\u0648\u0633\u064B\u0627
+        \u064A\u062D\u0645\u0644\u0647 \u0643\u0627\u0626\u0646 \u064A\u0642\u0641
+        \u0641\u064A \u0627\u0644\u0638\u0644\u0627\u0644\u2026 \u0643\u0627\u0626\u0646
+        \u0644\u0645 \u064A\u0631\u064E \u064A\u0632\u0646 \u0645\u062B\u0644\u0647
+        \u0645\u0646 \u0642\u0628\u0644.\r\n \u0623\u0642\u062F\u0645 \u0645\u0646
+        \u0623\u0646 \u064A\u064F\u0642\u0627\u0633 \u0628\u0627\u0644\u0639\u0645\u0631\u060C
+        \u0648\u0623\u0643\u062B\u0631 \u0633\u0643\u0648\u0646\u064B\u0627 \u0645\u0646
+        \u0627\u0644\u0633\u0643\u0648\u0646 \u0646\u0641\u0633\u0647."
+      variants:
+      - languageCode: en
+        value: "There, he finds an ancient, motionless figure standing in the shadows,
+          \r\nholding a lantern\u2026unlike anything he has ever seen."
+      - languageCode: ko
+        value: "\uADF8\uACF3\uC5D0\uB294 \uADF8\uB9BC\uC790 \uC18D\uC5D0 \uC11C\uC11C
+          \uB4F1\uBD88\uC744 \uB4E4\uACE0 \uC788\uB294 \uC874\uC7AC\uAC00 \uC788\uC5C8\uC2B5\uB2C8\uB2E4...\n\uADF8\uAC83\uC740
+          \uC57C\uC794\uC774 \uB2E8 \uD55C \uBC88\uB3C4 \uBCF8 \uC801 \uC5C6\uB294
+          \uC874\uC7AC\uC600\uC2B5\uB2C8\uB2E4.\n\uB098\uC774\uB97C \uAC00\uB2A0\uD560
+          \uC218 \uC5C6\uC744 \uB9CC\uD07C \uC624\uB798\uB418\uC5C8\uACE0, \uCE68\uBB35
+          \uADF8 \uC790\uCCB4\uBCF4\uB2E4\uB3C4 \uACE0\uC694\uD55C \uC874\uC7AC."
+      - languageCode: es
+        value: "All\xED encuentra una figura antigua e inm\xF3vil, de pie entre las
+          sombras, con un farol en la mano\u2026 distinto de todo lo que ha visto
+          nunca."
+      - languageCode: zh
+        value: "\u5728\u90A3\u91CC\uFF0C\u4ED6\u53D1\u73B0\u4E00\u4E2A\u53E4\u8001\u800C\u9759\u6B62\u7684\u8EAB\u5F71\u4F2B\u7ACB\u5728\u9634\u5F71\u4E2D\uFF0C\u624B\u63D0\u4E00\u76CF\u63D0\u706F\u2026\u2026\u90A3\u662F\u4ED6\u524D\u6240\u672A\u89C1\u7684\u666F\u8C61\u3002"
+      - languageCode: ja
+        value: "\u305D\u3053\u3067\u5F7C\u306F\u3001\u5F71\u306E\u4E2D\u3067\u8EAB\u3058\u308D\u304E\u3082\u305B\u305A\u7ACB\u3061\u5C3D\u304F\u3059\u3001\u30E9\u30F3\u30BF\u30F3\u3092\u624B\u306B\u3057\u305F\u592A\u53E4\u306E\u4EBA\u5F71\u3092\u898B\u3064\u3051\u308B\u2026\u2026\u3053\u308C\u307E\u3067\u898B\u305F\u3053\u3068\u306E\u306A\u3044\u4F55\u304B\u3060\u3002"
+      - languageCode: fr
+        value: "L\xE0, il d\xE9couvre une silhouette ancienne et immobile, debout
+          dans l\u2019ombre, une lanterne \xE0 la main\u2026 comme il n\u2019en a
+          jamais vu."
+      - languageCode: pl
+        value: "Tam znajduje pradawn\u0105, nieruchom\u0105 posta\u0107 stoj\u0105c\u0105
+          w cieniu, z latarni\u0105 w d\u0142oni\u2026 niepodobn\u0105 do niczego,
+          co kiedykolwiek widzia\u0142."
+      - languageCode: ru
+        value: "\u0422\u0430\u043C \u043E\u043D \u043D\u0430\u0445\u043E\u0434\u0438\u0442
+          \u0434\u0440\u0435\u0432\u043D\u044E\u044E \u043D\u0435\u043F\u043E\u0434\u0432\u0438\u0436\u043D\u0443\u044E
+          \u0444\u0438\u0433\u0443\u0440\u0443, \u0441\u0442\u043E\u044F\u0449\u0443\u044E
+          \u0432 \u0442\u0435\u043D\u0438 \u0441 \u0444\u043E\u043D\u0430\u0440\u0451\u043C
+          \u0432 \u0440\u0443\u043A\u0435\u2026 \u043D\u0438\u0447\u0435\u0433\u043E
+          \u043F\u043E\u0434\u043E\u0431\u043D\u043E\u0433\u043E \u043E\u043D \u043D\u0438\u043A\u043E\u0433\u0434\u0430
+          \u043D\u0435 \u0432\u0438\u0434\u0435\u043B."
+      - languageCode: pt-BR
+        value: "L\xE1, ele encontra uma figura antiga e im\xF3vel, de p\xE9 nas sombras,
+          segurando uma lanterna\u2026 diferente de tudo o que ele j\xE1 viu."
+      - languageCode: de
+        value: "Dort entdeckt er eine uralte, reglose Gestalt, die im Schatten steht
+          und eine Laterne h\xE4lt \u2026 anders als alles, was er je gesehen hat."
+      aliases: []
+    - key: Panel_18
+      originalValue: "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629:
+        \"\u0623\u0645\u0627 \u0627\u0644\u0622\u0646 \u0641\u0642\u062F \u0627\u0639\u062A\u0631\u0627\u0647
+        \u0627\u0644\u0645\u0631\u0636.\r\n \u0646\u0633\u064A \u0647\u064A\u0626\u062A\u0647\u060C
+        \u0641\u0623\u0635\u0628\u062D \u064A\u0639\u064A\u062F \u0646\u0641\u0633\u0647
+        \u0645\u0631\u0627\u0631\u064B\u0627\u060C \u0628\u0627\u062D\u062B\u064B\u0627
+        \u0639\u0645\u0651\u0627 \u0627\u0646\u062A\u064F\u0632\u0639 \u0645\u0646\u0647.\""
+      variants:
+      - languageCode: en
+        value: "GATEKEEPER: \" Now it\u2019s sick. It has forgotten its own shape,\r\nrepeating
+          itself again and again, searching for what was taken from it\u201D"
+      - languageCode: ko
+        value: "\u201C\uD558\uC9C0\uB9CC \uC9C0\uAE08\uC740 \uBCD1\uB4E4\uACE0 \uB9D0\uC558\uC9C0...
+          \uC790\uC2E0\uC758 \uBCF8\uB798 \uBAA8\uC2B5\uC744 \uC78A\uC740 \uCC44,
+          \n\uBE7C\uC557\uAE34 \uAC83\uC744 \uB418\uCC3E\uC73C\uB824 \uB04A\uC784\uC5C6\uC774
+          \uC790\uC2E0\uC744 \uB418\uD480\uC774\uD558\uACE0 \uC788\uB2E8\uB2E4.\u201D"
+      - languageCode: es
+        value: "Guardi\xE1n: \"Ahora est\xE1 enfermo. Ha olvidado su propia forma
+          y se repite una y otra vez, buscando lo que le arrebataron\"."
+      - languageCode: zh
+        value: "\u5B88\u95E8\u4EBA\uFF1A\u201C\u5982\u4ECA\u5B83\u75C5\u4E86\u3002\u5B83\u5FD8\u8BB0\u4E86\u81EA\u5DF1\u672C\u6765\u7684\u6837\u5B50\uFF0C\u4E00\u904D\u53C8\u4E00\u904D\u5730\u91CD\u590D\u81EA\u5DF1\uFF0C\u5BFB\u627E\u7740\u4ECE\u5B83\u8EAB\u4E0A\u88AB\u593A\u8D70\u7684\u4E1C\u897F\u3002\u201D"
+      - languageCode: ja
+        value: "\u9580\u756A\uFF1A\u300C\u4ECA\u306F\u75C5\u3093\u3067\u3044\u308B\u3002\u5DF1\u306E\u672C\u6765\u306E\u59FF\u3092\u5FD8\u308C\u3001\u4F55\u5EA6\u3082\u4F55\u5EA6\u3082\u540C\u3058\u3053\u3068\u3092\u7E70\u308A\u8FD4\u3057\u306A\u304C\u3089\u3001\u596A\u308F\u308C\u305F\u3082\u306E\u3092\u63A2\u3057\u7D9A\u3051\u3066\u3044\u308B\u300D"
+      - languageCode: fr
+        value: "Gardien : \"Aujourd\u2019hui, il est malade. Il a oubli\xE9 sa propre
+          forme et se r\xE9p\xE8te sans cesse, \xE0 la recherche de ce qui lui a
+          \xE9t\xE9 pris.\""
+      - languageCode: pl
+        value: "Stra\u017Cnik: \"Teraz jest chory. Zapomnia\u0142 w\u0142asnego kszta\u0142tu
+          i powtarza si\u0119 raz za razem, szukaj\u0105c tego, co mu odebrano.\u201D"
+      - languageCode: ru
+        value: "\u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A: \"\u0422\u0435\u043F\u0435\u0440\u044C
+          \u043E\u043D \u0431\u043E\u043B\u0435\u043D. \u041E\u043D \u0437\u0430\u0431\u044B\u043B
+          \u0441\u043E\u0431\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439 \u043E\u0431\u043B\u0438\u043A
+          \u0438 \u043F\u043E\u0432\u0442\u043E\u0440\u044F\u0435\u0442\u0441\u044F
+          \u0441\u043D\u043E\u0432\u0430 \u0438 \u0441\u043D\u043E\u0432\u0430 \u0432
+          \u043F\u043E\u0438\u0441\u043A\u0430\u0445 \u0442\u043E\u0433\u043E, \u0447\u0442\u043E
+          \u0443 \u043D\u0435\u0433\u043E \u043E\u0442\u043D\u044F\u043B\u0438.\""
+      - languageCode: pt-BR
+        value: "Guardi\xE3o: \u201CAgora ele est\xE1 doente. Esqueceu a pr\xF3pria
+          forma e se repete sem parar, procurando o que lhe foi tirado.\u201D"
+      - languageCode: de
+        value: "Torw\xE4chter: \"Jetzt ist sie krank. Sie hat ihre eigene Gestalt
+          vergessen und wiederholt sich immer und immer wieder, auf der Suche nach
+          dem, was ihr genommen wurde.\u201C"
+      aliases: []
+    - key: Panel_21
+      originalValue: "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629:
+        \"\u0625\u0646 \u0644\u0627\u062D\u0638\u062A \u0645\u0627 \u062A\u063A\u064A\u0651\u0631\u060C
+        \u0641\u0639\u064F\u062F \u0645\u0646 \u062D\u064A\u062B \u0623\u062A\u064A\u062A.\r\n\u0648\u0625\u0646
+        \u0644\u0645 \u062A\u062C\u062F \u0634\u064A\u0626\u064B\u0627\u060C \u0641\u0648\u0627\u0635\u0644
+        \u0627\u0644\u0633\u064A\u0631 \u0641\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647
+        \u0646\u0641\u0633\u0647.\""
+      variants:
+      - languageCode: en
+        value: "GATEKEEPER: \u201C If you notice a change, turn back the way you
+          came. \r\nIf you find nothing, keep going in the same direction.\" "
+      - languageCode: ko
+        value: "\"\uB2EC\uB77C\uC9C4 \uAC83\uC744 \uCC3E\uC558\uB2E4\uBA74 \uC654\uB358
+          \uAE38\uB85C \uB3CC\uC544\uAC00\uAC70\uB77C.\n\uC544\uBB34\uAC83\uB3C4
+          \uCC3E\uC9C0 \uBABB\uD588\uB2E4\uBA74 \uAC19\uC740 \uBC29\uD5A5\uC73C\uB85C
+          \uACC4\uC18D \uB098\uC544\uAC00\uAC70\uB77C.\""
+      - languageCode: es
+        value: "Guardi\xE1n: \"Si notas un cambio, da media vuelta y regresa por
+          donde has venido. Si no encuentras nada, sigue en la misma direcci\xF3n.\""
+      - languageCode: zh
+        value: "\u5B88\u95E8\u4EBA\uFF1A\u201C\u5982\u679C\u4F60\u53D1\u73B0\u4E86\u53D8\u5316\uFF0C\u5C31\u6389\u5934\u6CBF\u539F\u8DEF\u8FD4\u56DE\u3002\u5982\u679C\u4EC0\u4E48\u90FD\u6CA1\u53D1\u73B0\uFF0C\u5C31\u7EE7\u7EED\u671D\u540C\u4E00\u4E2A\u65B9\u5411\u524D\u8FDB\u3002\u201D"
+      - languageCode: ja
+        value: "\u9580\u756A\uFF1A\u300C\u4F55\u304B\u5909\u5316\u306B\u6C17\u3065\u3044\u305F\u3089\u3001\u6765\u305F\u9053\u3092\u5F15\u304D\u8FD4\u305B\u3002\u4F55\u3082\u898B\u3064\u304B\u3089\u306A\u3051\u308C\u3070\u3001\u305D\u306E\u307E\u307E\u540C\u3058\u65B9\u5411\u3078\u9032\u3080\u306E\u3060\u300D"
+      - languageCode: fr
+        value: "Gardien : \"Si tu remarques un changement, fais demi-tour et reviens
+          sur tes pas. Si tu ne trouves rien, continue dans la m\xEAme direction.\""
+      - languageCode: pl
+        value: "Stra\u017Cnik: \"Je\u015Bli zauwa\u017Cysz zmian\u0119, zawr\xF3\u0107
+          t\u0105 sam\u0105 drog\u0105, kt\xF3r\u0105 przyszed\u0142e\u015B. Je\u015Bli
+          niczego nie znajdziesz, id\u017A dalej w tym samym kierunku.\u201D"
+      - languageCode: ru
+        value: "\u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A: \"\u0415\u0441\u043B\u0438
+          \u0437\u0430\u043C\u0435\u0442\u0438\u0448\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u0443,
+          \u0440\u0430\u0437\u0432\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0439\u0441\u044F
+          \u0438 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0439\u0441\u044F
+          \u0442\u0435\u043C \u0436\u0435 \u043F\u0443\u0442\u0451\u043C. \u0415\u0441\u043B\u0438
+          \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043D\u0430\u0439\u0434\u0451\u0448\u044C,
+          \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439 \u0438\u0434\u0442\u0438
+          \u0432 \u0442\u0443 \u0436\u0435 \u0441\u0442\u043E\u0440\u043E\u043D\u0443.\""
+      - languageCode: pt-BR
+        value: "Guardi\xE3o: \u201CSe notar alguma mudan\xE7a, d\xEA meia-volta e
+          volte por onde veio. Se n\xE3o encontrar nada, continue na mesma dire\xE7\xE3o.\u201D"
+      - languageCode: de
+        value: "Torw\xE4chter: \"Bemerkst du eine Ver\xE4nderung, kehr um und geh
+          den Weg zur\xFCck, den du gekommen bist. Findest du nichts, geh weiter
+          in dieselbe Richtung.\u201C"
+      aliases: []
+    - key: Panel_22
+      originalValue: "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629:
+        \"\u0643\u0644 \u0627\u062E\u062A\u064A\u0627\u0631 \u0635\u062D\u064A\u062D
+        \u064A\u0646\u0632\u0639 \u0645\u0633\u0645\u0627\u0631\u064B\u0627\u060C
+        \u0644\u0643\u0646 \u062E\u0637\u0623\u064B \u0648\u0627\u062D\u062F\u064B\u0627
+        \u064A\u0639\u064A\u062F\u0647\u0627 \u0643\u0644\u0647\u0627.\""
+      variants:
+      - languageCode: en
+        value: "Gatekeeper: \u201CEach correct choice frees a nail. \r\nOne mistake
+          brings them all back.\u201D "
+      - languageCode: ko
+        value: "\u201C\uC62C\uBC14\uB978 \uC120\uD0DD\uC744 \uD560 \uB54C\uB9C8\uB2E4
+          \uBABB\uC774 \uD558\uB098\uC529 \uBE60\uC9C4\uB2E8\uB2E4. \n\uD558\uC9C0\uB9CC
+          \uB2E8 \uD55C \uBC88\uC758 \uC2E4\uC218\uB9CC\uC73C\uB85C\uB3C4 \n\uBE60\uC9C4
+          \uBABB\uB4E4\uC740 \uBAA8\uB450 \uB2E4\uC2DC \uBC15\uD790 \uAC83\uC774\uC57C.\""
+      - languageCode: es
+        value: "Guardi\xE1n: \"Cada elecci\xF3n correcta libera un clavo. Un solo
+          error hace que vuelvan todos.\""
+      - languageCode: zh
+        value: "\u5B88\u95E8\u4EBA\uFF1A\u201C\u6BCF\u505A\u51FA\u4E00\u6B21\u6B63\u786E\u7684\u9009\u62E9\uFF0C\u5C31\u4F1A\u6709\u4E00\u6839\u9489\u5B50\u8131\u843D\u3002\u53EA\u8981\u9519\u4E00\u6B21\uFF0C\u6240\u6709\u9489\u5B50\u90FD\u4F1A\u56DE\u6765\u3002\u201D"
+      - languageCode: ja
+        value: "\u9580\u756A\uFF1A\u300C\u6B63\u3057\u3044\u9078\u629E\u3092\u3059\u308B\u305F\u3073\u306B\u3001\u91D8\u304C\u4E00\u672C\u629C\u3051\u308B\u3002\u3060\u304C\u4E00\u5EA6\u3067\u3082\u8AA4\u308C\u3070\u3001\u91D8\u306F\u3059\u3079\u3066\u5143\u306B\u623B\u308B\u300D"
+      - languageCode: fr
+        value: 'Gardien : "Chaque bon choix retire un clou. Une seule erreur les
+          fait tous revenir."'
+      - languageCode: pl
+        value: "Stra\u017Cnik: \"Ka\u017Cdy w\u0142a\u015Bciwy wyb\xF3r usuwa jeden
+          gw\xF3\u017Ad\u017A. Jeden b\u0142\u0105d sprawia, \u017Ce wszystkie wracaj\u0105.\u201D"
+      - languageCode: ru
+        value: "\u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A: \"\u0421
+          \u043A\u0430\u0436\u0434\u044B\u043C \u0432\u0435\u0440\u043D\u044B\u043C
+          \u0432\u044B\u0431\u043E\u0440\u043E\u043C \u0438\u0441\u0447\u0435\u0437\u0430\u0435\u0442
+          \u043E\u0434\u0438\u043D \u0433\u0432\u043E\u0437\u0434\u044C. \u041E\u0434\u043D\u0430
+          \u043E\u0448\u0438\u0431\u043A\u0430 \u0432\u0435\u0440\u043D\u0451\u0442
+          \u0438\u0445 \u0432\u0441\u0435.\""
+      - languageCode: pt-BR
+        value: "Guardi\xE3o: \u201CCada escolha certa solta um prego. Um \xFAnico
+          erro faz todos voltarem.\u201D"
+      - languageCode: de
+        value: "Torw\xE4chter: \"Mit jeder richtigen Entscheidung l\xF6st sich ein
+          Nagel. Ein einziger Fehler bringt sie alle zur\xFCck.\u201C"
+      aliases: []
+    - key: Panel_23
+      originalValue: "\u062D\u0627\u0631\u0633 \u0627\u0644\u0628\u0648\u0627\u0628\u0629:
+        \"\u0627\u0644\u062F\u0645\u064A\u0629 \u062A\u0639\u0631\u0641...\u062B\u0642
+        \u0628\u0645\u0627 \u062A\u064F\u0631\u064A\u0643 \u0625\u064A\u0627\u0647.
+        \u0644\u0643\u0646 \u062A\u0630\u0643\u0651\u0631\u060C \r\n\u0641\u0642\u062F
+        \u062A\u0643\u0648\u0646 \u0627\u0644\u062F\u0645\u064A\u0629 \u0634\u0627\u0630\u0629
+        \u0639\u0646 \u0627\u0644\u0645\u0623\u0644\u0648\u0641. \u0627\u0630\u0647\u0628
+        \u0627\u0644\u0622\u0646... \u0633\u0623\u0628\u0642\u0649 \u0647\u0646\u0627.\""
+      variants:
+      - languageCode: en
+        value: "Gatekeeper: \u201CThe doll knows\u2026 trust what it shows you.\r\n
+          But remember, the doll itself might be an anomaly. Go now\u2026 I\u2019ll
+          be here.\u201D"
+      - languageCode: ko
+        value: "\uBB38\uC9C0\uAE30: \u201C\uC778\uD615\uC740 \uC54C\uACE0 \uC788\uB2E8\uB2E4\u2026
+          \uC778\uD615\uC774 \uB124\uAC8C \uBCF4\uC5EC\uC8FC\uB294 \uAC83\uC744 \uBBFF\uC73C\uB824\uBB34\uB098.\n\uD558\uC9C0\uB9CC
+          \uBA85\uC2EC\uD558\uAC70\uB77C. \uC778\uD615\uC740 \uD3C9\uBC94\uD558\uC9C0
+          \uC54A\uC744 \uC218\uB3C4 \uC788\uC73C\uB2C8.\n\uC774\uC81C \uAC00\uAC70\uB77C\u2026
+          \uB098\uB294 \uC5EC\uAE30\uC5D0 \uB0A8\uC544 \uC788\uC73C\uB9C8.\u201D"
+      - languageCode: es
+        value: "Guardi\xE1n: \"El mu\xF1eco lo sabe\u2026 conf\xEDa en lo que te
+          muestra. Pero recuerda: el propio mu\xF1eco podr\xEDa ser una anomal\xEDa.
+          Ahora ve\u2026 Aqu\xED estar\xE9.\""
+      - languageCode: zh
+        value: "\u5B88\u95E8\u4EBA\uFF1A\u201C\u5E03\u5A03\u5A03\u77E5\u9053\u2026\u2026\u76F8\u4FE1\u5B83\u5411\u4F60\u5C55\u793A\u7684\u4E00\u5207\u3002\u4F46\u8981\u8BB0\u4F4F\uFF0C\u5E03\u5A03\u5A03\u672C\u8EAB\u4E5F\u53EF\u80FD\u5C31\u662F\u5F02\u5E38\u3002\u53BB\u5427\u2026\u2026\u6211\u4F1A\u5728\u8FD9\u91CC\u3002\u201D"
+      - languageCode: ja
+        value: "\u9580\u756A\uFF1A\u300C\u4EBA\u5F62\u306F\u77E5\u3063\u3066\u3044\u308B\u2026\u2026\u305D\u308C\u304C\u793A\u3059\u3082\u306E\u3092\u4FE1\u3058\u308B\u306E\u3060\u3002\u3060\u304C\u5FD8\u308C\u308B\u306A\u3001\u4EBA\u5F62\u305D\u306E\u3082\u306E\u304C\u7570\u5909\u304B\u3082\u3057\u308C\u306C\u3002\u3055\u3042\u3001\u884C\u3051\u2026\u2026\u308F\u3057\u306F\u3053\u3053\u306B\u3044\u308B\u300D"
+      - languageCode: fr
+        value: "Gardien : \"La poup\xE9e sait\u2026 fie-toi \xE0 ce qu\u2019elle
+          te montre. Mais souviens-toi : la poup\xE9e elle-m\xEAme pourrait \xEAtre
+          une anomalie. Va, \xE0 pr\xE9sent\u2026 Je serai l\xE0.\""
+      - languageCode: pl
+        value: "Stra\u017Cnik: \"Lalka wie\u2026 ufaj temu, co ci pokazuje. Ale pami\u0119taj,
+          \u017Ce sama lalka mo\u017Ce by\u0107 anomali\u0105. Id\u017A ju\u017C\u2026
+          B\u0119d\u0119 tutaj.\u201D"
+      - languageCode: ru
+        value: "\u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A: \"\u041A\u0443\u043A\u043B\u0430
+          \u0437\u043D\u0430\u0435\u0442\u2026 \u0434\u043E\u0432\u0435\u0440\u044C\u0441\u044F
+          \u0442\u043E\u043C\u0443, \u0447\u0442\u043E \u043E\u043D\u0430 \u0442\u0435\u0431\u0435
+          \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442. \u041D\u043E
+          \u043F\u043E\u043C\u043D\u0438: \u0441\u0430\u043C\u0430 \u043A\u0443\u043A\u043B\u0430
+          \u043C\u043E\u0436\u0435\u0442 \u043E\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F
+          \u0430\u043D\u043E\u043C\u0430\u043B\u0438\u0435\u0439. \u0418\u0434\u0438
+          \u0436\u0435\u2026 \u042F \u0431\u0443\u0434\u0443 \u0437\u0434\u0435\u0441\u044C.\""
+      - languageCode: pt-BR
+        value: "Guardi\xE3o: \u201CO boneco sabe\u2026 confie no que ele te mostra.
+          Mas lembre-se: o pr\xF3prio boneco pode ser uma anomalia. Agora v\xE1\u2026
+          Estarei aqui.\u201D"
+      - languageCode: de
+        value: "Torw\xE4chter: \"Die Puppe wei\xDF es \u2026 vertrau dem, was sie
+          dir zeigt. Aber denk daran: Die Puppe selbst k\xF6nnte eine Anomalie sein.
+          Geh jetzt \u2026 Ich werde hier sein.\u201C"
+      aliases: []
+  audioPages: []
+  imagePages: []
+  assetPages: []

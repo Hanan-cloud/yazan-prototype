@@ -25,7 +25,15 @@ public class LanguageSettingManager : MonoBehaviour
    {
         "Arabic",
         "English",
-        "Korean"
+        "Korean",
+        "Spanish",
+        "Chinese",
+        "Japanese",
+        "French",
+        "Polish",
+        "Russian",
+        "Portuguese (Brazil)",
+        "German"
    };
 
 

@@ -61,8 +61,12 @@ public class ResetPoint : MonoBehaviour
             playerInTrigger= false;
             // Set Anomaly proability
             AnomallyManager.Instance.SetAnomalyProbability();
-            RunStarterLeft.SetActive(true);
-            RunStarterRight.SetActive(true);
+            if (RunStarterLeft != null && RunStarterRight != null)
+            {
+                RunStarterLeft.SetActive(false);
+                RunStarterRight.SetActive(false);
+            }
+ 
 
             this.gameObject.SetActive(false);
 
