@@ -371,6 +371,30 @@ MonoBehaviour:
       - languageCode: es
         value: 'Encontradas:'
       aliases: []
+    - key: Pause
+      originalValue: "\u062A\u0648\u0642\u0641"
+      variants:
+      - languageCode: en
+        value: Pause
+      - languageCode: ko
+        value: "\uC77C\uC2DC \uC815\uC9C0"
+      - languageCode: es
+        value: Pausa
+      - languageCode: zh
+        value: "\u6682\u505C"
+      - languageCode: ja
+        value: "\u30DD\u30FC\u30BA"
+      - languageCode: fr
+        value: Pause
+      - languageCode: pl
+        value: Pauza
+      - languageCode: ru
+        value: "\u041F\u0430\u0443\u0437\u0430"
+      - languageCode: pt-BR
+        value: Pausa
+      - languageCode: de
+        value: Pause
+      aliases: []
   - pageId: Screen Mode
     aboutPage: New Page
     entries:
@@ -495,7 +519,7 @@ MonoBehaviour:
         value: "Il est parti parce qu\u2019il n\u2019avait rien \xE0 dire. Il est
           revenu avec la seule histoire qui m\xE9ritait d\u2019\xEAtre racont\xE9e."
       - languageCode: pl
-        value: "Odszed\u0142, poniewa\u017C nie mia\u0142 nic do powiedzenia. Wr\xF3ci\u0142
+        value: "Odszed\u0142, bo nie mia\u0142 nic do powiedzenia. Wr\xF3ci\u0142
           z jedyn\u0105 histori\u0105, kt\xF3r\u0105 warto by\u0142o opowiedzie\u0107."
       - languageCode: ko
         value: "\uADF8\uB294 \uD560 \uB9D0\uC774 \uC5C6\uC5B4 \uB5A0\uB0AC\uB2E4.
@@ -537,7 +561,7 @@ MonoBehaviour:
           ne pose la moindre question.
       - languageCode: pl
         value: "Dziesi\u0119\u0107 gwo\u017Adzi. Dziesi\u0119\u0107 piecz\u0119ci.
-          Dziecko nios\u0142o je wszystkie, a nikt nie zada\u0142 ani jednego pytania."
+          Dziecko nios\u0142o je wszystkie i nikt nie zada\u0142 ani jednego pytania."
       - languageCode: ko
         value: "\uBABB \uC5F4 \uAC1C. \uBD09\uC778 \uC5F4 \uAC1C. \uC544\uC774\uB294
           \uADF8\uAC78 \uBAA8\uB450 \uB4E4\uACE0 \uC788\uC5C8\uC9C0\uB9CC, \uB204\uAD6C
@@ -579,9 +603,9 @@ MonoBehaviour:
           Il les a travers\xE9es toutes les deux sans lire ce qui \xE9tait \xE9crit
           au-dessus."
       - languageCode: pl
-        value: "Dolina by\u0142a drzwiami. \u015Awiat\u0142a by\u0142y zaproszeniem.
-          Przeszed\u0142 przez jedno i drugie, nie czytaj\u0105c tego, co by\u0142o
-          nad nimi napisane."
+        value: "Dolina by\u0142a bram\u0105. \u015Awiat\u0142a by\u0142y zaproszeniem.
+          Przeszed\u0142 przez jedno i drugie, nie czytaj\u0105c tego, co napisano
+          nad nimi."
       - languageCode: ko
         value: "\uACC4\uACE1\uC740 \uBB38\uC774\uC5C8\uB2E4. \uBD88\uBE5B\uC740 \uCD08\uB300\uC600\uB2E4.
           \uADF8\uB294 \uADF8 \uB458\uC744 \uBAA8\uB450 \uD1B5\uACFC\uD588\uB2E4.
@@ -627,9 +651,10 @@ MonoBehaviour:
           c\u0153ur offert de plein gr\xE9, le monde ne peut conserver sa forme.
           Il change. Il se r\xE9p\xE8te. Il oublie ce qu\u2019il \xE9tait avant."
       - languageCode: pl
-        value: "Al-Khafa nie umar\u0142a. Wstrzymuje oddech. \u015Awiat bez serca
-          oddanego dobrowolnie nie mo\u017Ce zachowa\u0107 swojego kszta\u0142tu.
-          Zmienia si\u0119. Powtarza si\u0119. Zapomina, jak wygl\u0105da\u0142 wcze\u015Bniej."
+        value: "Al-Khafa nie umar\u0142a. Wstrzymuje oddech. \u015Awiat pozbawiony
+          serca, kt\xF3re oddaje si\u0119 z w\u0142asnej woli, nie zdo\u0142a zachowa\u0107
+          swojego kszta\u0142tu. Zmienia si\u0119. Powtarza si\u0119. Zapomina, jak
+          wygl\u0105da\u0142 wcze\u015Bniej."
       - languageCode: ko
         value: "Al-Khafa\uB294 \uC8FD\uC9C0 \uC54A\uC558\uB2E4. \uC228\uC744 \uC8FD\uC774\uACE0
           \uC788\uC744 \uBFD0\uC774\uB2E4. \uAE30\uAEBC\uC774 \uB0B4\uC5B4\uC900
@@ -684,9 +709,10 @@ MonoBehaviour:
           Il ne prend pas. Il re\xE7oit. Tout ce qu\u2019il re\xE7oit doit lui \xEAtre
           offert de plein gr\xE9, sans quoi il le rejettera avec tout ce qui l\u2019accompagne."
       - languageCode: pl
-        value: "W centrum tego \u015Bwiata ro\u015Bnie drzewo starsze od jego w\u0142adcy.
-          Nie zabiera. Przyjmuje. To, co otrzymuje, musi by\u0107 ofiarowane dobrowolnie,
-          inaczej odrzuci to wraz ze wszystkim, co temu towarzyszy."
+        value: "W samym sercu tego \u015Bwiata ro\u015Bnie drzewo starsze ni\u017C
+          jego w\u0142adca. Nie zabiera. Przyjmuje. To, co otrzymuje, musi zosta\u0107
+          ofiarowane z w\u0142asnej woli. Inaczej odrzuci dar i wszystko, co si\u0119
+          z nim wi\u0105\u017Ce."
       - languageCode: ko
         value: "\uC774 \uC138\uACC4 \uD55C\uAC00\uC6B4\uB370\uC5D0\uB294 \uD1B5\uCE58\uC790\uBCF4\uB2E4
           \uC624\uB798\uB41C \uB098\uBB34\uAC00 \uC788\uB2E4. \uB098\uBB34\uB294
@@ -749,11 +775,11 @@ MonoBehaviour:
           qui n\u2019\xE9coute pas, c\u2019est une autre fa\xE7on d\u2019imposer
           sa volont\xE9."
       - languageCode: pl
-        value: "Kocha\u0142 swoj\u0105 c\xF3rk\u0119 tak, jak w\u0142adca kocha swoj\u0105
-          koron\u0119. Ani razu nie zapyta\u0142: \u201ECzego pragniesz?\u201D. Wmawia\u0142
-          sobie, \u017Ce to mi\u0142o\u015B\u0107. By\u0107 mo\u017Ce ni\u0105 by\u0142a.
-          Lecz mi\u0142o\u015B\u0107, kt\xF3ra nie s\u0142ucha, jest tylko innym
-          s\u0142owem na przymus."
+        value: "Kocha\u0142 c\xF3rk\u0119 tak, jak w\u0142adca kocha swoj\u0105 koron\u0119.
+          Ani razu nie zapyta\u0142: \u201ECzego pragniesz?\u201D Wmawia\u0142 sobie,
+          \u017Ce to mi\u0142o\u015B\u0107. Mo\u017Ce rzeczywi\u015Bcie ni\u0105
+          by\u0142a. Ale mi\u0142o\u015B\u0107, kt\xF3ra nie s\u0142ucha, to tylko
+          inna forma przymusu."
       - languageCode: ko
         value: "\uADF8\uB294 \uD1B5\uCE58\uC790\uAC00 \uC655\uAD00\uC744 \uC0AC\uB791\uD558\uB4EF
           \uB538\uC744 \uC0AC\uB791\uD588\uB2E4. \uB2E8 \uD55C \uBC88\uB3C4 \uBB3C\uC5B4\uBCF8
@@ -819,11 +845,10 @@ MonoBehaviour:
           par la force d\xE9truit. Alors il l\u2019a scell\xE9e, sachant que le monde
           continuerait de d\xE9p\xE9rir et que le souverain ne lui pardonnerait jamais."
       - languageCode: pl
-        value: "Stra\u017Cnik bramy zrozumia\u0142 to, czego w\u0142adca nie potrafi\u0142
-          poj\u0105\u0107. Moc dana dobrowolnie uzdrawia. Moc odebrana si\u0142\u0105
-          niszczy. Dlatego zapiecz\u0119towa\u0142 j\u0105, wiedz\u0105c, \u017Ce
-          \u015Bwiat b\u0119dzie nadal podupada\u0142, a w\u0142adca nigdy mu nie
-          wybaczy."
+        value: "Stra\u017Cnik Bramy poj\u0105\u0142 to, czego nie rozumia\u0142 w\u0142adca.
+          Moc ofiarowana dobrowolnie leczy. Moc zdobyta si\u0142\u0105 niszczy. Dlatego
+          zapiecz\u0119towa\u0142 j\u0105, wiedz\u0105c, \u017Ce \u015Bwiat b\u0119dzie
+          dalej podupada\u0107 i \u017Ce w\u0142adca nigdy mu tego nie wybaczy."
       - languageCode: ko
         value: "\uBB38\uC9C0\uAE30\uB294 \uD1B5\uCE58\uC790\uAC00 \uC54C\uC9C0 \uBABB\uD55C
           \uAC83\uC744 \uC774\uD574\uD588\uB2E4. \uC790\uBC1C\uC801\uC73C\uB85C \uB0B4\uC5B4\uC900
@@ -890,12 +915,13 @@ MonoBehaviour:
           n\u2019a pas choisi d\u2019\xEAtre scell\xE9e. Mais elle a choisi de rester.
           Et elle a d\xE9j\xE0 d\xE9cid\xE9 de la suite."
       - languageCode: pl
-        value: "Lalka w twoich r\u0119kach nie jest lalk\u0105. Zamkni\u0119to w
-          niej dusz\u0119. Dusz\u0119, kt\xF3ra przez twoje r\u0119ce odczu\u0142a
-          ka\u017Cd\u0105 p\u0119tl\u0119, ka\u017Cd\u0105 podj\u0119t\u0105 przez
-          ciebie decyzj\u0119 i ka\u017Cd\u0105 chwil\u0119, gdy j\u0105 nios\u0142e\u015B,
-          nie wiedz\u0105c, czym jest. Nie wybra\u0142a uwi\u0119zienia. Ale wybra\u0142a
-          pozostanie. I ju\u017C zdecydowa\u0142a, co b\u0119dzie dalej."
+        value: "Lalka w twoich r\u0119kach nie jest lalk\u0105. Zapiecz\u0119towano
+          w niej dusz\u0119. Dusz\u0119, kt\xF3ra w twoich r\u0119kach odczu\u0142a
+          ka\u017Cd\u0105 p\u0119tl\u0119, ka\u017Cd\u0105 twoj\u0105 decyzj\u0119
+          i ka\u017Cd\u0105 chwil\u0119, gdy j\u0105 nios\u0142e\u015B, nie wiedz\u0105c,
+          czym jest. Nie zdecydowa\u0142a o swoim zapiecz\u0119towaniu. Ale sama
+          zdecydowa\u0142a, by pozosta\u0107. I ju\u017C postanowi\u0142a, co b\u0119dzie
+          dalej."
       - languageCode: ko
         value: "\uB124 \uC190\uC5D0 \uB4E0 \uC778\uD615\uC740 \uC778\uD615\uC774
           \uC544\uB2C8\uB2E4. \uADF8 \uC548\uC5D0\uB294 \uC601\uD63C \uD558\uB098\uAC00
@@ -966,11 +992,11 @@ MonoBehaviour:
           un choix qu\u2019il ne t\u2019a jamais appartenu de faire. Mais qu\u2019il
           t\u2019appartient de permettre."
       - languageCode: pl
-        value: "Pozosta\u0142 jeden gw\xF3\u017Ad\u017A. Pozosta\u0142a jedna prawda.
-          Wszystko, co si\u0119 wydarzy\u0142o \u2014 ka\u017Cda p\u0119tla, ka\u017Cda
-          znaleziona anomalia, ka\u017Cdy uwolniony gw\xF3\u017Ad\u017A \u2014 prowadzi\u0142o
-          tutaj. Do wyboru, kt\xF3rego nigdy nie mia\u0142e\u015B dokona\u0107. Ale
-          mo\u017Cesz pozwoli\u0107, by zosta\u0142 dokonany."
+        value: "Zosta\u0142 jeden gw\xF3\u017Ad\u017A. Zosta\u0142a jedna prawda.
+          Wszystko prowadzi\u0142o ci\u0119 w\u0142a\u015Bnie tutaj: ka\u017Cda p\u0119tla,
+          ka\u017Cda odkryta przez ciebie anomalia, ka\u017Cdy uwolniony przez ciebie
+          gw\xF3\u017Ad\u017A. Ku wyborowi, kt\xF3ry nie nale\u017Ca\u0142 do ciebie.
+          Ale to ty mo\u017Cesz pozwoli\u0107, by go dokonano."
       - languageCode: ko
         value: "\uBABB \uD558\uB098\uAC00 \uB0A8\uC558\uB2E4. \uC9C4\uC2E4 \uD558\uB098\uAC00
           \uB0A8\uC558\uB2E4. \uC77C\uC5B4\uB09C \uBAA8\uB4E0 \uC77C\uC774 \uB108\uB97C

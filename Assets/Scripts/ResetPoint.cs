@@ -63,8 +63,8 @@ public class ResetPoint : MonoBehaviour
             AnomallyManager.Instance.SetAnomalyProbability();
             if (RunStarterLeft != null && RunStarterRight != null)
             {
-                RunStarterLeft.SetActive(false);
-                RunStarterRight.SetActive(false);
+                RunStarterLeft.SetActive(true);
+                RunStarterRight.SetActive(true);
             }
  
 

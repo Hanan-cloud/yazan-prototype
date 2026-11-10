@@ -4,6 +4,8 @@ using UnityEngine.Events;
 using DG.Tweening;
 using UnityEngine.InputSystem;
 using System;
+using UnityEngine.EventSystems;
+using System.Collections;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -18,6 +20,9 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private GameObject dollPanel;
     [SerializeField] private GameObject SettingsPanel;
 
+    [Header("Pause Menu Visual Controller")]
+    [SerializeField] private PauseMenuVisualController visualController;
+
     [Header("Doll Animation")]
     [SerializeField] private RectTransform dollRect;
     [SerializeField] private float dollDuration = 0.4f;
@@ -31,9 +36,8 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private AudioClip ClipOnClose;
 
     [Header("Events")]
-    [SerializeField] private UnityEvent OnSetContinueButton;
     [SerializeField] private UnityEvent OnSetMasterSlider;
-
+    [SerializeField] private GameObject continueButton;
     private bool isPaused;
     private bool isDolled;
     private int pauseClosedFrame = -1;
@@ -45,6 +49,7 @@ public class PauseMenu : MonoBehaviour
     private Tween dollTween;
 
     public bool IsStopped => isPaused || isDolled;
+
 
     private void Awake()
     {
@@ -62,6 +67,7 @@ public class PauseMenu : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+
     private void OnEnable()
     {
         SubscribeInputEvents();
@@ -70,12 +76,14 @@ public class PauseMenu : MonoBehaviour
             cancelAction.action.performed += OnCancelPerformed;
     }
 
+
     private void Start()
     {
-        Cursor.visible = false;
+        // Cursor.visible = false;
 
         SetPausedState(false);
         SetDolledState(false);
+
         isDollAnimating = false;
         isDollClosing = false;
 
@@ -90,6 +98,7 @@ public class PauseMenu : MonoBehaviour
             dollPanel.SetActive(false);
     }
 
+
     private void OnDisable()
     {
         UnsubscribeInputEvents();
@@ -98,10 +107,8 @@ public class PauseMenu : MonoBehaviour
             cancelAction.action.performed -= OnCancelPerformed;
 
         dollTween?.Kill();
-
         dollTween = null;
 
-        // Do not leave the game paused if this component is disabled.
         if (isPaused || isDolled || isDollClosing)
         {
             Time.timeScale = 1f;
@@ -110,6 +117,7 @@ public class PauseMenu : MonoBehaviour
 
         SetPausedState(false);
         SetDolledState(false);
+
         isDollAnimating = false;
         isDollClosing = false;
 
@@ -117,18 +125,19 @@ public class PauseMenu : MonoBehaviour
             instance = null;
     }
 
+
     private void SubscribeInputEvents()
     {
         if (InputManager.Instance == null)
             return;
 
-        // Remove first to prevent duplicate subscriptions.
         InputManager.Instance.PauseEvent -= TogglePause;
         InputManager.Instance.DollEvent -= ToggleDoll;
 
         InputManager.Instance.PauseEvent += TogglePause;
         InputManager.Instance.DollEvent += ToggleDoll;
     }
+
 
     private void UnsubscribeInputEvents()
     {
@@ -139,31 +148,32 @@ public class PauseMenu : MonoBehaviour
         InputManager.Instance.DollEvent -= ToggleDoll;
     }
 
+
     // --------------------------------------------------
     // BACK / CANCEL
     // --------------------------------------------------
 
     private void OnCancelPerformed(InputAction.CallbackContext context)
     {
-        // Cancel is for pause-menu navigation only.
-        // Gameplay DollEvent remains a separate input path.
-        if (!context.performed || !isPaused)
-            return;
-
         if (SettingsPanel != null && SettingsPanel.activeSelf)
         {
             SettingsPanel.SetActive(false);
 
-            if (pauseButtonsPanel != null){
+            if (pauseButtonsPanel != null)
                 pauseButtonsPanel.SetActive(true);
-                OnSetContinueButton?.Invoke();
-            }
+
+            // Show PAUSE immediately without animation
+            if (visualController != null)
+                visualController.SetPauseWordVisible(true, true);
+
+            StartCoroutine(SelectContinueButton());
             return;
         }
 
         if (pauseButtonsPanel != null && pauseButtonsPanel.activeSelf)
             Resume();
     }
+
 
     // --------------------------------------------------
     // PAUSE MENU
@@ -177,6 +187,7 @@ public class PauseMenu : MonoBehaviour
         if (!isPaused)
         {
             SetPausedState(true);
+
             Time.timeScale = 0f;
             Cursor.visible = true;
 
@@ -188,6 +199,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+
     public void OpenPauseButton()
     {
         if (!isPaused)
@@ -197,27 +209,46 @@ public class PauseMenu : MonoBehaviour
             SettingsPanel.SetActive(false);
 
         if (pauseButtonsPanel != null)
+        {
             pauseButtonsPanel.SetActive(true);
 
-        OnSetContinueButton?.Invoke();
+            if (visualController != null)
+                visualController.PlayButtonsFadeIn();
+        }
 
+        // If the pause panel is already open (e.g. returning from Settings),
+        // show PAUSE immediately. First opening uses the fade animation.
+        if (pausePanel != null && pausePanel.activeSelf)
+        {
+            if (visualController != null)
+                visualController.SetPauseWordVisible(true, true);
+        }
+
+        StartCoroutine(SelectContinueButton());
         OpenPausePanel();
     }
+
 
     public void OpenSetting()
     {
         if (!isPaused)
             return;
 
+        OnSetMasterSlider?.Invoke();
+
         if (pauseButtonsPanel != null)
             pauseButtonsPanel.SetActive(false);
+
+        // Hide PAUSE immediately without animation
+        if (visualController != null)
+            visualController.SetPauseWordVisible(false, true);
 
         if (SettingsPanel != null)
             SettingsPanel.SetActive(true);
 
-        OnSetMasterSlider?.Invoke();
         OpenPausePanel();
     }
+
 
     private void OpenPausePanel()
     {
@@ -227,9 +258,14 @@ public class PauseMenu : MonoBehaviour
         if (!pausePanel.activeSelf)
         {
             pausePanel.SetActive(true);
+
             PlaySound(ClipOnOpen);
+
+            if (visualController != null)
+                visualController.PlayOpenAnimation();
         }
     }
+
 
     public void Resume()
     {
@@ -239,11 +275,26 @@ public class PauseMenu : MonoBehaviour
         if (pausePanel != null && pausePanel.activeSelf)
         {
             PlaySound(ClipOnClose);
-            pausePanel.SetActive(false);
+
+            if (visualController != null)
+            {
+                visualController.PlayButtonsFadeOut(() =>
+                {
+                    visualController.PlayCloseAnimation(() =>
+                    {
+                        pausePanel.SetActive(false);
+                    });
+                });
+            }
+            else
+            {
+                pausePanel.SetActive(false);
+            }
         }
 
         FinishPauseClose();
     }
+
 
     private void FinishPauseClose()
     {
@@ -253,13 +304,13 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = isDolled;
     }
 
+
     // --------------------------------------------------
     // DOLL FEEDBACK WINDOW
     // --------------------------------------------------
 
     public void ToggleDoll()
     {
-        // Never let gameplay Doll input interfere with the pause menu.
         if (isPaused || Time.frameCount == pauseClosedFrame)
             return;
 
@@ -272,12 +323,15 @@ public class PauseMenu : MonoBehaviour
                 return;
 
             SetDolledState(true);
+
             Time.timeScale = 0f;
 
             dollPanel.SetActive(true);
+
             PlaySound(ClipOnOpen);
 
             isDollAnimating = true;
+
             PlayOpenAnimation(dollRect, ref dollTween, dollDuration);
         }
         else
@@ -308,9 +362,11 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+
     private void FinishDollClose()
     {
         SetDolledState(false);
+
         isDollAnimating = false;
         isDollClosing = false;
 
@@ -318,22 +374,29 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = isPaused;
     }
 
+
     private void SetPausedState(bool paused)
     {
         bool wasStopped = IsStopped;
+
         if (isPaused && !paused)
             pauseClosedFrame = Time.frameCount;
 
         isPaused = paused;
+
         NotifyStoppedStateChanged(wasStopped);
     }
+
 
     private void SetDolledState(bool dolled)
     {
         bool wasStopped = IsStopped;
+
         isDolled = dolled;
+
         NotifyStoppedStateChanged(wasStopped);
     }
+
 
     private void NotifyStoppedStateChanged(bool wasStopped)
     {
@@ -341,8 +404,9 @@ public class PauseMenu : MonoBehaviour
             StoppedStateChanged?.Invoke(IsStopped);
     }
 
+
     // --------------------------------------------------
-    // SHARED UI ANIMATIONS
+    // DOLL UI ANIMATIONS
     // --------------------------------------------------
 
     private void PlayOpenAnimation(
@@ -392,6 +456,7 @@ public class PauseMenu : MonoBehaviour
         tween = sequence;
     }
 
+
     private void PlayCloseAnimation(
         RectTransform target,
         ref Tween tween,
@@ -421,6 +486,16 @@ public class PauseMenu : MonoBehaviour
             });
     }
 
+    private IEnumerator SelectContinueButton()
+    {
+        yield return null;
+
+        EventSystem.current.SetSelectedGameObject(null);
+
+        yield return null;
+
+        EventSystem.current.SetSelectedGameObject(continueButton);
+    }
     private void PlaySound(AudioClip clip)
     {
         if (audioSource != null && clip != null && !audioSource.isPlaying)

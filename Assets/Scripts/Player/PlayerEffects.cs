@@ -55,8 +55,17 @@ public class PlayerEffects : MonoBehaviour
 
         int layerBit = 1 << hit.collider.gameObject.layer;
 
-        if ((soilLayer.value & layerBit) != 0) return soilClips;
-        if ((concreteLayer.value & layerBit) != 0) return concreteClips;
+        if ((soilLayer.value & layerBit) != 0)
+        {
+            print("Soil layer detected");
+
+            return soilClips;
+        }
+        else if ((concreteLayer.value & layerBit) != 0)
+        {
+            print("Concrete layer detected");
+            return concreteClips;
+        }
 
         return null;
     }
