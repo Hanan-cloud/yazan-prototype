@@ -741,6 +741,100 @@
             }
           ],
           "aliases": []
+        },
+        {
+          "key": "AnomalySFX",
+          "originalValue": "",
+          "variants": [
+            {
+              "language": "en",
+              "_value": ""
+            },
+            {
+              "language": "ko",
+              "_value": ""
+            },
+            {
+              "language": "es",
+              "_value": ""
+            },
+            {
+              "language": "zh",
+              "_value": ""
+            },
+            {
+              "language": "ja",
+              "_value": ""
+            },
+            {
+              "language": "fr",
+              "_value": ""
+            },
+            {
+              "language": "pl",
+              "_value": ""
+            },
+            {
+              "language": "ru",
+              "_value": ""
+            },
+            {
+              "language": "pt-BR",
+              "_value": ""
+            },
+            {
+              "language": "de",
+              "_value": ""
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "Back",
+          "originalValue": "",
+          "variants": [
+            {
+              "language": "en",
+              "_value": ""
+            },
+            {
+              "language": "ko",
+              "_value": ""
+            },
+            {
+              "language": "es",
+              "_value": ""
+            },
+            {
+              "language": "zh",
+              "_value": ""
+            },
+            {
+              "language": "ja",
+              "_value": ""
+            },
+            {
+              "language": "fr",
+              "_value": ""
+            },
+            {
+              "language": "pl",
+              "_value": ""
+            },
+            {
+              "language": "ru",
+              "_value": ""
+            },
+            {
+              "language": "pt-BR",
+              "_value": ""
+            },
+            {
+              "language": "de",
+              "_value": ""
+            }
+          ],
+          "aliases": []
         }
       ]
     },

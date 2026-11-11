@@ -395,6 +395,54 @@ MonoBehaviour:
       - languageCode: de
         value: Pause
       aliases: []
+    - key: AnomalySFX
+      originalValue: 
+      variants:
+      - languageCode: en
+        value: 
+      - languageCode: ko
+        value: 
+      - languageCode: es
+        value: 
+      - languageCode: zh
+        value: 
+      - languageCode: ja
+        value: 
+      - languageCode: fr
+        value: 
+      - languageCode: pl
+        value: 
+      - languageCode: ru
+        value: 
+      - languageCode: pt-BR
+        value: 
+      - languageCode: de
+        value: 
+      aliases: []
+    - key: Back
+      originalValue: 
+      variants:
+      - languageCode: en
+        value: 
+      - languageCode: ko
+        value: 
+      - languageCode: es
+        value: 
+      - languageCode: zh
+        value: 
+      - languageCode: ja
+        value: 
+      - languageCode: fr
+        value: 
+      - languageCode: pl
+        value: 
+      - languageCode: ru
+        value: 
+      - languageCode: pt-BR
+        value: 
+      - languageCode: de
+        value: 
+      aliases: []
   - pageId: Screen Mode
     aboutPage: New Page
     entries:

@@ -16684,6 +16684,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 511201910}
+    - target: {fileID: 3898449822579720840, guid: 573973d910d7ad645a5ea76b6e65aa26, type: 3}
+      propertyPath: key
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3939201242845025548, guid: 573973d910d7ad645a5ea76b6e65aa26, type: 3}
       propertyPath: m_SizeDelta.x
       value: 327.11
@@ -16924,6 +16928,10 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 6154729777283196912}
+    - target: {fileID: 8611985203881209691, guid: 573973d910d7ad645a5ea76b6e65aa26, type: 3}
+      propertyPath: key
+      value: SFX
+      objectReference: {fileID: 0}
     - target: {fileID: 8612532866028703851, guid: 573973d910d7ad645a5ea76b6e65aa26, type: 3}
       propertyPath: m_Name
       value: Setttings Canvas
