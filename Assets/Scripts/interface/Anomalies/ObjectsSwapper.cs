@@ -8,7 +8,7 @@ public class ObjectsSwapper : AnomalyBase
     [SerializeField] private List<SwapPair> swaps = new List<SwapPair>();
 
     [SerializeField] bool isCarved;
-
+    int swapIndex = 0;
     private void Awake()
     {
         SetAnomalyName();
@@ -33,20 +33,19 @@ public class ObjectsSwapper : AnomalyBase
 
     public void Swap()
     {
-        foreach (var pair in swaps)
-        {
-            if (pair.original != null) pair.original.SetActive(false);
-            if (pair.replacement != null) pair.replacement.SetActive(true);
-        }
+        swapIndex = UnityEngine.Random.Range(0, swaps.Count);
+        
+        swaps[swapIndex].original.SetActive(false);
+        swaps[swapIndex].replacement.SetActive(true);
     }
 
     public void Revert()
     {
-        foreach (var pair in swaps)
-        {
-            if (pair.original != null) pair.original.SetActive(true);
-            if (pair.replacement != null) pair.replacement.SetActive(false);
-        }
+        swaps[swapIndex].original.SetActive(true);
+        swaps[swapIndex].replacement.SetActive(false);
+
+
+        swapIndex = 0;
     }
 
     public override void SetAnomaly()

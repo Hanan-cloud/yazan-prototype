@@ -15,7 +15,7 @@ public enum AnomalyList
     NoReflection,
     MirrorFigure,
     FootprintsTrail,
-    RababaWrongNote,
+    MabkharahSmoke,
     CamelPeeking,
     ObjectsMultiply,
     ChestMoving,
@@ -43,7 +43,7 @@ public enum AnomalyList
     HollowTree,
     BloodyDoll,
     StepSound,
-    DreamKiller,
+    RavenScream,
     Camouflaged,
     MismatchedCreature,
     InfantCry

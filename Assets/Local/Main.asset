@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bc60cef16fb84a239e422cb0e81cb8d, type: 3}
-  m_Name: New_Main_v3
+  m_Name: Main
   m_EditorClassIdentifier: Assembly-CSharp::AHAKuo.Signalia.LocalizationStandalone.Internal.LocBook
   locbookFile: {fileID: 102900000, guid: 79cf9c49ea5fd0148876656fbaa9a3c6, type: 3}
   pages:

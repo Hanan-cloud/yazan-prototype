@@ -30,7 +30,7 @@ public class EnviromentSounds : MonoBehaviour
     [Space(15)]
 
     [Header("Audio Sources")]
-    [SerializeField] private AudioSource tentAreaAudio;
+    [SerializeField] private AudioSource BushsAreaAudio;
     [SerializeField] private AudioSource camelAreaAudio;
     [SerializeField] private AudioSource ruinsAreaAudio;
 
@@ -39,7 +39,7 @@ public class EnviromentSounds : MonoBehaviour
     [Space(15)]
 
     [Header("Ambient Clips")]
-    [SerializeField] private List<AudioClip> tentAreaClips;
+    [SerializeField] private List<AudioClip> bushsAreaClips;
     [SerializeField] private List<AudioClip> camelAreaClips;
     [SerializeField] private List<AudioClip> ruinsAreaClips;
 
@@ -113,20 +113,20 @@ public class EnviromentSounds : MonoBehaviour
                     AudioClip clip = currentClips[
                         Random.Range(0, currentClips.Count)
                     ];
-
+                    Debug.Log($"Playing ambient clip: {clip.name}");
                     currentAudioSource.PlayOneShot(clip);
                 }
             }
         }
     }
 
-    public void TentAreaParameter()
+    public void BushsAreaParameter()
     {
         inAera = true;
         chance = 50f;
 
-        currentClips = tentAreaClips;
-        currentAudioSource = tentAreaAudio;
+        currentClips = bushsAreaClips;
+        currentAudioSource = BushsAreaAudio;
     }
 
     public void CamelAreaParameter()

@@ -15,7 +15,7 @@ public class AnomalyScore : MonoBehaviour
     [SerializeField] private TextMeshProUGUI discoveredCountText;
     [SerializeField] private HorizontalLayoutGroup horizontalLayoutGroup;
     private int discoveredCount;
-    int totalAnomalies = 7;
+    int totalAnomalies = 24;
     //[SerializeField] private SimpleLocalizedText simpleText;
 
     private LocalizationEvents.LanguageChangeSubscription localizationSubscription;

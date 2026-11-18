@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -8,10 +9,12 @@ public class PlayerEffects : MonoBehaviour
     [Header("Step Sounds")]
     [SerializeField] List<AudioClip> soilClips;
     [SerializeField] List<AudioClip> concreteClips;
+    [SerializeField] List<AudioClip> carpetClips;
 
     [Header("Ground Check")]
     [SerializeField] LayerMask soilLayer;
     [SerializeField] LayerMask concreteLayer;
+    [SerializeField] LayerMask carpetLayer;
     [SerializeField] float rayLength = 1f;
 
     [Header("Effects")]
@@ -41,14 +44,13 @@ public class PlayerEffects : MonoBehaviour
         audioSource.PlayOneShot(clips[Random.Range(0, clips.Count)]);
     }
 
-    // Raycast down and return the clip list that matches the ground layer
     List<AudioClip> GetGroundClips()
     {
         RaycastHit2D hit = Physics2D.Raycast(
             transform.position,
             Vector2.down,
             rayLength,
-            soilLayer.value | concreteLayer.value
+            soilLayer.value | concreteLayer.value | carpetLayer.value
         );
 
         if (!hit) return null;
@@ -57,14 +59,15 @@ public class PlayerEffects : MonoBehaviour
 
         if ((soilLayer.value & layerBit) != 0)
         {
-            print("Soil layer detected");
-
             return soilClips;
         }
         else if ((concreteLayer.value & layerBit) != 0)
         {
-            print("Concrete layer detected");
             return concreteClips;
+        }
+        else if ((carpetLayer.value & layerBit) != 0)
+        {
+            return carpetClips;
         }
 
         return null;
@@ -73,6 +76,9 @@ public class PlayerEffects : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * rayLength);
+        Gizmos.DrawLine(
+            transform.position,
+            transform.position + Vector3.down * rayLength
+        );
     }
 }
